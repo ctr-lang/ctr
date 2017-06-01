@@ -2,7 +2,7 @@
 
 [![npm](https://img.shields.io/npm/l/ctr.svg)](https://github.com/ctr-lang/ctr/blob/master/LICENSE.txt)
 [![npm](https://img.shields.io/npm/v/ctr.svg)](https://www.npmjs.com/package/ctr)
-[![wercker status](https://app.wercker.com/status/db6eee30ce78421dbd53da4bfc319364/s/master "wercker status")](https://app.wercker.com/project/byKey/db6eee30ce78421dbd53da4bfc319364)
+[![wercker status](https://app.wercker.com/status/84c092950c198fdbb5507431dd9f77f5/s/master "wercker status")](https://app.wercker.com/project/byKey/84c092950c198fdbb5507431dd9f77f5)
 [![David](https://img.shields.io/david/ctr-lang/ctr.svg)](https://github.com/ctr-lang/ctr/blob/master/package.json)
 
 
