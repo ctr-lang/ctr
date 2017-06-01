@@ -1,0 +1,58 @@
+// File generated from ---> pick.styl 
+
+ctr('.test', {
+  // SYNTAX_YAML
+  width: 200px
+  nons:
+    common:
+      height: 100px
+      color: red
+      'comp-span':
+        font-size: 1em
+        opacity: 0.5
+    '.class':
+      option:
+        //pick
+        pick: ['height', 'comp-span.opacity']
+      width: 300px
+    'not-#id':
+      font-size: 30px
+    aList:
+      option:
+        key: 'li'
+        pick: 'color'
+      font-size: 20px
+  
+})
+
+
+ctr('.test', {
+  width: 200px
+  nons: {
+    common: {
+      height: 100px
+      color: red
+      'comp-span': {
+        font-size: 1em
+        opacity: 0.5
+      }
+    }
+    '.class': {
+      option: {
+        //pick
+        pick: 'height' 'comp-span.opacity'
+      }
+      width: 300px
+    }
+    'not-#id': {
+      font-size: 30px
+    }
+    aList: {
+      option: {
+        key: 'li'
+        pick: 'color'
+      }
+      font-size: 20px
+    }
+  }
+})

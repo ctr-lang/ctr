@@ -1,0 +1,33 @@
+.test
+  ctr({
+    width: 200px
+    transition: {
+      height: 200px
+      
+      animation: {
+        name: 'test'
+        tl: {
+          '50': {
+            background: black
+          }
+        }
+      }
+    }
+  })
+
+
+ctr('.test', {
+  width: 200px
+  transition: {
+    height: 200px
+    
+    animation: {
+      name: 'test'
+      tl: {
+        '50': {
+          background: black
+        }
+      }
+    }
+  }
+})

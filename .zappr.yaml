@@ -1,0 +1,34 @@
+# docs: https://zappr.readthedocs.io/en/latest/setup/
+approvals:
+  # PR needs at least 1 approvals
+  minimum: 1
+  # approval = comment that matches this regex
+  pattern: "^(:\\+1:|👍|\\+1|LGTM)$"
+  veto:
+    # veto/blocking a PR = comment that matches this regex
+    pattern: "^(:\\-1:|👎|\\-1|LBTM)$"
+  # note that `from` is by default empty,
+  # accepting any matching comment as approval
+  from:
+    # commenter must be either one of:
+    orgs:
+      # a public zalando org member
+      # (any org in here counts)
+      - ctr-lang
+    # OR a collaborator of the repo
+    collaborators: true
+    # OR one of these guys
+    users:
+      - artisin
+specification:
+  # title requirements
+  title:
+    # PR title is at least this many characters long
+    minimum-length:
+      enabled: true
+      length: 8
+commit:
+  message:
+    # commit message has to match any one of
+    patterns:
+      - "\\(.*?\\):"

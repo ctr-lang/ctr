@@ -1,0 +1,1 @@
+__Description__: Should be able to use an `animation` object in a `state` object as well as raw `state` properties

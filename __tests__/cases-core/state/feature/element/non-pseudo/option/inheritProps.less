@@ -1,0 +1,85 @@
+// File generated from ---> inheritProps.styl 
+
+ctr('.test', {
+  // SYNTAX_YAML
+  width: 200px
+  hover:
+    on:
+      height: 400px
+      font-size: 20px
+      color: red
+      //opts will be inherited by first-child
+      option:
+        duration: 2s
+        ease: 'easeInSine'
+        delay: 4s
+      //inherit above props
+      first-child:
+        option:
+          inheritProps: true
+          duration: 100s
+    non:
+      height: 200px
+      font-size: 10px
+      color: blue
+      //opts will be inherited by first-child
+      option:
+        duration: 1s
+        ease: 'easeOutSine'
+        delay: 2s
+      //inherit above props
+      first-child:
+        //added along with inheritProps
+        width: 420px
+        option:
+          inheritProps: true
+          duration: 100s
+  
+})
+
+
+ctr('.test', {
+  width: 200px
+  hover: {
+    on: {
+      height: 400px
+      font-size: 20px
+      color: red
+      //opts will be inherited by first-child
+      option: {
+        duration: 2s
+        ease: 'easeInSine'
+        delay: 4s
+      }
+
+      //inherit above props
+      first-child: {
+        option: {
+          inheritProps: true
+          duration: 100s
+        }
+      }
+    }
+    non: {
+      height: 200px
+      font-size: 10px
+      color: blue
+      //opts will be inherited by first-child
+      option: {
+        duration: 1s
+        ease: 'easeOutSine'
+        delay: 2s
+      }
+
+      //inherit above props
+      first-child: {
+        //added along with inheritProps
+        width: 420px
+        option: {
+          inheritProps: true
+          duration: 100s
+        }
+      }
+    }
+  }
+})

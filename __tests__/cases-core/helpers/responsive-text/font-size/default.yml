@@ -1,0 +1,10 @@
+# File generated from ---> default.styl
+
+
+.test:::0:
+  font-size: responsive
+
+
+.test:::1:
+  font-size: responsive
+

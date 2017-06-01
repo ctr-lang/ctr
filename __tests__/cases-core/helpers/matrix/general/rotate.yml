@@ -1,0 +1,14 @@
+# File generated from ---> rotate.styl
+
+
+.test:::0:
+  width: 200px
+  matrix:
+    rotate: 45
+
+
+.test:::1:
+  width: 200px
+  matrix:
+    rotate: 45
+

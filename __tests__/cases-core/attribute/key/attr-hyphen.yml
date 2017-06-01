@@ -1,0 +1,54 @@
+# File generated from ---> attr-hyphen.styl
+
+
+.test:::0:
+  width: 200px
+  comp:
+    'div':
+      'attr-[class*="te"]':
+        background: teal
+
+
+.test:::1:
+  width: 200px
+  comp:
+    'div':
+      'attr-[class*="te"]':
+        background: teal
+
+
+.test:::2:
+  width: 200px
+  comp:
+    'div':
+      'attr-class*="te"':
+        background: teal
+
+
+.test:::3:
+  width: 200px
+  comp:
+    'div':
+      'attr-class*="te"':
+        background: teal
+
+
+.test:::4:
+  width: 200px
+  comp:
+    'div':
+      'attr-class*="te"':
+        background: teal
+        option:
+          key: 'class*="artisin"'
+
+
+.test:::5:
+  width: 200px
+  comp:
+    'div':
+      'attr-class*="te"':
+        background: teal
+        option:
+          key: 'class*="artisin"'
+

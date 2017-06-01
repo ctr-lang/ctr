@@ -1,0 +1,1 @@
+__Description__: Should be able to define the `key` in the `option` object rather than in the root of the `component` object

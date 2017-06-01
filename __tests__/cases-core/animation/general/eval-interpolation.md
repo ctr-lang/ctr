@@ -1,0 +1,1 @@
+__Description__: Should be able to use `$$` and `eval` object variables within animations.

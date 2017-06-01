@@ -1,0 +1,16 @@
+# File generated from ---> basic.yml.styl
+
+
+ctr:::setVariable:
+  obj:
+    width: 200px
+    height: 200px
+
+
+.test:::0:
+  merge: '$obj$'
+
+
+.test:::1:
+  merge: '$obj$'
+

@@ -1,0 +1,50 @@
+# File generated from ---> anim-hyphen.styl
+
+
+.test:::0:
+  width: 400px
+  anim-test:
+    timeline:
+      '50':
+        background: teal
+  anim-kool:
+    option:
+      duration: 10s
+    timeline:
+      '50':
+        color: red
+  # no timeline
+  anim-noTl:
+    option:
+      delay: 20s
+  # override the name
+  anim-override:
+    name: 'yolo'
+    timeline:
+      '50':
+        width: 500px
+
+
+.test:::1:
+  width: 400px
+  anim-test:
+    timeline:
+      '50':
+        background: teal
+  anim-kool:
+    option:
+      duration: 10s
+    timeline:
+      '50':
+        color: red
+  # no timeline
+  anim-noTl:
+    option:
+      delay: 20s
+  # override the name
+  anim-override:
+    name: 'yolo'
+    timeline:
+      '50':
+        width: 500px
+

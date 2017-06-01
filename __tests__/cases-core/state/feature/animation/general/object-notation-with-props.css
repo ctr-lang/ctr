@@ -1,0 +1,86 @@
+.test {
+  width: 200px;
+}
+.test:hover {
+  height: 400px;
+  animation-delay: 0s;
+  transition-delay: 0s;
+  animation-name: beerOne;
+  animation-duration: 0.5s;
+  animation-fill-mode: none;
+  transition-duration: 0.5s;
+  animation-direction: normal;
+  transition-property: height;
+  animation-iteration-count: 1;
+  animation-play-state: running;
+  animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test:not(:hover) {
+  height: 200px;
+  animation-delay: 0s;
+  transition-delay: 0s;
+  animation-name: beerTwo;
+  animation-duration: 0.5s;
+  animation-fill-mode: none;
+  transition-duration: 0.5s;
+  animation-direction: normal;
+  transition-property: height;
+  animation-iteration-count: 1;
+  animation-play-state: running;
+  animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+@keyframes beerOne {
+  50% {
+    color: #00f;
+  }
+}
+@keyframes beerTwo {
+  50% {
+    color: #f00;
+  }
+}
+.test {
+  width: 200px;
+}
+.test:hover {
+  height: 400px;
+  animation-delay: 0s;
+  transition-delay: 0s;
+  animation-name: beerOne;
+  animation-duration: 0.5s;
+  animation-fill-mode: none;
+  transition-duration: 0.5s;
+  animation-direction: normal;
+  transition-property: height;
+  animation-iteration-count: 1;
+  animation-play-state: running;
+  animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test:not(:hover) {
+  height: 200px;
+  animation-delay: 0s;
+  transition-delay: 0s;
+  animation-name: beerTwo;
+  animation-duration: 0.5s;
+  animation-fill-mode: none;
+  transition-duration: 0.5s;
+  animation-direction: normal;
+  transition-property: height;
+  animation-iteration-count: 1;
+  animation-play-state: running;
+  animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+@keyframes beerOne {
+  50% {
+    color: #00f;
+  }
+}
+@keyframes beerTwo {
+  50% {
+    color: #f00;
+  }
+}

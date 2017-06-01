@@ -1,0 +1,14 @@
+# File generated from ---> fadeInRightBig.styl
+
+
+.test:::0:
+  width: 400px
+  anim:
+    preset: 'fadeInRightBig'
+
+
+.test:::1:
+  width: 400px
+  anim:
+    preset: 'fadeInRightBig'
+

@@ -1,0 +1,1 @@
+__Description__: A common Object can be defined in the `extend` Object with the key of `$$` of `$vars$` and the Object will be deep merge

@@ -1,0 +1,138 @@
+# File generated from ---> basic.styl
+
+
+.test:::0:
+  width: 200px
+  states:
+    common:
+      on:
+        opacity: 1
+      non:
+        opacity: 0.5
+      option:
+        duration: 2s
+        delay: 22s
+    hover:
+      option:
+        duration: 420s
+      on:
+        background: red
+      non:
+        background: green
+    active:
+      # auto gen, as in it needs to
+      # gen color: [red, on, active, but]
+      # not on not(:active)
+      color: red
+      shorthand:
+        color: 100s
+    holyLink:
+      on:
+        font-size: 10px
+      non:
+        font-size: 20px
+      option:
+        # will be key
+        key: 'link'
+
+
+.test:::1:
+  width: 200px
+  states:
+    common:
+      on:
+        opacity: 1
+      non:
+        opacity: 0.5
+      option:
+        duration: 2s
+        delay: 22s
+    hover:
+      option:
+        duration: 420s
+      on:
+        background: red
+      non:
+        background: green
+    active:
+      # auto gen, as in it needs to
+      # gen color: [red, on, active, but]
+      # not on not(:active)
+      color: red
+      shorthand:
+        color: 100s
+    holyLink:
+      on:
+        font-size: 10px
+      non:
+        font-size: 20px
+      option:
+        # will be key
+        key: 'link'
+
+
+.test:::2:
+  width: 200px
+  states:
+    global:
+      on:
+        opacity: 1
+      non:
+        opacity: 0.5
+      option:
+        duration: 2s
+        delay: 22s
+    hover:
+      option:
+        duration: 420s
+      on:
+        background: red
+      non:
+        background: green
+    active:
+      # auto gen
+      color: red
+      shorthand:
+        color: 100s
+    random:
+      on:
+        font-size: 10px
+      non:
+        font-size: 20px
+      option:
+        # will be key
+        key: 'link'
+
+
+.test:::3:
+  width: 200px
+  states:
+    global:
+      on:
+        opacity: 1
+      non:
+        opacity: 0.5
+      option:
+        duration: 2s
+        delay: 22s
+    hover:
+      option:
+        duration: 420s
+      on:
+        background: red
+      non:
+        background: green
+    active:
+      # auto gen
+      color: red
+      shorthand:
+        color: 100s
+    random:
+      on:
+        font-size: 10px
+      non:
+        font-size: 20px
+      option:
+        # will be key
+        key: 'link'
+

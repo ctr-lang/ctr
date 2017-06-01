@@ -1,0 +1,23 @@
+.test
+  ctr({
+    $$: {
+      obj: {
+        background: green
+        font-size: 10px
+      }
+    }
+    width: 200px
+    merge: '$obj$'
+  })
+
+
+ctr('.test', {
+  $$: {
+    obj: {
+      background: green
+      font-size: 10px
+    }
+  }
+  width: 200px
+  merge: '$obj$'
+})

@@ -1,0 +1,18 @@
+.test-1 {
+  top: 50;
+  color: #f00;
+  width: 200px;
+  height: 200px;
+}
+.test-2 {
+  top: 100;
+  color: #f00;
+  width: 200px;
+  height: 200px;
+}
+.test-3 {
+  top: $top$;
+  width: 200px;
+  color: $color$;
+  height: $height$;
+}

@@ -1,0 +1,66 @@
+// File generated from ---> basic.styl 
+
+ctr('.test', {
+  // SYNTAX_YAML
+  width: 200px
+  component:
+    'div':
+      attributes:
+        'title~="test"':
+          font-size: 10px
+        'class|="test"':
+          font-size: 20px
+        kool:
+          key: 'class^="test"'
+          font-size: 30px
+        beerMe:
+          key: 'class$="test"'
+          font-size: 40px
+        name:
+          font-size: 50px
+          option:
+            key: 'class*="te"'
+        user:
+          font-size: 60px
+          option:
+            key: '[class*="artisin"]'
+  
+})
+
+
+
+ctr('.test', {
+  width: 200px
+  component: {
+    'div': {
+      attrs: {
+        'title~="test"': {
+          font-size: 10px
+        }
+        '[class|="test"]': {
+          font-size: 20px
+        }
+        kool: {
+          key: 'class^="test"'
+          font-size: 30px
+        }
+        beerMe: {
+          key: '[class$="test"]'
+          font-size: 40px
+        }
+        name: {
+          font-size: 50px
+          option: {
+            key: 'class*="te"'
+          }
+        }
+        user: {
+          font-size: 60px
+          option: {
+            key: '[class*="artisin"]'
+          }
+        }
+      }
+    }
+  }
+})

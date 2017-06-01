@@ -1,0 +1,28 @@
+ctrSetOption({
+  media: {
+    //default === 600px
+    sm: 200px
+  }
+})
+
+.test
+  ctr({
+    width: 200px
+    media: {
+      width: 100px
+      query: {
+        max-width: 'sm'
+      }
+    }
+  })
+
+
+ctr('.test', {
+  width: 200px
+  media: {
+    width: 100px
+    query: {
+      max-width: 'sm'
+    }
+  }
+})

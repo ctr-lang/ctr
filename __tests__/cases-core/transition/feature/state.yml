@@ -1,0 +1,24 @@
+# File generated from ---> state.styl
+
+
+.test:::0:
+  width: 200px
+  transition:
+    height: 200px
+    hover:
+      on:
+        width: 100px
+      non:
+        width: 50px
+
+
+.test:::1:
+  width: 200px
+  transition:
+    height: 200px
+    hover:
+      on:
+        width: 100px
+      non:
+        width: 50px
+

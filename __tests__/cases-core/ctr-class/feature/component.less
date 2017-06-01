@@ -1,0 +1,27 @@
+// File generated from ---> component.styl 
+
+ctrSetClass('$myCompClass', {
+  // SYNTAX_YAML
+  width: 200px
+  comp:
+    'span':
+      font-size: 10px
+  
+})
+ctrSetClass('$myCompClass', {
+  width: 200px
+  comp: {
+    'span': {
+      font-size: 10px
+    }
+  }
+})
+
+ctr('.test', {
+  // SYNTAX_YAML
+  extend: '$myCompClass'
+})
+
+ctr('.test', {
+  extend: '$myCompClass'
+})

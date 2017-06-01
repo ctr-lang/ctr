@@ -1,0 +1,97 @@
+.test
+  ctr({
+    width: 200px
+    hover: {
+      on: {
+        height: 400px
+        //opts will be inherited by attribute
+        option: {
+          duration: 2s
+          ease: 'easeInSine'
+          delay: 4s
+        }
+
+        attribute: {
+          key: '[data-role="test"]'
+          font-size: 20px
+          color: red
+          option: {
+            //override
+            duration: 222s
+            shorthand: {
+              color: default default 'ease-out'
+            }
+          }
+        }
+      }
+      non: {
+        height: 200px
+        //opts will be inherited by attribute
+        option: {
+          duration: 1s
+          ease: 'easeOutSine'
+          delay: 2s
+        }
+
+        attribute: {
+          key: '[data-role="test"]'
+          font-size: 10px
+          color: blue
+          //shorthand
+          shorthand: {
+            //override
+            font-size: 10s 420s
+          }
+        }
+      }
+    }
+  })
+
+
+ctr('.test', {
+  width: 200px
+  hover: {
+    on: {
+      height: 400px
+      //opts will be inherited by attribute
+      option: {
+        duration: 2s
+        ease: 'easeInSine'
+        delay: 4s
+      }
+
+      attribute: {
+        key: '[data-role="test"]'
+        font-size: 20px
+        color: red
+        option: {
+          //override
+          duration: 222s
+          shorthand: {
+            color: default default 'ease-out'
+          }
+        }
+      }
+    }
+    non: {
+      height: 200px
+      //opts will be inherited by attribute
+      option: {
+        duration: 1s
+        ease: 'easeOutSine'
+        delay: 2s
+      }
+
+      attribute: {
+        key: '[data-role="test"]'
+        font-size: 10px
+        color: blue
+        //shorthand
+        shorthand: {
+          //override
+          font-size: 10s 420s
+        }
+      }
+    }
+  }
+})

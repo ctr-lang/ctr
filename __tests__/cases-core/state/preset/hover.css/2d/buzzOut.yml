@@ -1,0 +1,18 @@
+# File generated from ---> buzzOut.styl
+
+
+.test:::0:
+  width: 200px
+  height: 200px
+  background: teal
+  hover:
+    preset: 'buzzOut'
+
+
+.test:::1:
+  width: 200px
+  height: 200px
+  background: teal
+  hover:
+    preset: 'buzzOut'
+

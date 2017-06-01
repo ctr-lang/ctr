@@ -1,0 +1,28 @@
+.test
+  ctr({
+    width: 200px
+    customNot: {
+      key: 'span' 'p' '.aClass'
+      font-size: 20px
+    }
+    'non-p': {
+      color: red
+    }
+    'non-.aClass': {
+      color: black
+    }
+  })
+
+ctr('.test', {
+  width: 200px
+  customNon: {
+    key: 'span' 'p' '.aClass'
+    font-size: 20px
+  }
+  'non-p': {
+    color: red
+  }
+  'non-.aClass': {
+    color: black
+  }
+})

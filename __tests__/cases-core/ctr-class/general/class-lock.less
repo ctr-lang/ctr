@@ -1,0 +1,57 @@
+// File generated from ---> class-lock.styl 
+
+ctrSetOption({
+  // SYNTAX_YAML
+  classLock: true
+})
+ctrSetOption({
+  classLock: true
+})
+
+//extend class
+ctrSetClass('buttonLock', {
+  // SYNTAX_YAML
+  width: 200px
+  height: 200px
+  background: green
+})
+ctrSetClass('buttonLock', {
+  width: 200px
+  height: 200px
+  background: green
+})
+
+
+ctr('.test', {
+  // SYNTAX_YAML
+  extend: 'buttonLock'
+})
+
+
+ctr('.test', {
+  extend: 'buttonLock'
+})
+
+
+//should not be able to overwrite class
+ctrSetClass('buttonLock', {
+  // SYNTAX_YAML
+  width: 444px
+  height: 444px
+  background: green
+})
+ctrSetClass('buttonLock', {
+  width: 444px
+  height: 444px
+  background: green
+})
+
+ctr('.test', {
+  // SYNTAX_YAML
+  extend: 'buttonLock'
+})
+
+
+ctr('.test', {
+  extend: 'buttonLock'
+})

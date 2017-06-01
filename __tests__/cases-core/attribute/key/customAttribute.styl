@@ -1,0 +1,59 @@
+.test
+  ctr({
+    width: 200px
+    comp: {
+      'div': {
+        customAttribute: {
+          background: teal
+          option: {
+            key: 'class*="te"'
+          }
+        }
+      }
+    }
+  })
+
+ctr('.test', {
+  width: 200px
+  comp: {
+    'div': {
+      customAttribute: {
+        background: teal
+        option: {
+          key: '[class*="art"]'
+        }
+      }
+    }
+  }
+})
+
+//abbrv
+.test
+  ctr({
+    width: 200px
+    comp: {
+      'div': {
+        customAttr: {
+          background: teal
+          option: {
+            key: 'class*="te"'
+          }
+        }
+      }
+    }
+  })
+
+
+ctr('.test', {
+  width: 200px
+  comp: {
+    'div': {
+      customAttr: {
+        background: teal
+        option: {
+          key: '[class*="art"]'
+        }
+      }
+    }
+  }
+})

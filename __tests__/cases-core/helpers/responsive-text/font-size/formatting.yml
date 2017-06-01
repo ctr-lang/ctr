@@ -1,0 +1,14 @@
+# File generated from ---> formatting.styl
+
+
+.test:::0:
+  font-size: [responsive, 10px, 30px]
+  min-font-size-range: 300px
+  max-font-size-range: 900px
+
+
+.test:::1:
+  font-size: [responsive, 10px, 30px]
+  min-font-size-range: 300px
+  max-font-size-range: 900px
+

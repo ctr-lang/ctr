@@ -1,0 +1,63 @@
+// File generated from ---> animation-hyphen.styl 
+
+ctr('.test', {
+  // SYNTAX_YAML
+  width: 400px
+  animation-test:
+    timeline:
+      '50':
+        background: teal
+  animation-kool:
+    option:
+      duration: 10s
+    timeline:
+      '50':
+        color: red
+  //no timeline
+  animation-noTl:
+    option:
+      delay: 20s
+  //override the name
+  animation-override:
+    name: 'yolo'
+    timeline:
+      '50':
+        width: 500px
+  
+})
+
+ctr('.test', {
+  width: 400px
+  animation-test: {
+    timeline: {
+      '50': {
+        background: teal
+      }
+    }
+  }
+  animation-kool: {
+    option: {
+      duration: 10s
+    }
+    timeline: {
+      '50': {
+        color: red
+      }
+    }
+  }
+  //no timeline
+  animation-noTl: {
+    option: {
+      delay: 20s
+    }
+  }
+  //override the name
+  animation-override: {
+    name: 'yolo'
+    timeline: {
+      '50': {
+        width: 500px
+      }
+    }
+  }
+})

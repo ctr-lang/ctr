@@ -1,0 +1,24 @@
+# File generated from ---> similar-regex.yml.styl
+
+
+.test:::0:
+  $$:
+    color: red
+    colorB: blue
+  color: $color$
+  background: red
+  before:
+    color: $colorB$
+    background: blue
+
+
+.test:::1:
+  $$:
+    color: red
+    colorB: blue
+  color: $color$
+  background: red
+  before:
+    color: $colorB$
+    background: blue
+

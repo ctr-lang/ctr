@@ -1,0 +1,16 @@
+# classes, each one is a class unto itself
+
+box100:
+  size: 100
+
+box200:
+  size: 200
+
+box300:
+  size: 300
+
+box400:
+  size: 400
+
+box500:
+  size: 500

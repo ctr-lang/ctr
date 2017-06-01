@@ -1,0 +1,18 @@
+# File generated from ---> attribute.styl
+
+
+.test:::0:
+  width: 200px
+  transition:
+    height: 200px
+    'attr-[data-role="test"]':
+      background: black
+
+
+.test:::1:
+  width: 200px
+  transition:
+    height: 200px
+    'attr-[data-role="test"]':
+      background: black
+

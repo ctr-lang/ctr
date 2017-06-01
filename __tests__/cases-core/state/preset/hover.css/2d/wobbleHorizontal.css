@@ -1,0 +1,94 @@
+.test {
+  width: 200px;
+  height: 200px;
+  background: #008080;
+}
+.test:hover {
+  animation-delay: 0s;
+  display: inline-block;
+  animation-duration: 1s;
+  vertical-align: middle;
+  animation-fill-mode: none;
+  animation-direction: normal;
+  backface-visibility: hidden;
+  animation-iteration-count: 1;
+  animation-play-state: running;
+  -moz-osx-font-smoothing: grayscale;
+  box-shadow: 0 0 1px rgba(0,0,0,0);
+  animation-name: hvr-wobble-horizontal;
+  animation-timing-function: ease-in-out;
+}
+.test:not(:hover) {
+  display: inline-block;
+  vertical-align: middle;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  box-shadow: 0 0 1px rgba(0,0,0,0);
+}
+@keyframes hvr-wobble-horizontal {
+  16.65% {
+    transform: translateX(8px);
+  }
+  33.3% {
+    transform: translateX(-6px);
+  }
+  49.95% {
+    transform: translateX(4px);
+  }
+  66.6% {
+    transform: translateX(-2px);
+  }
+  83.25% {
+    transform: translateX(1px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.test {
+  width: 200px;
+  height: 200px;
+  background: #008080;
+}
+.test:hover {
+  animation-delay: 0s;
+  display: inline-block;
+  animation-duration: 1s;
+  vertical-align: middle;
+  animation-fill-mode: none;
+  animation-direction: normal;
+  backface-visibility: hidden;
+  animation-iteration-count: 1;
+  animation-play-state: running;
+  -moz-osx-font-smoothing: grayscale;
+  box-shadow: 0 0 1px rgba(0,0,0,0);
+  animation-name: hvr-wobble-horizontal;
+  animation-timing-function: ease-in-out;
+}
+.test:not(:hover) {
+  display: inline-block;
+  vertical-align: middle;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  box-shadow: 0 0 1px rgba(0,0,0,0);
+}
+@keyframes hvr-wobble-horizontal {
+  16.65% {
+    transform: translateX(8px);
+  }
+  33.3% {
+    transform: translateX(-6px);
+  }
+  49.95% {
+    transform: translateX(4px);
+  }
+  66.6% {
+    transform: translateX(-2px);
+  }
+  83.25% {
+    transform: translateX(1px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}

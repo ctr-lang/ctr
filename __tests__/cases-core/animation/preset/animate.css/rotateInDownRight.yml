@@ -1,0 +1,14 @@
+# File generated from ---> rotateInDownRight.styl
+
+
+.test:::0:
+  width: 400px
+  anim:
+    preset: 'rotateInDownRight'
+
+
+.test:::1:
+  width: 400px
+  anim:
+    preset: 'rotateInDownRight'
+

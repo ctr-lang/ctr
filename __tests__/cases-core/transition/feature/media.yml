@@ -1,0 +1,40 @@
+# File generated from ---> media.styl
+
+
+.test:::0:
+  width: 200px
+  transition:
+    height: 200px
+    media:
+      'md':
+        height: 300px
+
+
+.test:::1:
+  width: 200px
+  transition:
+    height: 200px
+    media:
+      'md':
+        height: 300px
+
+
+.test:::2:
+  width: 200px
+  transition:
+    height: 200px
+    media:
+      'md':
+        height: 300px
+        color: red
+
+
+.test:::3:
+  width: 200px
+  transition:
+    height: 200px
+    media:
+      'md':
+        height: 300px
+        color: red
+

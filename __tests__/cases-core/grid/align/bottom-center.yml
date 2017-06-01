@@ -1,0 +1,58 @@
+# File generated from ---> bottom-center.styl
+
+
+.test:::0:
+  grid:
+    align:
+      location: 'bottom-center'
+
+
+.test:::1:
+  grid:
+    align:
+      location: 'bottom-center'
+
+
+.test:::2:
+  grid:
+    align:
+      location: 'bottom-center'
+      flex: false
+
+
+.test:::3:
+  grid:
+    align:
+      location: 'bottom-center'
+      flex: false
+
+
+.test:::4:
+  grid:
+    align: 'bottom-center'
+
+
+.test:::5:
+  grid:
+    align: ['bottom-center', ]
+
+
+.test:::6:
+  grid:
+    align: ['bottom-center', false]
+
+
+.test:::7:
+  grid:
+    align: ['bottom-center', false]
+
+
+.test:::8:
+  grid:
+    align: 'bc'
+
+
+.test:::9:
+  grid:
+    align: 'bc'
+

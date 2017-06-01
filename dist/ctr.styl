@@ -1,0 +1,26 @@
+// !!!!!!! IF YOU SEE THIS IT MEANS STYLUS CAN'T PARSE YOUR CTR STYLE !!!!!!! //
+// º¤ø,¸¸,ø¤º°`°º¤ø,¸,ø¤°º¤ø,¸¸,ø¤º°`°º¤ø,¸°º¤ø,¸¸,ø¤º°`°º¤ø,¸,ø¤°º¤ø,¸¸,ø¤º° //
+//     ▂▃▅▇█▓▒░۩۞۩    The Magic Machine of ctr    ۩۞۩░▒▓█▇▅▃▂
+//     These 16 lines of Stylus are CSS templating gates to give ctr styles
+//        proper syntactical structure. In other words, ctr is dependent
+//      on these 16 lines to work. All ctr styles come through these gates.
+//               I know, it is what it is for the time being.
+// º¤ø,¸¸,ø¤º°`°º¤ø,¸,ø¤°º¤ø,¸¸,ø¤º°`°º¤ø,¸°º¤ø,¸¸,ø¤º°`°º¤ø,¸,ø¤°º¤ø,¸¸,ø¤º° //
+
+CTR_CreateStyle($dataObj, _selector, _media)
+  if !_media
+    {_selector}
+      {$dataObj}
+  else
+    @media _media
+      {_selector}
+        {$dataObj}
+
+CTR_CreateTimeline(_tlName, $timeline)
+  @keyframes {_tlName}
+      for i in $timeline
+        {i}
+          $props = $timeline[i]
+          {$props}
+
+// ~te

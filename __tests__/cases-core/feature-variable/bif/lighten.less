@@ -1,0 +1,19 @@
+// File generated from ---> lighten.styl 
+
+ctr('.test', {
+  // SYNTAX_YAML
+  $$:
+    base: red
+    bg: "lighten($base$, 20%)"
+  background: "$bg$"
+  color: lighten(red, 20%)
+})
+
+ctr('.test', {
+  $$: {
+    base: red
+    bg: "lighten($base$, 20%)"
+  }
+  background: "$bg$"
+  color: lighten(red, 20%)
+})

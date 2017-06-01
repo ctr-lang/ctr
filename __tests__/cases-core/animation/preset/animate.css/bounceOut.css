@@ -1,0 +1,48 @@
+.test {
+  width: 400px;
+  animation-delay: 0s;
+  animation-fill-mode: both;
+  animation-duration: 0.75s;
+  animation-name: bounceOut;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-play-state: running;
+  animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+@keyframes bounceOut {
+  20% {
+    transform: scale3d(0.9, 0.9, 0.9);
+  }
+  50%, 55% {
+    opacity: 1;
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+  to {
+    opacity: 0;
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+}
+.test {
+  width: 400px;
+  animation-delay: 0s;
+  animation-fill-mode: both;
+  animation-duration: 0.75s;
+  animation-name: bounceOut;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-play-state: running;
+  animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+@keyframes bounceOut {
+  20% {
+    transform: scale3d(0.9, 0.9, 0.9);
+  }
+  50%, 55% {
+    opacity: 1;
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+  to {
+    opacity: 0;
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+}

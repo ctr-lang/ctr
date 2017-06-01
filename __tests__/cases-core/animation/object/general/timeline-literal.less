@@ -1,0 +1,181 @@
+// File generated from ---> timeline-literal.styl 
+
+ctr('.test', {
+  // SYNTAX_YAML
+  animations:
+    one:
+      option:
+        state: running
+        count: 10
+      timeline: tlOne
+    tlTwo:
+      option:
+        ease: ease-in
+      timeline: tlTwo
+    tlThree:
+      option:
+        duration: 2s
+        delay: 0.5s
+      timeline: tlThree
+    global:
+      option:
+        state: paused
+        duration: 1s
+  
+})
+
+
+
+ctr('.test', {
+  animations: {
+    one: {
+      option: {
+        state: running
+        count: 10
+      }
+      timeline: tlOne
+    }
+    tlTwo: {
+      option: {
+        ease: ease-in
+      }
+      timeline: tlTwo
+    }
+    tlThree: {
+      option: {
+        duration: 2s
+        delay: 0.5s
+      }
+      timeline: tlThree
+    }
+    global: {
+      option: {
+        state: paused
+        duration: 1s
+      }
+    }
+  }
+})
+
+
+//string
+ctr('.test', {
+  // SYNTAX_YAML
+  animations:
+    one:
+      option:
+        state: running
+        count: 10
+      timeline: 'tlOne'
+    tlTwo:
+      option:
+        ease: ease-in
+      timeline: 'tlTwo'
+    tlThree:
+      option:
+        duration: 2s
+        delay: 0.5s
+      timeline: 'tlThree'
+    global:
+      option:
+        state: paused
+        duration: 1s
+  
+})
+
+ctr('.test', {
+  animations: {
+    one: {
+      option: {
+        state: running
+        count: 10
+      }
+      timeline: 'tlOne'
+    }
+    tlTwo: {
+      option: {
+        ease: ease-in
+      }
+      timeline: 'tlTwo'
+    }
+    tlThree: {
+      option: {
+        duration: 2s
+        delay: 0.5s
+      }
+      timeline: 'tlThree'
+    }
+    global: {
+      option: {
+        state: paused
+        duration: 1s
+      }
+    }
+  }
+})
+
+
+//recommened
+ctr('.test', {
+  // SYNTAX_YAML
+  animations:
+    one:
+      option:
+        state: running
+        count: 10
+      timeline:
+        name: 'tlOne'
+    tlTwo:
+      option:
+        ease: ease-in
+      timeline:
+        name: 'tlTwo'
+    tlThree:
+      option:
+        duration: 2s
+        delay: 0.5s
+      timeline:
+        name: 'tlThree'
+    global:
+      option:
+        state: paused
+        duration: 1s
+  
+})
+
+ctr('.test', {
+  animations: {
+    one: {
+      option: {
+        state: running
+        count: 10
+      }
+      timeline: {
+        name: 'tlOne'
+      }
+    }
+    tlTwo: {
+      option: {
+        ease: ease-in
+      }
+      timeline: {
+        name: 'tlTwo'
+      }
+    }
+    tlThree: {
+      option: {
+        duration: 2s
+        delay: 0.5s
+      }
+      timeline: {
+        name: 'tlThree'
+      }
+    }
+    global: {
+      option: {
+        state: paused
+        duration: 1s
+      }
+    }
+  }
+})

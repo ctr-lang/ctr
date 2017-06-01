@@ -1,0 +1,78 @@
+// File generated from ---> custom-gutter.styl 
+
+//flex
+ctr('.test', {
+  // SYNTAX_YAML
+  grid:
+    waffle:
+      fraction: '3/6'
+      cycle: '2'
+      gutter: '60px'
+  
+})
+
+ctr('.test', {
+  grid: {
+    waffle: {
+      fraction: '3/6'
+      cycle: '2'
+      gutter: '60px'
+    }
+  }
+})
+
+//non-flex
+ctr('.test', {
+  // SYNTAX_YAML
+  grid:
+    waffle:
+      fraction: '3/6'
+      cycle: '2'
+      gutter: '60px'
+      flex: false
+  
+})
+
+ctr('.test', {
+  grid: {
+    waffle: {
+      fraction: '3/6'
+      cycle: '2'
+      gutter: '60px'
+      flex: false
+    }
+  }
+})
+
+
+//flex
+ctr('.test', {
+  // SYNTAX_YAML
+  grid:
+    // fraction cycle gutter flex
+    waffle: ['3/6', '2', '60px']
+  
+})
+
+ctr('.test', {
+  grid: {
+    // fraction cycle gutter flex
+    waffle: '3/6' '2' '60px'
+  }
+})
+
+//non-flex
+ctr('.test', {
+  // SYNTAX_YAML
+  grid:
+    // fraction cycle gutter flex
+    waffle: ['3/6', '2', '60px', false]
+  
+})
+
+ctr('.test', {
+  grid: {
+    // fraction cycle gutter flex
+    waffle: '3/6' '2' '60px' false
+  }
+})

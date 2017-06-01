@@ -1,0 +1,1 @@
+__Description__: In the common local var Object you should be able to specify a `class` prop, a String or Array of Strings to specify extends you wish to apply the common options to

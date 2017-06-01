@@ -1,0 +1,22 @@
+.TEST-1 {
+  WIDTH: 200PX;
+  HEIGHT: 200PX;
+}
+.TEST-1:HOVER {
+  WIDTH: 400PX;
+  TRANSITION-DELAY: 0S;
+  TRANSITION-DURATION: 10S;
+  TRANSITION-PROPERTY: WIDTH;
+  TRANSITION-TIMING-FUNCTION: CUBIC-BEZIER(0.42, 0, 0.58, 1);
+}
+.test-2 {
+  width: 200px;
+  height: 200px;
+}
+.test-2:hover {
+  width: 400px;
+  transition-delay: 0s;
+  transition-duration: 0.5s;
+  transition-property: width;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}

@@ -1,0 +1,1 @@
+__Description__: should be able to use local vars when extending an extend

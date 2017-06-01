@@ -1,0 +1,26 @@
+.test
+  ctr({
+    width: 200px
+    media: {
+      width: 100px
+      query: {
+        mixin: {
+          density: '2'
+          above: '300px'
+        }
+      }
+    }
+  })
+
+ctr('.test', {
+  width: 200px
+  media: {
+    width: 100px
+    query: {
+      mixin: {
+        density: '2'
+        above: '300px'
+      }
+    }
+  }
+})

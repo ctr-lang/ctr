@@ -1,0 +1,22 @@
+# File generated from ---> root.styl
+
+
+.test:::0:
+  width: 200px
+  comp:
+    span:
+      hover:
+        font-size: 20px
+        option:
+          attachTo: 'root'
+
+
+.test:::1:
+  width: 200px
+  comp:
+    span:
+      hover:
+        font-size: 20px
+        option:
+          attachTo: 'root'
+

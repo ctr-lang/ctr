@@ -1,0 +1,16 @@
+.test {
+  width: 200px;
+}
+.test::before {
+  font-size: 10px;
+  content: "test";
+  transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 100, 200, 0, 1);
+}
+.test {
+  width: 200px;
+}
+.test::before {
+  font-size: 10px;
+  content: "test";
+  transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 100, 200, 0, 1);
+}

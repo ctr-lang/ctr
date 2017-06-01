@@ -1,0 +1,71 @@
+//$base -> no optiosn
+ctr('.test-1', {
+  size: 200px
+  hover: {
+    on: {
+      width: 400px
+    }
+  }
+})
+
+ctrSetOption({
+  hover: {
+    duration: 10s
+    delay: 10s
+    ease: 'ease-out'
+  }
+})
+
+
+//with options
+ctr('.test-2', {
+  size: 200px
+  hover: {
+    on: {
+      width: 400px
+    }
+  }
+})
+
+//should fail beucase opts are already defined
+ctrSetOption({
+  hover: {
+    duration: 422s
+    delay: 100s
+    ease: 'ease-in'
+  }
+})
+
+//should === .test-2
+ctr('.test-3', {
+  size: 200px
+  hover: {
+    on: {
+      width: 400px
+    }
+  }
+})
+
+//this time pass overwrite
+ctrSetOption({
+  hover: {
+    duration: 422s
+    delay: 100s
+    ease: 'ease-in'
+  }
+}, {
+  overwrite: true
+})
+
+//should now have new options
+ctr('.test-4', {
+  size: 200px
+  hover: {
+    on: {
+      width: 400px
+    }
+  }
+})
+
+
+

@@ -1,0 +1,58 @@
+# File generated from ---> object-notation-no-props-multi.styl
+
+
+.test:::0:
+  width: 200px
+  hover:
+    non:
+      # should be put in to the non:hover mix
+      anim:
+        one:
+          name: 'beerOne'
+          tl:
+            '50':
+              background: green
+          option:
+            duration: 1s
+            # should be applyTo an now rolled up with beerTwo
+            applyTo: '.andRollItUp'
+        two:
+          name: 'beerTwo'
+          tl:
+            '50':
+              color: red
+          option:
+            delay: 2s
+        # applied to both
+        global:
+          option:
+            ease: get-funky
+
+
+.test:::1:
+  width: 200px
+  hover:
+    non:
+      # should be put in to the non:hover mix
+      anim:
+        one:
+          name: 'beerOne'
+          tl:
+            '50':
+              background: green
+          option:
+            duration: 1s
+            # should be applyTo an now rolled up with beerTwo
+            applyTo: '.andRollItUp'
+        two:
+          name: 'beerTwo'
+          tl:
+            '50':
+              color: red
+          option:
+            delay: 2s
+        # applied to both
+        global:
+          option:
+            ease: get-funky
+

@@ -1,0 +1,1 @@
+__Description__: Should be able to use `animation` within a `CtrClass`

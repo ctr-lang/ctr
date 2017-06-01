@@ -1,0 +1,1 @@
+__Description__: Within a `transition` object a user should be able to define a `shorthand` object to control the specificity for multiple properties transition.

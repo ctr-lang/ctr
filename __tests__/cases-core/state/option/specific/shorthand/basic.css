@@ -1,0 +1,24 @@
+.test {
+  width: 200px;
+}
+.test:hover {
+  color: #f00;
+  height: 200px;
+  font-size: 10px;
+  transition-delay: 20s, 10s, 2s;
+  transition-duration: 10s, 5s, 2s;
+  transition-property: color, font-size, height;
+  transition-timing-function: ease-out, ease-in, funk-bis;
+}
+.test {
+  width: 200px;
+}
+.test:hover {
+  color: #f00;
+  height: 200px;
+  font-size: 10px;
+  transition-delay: 20s, 10s, 2s;
+  transition-duration: 10s, 5s, 2s;
+  transition-property: color, font-size, height;
+  transition-timing-function: ease-out, ease-in, funk-bis;
+}

@@ -1,0 +1,31 @@
+//no options
+ctr('.test-1', {
+  size: 200px
+  hover: {
+    on: {
+      width: 400px
+    }
+  }
+})
+
+//set option
+ctrSetOption({
+  hover: {
+    duration: 10s
+    delay: 20s
+    ease: 'ease-in'
+  }
+})
+
+//has above options
+ctr('.test-2', {
+  size: 200px
+  hover: {
+    on: {
+      width: 400px
+    }
+  }
+})
+
+
+

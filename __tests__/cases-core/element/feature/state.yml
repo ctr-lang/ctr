@@ -1,0 +1,38 @@
+# File generated from ---> state.styl
+
+
+.test:::0:
+  width: 200px
+  before:
+    content: 'test'
+    hover:
+      on:
+        font-size: 20px
+      non:
+        font-size: 20px
+  first-child:
+    color: red
+    hover:
+      on:
+        font-size: 20px
+      non:
+        font-size: 20px
+
+
+.test:::1:
+  width: 200px
+  before:
+    content: 'test'
+    hover:
+      on:
+        font-size: 20px
+      non:
+        font-size: 20px
+  first-child:
+    color: red
+    hover:
+      on:
+        font-size: 20px
+      non:
+        font-size: 20px
+

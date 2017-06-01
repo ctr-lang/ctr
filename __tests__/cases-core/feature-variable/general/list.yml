@@ -1,0 +1,20 @@
+# File generated from ---> list.styl
+
+
+.test:::0:
+  $$:
+    compTo: ['.one', '#two', 'span']
+  width: 200px
+  customComp:
+    key: '$compTo$'
+    height: 300px
+
+
+.test:::1:
+  $$:
+    compTo: ['.one', '#two', 'span']
+  width: 200px
+  customComp:
+    key: '$compTo$'
+    height: 300px
+

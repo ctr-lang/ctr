@@ -1,0 +1,42 @@
+.test {
+  width: 200px;
+  animation-delay: 0s, 0s;
+  animation-duration: 0.5s, 0.5s;
+  animation-fill-mode: none, none;
+  animation-iteration-count: 1, 1;
+  animation-direction: normal, normal;
+  animation-play-state: running, running;
+  animation-name: kool_hashit_, cruzin_hashit_;
+  animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+}
+@keyframes kool_hashit_ {
+  50% {
+    color: #f00;
+  }
+}
+@keyframes cruzin_hashit_ {
+  50% {
+    color: #00f;
+  }
+}
+.test {
+  width: 200px;
+  animation-delay: 0s, 0s;
+  animation-duration: 0.5s, 0.5s;
+  animation-fill-mode: none, none;
+  animation-iteration-count: 1, 1;
+  animation-direction: normal, normal;
+  animation-play-state: running, running;
+  animation-name: kool_hashit_, cruzin_hashit_;
+  animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+}
+@keyframes kool_hashit_ {
+  50% {
+    color: #f00;
+  }
+}
+@keyframes cruzin_hashit_ {
+  50% {
+    color: #00f;
+  }
+}

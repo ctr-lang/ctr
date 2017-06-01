@@ -1,0 +1,18 @@
+.test {
+  width: 200px;
+  height: 420px;
+  font-size: 2rem;
+  transition-delay: 0s, 0.25s;
+  transition-duration: 1s, 0.5s;
+  transition-property: height, font-size;
+  transition-timing-function: ease-in, ease-out;
+}
+.test {
+  width: 200px;
+  height: 420px;
+  font-size: 2rem;
+  transition-delay: 0s, 0.25s;
+  transition-duration: 1s, 0.5s;
+  transition-property: height, font-size;
+  transition-timing-function: ease-in, ease-out;
+}

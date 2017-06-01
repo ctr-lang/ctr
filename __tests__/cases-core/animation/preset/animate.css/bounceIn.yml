@@ -1,0 +1,14 @@
+# File generated from ---> bounceIn.styl
+
+
+.test:::0:
+  width: 400px
+  anim:
+    preset: 'bounceIn'
+
+
+.test:::1:
+  width: 400px
+  anim:
+    preset: 'bounceIn'
+

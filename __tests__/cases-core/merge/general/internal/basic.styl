@@ -1,0 +1,18 @@
+
+ctrSetVariable({
+  obj: {
+    width: 200px
+    height: 200px
+  }
+})
+
+.test
+  ctr({
+    merge: '$obj$'
+  })
+
+
+ctr('.test', {
+  merge: '$obj$'
+})
+

@@ -1,0 +1,42 @@
+# File generated from ---> multiple.styl
+
+
+.test:::0:
+  width: 200px
+  media:
+    width: 100px
+    query:
+      type:
+        media: ['screen', 'tv']
+        condition: 'not'
+
+
+.test:::1:
+  width: 200px
+  media:
+    width: 100px
+    query:
+      type:
+        media: ['screen', 'tv']
+        condition: 'not'
+
+
+.test:::2:
+  width: 200px
+  media:
+    width: 100px
+    query:
+      type:
+        media: ['screen', 'tv']
+        condition: 'only'
+
+
+.test:::3:
+  width: 200px
+  media:
+    width: 100px
+    query:
+      type:
+        media: ['screen', 'tv']
+        condition: 'only'
+

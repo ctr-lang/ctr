@@ -1,0 +1,18 @@
+.test {
+  width: 200px;
+}
+.test:hover {
+  background: #008000;
+}
+.test:not(:hover) {
+  background: #008000;
+}
+.test {
+  width: 200px;
+}
+.test:hover {
+  background: #008000;
+}
+.test:not(:hover) {
+  background: #008000;
+}

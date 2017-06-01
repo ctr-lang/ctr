@@ -1,0 +1,22 @@
+# File generated from ---> media.styl
+
+
+.test:::0:
+  width: 200px
+  media:
+    'custom':
+      font-size: ['responsive', 10px, 50px]
+      line-height: 'responsive'
+      query:
+        max-height: 222px
+
+
+.test:::1:
+  width: 200px
+  media:
+    'custom':
+      font-size: ['responsive', 10px, 50px]
+      line-height: 'responsive'
+      query:
+        max-height: 222px
+

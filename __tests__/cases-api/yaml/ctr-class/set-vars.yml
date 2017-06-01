@@ -1,0 +1,22 @@
+#set option
+ctr:::setOption:
+  hover:
+    duration: 10s
+
+
+# sets global variable
+ctr:::setVar:
+  width: 400px
+
+ctr:::setClass:Box:
+  $$:
+    # overwritten by above global variable
+    width: 200px
+    height: 400px
+  width: $width$
+  height: $height$
+  hover:
+    color: red
+
+.test:
+  extend: 'Box'

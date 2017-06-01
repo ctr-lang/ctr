@@ -1,0 +1,74 @@
+.test
+  ctr({
+    animations: {
+      one: {
+        option: {
+          state: running
+          count: 10
+        }
+        timeline: 'tlOne'
+      }
+      tlTwo: {
+        option: {
+          multiple: true
+          ease: ease-in
+        }
+        timeline: {
+          childTlOne: {
+            '50': {
+              background: green
+            }
+          }
+          childTlTwo: {
+            '50': {
+              color: yellow
+            }
+          }
+        }
+      }
+      global: {
+        option: {
+          state: paused
+          duration: 1s
+        }
+      }
+    }
+  })
+
+
+
+ctr('.test', {
+  animations: {
+    one: {
+      option: {
+        state: running
+        count: 10
+      }
+      timeline: 'tlOne'
+    }
+    tlTwo: {
+      option: {
+        multiple: true
+        ease: ease-in
+      }
+      timeline: {
+        childTlOne: {
+          '50': {
+            background: green
+          }
+        }
+        childTlTwo: {
+          '50': {
+            color: yellow
+          }
+        }
+      }
+    }
+    global: {
+      option: {
+        state: paused
+        duration: 1s
+      }
+    }
+  }
+})

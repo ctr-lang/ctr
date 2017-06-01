@@ -1,0 +1,1 @@
+__Description__: Should work with `getRes` alias of `getResult`

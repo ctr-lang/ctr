@@ -1,0 +1,24 @@
+// File generated from ---> element.styl 
+
+ctrSetClass('$myElmClass', {
+  // SYNTAX_YAML
+  width: 200px
+  before:
+    content: 'test'
+  
+})
+ctrSetClass('$myElmClass', {
+  width: 200px
+  before: {
+    content: 'test'
+  }
+})
+
+ctr('.test', {
+  // SYNTAX_YAML
+  extend: '$myElmClass'
+})
+
+ctr('.test', {
+  extend: '$myElmClass'
+})

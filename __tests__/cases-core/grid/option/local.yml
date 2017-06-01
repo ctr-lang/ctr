@@ -1,0 +1,54 @@
+# File generated from ---> local.styl
+
+
+.test:::0:
+  grid:
+    align:
+      location: 'bottom-center'
+    column:
+      fraction: '1/4'
+      cycle: '3'
+    # alias option
+    global:
+      flexbox: false
+
+
+.test:::1:
+  grid:
+    align:
+      location: 'bottom-center'
+      # override
+      option:
+        flexbox: true
+    column:
+      fraction: '1/4'
+      cycle: '3'
+    option:
+      flexbox: false
+
+
+.test:::2:
+  grid:
+    align:
+      location: 'bottom-center'
+    column:
+      fraction: '1/4'
+      cycle: '3'
+    # alias option
+    global:
+      flexbox: false
+
+
+.test:::3:
+  grid:
+    align:
+      location: 'bottom-center'
+      # override
+      option:
+        flexbox: true
+    column:
+      fraction: '1/4'
+      cycle: '3'
+    option:
+      flexbox: false
+

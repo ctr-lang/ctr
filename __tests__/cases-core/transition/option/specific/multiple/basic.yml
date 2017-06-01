@@ -1,0 +1,26 @@
+# File generated from ---> basic.styl
+
+
+.test:::0:
+  width: 300px
+  trans:
+    height: 420px
+    color: red
+    font-size: 1.4rem
+    option:
+      duration: 4s
+      delay: 20s
+      ease: ease-out
+
+
+.test:::1:
+  width: 300px
+  trans:
+    height: 420px
+    color: red
+    font-size: 1.4rem
+    option:
+      duration: 4s
+      delay: 20s
+      ease: ease-out
+

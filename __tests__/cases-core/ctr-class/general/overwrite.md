@@ -1,0 +1,1 @@
+__Description__: Properties defined in a local `ctr` instance should overwrite properties from an `extend`

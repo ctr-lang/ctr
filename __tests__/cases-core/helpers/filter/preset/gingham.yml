@@ -1,0 +1,12 @@
+# File generated from ---> gingham.styl
+
+
+.test:::0:
+  width: 600px
+  filter: 'gingham'
+
+
+.test:::1:
+  width: 600px
+  filter: 'gingham'
+

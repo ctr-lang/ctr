@@ -1,0 +1,54 @@
+.test {
+  margin-left: -30px;
+  margin-right: -30px;
+}
+.test::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+.test {
+  margin-left: -30px;
+  margin-right: -30px;
+}
+.test::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+.test {
+  margin-left: -30px;
+  margin-right: -30px;
+}
+.test::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+.test {
+  margin-left: -30px;
+  margin-right: -30px;
+}
+.test::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+.test {
+  margin-left: 0;
+  margin-right: 0;
+}
+.test::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+.test {
+  margin-left: 0;
+  margin-right: 0;
+}
+.test::after {
+  clear: both;
+  content: "";
+  display: table;
+}

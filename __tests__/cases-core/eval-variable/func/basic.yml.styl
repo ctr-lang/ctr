@@ -1,0 +1,21 @@
+.test
+  ctr({
+    $$: {
+      eval: {
+        myFunc: 'funk(() => 200)'
+      }
+    }
+    width: 200px
+    top: '$eval.myFunc$'
+  })
+
+
+ctr('.test', {
+  $$: {
+    eval: {
+      myFunc: 'funk(() => 200)'
+    }
+  }
+  width: 200px
+  top: '$eval.myFunc$'
+})

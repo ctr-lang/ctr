@@ -1,0 +1,39 @@
+$base = {
+  size: 200px
+  hover: {
+    on: {
+      width: 400px
+    }
+  }
+}
+
+//$base -> no optiosn
+ctr('.test-1', $base)
+
+ctrSetOption({
+  hover: {
+    duration: 10s
+    delay: 10s
+  }
+})
+
+ctrSetOption({
+  hover: {
+    ease: 'ease-out'
+  }
+})
+
+//with options
+ctr('.test-2', $base)
+
+//resets the option
+ctrSetOption({
+  reset: true
+})
+
+//should === .test-1
+ctr('.test-3', $base)
+
+
+
+

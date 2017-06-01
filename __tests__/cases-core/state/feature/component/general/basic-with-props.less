@@ -1,0 +1,43 @@
+// File generated from ---> basic-with-props.styl 
+
+ctr('.test', {
+  // SYNTAX_YAML
+  width: 200px
+  hover:
+    on:
+      height: 400px
+      comp:
+        '.aClass':
+          height: 400px
+    non:
+      height: 200px
+      comp:
+        '.aClass':
+          height: 200px
+  
+})
+
+
+ctr('.test', {
+  width: 200px
+  hover: {
+    on: {
+      height: 400px
+
+      comp: {
+        '.aClass': {
+          height: 400px
+        }
+      }
+    }
+    non: {
+      height: 200px
+
+      comp: {
+        '.aClass': {
+          height: 200px
+        }
+      }
+    }
+  }
+})

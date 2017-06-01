@@ -1,0 +1,32 @@
+.test {
+  animation-delay: 0s;
+  animation-name: test;
+  animation-duration: 15s;
+  animation-fill-mode: none;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-play-state: running;
+  animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+@keyframes test {
+  50% {
+    color: rgba(120,197,214,0.3);
+    text-shadow: 2px 4px 3px rgba(120,197,214,0.75);
+  }
+}
+.test {
+  animation-delay: 0s;
+  animation-name: test;
+  animation-duration: 15s;
+  animation-fill-mode: none;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-play-state: running;
+  animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+@keyframes test {
+  50% {
+    color: rgba(120,197,214,0.3);
+    text-shadow: 2px 4px 3px rgba(120,197,214,0.75);
+  }
+}

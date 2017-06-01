@@ -1,0 +1,12 @@
+.test {
+  width: 200px;
+}
+.test::before {
+  content: "[line: " attr(data-line) "]";
+}
+.test {
+  width: 200px;
+}
+.test::before {
+  content: "[line: " attr(data-line) "]";
+}

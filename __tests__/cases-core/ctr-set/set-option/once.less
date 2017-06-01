@@ -1,0 +1,31 @@
+
+ctr('.test-1', {
+  width: 200px
+  hover-on: {
+    height: 400px
+  }
+})
+
+ctrSetOption({
+  hover: {
+    duration: 10s
+  }
+}, {once: true })
+
+ctr('.test-2', {
+  width: 200px
+  hover-on: {
+    height: 400px
+  }
+})
+
+// should === .test-1
+ctr('.test-3', {
+  width: 200px
+  hover-on: {
+    height: 400px
+  }
+})
+
+
+

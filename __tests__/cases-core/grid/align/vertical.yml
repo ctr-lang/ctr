@@ -1,0 +1,58 @@
+# File generated from ---> vertical.styl
+
+
+.test:::0:
+  grid:
+    align:
+      location: 'vertical'
+
+
+.test:::1:
+  grid:
+    align:
+      location: 'vertical'
+
+
+.test:::2:
+  grid:
+    align:
+      location: 'vertical'
+      flex: false
+
+
+.test:::3:
+  grid:
+    align:
+      location: 'vertical'
+      flex: false
+
+
+.test:::4:
+  grid:
+    align: 'vertical'
+
+
+.test:::5:
+  grid:
+    align: ['vertical', ]
+
+
+.test:::6:
+  grid:
+    align: ['vertical', false]
+
+
+.test:::7:
+  grid:
+    align: ['vertical', false]
+
+
+.test:::8:
+  grid:
+    align: 'vr'
+
+
+.test:::9:
+  grid:
+    align: 'vr'
+

@@ -1,0 +1,132 @@
+.test
+  ctr({
+    width: 400px
+    animation: {
+      name: 'test'
+      timeline: {
+        '50': {
+          background: teal
+        }
+      }
+    }
+  })
+
+
+
+ctr('.test', {
+  width: 400px
+  animation: {
+    name: 'test'
+    timeline: {
+      '50': {
+        background: teal
+      }
+    }
+  }
+})
+
+//tl notation
+.test
+  ctr({
+    width: 400px
+    anim: {
+      name: 'test'
+      tl: {
+        '50': {
+          background: teal
+        }
+      }
+    }
+  })
+
+ctr('.test', {
+  width: 400px
+  anim: {
+    name: 'test'
+    tl: {
+      '50': {
+        background: teal
+      }
+    }
+  }
+})
+
+//percent key
+.test
+  ctr({
+    width: 400px
+    anim: {
+      name: 'test'
+      tl: {
+        '50%': {
+          background: teal
+        }
+      }
+    }
+  })
+
+
+
+ctr('.test', {
+  width: 400px
+  anim: {
+    name: 'test'
+    tl: {
+      '50%': {
+        background: teal
+      }
+    }
+  }
+})
+
+//to from key
+.test
+  ctr({
+    width: 400px
+    anim: {
+      name: 'test'
+      tl: {
+        'from': {
+          font-size: 10px
+        }
+        'to': {
+          font-size: 20px
+        }
+      }
+    }
+  })
+
+
+ctr('.test', {
+  width: 400px
+  anim: {
+    name: 'test'
+    tl: {
+      'from': {
+        font-size: 10px
+      }
+      'to': {
+        font-size: 20px
+      }
+    }
+  }
+})
+
+
+//no timeline
+.test
+  ctr({
+    width: 400px
+    anim: {
+      name: 'test'
+    }
+  })
+
+
+
+ctr('.test', {
+  width: 400px
+  anim: {
+    name: 'test'
+  }
+})

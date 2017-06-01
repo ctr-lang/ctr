@@ -1,0 +1,45 @@
+# File generated from ---> basic-options.yml.styl
+
+
+ctr:::setOption:
+  global:
+    animationShorthand: true
+
+
+.test:::0:
+  size: 100px
+  background: gray
+  anim:
+    name: 'test'
+    delay: 100s
+    duration: 200s
+    direction: normal
+    state: paused
+    mode: forwards
+    count: 420
+    ease: ease-out
+    tl:
+      '25':
+        background: red
+      '75':
+        background: blue
+
+
+.test:::1:
+  size: 100px
+  background: gray
+  anim:
+    name: 'test'
+    delay: 100s
+    duration: 200s
+    direction: normal
+    state: paused
+    mode: forwards
+    count: 420
+    ease: ease-out
+    tl:
+      '25':
+        background: red
+      '75':
+        background: blue
+

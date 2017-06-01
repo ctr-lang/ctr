@@ -1,0 +1,26 @@
+# File generated from ---> modifier-filter-false.styl
+
+
+.test:::0:
+  width: 600px
+  filter:
+    preset: '1977'
+    # remove
+    brightness: false
+    # modify
+    contrast: 0.888
+    # new
+    grayscale: 50%
+
+
+.test:::1:
+  width: 600px
+  filter:
+    preset: '1977'
+    # remove
+    brightness: false
+    # modify
+    contrast: 0.888
+    # new
+    grayscale: 50%
+

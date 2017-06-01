@@ -1,0 +1,20 @@
+# File generated from ---> basic.styl
+
+
+.test:::0:
+  size: 200px
+
+
+.test:::1:
+  size: 200px
+
+
+.test:::2:
+  #  width height
+  size: [200px, 400px]
+
+
+.test:::3:
+  #  width height
+  size: [200px, 400px]
+

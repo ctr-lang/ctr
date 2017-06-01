@@ -1,0 +1,24 @@
+.test {
+  width: 200px;
+}
+.test:only-child {
+  height: 400px;
+}
+.test {
+  width: 200px;
+}
+.test:only-child {
+  height: 400px;
+}
+.test {
+  width: 200px;
+}
+.test:only-child {
+  height: 400px;
+}
+.test {
+  width: 200px;
+}
+.test:only-child {
+  height: 400px;
+}

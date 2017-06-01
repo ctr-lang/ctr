@@ -1,0 +1,52 @@
+
+//$base -> no optiosn
+ctr('.test-1', {
+  size: 200px
+  hover: {
+    on: {
+      width: 400px
+    }
+  }
+})
+
+ctrSetOption({
+  hover: {
+    duration: 10s
+    delay: 10s
+  }
+})
+
+ctrSetOption({
+  hover: {
+    ease: 'ease-out'
+  }
+})
+
+//with options
+ctr('.test-2', {
+  size: 200px
+  hover: {
+    on: {
+      width: 400px
+    }
+  }
+})
+
+//resets the option
+ctrSetOption({
+  reset: true
+})
+
+//should === .test-1
+ctr('.test-3', {
+  size: 200px
+  hover: {
+    on: {
+      width: 400px
+    }
+  }
+})
+
+
+
+

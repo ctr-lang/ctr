@@ -1,0 +1,26 @@
+# File generated from ---> colon.styl
+
+
+.test:::0:
+  width: 200px
+  before:
+    content: 'beer'
+    option:
+      colon: ':'
+  after:
+    content: 'beer'
+    option:
+      colon: ':::::::::::::::::'
+
+
+.test:::1:
+  width: 200px
+  before:
+    content: 'beer'
+    option:
+      colon: ':'
+  after:
+    content: 'beer'
+    option:
+      colon: ':::::::::::::::::'
+

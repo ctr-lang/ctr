@@ -1,0 +1,68 @@
+// File generated from ---> two-five-row.styl 
+
+//flex
+ctr('.test', {
+  // SYNTAX_YAML
+  grid:
+    row:
+      fraction: '2/5'
+  
+})
+
+ctr('.test', {
+  grid: {
+    row: {
+      fraction: '2/5'
+    }
+  }
+})
+
+//non-flex
+ctr('.test', {
+  // SYNTAX_YAML
+  grid:
+    row:
+      fraction: '2/5'
+      flex: false
+  
+})
+
+ctr('.test', {
+  grid: {
+    row: {
+      fraction: '2/5'
+      flex: false
+    }
+  }
+})
+
+
+//flex
+ctr('.test', {
+  // SYNTAX_YAML
+  grid:
+    row: '2/5'
+  
+})
+
+ctr('.test', {
+  grid: {
+    row: '2/5'
+  }
+})
+
+//non-flex
+ctr('.test', {
+  // SYNTAX_YAML
+  grid:
+    // fraction gutter flex
+    row: ['2/5', default, false]
+  
+})
+
+ctr('.test', {
+  grid: {
+    // fraction gutter flex
+    row: '2/5' default false
+  }
+})

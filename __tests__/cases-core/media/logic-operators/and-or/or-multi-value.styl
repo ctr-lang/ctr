@@ -1,0 +1,53 @@
+.test
+  ctr({
+    background: teal
+    media: {
+      background: red
+      query: {
+        orCond: {
+          min-height: 200px 20vh
+          max-height: 300px 30vh
+        }
+      }
+    }
+  })
+
+.test
+  ctr({
+    background: teal
+    media: {
+      background: red
+      query: {
+        orCondition: {
+          min-height: 200px 20vh
+          max-height: 300px 30vh
+        }
+      }
+    }
+  })
+
+ctr('.test', {
+  background: teal
+  media: {
+    background: red
+    query: {
+      orCond: {
+        min-height: 200px 20vh
+        max-height: 300px 30vh
+      }
+    }
+  }
+})
+
+ctr('.test', {
+  background: teal
+  media: {
+    background: red
+    query: {
+      orCondition: {
+        min-height: 200px 20vh
+        max-height: 300px 30vh
+      }
+    }
+  }
+})

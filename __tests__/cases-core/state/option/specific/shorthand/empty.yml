@@ -1,0 +1,40 @@
+# File generated from ---> empty.styl
+
+
+.test:::0:
+  width: 200px
+  hover:
+    on:
+      shorthand:
+        height: 1s
+        # default === 0s
+        opacity: [0.25s, default, 'ease-in']
+        # default === 0.5s
+        font-size: [default, 2s, default]
+    non:
+      shorthand:
+        height: 1s
+        # default === 0s
+        opacity: [0.25s, default, 'ease-in']
+        # default === 0.5s
+        font-size: [default, 2s, default]
+
+
+.test:::1:
+  width: 200px
+  hover:
+    on:
+      shorthand:
+        height: 1s
+        # default === 0s
+        opacity: [0.25s, default, 'ease-in']
+        # default === 0.5s
+        font-size: [default, 2s, default]
+    non:
+      shorthand:
+        height: 1s
+        # default === 0s
+        opacity: [0.25s, default, 'ease-in']
+        # default === 0.5s
+        font-size: [default, 2s, default]
+

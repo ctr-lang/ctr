@@ -1,0 +1,12 @@
+# File generated from ---> col-alias.styl
+
+
+.test:::0:
+  grid:
+    col: '2/6'
+
+
+.test:::1:
+  grid:
+    col: '2/6'
+

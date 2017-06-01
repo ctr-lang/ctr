@@ -1,0 +1,19 @@
+.test {
+  width: 500px;
+  height: 500px;
+  font-size: 1em;
+  background: #00f;
+}
+.test:hover {
+  background: #f00;
+  transition-delay: 0s;
+  transition-duration: 0.5s;
+  transition-property: background;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test:not(:hover) {
+  transition-delay: 0s;
+  transition-duration: 0.5s;
+  transition-property: background;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}

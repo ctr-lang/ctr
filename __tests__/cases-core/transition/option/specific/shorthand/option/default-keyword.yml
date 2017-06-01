@@ -1,0 +1,34 @@
+# File generated from ---> default-keyword.styl
+
+
+.test:::0:
+  width: 300px
+  trans:
+    height: 420px
+    color: red
+    font-size: 1.1rem
+    option:
+      delay: 4s
+      duration: 20s
+      ease: ease-in
+      shorthand:
+        height: [2s, default, default]
+        color: [default, 1s, ease-out, ]
+        font-size: [10s, 5s]
+
+
+.test:::1:
+  width: 300px
+  transition:
+    height: 420px
+    color: red
+    font-size: 1.1rem
+    option:
+      delay: 4s
+      duration: 20s
+      ease: ease-in
+      shorthand:
+        height: [2s, default, default]
+        color: [default, 1s, ease-out, ]
+        font-size: [10s, 5s]
+

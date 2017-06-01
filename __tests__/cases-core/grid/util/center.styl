@@ -1,0 +1,112 @@
+.test
+  ctr({
+    width: 200px
+    grid: {
+      center: true
+    }
+  })
+
+
+ctr('.test', {
+  width: 200px
+  grid: {
+    center: true
+  }
+})
+
+//padding with true
+.test
+  ctr({
+    width: 200px
+    grid: {
+      center: true 30px
+    }
+  })
+
+
+ctr('.test', {
+  width: 200px
+  grid: {
+    center: true 30px
+  }
+})
+
+//specified
+.test
+  ctr({
+    width: 200px
+    grid: {
+      center: 1000px 30px
+    }
+  })
+
+
+ctr('.test', {
+  width: 200px
+  grid: {
+    center: 1000px 30px
+  }
+})
+
+//obj form
+.test
+  ctr({
+    width: 200px
+    grid: {
+      center: {
+        max: true
+        pad: 30px
+      }
+    }
+  })
+
+ctr('.test', {
+  width: 200px
+  grid: {
+    center: {
+      max: true
+      pad: 30px
+    }
+  }
+})
+
+
+//non flex
+.test
+  ctr({
+    width: 200px
+    grid: {
+      center: 1050px 30px false
+    }
+  })
+
+ctr('.test', {
+  width: 200px
+  grid: {
+    center: 1050px 30px false
+  }
+})
+
+//obj form
+.test
+  ctr({
+    width: 200px
+    grid: {
+      center: {
+        max: 1050px
+        pad: 30px
+        flex: false
+      }
+    }
+  })
+
+ctr('.test', {
+  width: 200px
+  grid: {
+    center: {
+      max: 1050px
+      pad: 30px
+      flex: false
+    }
+  }
+})

@@ -1,0 +1,19 @@
+//yml start
+ctr:::setOption: {
+  type: {
+    rootSize: 10px
+  }
+}
+//yml end
+
+.test
+  ctr({
+    font-size: [responsive, 1.6rem, 4.8rem]
+    font-size-range: [420px, 1280px]
+  })
+
+
+ctr('.test', {
+  font-size: [responsive, 1.6rem, 4.8rem]
+  font-size-range: [420px, 1280px]
+})

@@ -1,0 +1,26 @@
+# File generated from ---> custom-gutter.styl
+
+
+.test:::0:
+  grid:
+    move:
+      fraction: '1/2'
+      gutter: 60px
+
+
+.test:::1:
+  grid:
+    move:
+      fraction: '1/2'
+      gutter: 60px
+
+
+.test:::2:
+  grid:
+    move: ['1/2', default, 60px]
+
+
+.test:::3:
+  grid:
+    move: ['1/2', default, 60px]
+

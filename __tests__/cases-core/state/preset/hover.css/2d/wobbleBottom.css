@@ -1,0 +1,98 @@
+.test {
+  width: 200px;
+  height: 200px;
+  background: #008080;
+}
+.test:hover {
+  animation-delay: 0s;
+  display: inline-block;
+  animation-duration: 1s;
+  vertical-align: middle;
+  transform-origin: 100% 0;
+  animation-fill-mode: none;
+  animation-direction: normal;
+  backface-visibility: hidden;
+  animation-iteration-count: 1;
+  animation-play-state: running;
+  animation-name: hvr-wobble-bottom;
+  -moz-osx-font-smoothing: grayscale;
+  box-shadow: 0 0 1px rgba(0,0,0,0);
+  animation-timing-function: ease-in-out;
+}
+.test:not(:hover) {
+  display: inline-block;
+  vertical-align: middle;
+  transform-origin: 100% 0;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  box-shadow: 0 0 1px rgba(0,0,0,0);
+}
+@keyframes hvr-wobble-bottom {
+  16.65% {
+    transform: skew(-12deg);
+  }
+  33.3% {
+    transform: skew(10deg);
+  }
+  49.95% {
+    transform: skew(-6deg);
+  }
+  66.6% {
+    transform: skew(4deg);
+  }
+  83.25% {
+    transform: skew(-2deg);
+  }
+  100% {
+    transform: skew(0);
+  }
+}
+.test {
+  width: 200px;
+  height: 200px;
+  background: #008080;
+}
+.test:hover {
+  animation-delay: 0s;
+  display: inline-block;
+  animation-duration: 1s;
+  vertical-align: middle;
+  transform-origin: 100% 0;
+  animation-fill-mode: none;
+  animation-direction: normal;
+  backface-visibility: hidden;
+  animation-iteration-count: 1;
+  animation-play-state: running;
+  animation-name: hvr-wobble-bottom;
+  -moz-osx-font-smoothing: grayscale;
+  box-shadow: 0 0 1px rgba(0,0,0,0);
+  animation-timing-function: ease-in-out;
+}
+.test:not(:hover) {
+  display: inline-block;
+  vertical-align: middle;
+  transform-origin: 100% 0;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  box-shadow: 0 0 1px rgba(0,0,0,0);
+}
+@keyframes hvr-wobble-bottom {
+  16.65% {
+    transform: skew(-12deg);
+  }
+  33.3% {
+    transform: skew(10deg);
+  }
+  49.95% {
+    transform: skew(-6deg);
+  }
+  66.6% {
+    transform: skew(4deg);
+  }
+  83.25% {
+    transform: skew(-2deg);
+  }
+  100% {
+    transform: skew(0);
+  }
+}

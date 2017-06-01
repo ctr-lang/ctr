@@ -1,0 +1,98 @@
+.test
+  ctr({
+    anim: {
+      name: 'test'
+      timeline: {
+        from: {
+          font-size: 1rem
+        }
+        to: {
+          font-size: 1.2rem
+        }
+      }
+    }
+  })
+
+
+ctr('.test', {
+  anim: {
+    name: 'test'
+    timeline: {
+      from: {
+        font-size: 1rem
+      }
+      to: {
+        font-size: 1.2rem
+      }
+    }
+  }
+})
+
+//string
+.test
+  ctr({
+    anim: {
+      name: 'test'
+      timeline: {
+        'from': {
+          font-size: 1rem
+        }
+        'to': {
+          font-size: 1.2rem
+        }
+      }
+    }
+  })
+
+ctr('.test', {
+  anim: {
+    name: 'test'
+    timeline: {
+      'from': {
+        font-size: 1rem
+      }
+      'to': {
+        font-size: 1.2rem
+      }
+    }
+  }
+})
+
+
+
+//percent included within
+.test
+  ctr({
+    anim: {
+      name: 'test'
+      timeline: {
+        'from': {
+          font-size: 1rem
+        }
+        '50': {
+          font-size: 1.1rem
+        }
+        'to': {
+          font-size: 1.2rem
+        }
+      }
+    }
+  })
+
+
+ctr('.test', {
+  anim: {
+    name: 'test'
+    timeline: {
+      'from': {
+        font-size: 1rem
+      }
+      '50': {
+        font-size: 1.1rem
+      }
+      'to': {
+        font-size: 1.2rem
+      }
+    }
+  }
+})

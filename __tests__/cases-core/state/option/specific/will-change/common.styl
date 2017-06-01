@@ -1,0 +1,44 @@
+.test
+  ctr({
+    width: 200px
+    hover: {
+      common: {
+        option: {
+          will-change: true
+        }
+      }
+      on: {
+        font-size: 10px
+        color: red
+        height: 200px
+      }
+      non: {
+        font-size: 20px
+        background: blue
+        width: 200px
+      }
+    }
+  })
+
+
+
+ctr('.test', {
+  width: 200px
+  hover: {
+    common: {
+      option: {
+        will-change: true
+      }
+    }
+    on: {
+      font-size: 10px
+      color: red
+      height: 200px
+    }
+    non: {
+      font-size: 20px
+      background: blue
+      width: 200px
+    }
+  }
+})

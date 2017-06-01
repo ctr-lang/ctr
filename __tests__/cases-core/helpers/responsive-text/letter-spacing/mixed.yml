@@ -1,0 +1,32 @@
+# File generated from ---> mixed.styl
+
+
+.test:::0:
+  letter-spacing: [responsive, 1rem, 3rem]
+  letter-spacing-range: [420px, 1280px]
+
+
+.test:::1:
+  letter-spacing: [responsive, 1rem, 3rem]
+  letter-spacing-range: [20em, 60em]
+
+
+.test:::2:
+  letter-spacing: [responsive, 1em, 3em]
+  letter-spacing-range: [420px, 1280px]
+
+
+.test:::3:
+  letter-spacing: [responsive, 1rem, 3rem]
+  letter-spacing-range: [420px, 1280px]
+
+
+.test:::4:
+  letter-spacing: [responsive, 1rem, 3rem]
+  letter-spacing-range: [20em, 60em]
+
+
+.test:::5:
+  letter-spacing: [responsive, 1em, 3em]
+  letter-spacing-range: [420px, 1280px]
+

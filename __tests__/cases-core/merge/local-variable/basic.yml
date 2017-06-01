@@ -1,0 +1,20 @@
+# File generated from ---> basic.styl
+
+
+.test:::0:
+  $$:
+    obj:
+      background: green
+      font-size: 10px
+  width: 200px
+  merge: '$obj$'
+
+
+.test:::1:
+  $$:
+    obj:
+      background: green
+      font-size: 10px
+  width: 200px
+  merge: '$obj$'
+

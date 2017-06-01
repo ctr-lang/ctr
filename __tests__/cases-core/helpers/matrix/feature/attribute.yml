@@ -1,0 +1,18 @@
+# File generated from ---> attribute.styl
+
+
+.test:::0:
+  width: 200px
+  'attr-[data-role="test"]':
+    font-size: 10px
+    matrix:
+      translate: [100, 200]
+
+
+.test:::1:
+  width: 200px
+  'attr-[data-role="test"]':
+    font-size: 10px
+    matrix:
+      translate: [100, 200]
+

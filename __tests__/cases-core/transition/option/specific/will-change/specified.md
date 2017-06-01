@@ -1,0 +1,1 @@
+__Description__: If `will-change` key/value pair is a list of properties then `will-change` will only be generated for the specified properties

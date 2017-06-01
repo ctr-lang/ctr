@@ -1,0 +1,10 @@
+# File generated from ---> substr.styl
+
+
+.test:::0:
+  color: substr(substr(dredd, 1), 0, 3)
+
+
+.test:::1:
+  color: substr(substr(dredd, 1), 0, 3)
+

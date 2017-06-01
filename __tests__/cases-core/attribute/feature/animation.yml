@@ -1,0 +1,30 @@
+# File generated from ---> animation.styl
+
+
+.test:::0:
+  width: 200px
+  component:
+    'div':
+      attribute:
+        key: '[data-role="test"]'
+        color: red
+        animation:
+          name: 'test'
+          tl:
+            '50':
+              font-size: 10px
+
+
+.test:::1:
+  width: 200px
+  component:
+    'div':
+      attribute:
+        key: '[data-role="test"]'
+        color: red
+        animation:
+          name: 'test'
+          tl:
+            '50':
+              font-size: 10px
+

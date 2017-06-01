@@ -1,0 +1,39 @@
+.test
+  ctr({
+    anim: {
+      option: {
+        duration: 3s
+      }
+      timeline: otherTimeline
+    }
+  })
+
+ctr('.test', {
+  anim: {
+    option: {
+      duration: 3s
+    }
+    timeline: otherTimeline
+  }
+})
+
+
+//string
+.test
+  ctr({
+    anim: {
+      option: {
+        duration: 3s
+      }
+      timeline: 'otherTimeline'
+    }
+  })
+
+ctr('.test', {
+  anim: {
+    option: {
+      duration: 3s
+    }
+    timeline: 'otherTimeline'
+  }
+})

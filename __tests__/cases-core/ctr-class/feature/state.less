@@ -1,0 +1,32 @@
+// File generated from ---> state.styl 
+
+ctrSetClass('$myStateClass', {
+  // SYNTAX_YAML
+  width: 200px
+  hover:
+    on:
+      font-size: 20px
+    non:
+      font-size: 10px
+  
+})
+ctrSetClass('$myStateClass', {
+  width: 200px
+  hover: {
+    on: {
+      font-size: 20px
+    }
+    non: {
+      font-size: 10px
+    }
+  }
+})
+
+ctr('.test', {
+  // SYNTAX_YAML
+  extend: '$myStateClass'
+})
+
+ctr('.test', {
+  extend: '$myStateClass'
+})

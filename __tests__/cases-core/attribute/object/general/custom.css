@@ -1,0 +1,46 @@
+.test {
+  width: 200px;
+}
+.test > div[class*="te"] {
+  background: #008080;
+}
+.test > div[class*="art"] {
+  background: #008080;
+}
+.test {
+  width: 200px;
+}
+.test > div[class*="te"] {
+  opacity: 1;
+  background: #008080;
+}
+.test > div[class*="art"] {
+  opacity: 1;
+  background: #008080;
+}
+.test > div[class*="work"] {
+  opacity: 1;
+}
+.test {
+  width: 200px;
+}
+.test > div[class*="te"] {
+  background: #008080;
+}
+.test > div[class*="art"] {
+  background: #008080;
+}
+.test {
+  width: 200px;
+}
+.test > div[class*="te"] {
+  opacity: 1;
+  background: #008080;
+}
+.test > div[class*="art"] {
+  opacity: 1;
+  background: #008080;
+}
+.test > div[class*="work"] {
+  opacity: 1;
+}

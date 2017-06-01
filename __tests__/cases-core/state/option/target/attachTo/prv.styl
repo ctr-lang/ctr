@@ -1,0 +1,52 @@
+.test
+  ctr({
+    width: 200px
+    comp: {
+      span: {
+        font-size: 20px
+        first-child: {
+          width: 200px
+        }
+        comp: {
+          p: {
+            color: red
+            hover: {
+              font-size: 10px
+              //attaching to span
+              option: {
+                attachTo: 'prv'
+              }
+            }
+          }
+        }
+      }
+    }
+  })
+
+
+
+
+ctr('.test', {
+  width: 200px
+  comp: {
+    span: {
+      font-size: 20px
+      first-child: {
+        width: 200px
+      }
+      comp: {
+        p: {
+          color: red
+          hover: {
+            font-size: 10px
+            //attaching to span
+            option: {
+              attachTo: 'prv'
+            }
+          }
+        }
+      }
+    }
+  }
+})
+

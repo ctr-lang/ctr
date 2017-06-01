@@ -1,0 +1,22 @@
+# File generated from ---> vertical.styl
+
+
+.test:::0:
+  width: 200px
+  align: 'vertical'
+
+
+.test:::1:
+  width: 200px
+  alignSelf: 'vertical'
+
+
+.test:::2:
+  width: 200px
+  align: 'vr'
+
+
+.test:::3:
+  width: 200px
+  alignSelf: 'vr'
+

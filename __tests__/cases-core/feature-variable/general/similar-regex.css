@@ -1,0 +1,16 @@
+.test {
+  color: #f00;
+  background: #f00;
+}
+.test::before {
+  color: #00f;
+  background: #00f;
+}
+.test {
+  color: #f00;
+  background: #f00;
+}
+.test::before {
+  color: #00f;
+  background: #00f;
+}

@@ -1,0 +1,76 @@
+# File generated from ---> option.styl
+
+
+.test:::0:
+  height: 200px
+  grid:
+    option:
+      gutter: 60px
+    column: '1/6'
+    media:
+      'sm':
+        column: '1/3'
+      'md':
+        # override
+        column: ['1/4', default, 222px]
+      'lg':
+        column: '1/2'
+        # override via option
+        option:
+          gutter: 10000px
+
+
+.test:::1:
+  height: 200px
+  grid:
+    option:
+      gutter: 60px
+    column: '1/6'
+    media:
+      'sm':
+        column: '1/3'
+      'md':
+        # override
+        column: ['1/4', default, 222px]
+      'lg':
+        column: '1/2'
+        # override via option
+        option:
+          gutter: 10000px
+
+
+.test:::2:
+  height: 200px
+  grid:
+    option:
+      gutter: 60px
+    column: '1/6'
+    'media-sm':
+      column: '1/3'
+    'media-md':
+      # override
+      column: ['1/4', default, 222px]
+    'media-lg':
+      column: '1/2'
+      # override via option
+      option:
+        gutter: 10000px
+
+
+.test:::3:
+  height: 200px
+  grid:
+    option:
+      gutter: 60px
+    column: '1/6'
+    'media-sm':
+      column: '1/3'
+    'media-md':
+      # override
+      column: ['1/4', default, 222px]
+    'media-lg':
+      column: '1/2'
+      # override via option
+      option:
+        gutter: 10000px
+

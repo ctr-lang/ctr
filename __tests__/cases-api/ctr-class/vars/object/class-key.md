@@ -1,0 +1,1 @@
+__Description__: Should be abel to use Object syntax with class key

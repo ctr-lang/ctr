@@ -1,0 +1,48 @@
+// File generated from ---> option-local-override.less.styl 
+
+ctrSetOption({
+  // SYNTAX_YAML
+  global:
+    sort: '-len'
+  transitionDefault:
+    duration: 2s
+})
+
+
+
+//local override
+ctr('.test', {
+   // SYNTAX_YAML
+   option:
+     global:
+       sort: 'len'
+   width: 200px
+   hover:
+     background: green
+
+})
+
+
+
+
+ctrSetOption({
+  global: {
+    sort: '-len'
+  }
+  transitionDefault: {
+    duration: 2s
+  }
+})
+
+
+ctr('.test', {
+  option: {
+    transitionDefault: {
+      duration: 1s
+    }
+  }
+  width: 200px
+  hover: {
+    background: green
+  }
+})

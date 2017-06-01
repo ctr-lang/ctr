@@ -1,0 +1,78 @@
+.test {
+  letter-spacing: calc(1rem + 2 * ((100vw - 26.25rem) / 53.75));
+}
+@media only screen and (max-width: 420px) {
+  .test {
+    letter-spacing: 1rem;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .test {
+    letter-spacing: 3rem;
+  }
+}
+.test {
+  letter-spacing: calc(1rem + 2 * ((100vw - 20em) / 40));
+}
+@media only screen and (max-width: 20em) {
+  .test {
+    letter-spacing: 1rem;
+  }
+}
+@media only screen and (min-width: 60em) {
+  .test {
+    letter-spacing: 3rem;
+  }
+}
+.test {
+  letter-spacing: calc(1em + 2 * ((100vw - 26.25em) / 53.75));
+}
+@media only screen and (max-width: 420px) {
+  .test {
+    letter-spacing: 1em;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .test {
+    letter-spacing: 3em;
+  }
+}
+.test {
+  letter-spacing: calc(1rem + 2 * ((100vw - 26.25rem) / 53.75));
+}
+@media only screen and (max-width: 420px) {
+  .test {
+    letter-spacing: 1rem;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .test {
+    letter-spacing: 3rem;
+  }
+}
+.test {
+  letter-spacing: calc(1rem + 2 * ((100vw - 20em) / 40));
+}
+@media only screen and (max-width: 20em) {
+  .test {
+    letter-spacing: 1rem;
+  }
+}
+@media only screen and (min-width: 60em) {
+  .test {
+    letter-spacing: 3rem;
+  }
+}
+.test {
+  letter-spacing: calc(1em + 2 * ((100vw - 26.25em) / 53.75));
+}
+@media only screen and (max-width: 420px) {
+  .test {
+    letter-spacing: 1em;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .test {
+    letter-spacing: 3em;
+  }
+}

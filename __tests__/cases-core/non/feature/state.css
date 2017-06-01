@@ -1,0 +1,40 @@
+.test {
+  width: 200px;
+}
+.test:not(.today) {
+  height: 200px;
+}
+.test:not(.today):hover {
+  width: 100px;
+  transition-delay: 0s;
+  transition-duration: 0.5s;
+  transition-property: width;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test:not(.today):not(:hover) {
+  width: 50px;
+  transition-delay: 0s;
+  transition-duration: 0.5s;
+  transition-property: width;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test {
+  width: 200px;
+}
+.test:not(.today) {
+  height: 200px;
+}
+.test:not(.today):hover {
+  width: 100px;
+  transition-delay: 0s;
+  transition-duration: 0.5s;
+  transition-property: width;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test:not(.today):not(:hover) {
+  width: 50px;
+  transition-delay: 0s;
+  transition-duration: 0.5s;
+  transition-property: width;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}

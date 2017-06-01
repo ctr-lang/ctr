@@ -1,0 +1,1 @@
+__Description__: The animation option properties should can be defined in the root of the object

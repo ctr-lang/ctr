@@ -1,0 +1,44 @@
+# File generated from ---> last-of.styl
+
+
+.test:::0:
+  width: 200px
+  elm:
+    key: 'last-of(10)'
+    height: 400px
+
+
+.test:::1:
+  width: 200px
+  elm:
+    key: 'last-of(10)'
+    height: 400px
+
+
+.test:::2:
+  width: 200px
+  elm:
+    key: fm-last-of(10)
+    height: 400px
+
+
+.test:::3:
+  width: 200px
+  elm:
+    key: fm-last-of(10)
+    height: 400px
+
+
+.test:::4:
+  width: 200px
+  elm:
+    key: 'lastOf(10)'
+    height: 400px
+
+
+.test:::5:
+  width: 200px
+  elm:
+    key: 'lastOf(10)'
+    height: 400px
+

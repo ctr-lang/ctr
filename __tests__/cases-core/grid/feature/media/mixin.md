@@ -1,0 +1,1 @@
+__Description__: Media within a column grid.

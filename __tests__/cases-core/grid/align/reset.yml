@@ -1,0 +1,94 @@
+# File generated from ---> reset.styl
+
+
+.test:::0:
+  grid:
+    align:
+      location: 'reset'
+
+
+.test:::1:
+  grid:
+    align:
+      location: 'reset'
+
+
+.test:::2:
+  grid:
+    align:
+      location: 'reset'
+      flex: false
+
+
+.test:::3:
+  grid:
+    align:
+      location: 'reset'
+      flex: false
+
+
+.test:::4:
+  grid:
+    align: 'reset'
+
+
+.test:::5:
+  grid:
+    align: ['reset', ]
+
+
+.test:::6:
+  grid:
+    align: ['reset', false]
+
+
+.test:::7:
+  grid:
+    align: ['reset', false]
+
+
+.test:::8:
+  grid:
+    align:
+      location: false
+
+
+.test:::9:
+  grid:
+    align:
+      location: false
+
+
+.test:::10:
+  grid:
+    align:
+      location: false
+      flex: false
+
+
+.test:::11:
+  grid:
+    align:
+      location: false
+      flex: false
+
+
+.test:::12:
+  grid:
+    align: false
+
+
+.test:::13:
+  grid:
+    align: [false, ]
+
+
+.test:::14:
+  grid:
+    align: [false, false]
+
+
+.test:::15:
+  grid:
+    align: [false, false]
+

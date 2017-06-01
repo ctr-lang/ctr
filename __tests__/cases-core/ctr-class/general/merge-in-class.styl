@@ -1,0 +1,35 @@
+$MergeData1 = {
+  $$: {
+    fz: 1em
+  }
+  height: 200px
+}
+
+$MergeData2 = {
+  $$: {
+    bg: #000
+  }
+  width: 200px
+  font-size: '$fz$'
+  background: '$bg$'
+}
+
+
+ctrSetClass('MyClass', {
+  merge: $MergeData1 $MergeData2
+})
+
+
+.test
+  ctr({
+    extend-MyClass: {
+      fz: 2em
+    }
+  })
+
+
+ctr('.test', {
+  extend-MyClass: {
+    fz: 2em
+  }
+})

@@ -1,0 +1,20 @@
+# File generated from ---> multiple.styl
+
+
+.test:::0:
+  width: 200px
+  matrix:
+    rotateX: 60deg
+    rotateY: 45deg
+    rotateZ: 60deg
+    translateX: 200
+
+
+.test:::1:
+  width: 200px
+  matrix:
+    rotateX: 60deg
+    rotateY: 45deg
+    rotateZ: 60deg
+    translateX: 200
+

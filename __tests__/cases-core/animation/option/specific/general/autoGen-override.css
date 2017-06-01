@@ -1,0 +1,16 @@
+.test {
+  width: 200px;
+}
+@keyframes noGenProps {
+  50% {
+    background: #008000;
+  }
+}
+.test {
+  width: 200px;
+}
+@keyframes noGenProps {
+  50% {
+    background: #008000;
+  }
+}

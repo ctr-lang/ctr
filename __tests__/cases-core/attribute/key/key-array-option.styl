@@ -1,0 +1,59 @@
+.test
+  ctr({
+    width: 200px
+    comp: {
+      'div': {
+        attr: {
+          background: teal
+          option: {
+            key: '[class*="te"]' '[class*="kool"]'
+          }
+        }
+      }
+    }
+  })
+
+ctr('.test', {
+  width: 200px
+  comp: {
+    'div': {
+      attr: {
+        background: teal
+        option: {
+          key: '[class*="te"]' '[class*="kool"]'
+        }
+      }
+    }
+  }
+})
+
+//bracketless
+.test
+  ctr({
+    width: 200px
+    comp: {
+      'div': {
+        attr: {
+          background: teal
+          option: {
+            key: 'class*="te"' 'class*="kool"'
+          }
+        }
+      }
+    }
+  })
+
+
+ctr('.test', {
+  width: 200px
+  comp: {
+    'div': {
+      attr: {
+        background: teal
+        option: {
+          key: 'class*="te"' 'class*="kool"'
+        }
+      }
+    }
+  }
+})

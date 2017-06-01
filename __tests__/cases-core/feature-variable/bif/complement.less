@@ -1,0 +1,19 @@
+// File generated from ---> complement.styl 
+
+ctr('.test', {
+  // SYNTAX_YAML
+  $$:
+    base: '#fd0cc7'
+    bg: "complement($base$)"
+  background: "$bg$"
+  color: 'complement(#fd0cc7)'
+})
+
+ctr('.test', {
+  $$: {
+    base: '#fd0cc7'
+    bg: "complement($base$)"
+  }
+  background: "$bg$"
+  color: complement(#fd0cc7)
+})

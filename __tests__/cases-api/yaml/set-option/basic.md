@@ -1,0 +1,1 @@
+__Description__: The global option can be set within a yaml file using a `ctr:::setOption` object and setting the global setting in there like you would for stylus

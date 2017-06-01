@@ -1,0 +1,32 @@
+# File generated from ---> multiple-key.styl
+
+
+.test:::0:
+  width: 200px
+  component:
+    font-size: 10px
+    option:
+      key: ['#beerMe', '.please', 'span']
+
+
+.test:::1:
+  width: 200px
+  component:
+    font-size: 10px
+    option:
+      key: ['#beerMe', '.please', 'span']
+
+
+.test:::2:
+  width: 200px
+  component:
+    key: ['#beerMe', '.please', 'span']
+    font-size: 10px
+
+
+.test:::3:
+  width: 200px
+  component:
+    key: ['#beerMe', '.please', 'span']
+    font-size: 10px
+

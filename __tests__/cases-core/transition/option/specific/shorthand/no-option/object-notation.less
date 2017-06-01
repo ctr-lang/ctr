@@ -1,0 +1,49 @@
+// File generated from ---> object-notation.styl 
+
+ctr('.test', {
+  // SYNTAX_YAML
+  width: 300px
+  trans:
+    one:
+      height: 420px
+    two:
+      font-size: 1.2rem
+      color: red
+    three:
+      letter-spacing: 1.1rem
+      shorthand:
+        width: 2s
+        top: [1s, default, ease-out]
+        bottom: [1.2s, 3s, ease-in]
+    global:
+      option:
+        duration: 1s
+  
+})
+  
+
+ctr('.test', {
+  width: 300px
+  transition: {
+    one: {
+      height: 420px
+    }
+    two: {
+      font-size: 1.2rem
+      color: red
+    }
+    three: {
+      letter-spacing: 1.1rem
+      shorthand: {
+        width: 2s
+        top: 1s default ease-out
+        bottom: 1.2s 3s ease-in
+      }
+    }
+    global: {
+      option: {
+        duration: 1s
+      }
+    }
+  }
+})

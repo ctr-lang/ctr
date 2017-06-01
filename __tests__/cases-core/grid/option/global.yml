@@ -1,0 +1,51 @@
+# File generated from ---> global.yml.styl
+
+
+ctr:::setOption:
+  grid:
+    gutter: 60px
+    rtl: false
+    flexbox: false
+
+
+.test:::0:
+  grid:
+    align:
+      location: 'bottom-center'
+    column:
+      fraction: '1/4'
+      cycle: '3'
+
+
+.test:::1:
+  grid:
+    align:
+      location: 'bottom-center'
+    column:
+      fraction: '1/4'
+      cycle: '3'
+
+
+.test:::2:
+  grid:
+    align:
+      location: 'bottom-center'
+    column:
+      fraction: '1/4'
+      cycle: '3'
+    option:
+      flexbox: true
+      gutter: 30px
+
+
+.test:::3:
+  grid:
+    align:
+      location: 'bottom-center'
+    column:
+      fraction: '1/4'
+      cycle: '3'
+    option:
+      flexbox: true
+      gutter: 30px
+

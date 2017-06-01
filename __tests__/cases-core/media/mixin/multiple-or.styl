@@ -1,0 +1,57 @@
+.test
+  ctr({
+    width: 200px
+    media: {
+      width: 100px
+      query: {
+        orCondition: {
+          density: '2'
+          above: '300px'
+        }
+      }
+    }
+  })
+
+ctr('.test', {
+  width: 200px
+  media: {
+    width: 100px
+    query: {
+      orCondition: {
+        density: '2'
+        above: '300px'
+      }
+    }
+  }
+})
+
+.test
+  ctr({
+    width: 200px
+    media: {
+      width: 100px
+      query: {
+        orCondition: {
+          mixin: {
+            density: '2'
+            above: '300px'
+          }
+        }
+      }
+    }
+  })
+
+ctr('.test', {
+  width: 200px
+  media: {
+    width: 100px
+    query: {
+      orCondition: {
+        mixin: {
+          density: '2'
+          above: '300px'
+        }
+      }
+    }
+  }
+})

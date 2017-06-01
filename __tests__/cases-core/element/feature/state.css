@@ -1,0 +1,74 @@
+.test {
+  width: 200px;
+}
+.test::before {
+  content: "test";
+}
+.test:first-child {
+  color: #f00;
+}
+.test:hover::before {
+  font-size: 20px;
+  transition-delay: 0s;
+  transition-duration: 0.5s;
+  transition-property: font-size;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test:not(:hover)::before {
+  font-size: 20px;
+  transition-delay: 0s;
+  transition-duration: 0.5s;
+  transition-property: font-size;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test:first-child:hover {
+  font-size: 20px;
+  transition-delay: 0s;
+  transition-duration: 0.5s;
+  transition-property: font-size;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test:first-child:not(:hover) {
+  font-size: 20px;
+  transition-delay: 0s;
+  transition-duration: 0.5s;
+  transition-property: font-size;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test {
+  width: 200px;
+}
+.test::before {
+  content: "test";
+}
+.test:first-child {
+  color: #f00;
+}
+.test:hover::before {
+  font-size: 20px;
+  transition-delay: 0s;
+  transition-duration: 0.5s;
+  transition-property: font-size;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test:not(:hover)::before {
+  font-size: 20px;
+  transition-delay: 0s;
+  transition-duration: 0.5s;
+  transition-property: font-size;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test:first-child:hover {
+  font-size: 20px;
+  transition-delay: 0s;
+  transition-duration: 0.5s;
+  transition-property: font-size;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test:first-child:not(:hover) {
+  font-size: 20px;
+  transition-delay: 0s;
+  transition-duration: 0.5s;
+  transition-property: font-size;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}

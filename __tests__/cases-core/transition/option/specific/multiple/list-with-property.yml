@@ -1,0 +1,22 @@
+# File generated from ---> list-with-property.styl
+
+
+.test:::0:
+  trans:
+    border-width: 30px
+    option:
+      property: ['left', color, 'background', right]
+      duration: [1s, 2s]
+      delay: [2s, default]
+      ease: [ease-in, funky-town]
+
+
+.test:::1:
+  transition:
+    border-width: 30px
+    option:
+      property: ['left', color, 'background', right]
+      duration: [1s, 2s]
+      delay: [2s, default]
+      ease: [ease-in, funky-town]
+

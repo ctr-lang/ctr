@@ -1,0 +1,37 @@
+// File generated from ---> basic.styl 
+
+ctr('.test', {
+  // SYNTAX_YAML
+  anim:
+    multiple: true
+    timeline:
+      tlOne:
+        "50%":
+          background: purple
+      koolBrah:
+        //timeline name === tlTwo
+        name: tlTwo
+        "50%":
+          color: yellow
+  
+})
+
+ctr('.test', {
+  anim: {
+    multiple: true
+    timeline: {
+      tlOne: {
+        "50%": {
+          background: purple
+        }
+      }
+      koolBrah: {
+        //timeline name === tlTwo
+        name: tlTwo
+        "50%": {
+          color: yellow
+        }
+      }
+    }
+  }
+})

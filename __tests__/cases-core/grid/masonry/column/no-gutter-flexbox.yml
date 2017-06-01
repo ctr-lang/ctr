@@ -1,0 +1,40 @@
+# File generated from ---> no-gutter-flexbox.styl
+
+
+.test:::0:
+  grid:
+    masonry-column:
+      gutter: 0
+      # default === true
+      #  flex: true
+
+
+.test:::1:
+  grid:
+    masonry-column:
+      gutter: 0
+      # default === true
+      #  flex: true
+
+
+.test:::2:
+  grid:
+    masonry-column: [default, 0, true]
+
+
+.test:::3:
+  grid:
+    masonry-column: [default, 0, true]
+
+
+.test:::4:
+  grid:
+    masonry-column:
+      gutter: false
+
+
+.test:::5:
+  grid:
+    masonry-column:
+      gutter: false
+

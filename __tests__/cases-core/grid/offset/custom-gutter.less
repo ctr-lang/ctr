@@ -1,0 +1,57 @@
+// File generated from ---> custom-gutter.styl 
+
+//flex
+ctr('.test', {
+  // SYNTAX_YAML
+  grid:
+    offset:
+      fraction: '1/2'
+      gutter: 60px
+  
+})
+
+ctr('.test', {
+  grid: {
+    offset: {
+      fraction: '1/2'
+      gutter: '60px'
+    }
+  }
+})
+
+
+ctr('.test', {
+  // SYNTAX_YAML
+  grid:
+    // fraction row|column gutter
+    offset: ['1/2', default, '60px']
+  
+})
+
+ctr('.test', {
+  grid: {
+    // fraction row|column gutter
+    offset: '1/2' default '60px'
+  }
+})
+
+
+//false === 0
+//flex
+ctr('.test', {
+  // SYNTAX_YAML
+  grid:
+    offset:
+      fraction: '1/2'
+      gutter: false
+  
+})
+
+ctr('.test', {
+  grid: {
+    offset: {
+      fraction: '1/2'
+      gutter: false
+    }
+  }
+})

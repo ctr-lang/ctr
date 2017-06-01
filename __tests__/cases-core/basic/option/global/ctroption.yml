@@ -1,0 +1,27 @@
+# File generated from ---> ctroption.yml.styl
+
+
+ctr:::setOption:
+  global:
+    sort: '-len'
+  hover:
+    duration: 2s
+  active:
+    delay: 100s
+
+
+.test:::0:
+  width: 200px
+  hover:
+    background: green
+  active:
+    color: red
+
+
+.test:::1:
+  width: 200px
+  hover:
+    background: green
+  active:
+    color: red
+

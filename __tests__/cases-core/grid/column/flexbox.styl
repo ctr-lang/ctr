@@ -1,0 +1,40 @@
+.test
+  ctr({
+    grid: {
+      column: {
+        fraction: '2/6'
+        cycle: 3
+        gutter: 60px
+        //default === true
+        // flex: true
+      }
+    }
+  })
+
+ctr('.test', {
+  grid: {
+    column: {
+      fraction: '2/6'
+      cycle: 3
+      gutter: 60px
+      //default === true
+      // flex: true
+    }
+  }
+})
+
+
+.test
+  ctr({
+    grid: {
+      //fraction cycle gutter flex
+      column: '2/6' '3' '60px'
+    }
+  })
+
+ctr('.test', {
+  grid: {
+    //fraction cycle gutter flex
+    column: '2/6' '3' '60px'
+  }
+})

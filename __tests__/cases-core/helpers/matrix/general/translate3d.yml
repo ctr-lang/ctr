@@ -1,0 +1,14 @@
+# File generated from ---> translate3d.styl
+
+
+.test:::0:
+  width: 200px
+  matrix:
+    translate3d: [100, 200, 5]
+
+
+.test:::1:
+  width: 200px
+  matrix:
+    translate3d: [100, 200, 5]
+

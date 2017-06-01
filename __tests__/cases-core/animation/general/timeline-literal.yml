@@ -1,0 +1,30 @@
+# File generated from ---> timeline-literal.styl
+
+
+.test:::0:
+  anim:
+    option:
+      duration: 3s
+    timeline: otherTimeline
+
+
+.test:::1:
+  anim:
+    option:
+      duration: 3s
+    timeline: otherTimeline
+
+
+.test:::2:
+  anim:
+    option:
+      duration: 3s
+    timeline: 'otherTimeline'
+
+
+.test:::3:
+  anim:
+    option:
+      duration: 3s
+    timeline: 'otherTimeline'
+

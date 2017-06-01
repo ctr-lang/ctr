@@ -1,0 +1,53 @@
+// File generated from ---> shorthand.styl 
+
+ctr('.test', {
+  // SYNTAX_YAML
+  width: 200px
+  anim:
+    shorthand:
+      test: [1s, default, 'easeInSine']
+    tl:
+      '50':
+        width: 400px
+  
+})
+
+ctr('.test', {
+  width: 200px
+  anim: {
+    shorthand: {
+      test: 1s default 'easeInSine'
+    }
+    tl: {
+      '50': {
+        width: 400px
+      }
+    }
+  }
+})
+
+ctr('.test', {
+  // SYNTAX_YAML
+  width: 200px
+  anim:
+    shorthand:
+      test: [1s, default, 'ease-in-sine']
+    tl:
+      '50':
+        width: 400px
+  
+})
+
+ctr('.test', {
+  width: 200px
+  anim: {
+    shorthand: {
+      test: 1s default 'ease-in-sine'
+    }
+    tl: {
+      '50': {
+        width: 400px
+      }
+    }
+  }
+})

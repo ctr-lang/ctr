@@ -1,0 +1,88 @@
+.test {
+  position: relative;
+  width: calc(99.9% * 1 / 4 - (60px - 60px * 1 / 4));
+}
+.test > * {
+  bottom: 0;
+  left: 50%;
+  top: auto;
+  right: auto;
+  position: absolute;
+  transform: translate(-50%, 0);
+}
+.test:nth-child(1n) {
+  clear: none;
+  float: left;
+  margin-right: 60px;
+}
+.test:last-child {
+  margin-right: 0;
+}
+.test:nth-child(3n) {
+  float: right;
+  margin-right: 0;
+}
+.test:nth-child(3n+1) {
+  clear: left;
+}
+.test {
+  position: relative;
+  width: calc(99.9% * 1 / 4 - (60px - 60px * 1 / 4));
+}
+.test > * {
+  bottom: 0;
+  left: 50%;
+  top: auto;
+  right: auto;
+  position: absolute;
+  transform: translate(-50%, 0);
+}
+.test:nth-child(1n) {
+  clear: none;
+  float: left;
+  margin-right: 60px;
+}
+.test:last-child {
+  margin-right: 0;
+}
+.test:nth-child(3n) {
+  float: right;
+  margin-right: 0;
+}
+.test:nth-child(3n+1) {
+  clear: left;
+}
+.test {
+  display: flex;
+  flex: 0 0 auto;
+  align-items: flex-end;
+  justify-content: center;
+  width: calc(99.9% * 1 / 4 - (30px - 30px * 1 / 4));
+}
+.test:nth-child(1n) {
+  margin-right: 30px;
+}
+.test:last-child {
+  margin-right: 0;
+}
+.test:nth-child(3n) {
+  float: right;
+  margin-right: 0;
+}
+.test {
+  display: flex;
+  flex: 0 0 auto;
+  align-items: flex-end;
+  justify-content: center;
+  width: calc(99.9% * 1 / 4 - (30px - 30px * 1 / 4));
+}
+.test:nth-child(1n) {
+  margin-right: 30px;
+}
+.test:last-child {
+  margin-right: 0;
+}
+.test:nth-child(3n) {
+  float: right;
+  margin-right: 0;
+}

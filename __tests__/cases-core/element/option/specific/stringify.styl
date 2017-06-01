@@ -1,0 +1,41 @@
+.test
+  ctr({
+    width: 200px
+    comp: {
+      'span': {
+        pointer-events: none
+        display: block
+        counter-increment: linenumber
+        before: {
+          option: {
+            stringify: false
+          }
+          content: counter(linenumber)
+          display: block
+          padding-right: 0.8em
+          text-align: right
+        }
+      }
+    }
+  })
+
+
+ctr('.test', {
+  width: 200px
+  comp: {
+    'span': {
+      pointer-events: none
+      display: block
+      counter-increment: linenumber
+      before: {
+        option: {
+          stringify: false
+        }
+        content: counter(linenumber)
+        display: block
+        padding-right: 0.8em
+        text-align: right
+      }
+    }
+  }
+})

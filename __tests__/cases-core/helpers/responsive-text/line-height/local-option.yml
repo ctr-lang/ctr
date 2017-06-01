@@ -1,0 +1,32 @@
+# File generated from ---> local-option.styl
+
+
+.test:::0:
+  option:
+    type:
+      rootSize: 18px
+      lineHeight:
+        minSize: 1em
+        maxSize: 3em
+        minWidth: 300px
+        maxWidth: 900px
+  width: 200px
+  line-height: responsive
+  'comp-span':
+    line-height: responsive
+
+
+.test:::1:
+  option:
+    type:
+      rootSize: 18px
+      lineHeight:
+        minSize: 1em
+        maxSize: 3em
+        minWidth: 300px
+        maxWidth: 900px
+  width: 200px
+  line-height: responsive
+  'comp-span':
+    line-height: responsive
+

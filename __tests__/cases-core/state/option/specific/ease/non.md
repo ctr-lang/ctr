@@ -1,0 +1,1 @@
+__Description__: If there is a `ease: <value>` key/value pair in the `option` object within a `non` `state` object then said `ease` value should be applied to the `transition-timing-function` in `<selector>:not(:<state>)`

@@ -1,0 +1,21 @@
+.test
+  ctr({
+    width: 200px
+    hover: {
+      'not': {
+        key: ':first-child'
+        font-size: 10px
+      }
+    }
+  })
+
+ctr('.test', {
+  width: 200px
+  hover: {
+    'not': {
+      key: ':first-child'
+      font-size: 10px
+    }
+  }
+})
+

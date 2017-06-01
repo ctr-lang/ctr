@@ -1,0 +1,18 @@
+ctrSetClass('$evalDarken', {
+  $$: {
+    base: red
+    bg: "darken($base$, 20%)"
+  }
+  background: "$bg$"
+  color: darken(red, 20%)
+})
+
+.test
+  ctr({
+    extend: $evalDarken
+  })
+
+ctr('.test', {
+  extend: $evalDarken
+})
+

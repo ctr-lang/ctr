@@ -1,0 +1,22 @@
+# File generated from ---> timeline-unit-notation.styl
+
+
+.test:::0:
+  anim:
+    name: 'test'
+    timeline:
+      '0':
+        font-size: 1rem
+      '100%':
+        font-size: 1.2rem
+
+
+.test:::1:
+  anim:
+    name: 'test'
+    timeline:
+      '0':
+        font-size: 1rem
+      '100%':
+        font-size: 1.2rem
+

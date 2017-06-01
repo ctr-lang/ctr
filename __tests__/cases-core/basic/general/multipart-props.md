@@ -1,0 +1,1 @@
+__Description__: If a property has multiple parts and its parts are separated by a comma `,` as sometimes the case with `box-shadow` the user can still use said value although it must be wrapped in a `string`

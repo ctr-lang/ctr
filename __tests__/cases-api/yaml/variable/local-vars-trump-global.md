@@ -1,0 +1,1 @@
+__Description__: Locally set vars should trump globally set vars on the `ctr` instance through `setVar`

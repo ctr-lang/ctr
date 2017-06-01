@@ -1,0 +1,16 @@
+# File generated from ---> transition.styl
+
+
+.test:::0:
+  width: 200px
+  transition:
+    background: black
+    align: 'center'
+
+
+.test:::1:
+  width: 200px
+  transition:
+    background: black
+    align: 'center'
+

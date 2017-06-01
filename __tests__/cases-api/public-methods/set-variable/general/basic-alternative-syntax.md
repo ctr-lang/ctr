@@ -1,0 +1,1 @@
+__Description__: `setVar` alternatative syntax for `setVariable`

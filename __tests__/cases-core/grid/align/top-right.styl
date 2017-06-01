@@ -1,0 +1,85 @@
+//alias: 'top-right', 'tr'
+
+//flex
+.test
+  ctr({
+    grid: {
+      align: {
+        location: 'top-right'
+      }
+    }
+  })
+
+ctr('.test', {
+  grid: {
+    align: {
+      location: 'top-right'
+    } 
+  }
+})
+
+//non-flex
+.test
+  ctr({
+    grid: {
+      align: {
+        location: 'top-right'
+        flex: false
+      }
+    }
+  })
+
+
+ctr('.test', {
+  grid: {
+    align: {
+      location: 'top-right'
+      flex: false
+    }
+  }
+})
+
+//flex
+.test
+  ctr({
+    grid: {
+      align: 'top-right'
+    }
+  })
+
+ctr('.test', {
+  grid: {
+    align: 'top-right' 
+  }
+})
+
+//non-flex
+.test
+  ctr({
+    grid: {
+      align: 'top-right' false
+    }
+  })
+
+
+ctr('.test', {
+  grid: {
+    align: 'top-right' false
+  }
+})
+
+
+// alais
+.test
+  ctr({
+    grid: {
+      align: 'tr'
+    }
+  })
+
+
+ctr('.test', {
+  grid: {
+    align: 'tr'
+  }
+})

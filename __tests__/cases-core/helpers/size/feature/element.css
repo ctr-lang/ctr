@@ -1,0 +1,18 @@
+.test {
+  width: 200px;
+}
+.test::before {
+  width: 400px;
+  height: 400px;
+  font-size: 10px;
+  content: "test";
+}
+.test {
+  width: 200px;
+}
+.test::before {
+  width: 400px;
+  height: 400px;
+  font-size: 10px;
+  content: "test";
+}

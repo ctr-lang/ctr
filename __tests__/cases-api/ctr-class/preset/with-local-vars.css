@@ -1,0 +1,18 @@
+.test {
+  width: 200px;
+}
+.test > .default-box {
+  width: 200px;
+  height: 200px;
+  background: #eee;
+}
+.test > .large-box {
+  width: 500px;
+  height: 500px;
+  background: #000;
+}
+.test > .small-box {
+  width: 100px;
+  height: 100px;
+  background: #ffc0cb;
+}

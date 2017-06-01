@@ -1,0 +1,17 @@
+# classes, each one is a class unto itself
+
+ctr:::setClass:box100:
+  size: 100
+ctr:::setClass:box300:
+  size: 300
+ctr:::setClass:box500:
+  size: 500
+
+.test:
+  width: 200px
+  comp-.box1:
+    extend: box100
+  comp-.box2:
+    extend: box300
+  comp-.box3:
+    extend: box500

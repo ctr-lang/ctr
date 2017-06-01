@@ -1,0 +1,14 @@
+# File generated from ---> formatting.styl
+
+
+.test:::0:
+  line-height: [responsive, 10px, 30px]
+  min-line-height-range: 300px
+  max-line-height-range: 900px
+
+
+.test:::1:
+  line-height: [responsive, 10px, 30px]
+  min-line-height-range: 300px
+  max-line-height-range: 900px
+

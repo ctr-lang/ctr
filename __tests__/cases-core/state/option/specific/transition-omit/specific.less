@@ -1,0 +1,55 @@
+// File generated from ---> specific.styl 
+
+ctr('.test', {
+  // SYNTAX_YAML
+  hover:
+    common:
+      //common added to both
+      background: green
+      width: 200px
+      option:
+        //omit the transition
+        transition: true
+        //omited yet specified should still process
+        shorthand:
+          height: [10s, default, ease-in]
+        delay: 20s
+    on:
+      height: 200px
+      option:
+        //priority
+        delay: 420s
+    non:
+      height: 100px
+  
+})
+
+
+ctr('.test', {
+  hover: {
+    common: {
+      //common added to both
+      background: green
+      width: 200px
+      option: {
+        //omit the transition
+        trans: true
+        //omited yet specified should still process
+        shorthand: {
+          height: 10s default ease-in
+        }
+        delay: 20s
+      }
+    }
+    on: {
+      height: 200px
+      option: {
+        //priority
+        delay: 420s
+      }
+    }
+    non: {
+      height: 100px
+    }
+  }
+})

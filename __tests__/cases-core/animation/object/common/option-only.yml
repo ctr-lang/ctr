@@ -1,0 +1,90 @@
+# File generated from ---> option-only.styl
+
+
+.test:::0:
+  animations:
+    one:
+      option:
+        state: running
+        count: 10
+      timeline: 'tlOne'
+    tlTwo:
+      option:
+        ease: ease-in
+      timeline: 'tlTwo'
+    tlThree:
+      option:
+        duration: 2s
+        delay: 0.5s
+      timeline: 'tlThree'
+    common:
+      option:
+        state: paused
+        duration: 1s
+
+
+.test:::1:
+  animations:
+    one:
+      option:
+        state: running
+        count: 10
+      timeline: 'tlOne'
+    tlTwo:
+      option:
+        ease: ease-in
+      timeline: 'tlTwo'
+    tlThree:
+      option:
+        duration: 2s
+        delay: 0.5s
+      timeline: 'tlThree'
+    common:
+      option:
+        state: paused
+        duration: 1s
+
+
+.test:::2:
+  anim:
+    one:
+      option:
+        state: running
+        count: 10
+      timeline: 'tlOne'
+    tlTwo:
+      option:
+        ease: ease-in
+      timeline: 'tlTwo'
+    tlThree:
+      option:
+        duration: 2s
+        delay: 0.5s
+      timeline: 'tlThree'
+    global:
+      option:
+        state: paused
+        duration: 1s
+
+
+.test:::3:
+  anim:
+    one:
+      option:
+        state: running
+        count: 10
+      timeline: 'tlOne'
+    tlTwo:
+      option:
+        ease: ease-in
+      timeline: 'tlTwo'
+    tlThree:
+      option:
+        duration: 2s
+        delay: 0.5s
+      timeline: 'tlThree'
+    global:
+      option:
+        state: paused
+        duration: 1s
+

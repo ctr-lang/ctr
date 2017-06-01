@@ -1,0 +1,14 @@
+# File generated from ---> flip.styl
+
+
+.test:::0:
+  width: 400px
+  anim:
+    preset: 'flip'
+
+
+.test:::1:
+  width: 400px
+  anim:
+    preset: 'flip'
+

@@ -1,0 +1,44 @@
+# File generated from ---> omit.styl
+
+
+.test:::0:
+  width: 200px
+  transition:
+    common:
+      option:
+        ease: 'ease-in'
+        delay: 1s
+        duration: 1s
+    one:
+      option:
+        ease: 'ease-out'
+      height: 200px
+    two:
+      option:
+        # omit
+        omit: 'option.delay'
+      font-size: 1em
+    three:
+      left: 10px
+
+
+.test:::1:
+  width: 200px
+  transition:
+    common:
+      option:
+        ease: 'ease-in'
+        delay: 1s
+        duration: 1s
+    one:
+      option:
+        ease: 'ease-out'
+      height: 200px
+    two:
+      option:
+        # omit
+        omit: 'option.delay'
+      font-size: 1em
+    three:
+      left: 10px
+

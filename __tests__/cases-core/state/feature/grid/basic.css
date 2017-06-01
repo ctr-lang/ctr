@@ -1,0 +1,46 @@
+.test {
+  width: 400px;
+  height: 400px;
+  background: #f00;
+}
+.test > .aClass {
+  width: 100px;
+  height: 100px;
+  background: #800080;
+}
+.test:hover {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.test:not(:hover) {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.test > .aClass:first-child {
+  background: #008080;
+}
+.test {
+  width: 400px;
+  height: 400px;
+  background: #f00;
+}
+.test > .aClass {
+  width: 100px;
+  height: 100px;
+  background: #800080;
+}
+.test:hover {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.test:not(:hover) {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.test > .aClass:first-child {
+  background: #008080;
+}

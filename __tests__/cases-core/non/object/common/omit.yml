@@ -1,0 +1,48 @@
+# File generated from ---> omit.styl
+
+
+.test:::0:
+  width: 200px
+  nons:
+    common:
+      height: 100px
+      color: red
+      'comp-span':
+        font-size: 1em
+        opacity: 0.5
+    '.class':
+      option:
+        # omit
+        omit: ['color', 'comp-span.font-size']
+      width: 300px
+    'not-#id':
+      font-size: 30px
+    aList:
+      option:
+        key: 'li'
+        omit: 'color'
+      font-size: 20px
+
+
+.test:::1:
+  width: 200px
+  nons:
+    common:
+      height: 100px
+      color: red
+      'comp-span':
+        font-size: 1em
+        opacity: 0.5
+    '.class':
+      option:
+        # omit
+        omit: ['color', 'comp-span.font-size']
+      width: 300px
+    'not-#id':
+      font-size: 30px
+    aList:
+      option:
+        key: 'li'
+        omit: 'color'
+      font-size: 20px
+

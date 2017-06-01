@@ -1,0 +1,37 @@
+# File generated from ---> basic-options.yml.styl
+
+
+ctr:::setOption:
+  global:
+    transitionShorthand: true
+
+
+.test:::0:
+  size: 100px
+  hover:
+    option:
+      duration: 10s
+      ease: ease-out
+      delay: 2s
+    on:
+      transform: scale(2)
+      background: red
+    non:
+      transform: scale(1)
+      background: blue
+
+
+.test:::1:
+  size: 100px
+  hover:
+    option:
+      duration: 10s
+      ease: ease-out
+      delay: 2s
+    on:
+      transform: scale(2)
+      background: red
+    non:
+      transform: scale(1)
+      background: blue
+

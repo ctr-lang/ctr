@@ -1,0 +1,26 @@
+.test {
+  width: 200px;
+}
+@media (min-width: 800px) and (max-width: 1050px) {
+  .test {
+    top: 1111px;
+    left: 2222px;
+    right: 2222px;
+    bottom: 1111px;
+    font-size: 2222px;
+    position: absolute;
+  }
+}
+.test {
+  width: 200px;
+}
+@media (min-width: 800px) and (max-width: 1050px) {
+  .test {
+    top: 1111px;
+    left: 2222px;
+    right: 2222px;
+    bottom: 1111px;
+    font-size: 2222px;
+    position: absolute;
+  }
+}

@@ -1,0 +1,42 @@
+// File generated from ---> shorthand-specific.styl 
+
+ctr('.test', {
+  // SYNTAX_YAML
+  hover:
+    common:
+      background: green
+      width: 200px
+    on:
+      height: 200px
+    non:
+      height: 100px
+    option:
+      shorthand:
+        height: [10s, default, ease-in]
+        //omit if passed false
+        width: false
+  
+})
+
+
+ctr('.test', {
+  hover: {
+    common: {
+      background: green
+      width: 200px
+    }
+    on: {
+      height: 200px
+    }
+    non: {
+      height: 100px
+    }
+    option: {
+      shorthand: {
+        height: 10s default ease-in
+        //omit if passed false
+        width: false
+      }
+    }
+  }
+})

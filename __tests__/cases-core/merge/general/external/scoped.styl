@@ -1,0 +1,26 @@
+//stylus object
+$obj = {
+  width: 200px
+  height: 200px
+}
+
+.test
+  ctr({
+    merge: $obj
+    comp: {
+      'span': {
+        merge: $obj
+      }
+    }
+  })
+
+
+ctr('.test', {
+  merge: $obj
+  comp: {
+    'span': {
+      merge: $obj
+    }
+  }
+})
+

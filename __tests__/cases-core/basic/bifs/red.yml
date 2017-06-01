@@ -1,0 +1,10 @@
+# File generated from ---> red.styl
+
+
+.test:::0:
+  color: 'red(#000, 255)'
+
+
+.test:::1:
+  color: 'red(#000, 255)'
+

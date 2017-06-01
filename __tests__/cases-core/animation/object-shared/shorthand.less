@@ -1,0 +1,88 @@
+// File generated from ---> shorthand.styl 
+
+ctr('.test', {
+  // SYNTAX_YAML
+  anim:
+    option:
+      multiple: true
+      shorthand:
+        tlTwo: [default, 100s, ease-out]
+        tlOne: [1s, default, ease-in, 10]
+    timeline:
+      tlOne:
+        "50%":
+          background: purple
+      koolBrah:
+        name: tlTwo
+        "50%":
+          color: yellow
+  
+})
+
+ctr('.test', {
+  anim: {
+    option: {
+      multiple: true
+      shorthand: {
+        tlTwo: default 100s ease-out
+        tlOne: 1s default ease-in 10
+      }
+    }
+    timeline: {
+      tlOne: {
+        "50%": {
+          background: purple
+        }
+      }
+      koolBrah: {
+        name: tlTwo
+        "50%": {
+          color: yellow
+        }
+      }
+    }
+  }
+})
+
+//no option obj
+ctr('.test', {
+  // SYNTAX_YAML
+  anim:
+    multiple: true
+    shorthand:
+      tlTwo: [default, 100s, ease-out]
+      tlOne: [1s, default, ease-in, 10]
+    timeline:
+      tlOne:
+        "50%":
+          background: purple
+      koolBrah:
+        name: tlTwo
+        "50%":
+          color: yellow
+  
+})
+
+
+ctr('.test', {
+  anim: {
+    multiple: true
+    shorthand: {
+      tlTwo: default 100s ease-out
+      tlOne: 1s default ease-in 10
+    }
+    timeline: {
+      tlOne: {
+        "50%": {
+          background: purple
+        }
+      }
+      koolBrah: {
+        name: tlTwo
+        "50%": {
+          color: yellow
+        }
+      }
+    }
+  }
+})

@@ -1,0 +1,38 @@
+# File generated from ---> overwrite-inherit-defaults.styl
+
+
+.test:::0:
+  option:
+    transition:
+      ease: 'test'
+      duration: 100s
+    hover:
+      # priority
+      duration: 0.25s
+      ease: 100s
+  width: 200px
+  hover:
+    on:
+      height: 200px
+      option:
+        # priority
+        ease: 10s
+
+
+.test:::1:
+  option:
+    transition:
+      ease: 'test'
+      duration: 100s
+    hover:
+      # priority
+      duration: 0.25s
+      ease: 100s
+  width: 200px
+  hover:
+    on:
+      height: 200px
+      option:
+        # priority
+        ease: 10s
+

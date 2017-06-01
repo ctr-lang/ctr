@@ -1,0 +1,14 @@
+# File generated from ---> root-scope-specific.styl
+
+
+.test:::0:
+  letter-spacing-root: 10px
+  letter-spacing: [responsive, 1.6rem, 4.8rem]
+  letter-spacing-range: [420px, 1280px]
+
+
+.test:::1:
+  letter-spacing-root: 10px
+  letter-spacing: [responsive, 1.6rem, 4.8rem]
+  letter-spacing-range: [420px, 1280px]
+

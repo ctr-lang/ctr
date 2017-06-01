@@ -1,0 +1,22 @@
+# File generated from ---> key-true.styl
+
+
+.test:::0:
+  width: 200px
+  comp:
+    span:
+      hover:
+        font-size: 20px
+        option:
+          attachTo: true
+
+
+.test:::1:
+  width: 200px
+  comp:
+    span:
+      hover:
+        font-size: 20px
+        option:
+          attachTo: true
+

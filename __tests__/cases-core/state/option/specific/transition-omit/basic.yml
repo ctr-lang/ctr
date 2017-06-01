@@ -1,0 +1,40 @@
+# File generated from ---> basic.styl
+
+
+.test:::0:
+  hover:
+    common:
+      # common added to both
+      background: green
+      width: 200px
+      option:
+        delay: 20s
+        # omit the transition
+        transition: false
+    on:
+      height: 200px
+      option:
+        # priority
+        delay: 420s
+    non:
+      height: 100px
+
+
+.test:::1:
+  hover:
+    common:
+      # common added to both
+      background: green
+      width: 200px
+      option:
+        delay: 20s
+        # omit the transition
+        trans: false
+    on:
+      height: 200px
+      option:
+        # priority
+        delay: 420s
+    non:
+      height: 100px
+

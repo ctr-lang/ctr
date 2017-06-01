@@ -1,0 +1,16 @@
+# File generated from ---> basic.styl
+
+
+.test:::0:
+  width: 200px
+  component:
+    key: 'span'
+    font-size: 10px
+
+
+.test:::1:
+  width: 200px
+  component:
+    key: 'span'
+    font-size: 10px
+

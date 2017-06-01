@@ -1,0 +1,22 @@
+# File generated from ---> basic-no-prop.styl
+
+
+.test:::0:
+  width: 200px
+  hover:
+    media:
+      'md':
+        font-size: 10px
+      'lg':
+        font-size: 20px
+
+
+.test:::1:
+  width: 200px
+  hover:
+    media:
+      'md':
+        font-size: 10px
+      'lg':
+        font-size: 20px
+

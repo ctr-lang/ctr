@@ -1,0 +1,61 @@
+
+# invalid no set vars
+# since there is no set vars yet
+# ctr will not check the vars thus
+# it will not throw a warning and the
+# val will not be $var-not-found$
+# it will just be the strings above
+.test-1:
+  width: 200px
+  height: $height$
+  color: $color$
+  top: $top$
+
+
+# set init
+ctr:::setVariable:1:
+  height: 50px
+  top: 100
+  color: red
+
+
+# should pick up above vars
+.test-2:
+  width: 200px
+  height: $height$
+  color: $color$
+  top: $top$
+
+
+# not trump === test-2
+ctr:::setVariable:2:
+  height: 150px
+  top: 200
+  color: blue
+
+
+.test-3:
+  width: 200px
+  height: $height$
+  color: $color$
+  top: $top$
+
+
+# trump
+ctr:::setVariable:3:
+  height: 150px
+  top: 200
+  color: blue
+  ctr:::option:
+    overwrite: true
+
+
+
+.test-4:
+  width: 200px
+  height: $height$
+  color: $color$
+  top: $top$
+
+
+

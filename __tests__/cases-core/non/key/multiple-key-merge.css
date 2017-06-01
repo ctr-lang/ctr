@@ -1,0 +1,28 @@
+.test {
+  width: 200px;
+}
+.test:not(span) {
+  font-size: 20px;
+}
+.test:not(p) {
+  color: #f00;
+  font-size: 20px;
+}
+.test:not(.aClass) {
+  color: #000;
+  font-size: 20px;
+}
+.test {
+  width: 200px;
+}
+.test:not(span) {
+  font-size: 20px;
+}
+.test:not(p) {
+  color: #f00;
+  font-size: 20px;
+}
+.test:not(.aClass) {
+  color: #000;
+  font-size: 20px;
+}

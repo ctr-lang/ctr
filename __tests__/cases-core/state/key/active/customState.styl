@@ -1,0 +1,41 @@
+.test
+  ctr({
+    width: 200px
+    customState: {
+      // state: 'active'
+      key: 'active'
+      common: {
+        option: {
+          duration: 0.25s
+        }
+      }
+      on: {
+        height: 300px
+      }
+      non: {
+        height: 200px
+      }
+    }
+  })
+
+
+ctr('.test', {
+  width: 200px
+  customState: {
+    option: {
+      // state: 'active'
+      key: 'active'
+    }
+    common: {
+      option: {
+        duration: 0.25s
+      }
+    }
+    on: {
+      height: 300px
+    }
+    non: {
+      height: 200px
+    }
+  }
+})

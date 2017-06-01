@@ -1,0 +1,34 @@
+.test {
+  width: 200px;
+}
+.test:hover {
+  font-size: 20px;
+  transition-delay: 0s;
+  transition-duration: 0.5s;
+  transition-property: font-size;
+  transition-timing-function: funky-town;
+}
+.test:not(:hover) {
+  font-size: 10px;
+  transition-delay: 0s;
+  transition-duration: 0.5s;
+  transition-property: font-size;
+  transition-timing-function: tedious;
+}
+.test {
+  width: 200px;
+}
+.test:hover {
+  font-size: 20px;
+  transition-delay: 0s;
+  transition-duration: 0.5s;
+  transition-property: font-size;
+  transition-timing-function: funky-town;
+}
+.test:not(:hover) {
+  font-size: 10px;
+  transition-delay: 0s;
+  transition-duration: 0.5s;
+  transition-property: font-size;
+  transition-timing-function: tedious;
+}

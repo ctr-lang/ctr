@@ -1,0 +1,32 @@
+# File generated from ---> on-non-common-option-override.styl
+
+
+.test:::0:
+  width: 200px
+  hover:
+    common:
+      option:
+        ease: tedious
+    on:
+      font-size: 20px
+      # override
+      option:
+        ease: funky-town
+    non:
+      font-size: 10px
+
+
+.test:::1:
+  width: 200px
+  hover:
+    common:
+      option:
+        ease: tedious
+    on:
+      font-size: 20px
+      # override
+      option:
+        ease: funky-town
+    non:
+      font-size: 10px
+

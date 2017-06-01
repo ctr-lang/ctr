@@ -1,0 +1,41 @@
+// File generated from ---> multiple.styl
+
+ctrSetVariable({
+  // SYNTAX_YAML
+  obj1:
+    height: 200px
+  obj2:
+    hover:
+      on:
+        font-size: 20px
+      non:
+        font-size: 10px
+
+})
+ctrSetVariable({
+  obj1: {
+    height: 200px
+  }
+  obj2: {
+    hover: {
+      on: {
+        font-size: 20px
+      }
+      non: {
+        font-size: 10px
+      }
+    }
+  }
+})
+
+ctr('.test', {
+  // SYNTAX_YAML
+  width: 200px
+  merge: ['$obj1$', '$obj2$']
+})
+
+
+ctr('.test', {
+  width: 200px
+  merge: '$obj1$' '$obj2$'
+})

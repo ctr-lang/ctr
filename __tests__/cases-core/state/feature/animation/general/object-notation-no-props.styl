@@ -1,0 +1,89 @@
+.test
+  ctr({
+    width: 200px
+    hover: {
+      on: {
+        anim: {
+          one: {
+            name: 'beerOne'
+            tl: {
+              '50': {
+                color: red
+              }
+            }
+          }
+          two: {
+            name: 'beerTwo'
+            tl: {
+              '50': {
+                background: red
+              }
+            }
+          }
+        }
+      }
+      non: {
+        anim: {
+          one: {
+            //anim tl picked up from above
+            name: 'beerOne'
+            option: {
+              duration: 1s
+            }
+          }
+          two: {
+            //anim tl picked up from above
+            name: 'beerTwo'
+            option: {
+              delay: 2s
+            }
+          }
+        }
+      }
+    }
+  })
+
+
+ctr('.test', {
+  width: 200px
+  hover: {
+    on: {
+      anim: {
+        one: {
+          name: 'beerOne'
+          tl: {
+            '50': {
+              color: red
+            }
+          }
+        }
+        two: {
+          name: 'beerTwo'
+          tl: {
+            '50': {
+              background: red
+            }
+          }
+        }
+      }
+    }
+    non: {
+      anim: {
+        one: {
+          //anim tl picked up from above
+          name: 'beerOne'
+          option: {
+            duration: 1s
+          }
+        }
+        two: {
+          //anim tl picked up from above
+          name: 'beerTwo'
+          option: {
+            delay: 2s
+          }
+        }
+      }
+    }
+  }
+})

@@ -1,0 +1,66 @@
+// File generated from ---> overwrite.less-yml.styl
+
+//$base -> no optiosn
+ctr('.test-1', {
+  // SYNTAX_YAML
+  size: 200px
+  hover:
+    on:
+      width: 400px
+})
+
+ctrSetOption({
+  // SYNTAX_YAML
+  hover:
+    duration: 10s
+    delay: 10s
+    ease: 'ease-out'
+})
+
+
+//with options
+ctr('.test-2', {
+  // SYNTAX_YAML
+  size: 200px
+  hover:
+    on:
+      width: 400px
+})
+
+//should fail beucase opts are already defined
+ctrSetOption({
+  // SYNTAX_YAML
+  hover:
+    duration: 422s
+    delay: 100s
+    ease: 'ease-in'
+})
+
+//should === .test-2
+ctr('.test-3', {
+  // SYNTAX_YAML
+  size: 200px
+  hover:
+    on:
+      width: 400px
+})
+
+//this time pass overwrite
+ctrSetOption({
+  // SYNTAX_YAML
+  hover:
+    duration: 422s
+    delay: 100s
+    ease: 'ease-in'
+  set:::option:
+    overwrite: true
+})
+
+//should now have new options
+ctr('.test-4', {
+  // SYNTAX_YAML
+  size: 200px
+  hover:
+    on:
+      width: 400px
+})

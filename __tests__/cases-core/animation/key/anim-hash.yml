@@ -1,0 +1,36 @@
+# File generated from ---> anim-hash.styl
+
+
+.test:::0:
+  width: 200px
+  anim:
+    option:
+      name: 'kool__hash__'
+      hashTest: true
+    tl:
+      '50':
+        color: red
+  anim-cruzin__hash__:
+    option:
+      hashTest: true
+    tl:
+      '50':
+        color: blue
+
+
+.test:::1:
+  width: 200px
+  anim:
+    option:
+      name: 'kool__hash__'
+      hashTest: true
+    tl:
+      '50':
+        color: red
+  anim-cruzin__hash__:
+    option:
+      hashTest: true
+    tl:
+      '50':
+        color: blue
+

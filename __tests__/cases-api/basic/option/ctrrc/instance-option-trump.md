@@ -1,0 +1,1 @@
+__Description__: Instance options should trump rc optiops

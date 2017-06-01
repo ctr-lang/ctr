@@ -1,0 +1,32 @@
+// File generated from ---> animation.styl 
+
+ctrSetClass('$myAminClass', {
+  // SYNTAX_YAML
+  width: 200px
+  anim:
+    name: 'test'
+    tl:
+      '50':
+        color: red
+  
+})
+ctrSetClass('$myAminClass', {
+  width: 200px
+  anim: {
+    name: 'test'
+    tl: {
+      '50': {
+        color: red
+      }
+    }
+  }
+})
+
+ctr('.test', {
+  // SYNTAX_YAML
+  extend: '$myAminClass'
+})
+
+ctr('.test', {
+  extend: '$myAminClass'
+})

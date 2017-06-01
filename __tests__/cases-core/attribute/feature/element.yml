@@ -1,0 +1,24 @@
+# File generated from ---> element.styl
+
+
+.test:::0:
+  width: 200px
+  component:
+    'div':
+      attribute:
+        key: '[data-role="test"]'
+        width: 300px
+        first-child:
+          font-size: 10px
+
+
+.test:::1:
+  width: 200px
+  component:
+    'div':
+      attribute:
+        key: '[data-role="test"]'
+        width: 300px
+        first-child:
+          font-size: 10px
+

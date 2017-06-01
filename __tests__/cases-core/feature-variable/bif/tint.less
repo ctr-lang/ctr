@@ -1,0 +1,19 @@
+// File generated from ---> tint.styl 
+
+ctr('.test', {
+  // SYNTAX_YAML
+  $$:
+    base: '#fd0cc7'
+    bg: "tint($base$, 66%)"
+  background: "$bg$"
+  color: 'tint(#fd0cc7,66%)'
+})
+
+ctr('.test', {
+  $$: {
+    base: '#fd0cc7'
+    bg: "tint($base$, 66%)"
+  }
+  background: "$bg$"
+  color: tint(#fd0cc7,66%)
+})

@@ -1,0 +1,66 @@
+// File generated from ---> three-row.styl 
+
+//flex
+ctr('.test', {
+  // SYNTAX_YAML
+  grid:
+    row:
+      fraction: '1/3'
+  
+})
+
+ctr('.test', {
+  grid: {
+    row: {
+      fraction: '1/3'
+    }
+  }
+})
+
+//non-flex
+ctr('.test', {
+  // SYNTAX_YAML
+  grid:
+    row:
+      fraction: '1/3'
+      flex: false
+  
+})
+
+ctr('.test', {
+  grid: {
+    row: {
+      fraction: '1/3'
+      flex: false
+    }
+  }
+})
+
+
+//flex
+ctr('.test', {
+  // SYNTAX_YAML
+  grid:
+    row: '1/3'
+  
+})
+
+ctr('.test', {
+  grid: {
+    row: '1/3'
+  }
+})
+
+//non-flex
+ctr('.test', {
+  // SYNTAX_YAML
+  grid:
+    row: ['1/3', default, false]
+  
+})
+
+ctr('.test', {
+  grid: {
+    row: '1/3' default false
+  }
+})

@@ -1,0 +1,42 @@
+.test
+  ctr({
+    width: 200px
+    comp-span: {
+      font-size: 10px
+    }
+    comp-p: {
+      font-size: 20px
+    }
+    'comp-.class': {
+      width: 300px
+    }
+    'comp-#id': {
+      width: 400px
+    }
+    'comp-h1': {
+      //override hyphn key
+      key: '.override'
+      width: 500px
+    }
+  })
+
+ctr('.test', {
+  width: 200px
+  comp-span: {
+    font-size: 10px
+  }
+  comp-p: {
+    font-size: 20px
+  }
+  'comp-.class': {
+    width: 300px
+  }
+  'comp-#id': {
+    width: 400px
+  }
+  'comp-h1': {
+    //override hyphn key
+    key: '.override'
+    width: 500px
+  }
+})

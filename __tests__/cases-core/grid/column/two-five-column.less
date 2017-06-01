@@ -1,0 +1,70 @@
+// File generated from ---> two-five-column.styl 
+
+//flex
+ctr('.test', {
+  // SYNTAX_YAML
+  grid:
+    column:
+      fraction: '2/5'
+  
+})
+
+ctr('.test', {
+  grid: {
+    column: {
+      fraction: '2/5'
+    }
+  }
+})
+
+//non-flex
+ctr('.test', {
+  // SYNTAX_YAML
+  grid:
+    column:
+      fraction: '2/5'
+      flex: false
+  
+})
+
+ctr('.test', {
+  grid: {
+    column: {
+      fraction: '2/5'
+      flex: false
+    }
+  }
+})
+
+
+//flex
+ctr('.test', {
+  // SYNTAX_YAML
+  grid:
+    //fraction cycle gutter flex
+    column: '2/5'
+  
+})
+
+ctr('.test', {
+  grid: {
+    //fraction cycle gutter flex
+    column: '2/5'
+  }
+})
+
+//non-flex
+ctr('.test', {
+  // SYNTAX_YAML
+  grid:
+    //fraction cycle gutter flex
+    column: ['2/5', default, default, false]
+  
+})
+
+ctr('.test', {
+  grid: {
+    //fraction cycle gutter flex
+    column: '2/5' default default false
+  }
+})

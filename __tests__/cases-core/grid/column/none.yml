@@ -1,0 +1,24 @@
+# File generated from ---> none.styl
+
+
+.test:::0:
+  grid:
+    column:
+      none: true
+
+
+.test:::1:
+  grid:
+    column:
+      none: true
+
+
+.test:::2:
+  grid:
+    column: none
+
+
+.test:::3:
+  grid:
+    column: 'none'
+

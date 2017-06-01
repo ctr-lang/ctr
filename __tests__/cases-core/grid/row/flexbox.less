@@ -1,0 +1,40 @@
+// File generated from ---> flexbox.styl 
+
+ctr('.test', {
+  // SYNTAX_YAML
+  grid:
+    row:
+      fraction: '2/6'
+      gutter: 60px
+      //default true
+      flex: true
+  
+})
+
+ctr('.test', {
+  grid: {
+    row: {
+      fraction: '2/6'
+      gutter: 60px
+      //default true
+      flex: true
+    }
+  }
+})
+
+
+ctr('.test', {
+  // SYNTAX_YAML
+  grid:
+    // fraction gutter flex
+    row: ['2/6', '60px', 'true']
+  
+})
+
+
+ctr('.test', {
+  grid: {
+    // fraction gutter flex
+    row: '2/6' '60px' 'true'
+  }
+})

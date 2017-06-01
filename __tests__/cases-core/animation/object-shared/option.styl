@@ -1,0 +1,104 @@
+.test
+  ctr({
+    anim: {
+      option: {
+        multiple: true
+        duration: 10s
+        delay: 1s
+        state: paused
+      }
+      timeline: {
+        tlOne: {
+          "50%": {
+            background: purple
+          }
+        }
+        koolBrah: {
+          //name will be tlTwo
+          name: tlTwo
+          "50%": {
+            color: yellow
+          }
+        }
+      }
+    }
+  })
+
+ctr('.test', {
+  anim: {
+    option: {
+      multiple: true
+      duration: 10s
+      delay: 1s
+      state: paused
+    }
+    timeline: {
+      tlOne: {
+        "50%": {
+          background: purple
+        }
+      }
+      koolBrah: {
+        //name will be tlTwo
+        name: tlTwo
+        "50%": {
+          color: yellow
+        }
+      }
+    }
+  }
+})
+
+
+//multiple outside of option
+.test
+  ctr({
+    anim: {
+      multiple: true
+      option: {
+        duration: 10s
+        delay: 1s
+        state: paused
+      }
+      timeline: {
+        tlOne: {
+          "50%": {
+            background: purple
+          }
+        }
+        koolBrah: {
+          //name will be tlTwo
+          name: tlTwo
+          "50%": {
+            color: yellow
+          }
+        }
+      }
+    }
+  })
+
+
+
+ctr('.test', {
+  anim: {
+    multiple: true
+    option: {
+      duration: 10s
+      delay: 1s
+      state: paused
+    }
+    timeline: {
+      tlOne: {
+        "50%": {
+          background: purple
+        }
+      }
+      koolBrah: {
+        name: tlTwo
+        "50%": {
+          color: yellow
+        }
+      }
+    }
+  }
+})

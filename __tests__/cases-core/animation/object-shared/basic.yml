@@ -1,0 +1,30 @@
+# File generated from ---> basic.styl
+
+
+.test:::0:
+  anim:
+    multiple: true
+    timeline:
+      tlOne:
+        "50%":
+          background: purple
+      koolBrah:
+        # timeline name === tlTwo
+        name: tlTwo
+        "50%":
+          color: yellow
+
+
+.test:::1:
+  anim:
+    multiple: true
+    timeline:
+      tlOne:
+        "50%":
+          background: purple
+      koolBrah:
+        # timeline name === tlTwo
+        name: tlTwo
+        "50%":
+          color: yellow
+

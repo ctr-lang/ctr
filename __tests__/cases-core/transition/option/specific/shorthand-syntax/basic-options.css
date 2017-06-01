@@ -1,0 +1,14 @@
+.test {
+  width: 100px;
+  height: 100px;
+  background: #f00;
+  transform: scale(2);
+  transition: transform 10s ease-out 2s, background 10s ease-out 2s;
+}
+.test {
+  width: 100px;
+  height: 100px;
+  background: #f00;
+  transform: scale(2);
+  transition: transform 10s ease-out 2s, background 10s ease-out 2s;
+}

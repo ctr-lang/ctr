@@ -1,0 +1,54 @@
+# File generated from ---> custom.styl
+
+
+.test:::0:
+  customAnimations:
+    one:
+      name: 'tlOne'
+      timeline:
+        '50':
+          background: green
+    tlTwo:
+      timeline:
+        '50':
+          color: green
+
+
+.test:::1:
+  customAnimationsHello:
+    one:
+      name: 'tlOne'
+      timeline:
+        '50':
+          background: green
+    tlTwo:
+      timeline:
+        '50':
+          color: green
+
+
+.test:::2:
+  customAnims:
+    one:
+      name: 'tlOne'
+      timeline:
+        '50':
+          background: green
+    tlTwo:
+      timeline:
+        '50':
+          color: green
+
+
+.test:::3:
+  customAnimsEllo:
+    one:
+      name: 'tlOne'
+      timeline:
+        '50':
+          background: green
+    tlTwo:
+      timeline:
+        '50':
+          color: green
+

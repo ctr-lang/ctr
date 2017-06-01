@@ -1,0 +1,16 @@
+$font-size-1 = 10px
+$font-size-2 = 20px
+$font-size-3 = 30px
+
+for i in 1..3
+  .text-{i}
+    ctr({
+      width: 200px
+      font-size: lookup('$font-size-' + i)
+    })
+
+for i in 1..3
+  ctr('.test-' + i, {
+    width: 200px
+    font-size: lookup('$font-size-' + i)
+  })

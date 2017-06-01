@@ -1,0 +1,37 @@
+ctrSetOption({
+  global: {
+    sort: '-len'
+  }
+  transitionDefault: {
+    duration: 2s
+  }
+})
+
+
+//local override
+.test
+  ctr({
+    option: {
+      global: {
+        sort: 'len'
+      }
+    }
+    width: 200px
+    hover: {
+      background: green
+    }
+  })
+
+
+ctr('.test', {
+  option: {
+    transitionDefault: {
+      duration: 1s
+    }
+  }
+  width: 200px
+  hover: {
+    background: green
+  }
+})
+

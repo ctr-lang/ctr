@@ -1,0 +1,1 @@
+__Description__: Should be able to use a `responsive-text` within a `transition`

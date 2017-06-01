@@ -1,0 +1,1 @@
+__Description__: Should be able to use `responsive-text` element within a `non`

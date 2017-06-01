@@ -1,0 +1,20 @@
+ctrSetClass('$evalKalc', {
+  $$: {
+    base: 10
+    eval: {
+      w: "kalc($base$ * 20px / 2)"
+      h: "kalc(($base$ * 20px) / 1.5)"
+    }
+  }
+  height: "$eval.w$"
+  width: "$eval.h$"
+})
+
+.test
+  ctr({
+    extend: $evalKalc
+  })
+
+ctr('.test', {
+  extend: $evalKalc
+})

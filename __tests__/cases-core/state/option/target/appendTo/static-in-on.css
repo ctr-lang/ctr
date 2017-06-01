@@ -1,0 +1,26 @@
+.test {
+  width: 200px;
+}
+.test:hover {
+  font-size: 20px;
+  transition-delay: 0s;
+  transition-duration: 0.5s;
+  transition-property: font-size;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test:hover.appendTo {
+  background: #008000;
+}
+.test {
+  width: 200px;
+}
+.test:hover {
+  font-size: 20px;
+  transition-delay: 0s;
+  transition-duration: 0.5s;
+  transition-property: font-size;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test:hover.appendTo {
+  background: #008000;
+}

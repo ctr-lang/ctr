@@ -1,0 +1,1 @@
+__Description__: The user should be able to create a `before` element using the `before: {}` object syntax

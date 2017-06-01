@@ -1,0 +1,20 @@
+//extend class
+ctrSetClass('$buttonOver', {
+  width: 200px
+  height: 200px
+  background: green
+})
+
+
+.test
+  ctr({
+    height: 300px
+    extend: '$buttonOver'
+  })
+
+
+ctr('.test', {
+  extend: '$buttonOver'
+  height: 300px
+})
+

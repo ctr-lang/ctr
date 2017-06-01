@@ -1,0 +1,24 @@
+# File generated from ---> animation.styl
+
+
+.test:::0:
+  width: 200px
+  transition:
+    height: 200px
+    animation:
+      name: 'test'
+      tl:
+        '50':
+          background: black
+
+
+.test:::1:
+  width: 200px
+  transition:
+    height: 200px
+    animation:
+      name: 'test'
+      tl:
+        '50':
+          background: black
+

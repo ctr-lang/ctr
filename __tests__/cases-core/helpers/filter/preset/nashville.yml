@@ -1,0 +1,12 @@
+# File generated from ---> nashville.styl
+
+
+.test:::0:
+  width: 600px
+  filter: 'nashville'
+
+
+.test:::1:
+  width: 600px
+  filter: 'nashville'
+

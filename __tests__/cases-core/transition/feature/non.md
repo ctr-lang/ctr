@@ -1,0 +1,1 @@
+__Description__: Should be able to use a `non` within a `transition` object

@@ -1,0 +1,42 @@
+# File generated from ---> step-option.yml.styl
+
+
+.test:::0:
+  anim:
+    timeline: 'stepTest'
+    option:
+      ease: steps(5, start)
+
+
+.test:::1:
+  anim:
+    timeline: 'stepTest'
+    option:
+      ease: steps(5, start)
+
+
+.test:::2:
+  anim:
+    timeline: 'stepTest'
+    option:
+      ease: 'steps(5, start)'
+
+
+.test:::3:
+  anim:
+    timeline: 'stepTest'
+    option:
+      ease: 'steps(5, start)'
+
+
+.test:::4:
+  anim:
+    shorthand:
+      stepTest: [default, default, 'steps(5, start)']
+
+
+.test:::5:
+  anim:
+    shorthand:
+      stepTest: [default, default, 'steps(5, start)']
+

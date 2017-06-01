@@ -1,0 +1,81 @@
+.test
+  ctr({
+    width: 200px
+    comp: {
+      'div': {
+        'attr-[class*="te"]': {
+          background: teal
+        }
+      }
+    }
+  })
+
+
+ctr('.test', {
+  width: 200px
+  comp: {
+    'div': {
+      'attr-[class*="te"]': {
+        background: teal
+      }
+    }
+  }
+})
+
+
+//bracketltess
+.test
+  ctr({
+    width: 200px
+    comp: {
+      'div': {
+        'attr-class*="te"': {
+          background: teal
+        }
+      }
+    }
+  })
+
+
+ctr('.test', {
+  width: 200px
+  comp: {
+    'div': {
+      'attr-class*="te"': {
+        background: teal
+      }
+    }
+  }
+})
+
+
+//override
+.test
+  ctr({
+    width: 200px
+    comp: {
+      'div': {
+        'attr-class*="te"': {
+          background: teal
+          option: {
+            key: 'class*="artisin"'
+          }
+        }
+      }
+    }
+  })
+
+
+ctr('.test', {
+  width: 200px
+  comp: {
+    'div': {
+      'attr-class*="te"': {
+        background: teal
+        option: {
+          key: 'class*="artisin"'
+        }
+      }
+    }
+  }
+})

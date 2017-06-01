@@ -1,0 +1,29 @@
+//should have a duration of 10s, delay of 100s
+
+.test-1
+  ctr({
+    //should overwrtie
+    option: {
+      hover: {
+        delay: 100s
+      }
+    }
+    width: 200px
+    hover-on: {
+      color: red
+    }
+  })
+
+
+ctr('.test-2'{
+  //should overwrtie
+  option: {
+    hover: {
+      delay: 100s
+    }
+  }
+  width: 200px
+  hover-on: {
+    color: red
+  }
+})

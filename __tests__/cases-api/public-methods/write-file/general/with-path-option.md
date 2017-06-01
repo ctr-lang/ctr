@@ -1,0 +1,1 @@
+__Description__: The `filePath` can be defined in the option object

@@ -1,0 +1,24 @@
+.test
+  ctr({
+    width: 200px
+    trans: {
+      height: 420px
+      font-size: 2rem
+      shorthand: {
+        height: 1s default ease-in
+        font-size: 0.5s 0.25s ease-out
+      }
+    }
+  })
+
+ctr('.test', {
+  width: 200px
+  transition: {
+    height: 420px
+    font-size: 2rem
+    shorthand: {
+      height: 1s default ease-in
+      font-size: 0.5s 0.25s ease-out
+    }
+  }
+})

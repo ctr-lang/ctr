@@ -1,0 +1,46 @@
+
+# invalid no set vars
+# since there is no set vars yet
+# ctr will not check the vars thus
+# it will not throw a warning and the
+# val will not be $var-not-found$
+# it will just be the strings above
+.test-1:
+  width: 200px
+  height: $height$
+  color: $color$
+  top: $top$
+
+
+ctr:::setVariable:1:
+  height: 200px
+
+# height -> vars not found
+.test-2:
+  width: 200px
+  height: $height$
+  color: $color$
+  top: $top$
+
+ctr:::setVariable:2:
+  color: red
+
+# color -> vars not found
+.test-3:
+  width: 200px
+  height: $height$
+  color: $color$
+  top: $top$
+
+ctr:::setVariable:3:
+  top: 50
+
+# alll
+.test-4:
+  width: 200px
+  height: $height$
+  color: $color$
+  top: $top$
+
+
+

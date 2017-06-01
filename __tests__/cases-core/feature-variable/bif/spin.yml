@@ -1,0 +1,18 @@
+# File generated from ---> spin.styl
+
+
+.test:::0:
+  $$:
+    base: '#ff0000'
+    bg: "spin($base$, 90deg)"
+  background: "$bg$"
+  color: 'spin(#ff0000, 90deg)'
+
+
+.test:::1:
+  $$:
+    base: '#ff0000'
+    bg: "spin($base$, 90deg)"
+  background: "$bg$"
+  color: 'spin(#ff0000, 90deg)'
+

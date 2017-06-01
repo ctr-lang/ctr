@@ -1,0 +1,1 @@
+__Description__: If there is a combination of `delay: <value>`, `duration: <value>`, and `ease: <value>` key/value pairs in the `option` object within a `on` `state` object then said `options` values should be applied across all properties in `<selector>:<state>`

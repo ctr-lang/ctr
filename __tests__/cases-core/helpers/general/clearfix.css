@@ -1,0 +1,52 @@
+.test {
+  width: 200px;
+}
+.test::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+.test {
+  width: 200px;
+}
+.test::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+.test {
+  width: 200px;
+}
+.test::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+.test > .clear::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+.test > .clear:first-child::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+.test {
+  width: 200px;
+}
+.test::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+.test > .clear::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+.test > .clear:first-child::after {
+  clear: both;
+  content: "";
+  display: table;
+}

@@ -1,0 +1,37 @@
+.test {
+  width: 200px;
+}
+.test:nth-child(n+2):nth-last-child(n+2) {
+  height: 400px;
+}
+.test {
+  width: 200px;
+}
+.test:nth-child(n+2):nth-last-child(n+2) {
+  height: 400px;
+}
+.test {
+  width: 200px;
+}
+.test:nth-child(n+2):nth-last-child(n+2) {
+  height: 400px;
+}
+.test {
+  width: 200px;
+}
+.test:nth-child(n+2):nth-last-child(n+2) {
+  height: 400px;
+}
+.test {
+  width: 200px;
+}
+.test:nth-child(n+2):nth-last-child(n+2) {
+  height: 400px;
+}
+.test {
+  width: 200px;
+}
+.test:nth-child(n+2):nth-last-child(n+2) {
+  height: 400px;
+}
+

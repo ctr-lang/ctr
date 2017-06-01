@@ -1,0 +1,64 @@
+.test {
+  width: 200px;
+}
+@media not screen, (min-width: 200px), (min-height: 200px) {
+  .test {
+    width: 100px;
+  }
+}
+.test {
+  width: 200px;
+}
+@media not screen, (min-width: 200px), (min-height: 200px) {
+  .test {
+    width: 100px;
+  }
+}
+.test {
+  width: 200px;
+}
+@media only screen, (min-width: 200px), (min-height: 200px) {
+  .test {
+    width: 100px;
+  }
+}
+.test {
+  width: 200px;
+}
+@media only screen, (min-width: 200px), (min-height: 200px) {
+  .test {
+    width: 100px;
+  }
+}
+.test {
+  width: 200px;
+}
+@media not screen, (min-width: 200px), (min-height: 200px) {
+  .test {
+    width: 100px;
+  }
+}
+.test {
+  width: 200px;
+}
+@media not screen, (min-width: 200px), (min-height: 200px) {
+  .test {
+    width: 100px;
+  }
+}
+.test {
+  width: 200px;
+}
+@media only screen, (min-width: 200px), (min-height: 200px) {
+  .test {
+    width: 100px;
+  }
+}
+.test {
+  width: 200px;
+}
+@media only screen, (min-width: 200px), (min-height: 200px) {
+  .test {
+    width: 100px;
+  }
+}

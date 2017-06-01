@@ -1,0 +1,18 @@
+# File generated from ---> lighten.styl
+
+
+.test:::0:
+  $$:
+    base: red
+    bg: "lighten($base$, 20%)"
+  background: "$bg$"
+  color: lighten(red, 20%)
+
+
+.test:::1:
+  $$:
+    base: red
+    bg: "lighten($base$, 20%)"
+  background: "$bg$"
+  color: lighten(red, 20%)
+

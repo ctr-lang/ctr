@@ -1,0 +1,22 @@
+.test {
+  width: 200px;
+}
+.test:not(.today) {
+  top: 1111px;
+  left: 2222px;
+  right: 2222px;
+  bottom: 1111px;
+  font-size: 1111px;
+  position: absolute;
+}
+.test {
+  width: 200px;
+}
+.test:not(.today) {
+  top: 1111px;
+  left: 2222px;
+  right: 2222px;
+  bottom: 1111px;
+  font-size: 1111px;
+  position: absolute;
+}

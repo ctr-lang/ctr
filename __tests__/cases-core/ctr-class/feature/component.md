@@ -1,0 +1,1 @@
+__Description__: Should be able to use `component` within a `CtrClass`

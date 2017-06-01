@@ -1,0 +1,34 @@
+ctrSetClass('$local', {
+  $$: {
+    size: 10px
+    prop: 'font-size'
+  }
+  '_$prop$_': '_$size$_'
+})
+
+.test
+  ctr({
+    extend: '$local'
+  })
+
+ctr('.test', {
+  extend: '$local'
+})
+
+.test
+  ctr({
+    extend: {
+      $local: {
+        prop: 'width'
+      }
+    }
+  })
+
+ctr('.test', {
+  extend: {
+    $local: {
+      prop: 'width'
+    }
+  }
+})
+

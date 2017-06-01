@@ -1,0 +1,1 @@
+__Description__: If there is a combination of `delay: <value>`, `duration: <value>`, and `ease: <value>` key/value pair in the `option` object within a `common` `state` object then said `option` values should be applied in both `<selector>:<state>` and `<selector>:not(:<state>)`

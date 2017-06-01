@@ -1,0 +1,44 @@
+.test
+  ctr({
+    width: 200px
+    hover: {
+      common: {
+        option: {
+          ease: tedious
+        }
+      }
+      on: {
+        font-size: 20px
+        //override
+        option: {
+          ease: funky-town
+        }
+      }
+      non: {
+        font-size: 10px
+      }
+    }
+  })
+
+
+
+ctr('.test', {
+  width: 200px
+  hover: {
+    common: {
+      option: {
+        ease: tedious
+      }
+    }
+    on: {
+      font-size: 20px
+      //override
+      option: {
+        ease: funky-town
+      }
+    }
+    non: {
+      font-size: 10px
+    }
+  }
+})

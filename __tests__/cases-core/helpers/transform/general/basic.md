@@ -1,0 +1,1 @@
+__Description__: If transform is a object it should take that object and create a single val for the transform value by combining the key value pairs

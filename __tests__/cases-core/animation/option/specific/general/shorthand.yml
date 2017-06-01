@@ -1,0 +1,52 @@
+# File generated from ---> shorthand.styl
+
+
+.test:::0:
+  width: 400px
+  anim:
+    # name will be picked up from shorthand key
+    shorthand:
+      # dur, delay, ease, count, dir, mode, state
+      test: [1s, default, ease-in, 5, reverse, both, paused]
+    timeline:
+      '50':
+        background: teal
+
+
+.test:::1:
+  width: 400px
+  anim:
+    # name will be picked up from shorthand key
+    shorthand:
+      # dur, delay, ease, count, dir, mode, state
+      test: [1s, default, ease-in, 5, reverse, both, paused]
+    timeline:
+      '50':
+        background: teal
+
+
+.test:::2:
+  width: 400px
+  anim:
+    option:
+      # name will be picked up from shorthand key
+      shorthand:
+        # dur, delay, ease, count, dir, mode, state
+        test: [1s, default, ease-in, 5, reverse, both, paused]
+    timeline:
+      '50':
+        background: teal
+
+
+.test:::3:
+  width: 400px
+  anim:
+    option:
+      # name will be picked up from shorthand key
+      shorthand:
+        # dur, delay, ease, count, dir, mode, state
+        test: [1s, default, ease-in, 5, reverse, both, paused]
+    timeline:
+      '50':
+        background: teal
+

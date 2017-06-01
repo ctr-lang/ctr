@@ -1,0 +1,37 @@
+// File generated from ---> clearfix.styl 
+
+ctr('.test', {
+  // SYNTAX_YAML
+  width: 200px
+  clearfix: true
+})
+
+ctr('.test', {
+  width: 200px
+  clearfix: true
+})
+
+ctr('.test', {
+  // SYNTAX_YAML
+  width: 200px
+  clearfix: true
+  comp:
+    '.clear':
+      clearfix: true
+      first-child:
+        clearfix: true
+  
+})
+
+ctr('.test', {
+  width: 200px
+  clearfix: true
+  comp: {
+    '.clear': {
+      clearfix: true
+      first-child: {
+        clearfix: true
+      }
+    }
+  }
+})

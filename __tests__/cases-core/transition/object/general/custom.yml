@@ -1,0 +1,28 @@
+# File generated from ---> custom.styl
+
+
+.test:::0:
+  width: 200px
+  customTransitions:
+    one:
+      option:
+        ease: 'ease-out'
+      height: 200px
+    two:
+      font-size: 1em
+    three:
+      left: 10px
+
+
+.test:::1:
+  width: 200px
+  customTransitionsOneTwoThree:
+    one:
+      option:
+        ease: 'ease-out'
+      height: 200px
+    two:
+      font-size: 1em
+    three:
+      left: 10px
+

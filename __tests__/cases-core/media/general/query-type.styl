@@ -1,0 +1,47 @@
+//object
+.test
+  ctr({
+    width: 200px
+    media: {
+      width: 100px
+      query: {
+        type: {
+          media: screen
+        }
+      }
+    }
+  })
+
+ctr('.test', {
+  width: 200px
+  media: {
+    width: 100px
+    query: {
+      type: {
+        media: 'screen'
+      }
+    }
+  }
+})
+
+//shorthand
+.test
+  ctr({
+    width: 200px
+    media: {
+      width: 100px
+      query: {
+        type: screen
+      }
+    }
+  })
+
+ctr('.test', {
+  width: 200px
+  media: {
+    width: 100px
+    query: {
+      type: 'screen'
+    }
+  }
+})

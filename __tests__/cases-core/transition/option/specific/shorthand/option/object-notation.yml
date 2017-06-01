@@ -1,0 +1,44 @@
+# File generated from ---> object-notation.styl
+
+
+.test:::0:
+  width: 300px
+  trans:
+    one:
+      background: green
+    two:
+      height: 500px
+      color: red
+    three:
+      letter-spacing: green
+      font-size: 2rem
+      option:
+        ease: ease-in
+      shorthand:
+        letter-spacing: [1s, 0.2s]
+        font-size: [0.5s, 0.25s, ease-out]
+    global:
+      option:
+        duration: 1s
+
+
+.test:::1:
+  width: 300px
+  transition:
+    one:
+      background: green
+    two:
+      height: 500px
+      color: red
+    three:
+      letter-spacing: green
+      font-size: 2rem
+      option:
+        ease: ease-in
+      shorthand:
+        letter-spacing: [1s, 0.2s]
+        font-size: [0.5s, 0.25s, ease-out]
+    global:
+      option:
+        duration: 1s
+

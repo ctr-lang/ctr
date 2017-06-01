@@ -1,0 +1,51 @@
+// File generated from ---> option.styl 
+
+ctr('.test', {
+  // SYNTAX_YAML
+  width: 200px
+  hover:
+    common:
+      option:
+        duration: 1s
+        delay: 20s
+        ease: ease-out
+    on:
+      height: 300px
+      option:
+        //overwrite common
+        duration: 2s
+    non:
+      height: 200px
+      option:
+        //overwrite common
+        delay: 2s
+  
+})
+
+
+ctr('.test', {
+  width: 200px
+  hover: {
+    common: {
+      option: {
+        duration: 1s
+        delay: 20s
+        ease: ease-out
+      }
+    }
+    on: {
+      height: 300px
+      option: {
+        //overwrite common
+        duration: 2s
+      }
+    }
+    non: {
+      height: 200px
+      option: {
+        //overwrite common
+        delay: 2s
+      }
+    }
+  }
+})

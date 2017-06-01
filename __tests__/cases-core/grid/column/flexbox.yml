@@ -1,0 +1,34 @@
+# File generated from ---> flexbox.styl
+
+
+.test:::0:
+  grid:
+    column:
+      fraction: '2/6'
+      cycle: 3
+      gutter: 60px
+      # default === true
+      #  flex: true
+
+
+.test:::1:
+  grid:
+    column:
+      fraction: '2/6'
+      cycle: 3
+      gutter: 60px
+      # default === true
+      #  flex: true
+
+
+.test:::2:
+  grid:
+    # fraction cycle gutter flex
+    column: ['2/6', '3', '60px']
+
+
+.test:::3:
+  grid:
+    # fraction cycle gutter flex
+    column: ['2/6', '3', '60px']
+

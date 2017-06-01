@@ -1,0 +1,24 @@
+.test-1 {
+  top: $top$;
+  width: 200px;
+  color: $color$;
+  height: $height$;
+}
+.test-2 {
+  top: 50;
+  color: #f00;
+  width: 200px;
+  height: 200px;
+}
+.test-3 {
+  top: 100;
+  width: 200px;
+  height: 400px;
+  color: "$var-not-found$";
+}
+.test-4 {
+  top: 50;
+  color: #f00;
+  width: 200px;
+  height: 200px;
+}

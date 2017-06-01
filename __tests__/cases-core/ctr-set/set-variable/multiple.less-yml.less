@@ -1,0 +1,60 @@
+
+//invalid no set vars
+//since there is no set vars yet
+//ctr will not check the vars thus
+//it will not throw a warning and the
+//val will not be $var-not-found$
+//it will just be the strings above
+ctr('.test-1', {
+  // SYNTAX_YAML
+  width: '200px'
+  height: '$height$'
+  color: '$color$'
+  top: '$top$'
+})
+
+
+ctrSetVariable({
+  // SYNTAX_YAML
+  height: '200px'
+})
+
+//height -> vars not found
+ctr('.test-2', {
+  // SYNTAX_YAML
+  width: '200px'
+  height: '$height$'
+  color: '$color$'
+  top: '$top$'
+})
+
+ctrSetVariable({
+  // SYNTAX_YAML
+  color: 'red'
+})
+
+//color -> vars not found
+ctr('.test-3', {
+  // SYNTAX_YAML
+  width: '200px'
+  height: '$height$'
+  color: '$color$'
+  top: '$top$'
+})
+
+ctrSetVariable({
+  // SYNTAX_YAML
+  top: 50
+})
+
+//alll
+ctr('.test-4', {
+  // SYNTAX_YAML
+  width: '200px'
+  height: '$height$'
+  color: '$color$'
+  top: '$top$'
+})
+
+
+

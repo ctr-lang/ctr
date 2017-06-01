@@ -1,0 +1,62 @@
+.test
+  ctr({
+    width: 200px
+    animations: {
+      common: {
+        option: {
+          duration: 2s
+          state: 'paused'
+        }
+        timeline: {
+          '44': {
+            opacity: 1
+          }
+          '66': {
+            opacity: 0
+          }
+        }
+      }
+      one: {
+        option: {
+          name: 'tlOne'
+        }
+        timeline: {
+          '50': {
+            background: green
+          }
+        }
+      }
+      two: true
+    }
+  })
+
+ctr('.test', {
+  width: 200px
+  animations: {
+    common: {
+      option: {
+        duration: 2s
+        state: 'paused'
+      }
+      timeline: {
+        '44': {
+          opacity: 1
+        }
+        '66': {
+          opacity: 0
+        }
+      }
+    }
+    one: {
+      option: {
+        name: 'tlOne'
+      }
+      timeline: {
+        '50': {
+          background: green
+        }
+      }
+    }
+    two: true
+  }
+})

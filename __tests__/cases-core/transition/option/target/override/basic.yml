@@ -1,0 +1,10 @@
+# File generated from ---> basic.styl
+
+
+.test:::0:
+  width: 200px
+  transition:
+    font-size: 20px
+    option:
+      override: '#override'
+

@@ -1,0 +1,46 @@
+# File generated from ---> easeInOutCirc.styl
+
+
+.test:::0:
+  width: 200px
+  anim:
+    option:
+      name: 'test'
+      ease: 'easeInOutCirc'
+    tl:
+      '50':
+        width: 400px
+
+
+.test:::1:
+  width: 200px
+  anim:
+    option:
+      name: 'test'
+      ease: 'easeInOutCirc'
+    tl:
+      '50':
+        width: 400px
+
+
+.test:::2:
+  width: 200px
+  anim:
+    option:
+      name: 'test'
+      ease: 'ease-in-out-circ'
+    tl:
+      '50':
+        width: 400px
+
+
+.test:::3:
+  width: 200px
+  anim:
+    option:
+      name: 'test'
+      ease: 'ease-in-out-circ'
+    tl:
+      '50':
+        width: 400px
+

@@ -1,0 +1,1 @@
+__Description__: A state `<identifier>` can be specified with a hyphenated object key that matches the Regex of `/^state-/i`.

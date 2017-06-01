@@ -1,0 +1,12 @@
+.test {
+  transition-delay: 0s;
+  transition-property: all;
+  transition-duration: 10s;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test {
+  transition-delay: 0s;
+  transition-property: all;
+  transition-duration: 10s;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}

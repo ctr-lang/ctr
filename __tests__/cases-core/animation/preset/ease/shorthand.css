@@ -1,0 +1,64 @@
+.test {
+  width: 200px;
+  animation-delay: 0s;
+  animation-name: test;
+  animation-duration: 1s;
+  animation-fill-mode: none;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-play-state: running;
+  animation-timing-function: cubic-bezier(0.47, 0, 0.745, 0.715);
+}
+@keyframes test {
+  50% {
+    width: 400px;
+  }
+}
+.test {
+  width: 200px;
+  animation-delay: 0s;
+  animation-name: test;
+  animation-duration: 1s;
+  animation-fill-mode: none;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-play-state: running;
+  animation-timing-function: cubic-bezier(0.47, 0, 0.745, 0.715);
+}
+@keyframes test {
+  50% {
+    width: 400px;
+  }
+}
+.test {
+  width: 200px;
+  animation-delay: 0s;
+  animation-name: test;
+  animation-duration: 1s;
+  animation-fill-mode: none;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-play-state: running;
+  animation-timing-function: cubic-bezier(0.47, 0, 0.745, 0.715);
+}
+@keyframes test {
+  50% {
+    width: 400px;
+  }
+}
+.test {
+  width: 200px;
+  animation-delay: 0s;
+  animation-name: test;
+  animation-duration: 1s;
+  animation-fill-mode: none;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-play-state: running;
+  animation-timing-function: cubic-bezier(0.47, 0, 0.745, 0.715);
+}
+@keyframes test {
+  50% {
+    width: 400px;
+  }
+}

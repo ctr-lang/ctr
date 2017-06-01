@@ -1,0 +1,58 @@
+.test {
+  width: 200px;
+}
+.test:hover {
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  transition-property: background;
+  transition-duration: 2s;
+  transition-delay: 0s;
+  background: #008000;
+}
+.test:not(:hover) {
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  transition-property: background;
+  transition-duration: 2s;
+  transition-delay: 0s;
+}
+.test:active {
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  transition-property: color;
+  transition-duration: 0.5s;
+  transition-delay: 100s;
+  color: #f00;
+}
+.test:not(:active) {
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  transition-property: color;
+  transition-duration: 0.5s;
+  transition-delay: 100s;
+}
+.test {
+  width: 200px;
+}
+.test:hover {
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  transition-property: background;
+  transition-duration: 2s;
+  transition-delay: 0s;
+  background: #008000;
+}
+.test:not(:hover) {
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  transition-property: background;
+  transition-duration: 2s;
+  transition-delay: 0s;
+}
+.test:active {
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  transition-property: color;
+  transition-duration: 0.5s;
+  transition-delay: 100s;
+  color: #f00;
+}
+.test:not(:active) {
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  transition-property: color;
+  transition-duration: 0.5s;
+  transition-delay: 100s;
+}

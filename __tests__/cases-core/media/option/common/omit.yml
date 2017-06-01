@@ -1,0 +1,52 @@
+# File generated from ---> omit.styl
+
+
+.test:::0:
+  height: 200px
+  medias:
+    # added to all
+    common:
+      background: green
+      query:
+        type: 'screen'
+        max-height: 800px
+    xs:
+      width: 100px
+    '+md':
+      option:
+        # ommit
+        omit: ['background', 'query.type']
+      width: 200px
+    custom:
+      width: 400px
+      option:
+        omit: 'query.type'
+      query:
+        at: 'hd'
+        min-height: 200px
+
+
+.test:::1:
+  height: 200px
+  medias:
+    # added to all
+    common:
+      background: green
+      query:
+        type: 'screen'
+        max-height: 800px
+    xs:
+      width: 100px
+    '+md':
+      option:
+        # ommit
+        omit: ['background', 'query.type']
+      width: 200px
+    custom:
+      width: 400px
+      option:
+        omit: 'query.type'
+      query:
+        at: 'hd'
+        min-height: 200px
+

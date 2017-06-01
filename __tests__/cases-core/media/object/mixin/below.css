@@ -1,0 +1,26 @@
+.test {
+  height: 200px;
+}
+@media (max-width: 600px) {
+  .test {
+    width: 100px;
+  }
+}
+@media (max-width: 1050px) {
+  .test {
+    width: 300px;
+  }
+}
+.test {
+  height: 200px;
+}
+@media (max-width: 600px) {
+  .test {
+    width: 100px;
+  }
+}
+@media (max-width: 1050px) {
+  .test {
+    width: 300px;
+  }
+}

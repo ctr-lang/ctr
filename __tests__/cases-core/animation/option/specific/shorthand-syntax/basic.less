@@ -1,0 +1,46 @@
+// File generated from ---> basic.less.styl 
+
+ctrSetOption({
+  // SYNTAX_YAML
+  global:
+    animationShorthand: true
+})
+
+ctr('.test', {
+  // SYNTAX_YAML
+  size: 100px
+  background: gray
+  anim:
+    name: 'test'
+    tl:
+      '25':
+        background: red
+      '75':
+        background: blue
+  
+})
+
+
+
+ctrSetOption({
+  global: {
+    animationShorthand: true
+  }
+})
+
+
+ctr('.test', {
+  size: 100px
+  background: gray
+  anim: {
+    name: 'test'
+    tl: {
+      '25': {
+        background: red
+      }
+      '75': {
+        background: blue
+      }
+    }
+  }
+})

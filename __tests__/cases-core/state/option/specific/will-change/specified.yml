@@ -1,0 +1,34 @@
+# File generated from ---> specified.styl
+
+
+.test:::0:
+  width: 200px
+  hover:
+    on:
+      font-size: 20px
+      height: 200px
+      option:
+        will-change: 'font-size'
+    non:
+      font-size: 10px
+      color: red
+      background: green
+      option:
+        will-change: ['font-size', 'color']
+
+
+.test:::1:
+  width: 200px
+  hover:
+    on:
+      font-size: 20px
+      height: 200px
+      option:
+        will-change: 'font-size'
+    non:
+      font-size: 10px
+      color: red
+      background: green
+      option:
+        will-change: ['font-size', 'color']
+

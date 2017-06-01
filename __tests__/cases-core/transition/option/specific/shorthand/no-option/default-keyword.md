@@ -1,0 +1,1 @@
+__Description__: Within a `transition` object a user should be able to define a `shorthand` object to control the specificity for each properties transition and if the `default` keyword is used it should inherit the globally set option value

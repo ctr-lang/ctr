@@ -1,0 +1,28 @@
+# File generated from ---> scoped.yml.styl
+
+
+.test:::0:
+  $$:
+    width: 800px
+    span:
+      size: 200px
+  width: $width$
+  height: 100%
+  comp:
+    'span':
+      height: $span.size$
+      width: $span.size$
+
+
+.test:::1:
+  $$:
+    width: 800px
+    span:
+      size: 200px
+  width: $width$
+  height: 100%
+  comp:
+    'span':
+      height: $span.size$
+      width: $span.size$
+

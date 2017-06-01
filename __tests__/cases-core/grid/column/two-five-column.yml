@@ -1,0 +1,52 @@
+# File generated from ---> two-five-column.styl
+
+
+.test:::0:
+  grid:
+    column:
+      fraction: '2/5'
+
+
+.test:::1:
+  grid:
+    column:
+      fraction: '2/5'
+
+
+.test:::2:
+  grid:
+    column:
+      fraction: '2/5'
+      flex: false
+
+
+.test:::3:
+  grid:
+    column:
+      fraction: '2/5'
+      flex: false
+
+
+.test:::4:
+  grid:
+    # fraction cycle gutter flex
+    column: '2/5'
+
+
+.test:::5:
+  grid:
+    # fraction cycle gutter flex
+    column: '2/5'
+
+
+.test:::6:
+  grid:
+    # fraction cycle gutter flex
+    column: ['2/5', default, default, false]
+
+
+.test:::7:
+  grid:
+    # fraction cycle gutter flex
+    column: ['2/5', default, default, false]
+

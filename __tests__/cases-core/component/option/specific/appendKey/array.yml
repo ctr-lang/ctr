@@ -1,0 +1,20 @@
+# File generated from ---> array.styl
+
+
+.test:::0:
+  width: 200px
+  customComp:
+    option:
+      key: ['.appendMe', '.beerMe', '#jack']
+      appendKey: true
+    font-size: 20px
+
+
+.test:::1:
+  width: 200px
+  customComp:
+    option:
+      key: ['.appendMe', '.beerMe', '#jack']
+      appendKey: true
+    font-size: 20px
+

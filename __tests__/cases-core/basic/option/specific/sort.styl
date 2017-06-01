@@ -1,0 +1,65 @@
+.test
+  ctr({
+    style: true
+    option: {
+      global: {
+        sort: 'len'
+      }
+    }
+  })
+
+.test
+  ctr({
+    style: true
+    option: {
+      global: {
+        sort: '-len'
+      }
+    }
+  })
+
+.test
+  ctr({
+    style: true
+    option: {
+      global: {
+        sort: 'abc'
+      }
+    }
+  })
+
+.test
+  ctr({
+    style: true
+    option: {
+      global: {
+        sort: '-abc'
+      }
+    }
+  })
+
+
+//false
+.test
+  ctr({
+    option: {
+      global: {
+        sort: false
+      }
+    }
+    border-radius: 10px
+    color: red
+    background: red
+  })
+
+.test
+  ctr({
+    option: {
+      global: {
+        sort: false
+      }
+    }
+    background: red
+    border-radius: 10px
+    color: red
+  })

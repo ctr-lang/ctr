@@ -1,0 +1,54 @@
+.test
+  ctr({
+    width: 200px
+    media: {
+      width: 100px
+      query: {
+        type: {
+          media: 'screen' 'tv'
+          condition: 'not'
+        }
+      }
+    }
+  })
+
+ctr('.test', {
+  width: 200px
+  media: {
+    width: 100px
+    query: {
+      type: {
+        media: 'screen' 'tv'
+        condition: 'not'
+      }
+    }
+  }
+})
+
+
+.test
+  ctr({
+    width: 200px
+    media: {
+      width: 100px
+      query: {
+        type: {
+          media: 'screen' 'tv'
+          condition: 'only'
+        }
+      }
+    }
+  })
+
+ctr('.test', {
+  width: 200px
+  media: {
+    width: 100px
+    query: {
+      type: {
+        media: 'screen' 'tv'
+        condition: 'only'
+      }
+    }
+  }
+})

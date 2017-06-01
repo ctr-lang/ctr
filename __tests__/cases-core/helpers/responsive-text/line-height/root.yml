@@ -1,0 +1,17 @@
+# File generated from ---> root.yml.styl
+
+
+ctr:::setOption:
+  type:
+    rootSize: 10px
+
+
+.test:::0:
+  line-height: [responsive, 1.6rem, 4.8rem]
+  line-height-range: [420px, 1280px]
+
+
+.test:::1:
+  line-height: [responsive, 1.6rem, 4.8rem]
+  line-height-range: [420px, 1280px]
+

@@ -1,0 +1,20 @@
+# File generated from ---> media.styl
+
+
+.test:::0:
+  width: 200px
+  media:
+    'lg':
+      font-size: 20px
+      matrix:
+        translate: [100, 200]
+
+
+.test:::1:
+  width: 200px
+  media:
+    'lg':
+      font-size: 20px
+      matrix:
+        translate: [100, 200]
+

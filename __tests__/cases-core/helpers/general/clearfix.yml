@@ -1,0 +1,32 @@
+# File generated from ---> clearfix.styl
+
+
+.test:::0:
+  width: 200px
+  clearfix: true
+
+
+.test:::1:
+  width: 200px
+  clearfix: true
+
+
+.test:::2:
+  width: 200px
+  clearfix: true
+  comp:
+    '.clear':
+      clearfix: true
+      first-child:
+        clearfix: true
+
+
+.test:::3:
+  width: 200px
+  clearfix: true
+  comp:
+    '.clear':
+      clearfix: true
+      first-child:
+        clearfix: true
+

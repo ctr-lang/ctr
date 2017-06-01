@@ -1,0 +1,22 @@
+.test {
+  width: 400px;
+  animation-delay: 0s;
+  animation-name: test;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-play-state: paused;
+  animation-direction: reverse;
+  animation-iteration-count: 5;
+  animation-timing-function: ease-in;
+}
+.test {
+  width: 400px;
+  animation-delay: 0s;
+  animation-name: test;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-play-state: paused;
+  animation-direction: reverse;
+  animation-iteration-count: 5;
+  animation-timing-function: ease-in;
+}

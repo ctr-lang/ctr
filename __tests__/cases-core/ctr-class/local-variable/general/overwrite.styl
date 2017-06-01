@@ -1,0 +1,24 @@
+ctrSetClass('$localFontOverwrite', {
+  $$: {
+    font: 10px
+  }
+  font-size: '_$font$_'
+})
+
+.test
+  ctr({
+    extend: {
+      '$localFontOverwrite': {
+        font: 20px
+      }
+    }
+  })
+
+ctr('.test', {
+  extend: {
+    '$localFontOverwrite': {
+      font: 20px
+    }
+  }
+})
+

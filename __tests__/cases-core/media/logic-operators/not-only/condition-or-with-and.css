@@ -1,0 +1,16 @@
+.test {
+  width: 200px;
+}
+@media not screen and (min-width: 200px) and (min-height: 200px) and (min-width: 200px), (min-height: 200px) {
+  .test {
+    width: 100px;
+  }
+}
+.test {
+  width: 200px;
+}
+@media not screen and (min-width: 200px) and (min-height: 200px) and (min-width: 200px), (min-height: 200px) {
+  .test {
+    width: 100px;
+  }
+}

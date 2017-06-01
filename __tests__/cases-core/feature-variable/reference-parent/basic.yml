@@ -1,0 +1,20 @@
+# File generated from ---> basic.yml.styl
+
+
+.test:::0:
+  $$:
+    base: 200
+    units: 'px'
+    #  no need to use eval to ref above vars in yaml
+    width: '$base$$units$'
+  width: '$width$'
+
+
+.test:::1:
+  $$:
+    base: 200
+    units: 'px'
+    #  no need to use eval to ref above vars in yaml
+    width: '$base$$units$'
+  width: '$width$'
+

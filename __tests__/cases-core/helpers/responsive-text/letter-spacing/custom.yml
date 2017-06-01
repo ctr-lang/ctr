@@ -1,0 +1,18 @@
+# File generated from ---> custom.styl
+
+
+.test:::0:
+  letter-spacing: responsive
+  min-letter-spacing: 10px
+  max-letter-spacing: 30px
+  min-letter-spacing-range: 300px
+  max-letter-spacing-range: 900px
+
+
+.test:::1:
+  letter-spacing: responsive
+  min-letter-spacing: 10px
+  max-letter-spacing: 30px
+  min-letter-spacing-range: 300px
+  max-letter-spacing-range: 900px
+

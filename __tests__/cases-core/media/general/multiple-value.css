@@ -1,0 +1,32 @@
+.test {
+  width: 200px;
+}
+@media (max-width: 80vw) and (max-width: 800px) {
+  .test {
+    width: 100px;
+  }
+}
+.test {
+  width: 200px;
+}
+@media (max-width: 80vw) and (max-width: 800px) {
+  .test {
+    width: 100px;
+  }
+}
+.test {
+  width: 200px;
+}
+@media (max-width: 80em) and (max-width: 80vw) and (max-width: 800px) {
+  .test {
+    width: 100px;
+  }
+}
+.test {
+  width: 200px;
+}
+@media (max-width: 80em) and (max-width: 80vw) and (max-width: 800px) {
+  .test {
+    width: 100px;
+  }
+}

@@ -1,0 +1,49 @@
+.test
+  ctr({
+    width: 200px
+    comp: {
+      'div': {
+        'attr-[class*="te"]': {
+          background: teal
+        }
+      }
+    }
+  })
+
+ctr('.test', {
+  width: 200px
+  comp: {
+    'div': {
+      'attr-[class*="te"]': {
+        background: teal
+      }
+    }
+  }
+})
+
+
+//bracketless
+.test
+  ctr({
+    width: 200px
+    comp: {
+      'div': {
+        'attr-class*="te"': {
+          background: teal
+        }
+      }
+    }
+  })
+
+
+ctr('.test', {
+  width: 200px
+  comp: {
+    'div': {
+      'attr-class*="te"': {
+        background: teal
+      }
+    }
+  }
+})
+

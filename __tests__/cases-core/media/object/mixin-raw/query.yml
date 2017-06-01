@@ -1,0 +1,28 @@
+# File generated from ---> query.styl
+
+
+.test:::0:
+  width: 200px
+  medias:
+    '-800px':
+      query:
+        max-height: '800px'
+      width: 300px
+    '+800px':
+      query:
+        min-height: '800px'
+      width: 400px
+
+
+.test:::1:
+  width: 200px
+  medias:
+    '-800px':
+      query:
+        max-height: '800px'
+      width: 300px
+    '+800px':
+      query:
+        min-height: '800px'
+      width: 400px
+

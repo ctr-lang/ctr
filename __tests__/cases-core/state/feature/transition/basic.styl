@@ -1,0 +1,40 @@
+.test
+  ctr({
+    width: 400px
+    hover: {
+      on: {
+        width: 200px
+        transition: {
+          background: green
+          font-size: 20px
+        }
+      }
+      non: {
+        width: 100px
+        transition: {
+          background: blue
+          font-size: 10px
+        }
+      }
+    }
+  })
+
+ctr('.test', {
+  width: 400px
+  hover: {
+    on: {
+      width: 200px
+      transition: {
+        background: green
+        font-size: 20px
+      }
+    }
+    non: {
+      width: 100px
+      transition: {
+        background: blue
+        font-size: 10px
+      }
+    }
+  }
+})

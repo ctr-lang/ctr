@@ -1,0 +1,38 @@
+.test {
+  width: 100px;
+  height: 100px;
+}
+.test:hover {
+  background: #f00;
+  transition: background 0.5s cubic-bezier(0.42, 0, 0.58, 1) 0s;
+}
+.test:not(:hover) {
+  background: #008000;
+  transition: background 0.5s cubic-bezier(0.42, 0, 0.58, 1) 0s;
+}
+.test:active {
+  color: #f00;
+  transition: color 0.5s cubic-bezier(0.42, 0, 0.58, 1) 0s;
+}
+.test:not(:active) {
+  transition: color 0.5s cubic-bezier(0.42, 0, 0.58, 1) 0s;
+}
+.test {
+  width: 100px;
+  height: 100px;
+}
+.test:hover {
+  background: #f00;
+  transition: background 0.5s cubic-bezier(0.42, 0, 0.58, 1) 0s;
+}
+.test:not(:hover) {
+  background: #008000;
+  transition: background 0.5s cubic-bezier(0.42, 0, 0.58, 1) 0s;
+}
+.test:active {
+  color: #f00;
+  transition: color 0.5s cubic-bezier(0.42, 0, 0.58, 1) 0s;
+}
+.test:not(:active) {
+  transition: color 0.5s cubic-bezier(0.42, 0, 0.58, 1) 0s;
+}

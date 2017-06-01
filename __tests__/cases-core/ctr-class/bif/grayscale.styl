@@ -1,0 +1,17 @@
+ctrSetClass('$evalGrayscale', {
+  $$: {
+    base: #fd0cc7
+    bg: "grayscale($base$)"
+  }
+  background: "$bg$"
+  color: grayscale(#fd0cc7)
+})
+
+.test
+  ctr({
+    extend: $evalGrayscale
+  })
+
+ctr('.test', {
+  extend: $evalGrayscale
+})

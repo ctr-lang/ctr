@@ -1,0 +1,26 @@
+# File generated from ---> on-non-common-option.styl
+
+
+.test:::0:
+  width: 200px
+  hover:
+    common:
+      shorthand:
+        font-size: [10s, 420s, tedious]
+    on:
+      font-size: 20px
+    non:
+      font-size: 10px
+
+
+.test:::1:
+  width: 200px
+  hover:
+    common:
+      shorthand:
+        font-size: [10s, 420s, tedious]
+    on:
+      font-size: 20px
+    non:
+      font-size: 10px
+

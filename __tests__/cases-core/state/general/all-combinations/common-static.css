@@ -1,0 +1,42 @@
+.test {
+  width: 200px;
+}
+.test:hover {
+  color: #000;
+  border-radius: 5px;
+  transition-delay: 0s;
+  border: 5px solid #008080;
+  transition-property: color;
+  transition-duration: 100000s;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test:not(:hover) {
+  color: #000;
+  border-radius: 5px;
+  transition-delay: 0s;
+  border: 5px solid #008080;
+  transition-property: color;
+  transition-duration: 100000s;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test {
+  width: 200px;
+}
+.test:hover {
+  color: #000;
+  border-radius: 5px;
+  transition-delay: 0s;
+  border: 5px solid #008080;
+  transition-property: color;
+  transition-duration: 100000s;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test:not(:hover) {
+  color: #000;
+  border-radius: 5px;
+  transition-delay: 0s;
+  border: 5px solid #008080;
+  transition-property: color;
+  transition-duration: 100000s;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}

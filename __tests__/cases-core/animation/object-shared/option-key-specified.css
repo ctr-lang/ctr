@@ -1,0 +1,50 @@
+.test {
+  animation-delay: 1s, 1s, 2s;
+  animation-duration: 10s, 10s, 10s;
+  animation-iteration-count: 10, 1, 1;
+  animation-fill-mode: none, none, none;
+  animation-name: tlOne, koolBrah, snoop;
+  animation-direction: normal, normal, normal;
+  animation-play-state: paused, running, running;
+  animation-timing-function: ease-in, cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+}
+@keyframes tlOne {
+  50% {
+    background: #800080;
+  }
+}
+@keyframes koolBrah {
+  50% {
+    color: #ff0;
+  }
+}
+@keyframes snoop {
+  50% {
+    font-size: 1.4rem;
+  }
+}
+.test {
+  animation-delay: 1s, 1s, 2s;
+  animation-duration: 10s, 10s, 10s;
+  animation-iteration-count: 10, 1, 1;
+  animation-fill-mode: none, none, none;
+  animation-name: tlOne, koolBrah, snoop;
+  animation-direction: normal, normal, normal;
+  animation-play-state: paused, running, running;
+  animation-timing-function: ease-in, cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+}
+@keyframes tlOne {
+  50% {
+    background: #800080;
+  }
+}
+@keyframes koolBrah {
+  50% {
+    color: #ff0;
+  }
+}
+@keyframes snoop {
+  50% {
+    font-size: 1.4rem;
+  }
+}

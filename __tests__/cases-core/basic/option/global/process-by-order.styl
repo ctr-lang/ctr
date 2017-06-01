@@ -1,0 +1,89 @@
+//----------------------------------------------------------------------------//
+// -> The numbers represent the order in which the style is complied
+//----------------------------------------------------------------------------//
+
+//------------------------------//
+// processBy: order
+//------------------------------//
+.test
+  ctr({
+    option: {
+      global: {
+        processBy: 'order'
+      }
+    }
+    // 1
+    width: 111px
+    // 2
+    comp-div: {
+      width: 222px
+      // 3
+      comp-p: {
+        width: 333px
+        // 4
+        media--lg: {
+          width: 444px
+        }
+      }
+    }
+    medias: {
+      // 5
+      '-sm': {
+        width: 11px
+        // 6
+        before: {
+          content: 'cool'
+        }
+      }
+      // 7
+      '-md': {
+        width: 22px
+      }
+    }
+    // 8
+    hover-on: {
+      color: red
+    }
+  })
+
+
+
+ctr('.test', {
+  option: {
+    global: {
+      processBy: 'order'
+    }
+  }
+  // 1
+  width: 111px
+  // 2
+  comp-div: {
+    width: 222px
+    // 3
+    comp-p: {
+      width: 333px
+      // 4
+      media--lg: {
+        width: 444px
+      }
+    }
+  }
+  medias: {
+    // 5
+    '-sm': {
+      width: 11px
+      // 6
+      before: {
+        content: 'cool'
+      }
+    }
+    // 7
+    '-md': {
+      width: 22px
+    }
+  }
+  // 8
+  hover-on: {
+    color: red
+  }
+})

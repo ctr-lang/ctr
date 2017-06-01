@@ -1,0 +1,24 @@
+# File generated from ---> state.styl
+
+
+.test:::0:
+  width: 200px
+  hover:
+    on:
+      font-size: ['responsive', 10px, 50px]
+      line-height: 'responsive'
+    non:
+      font-size: ['responsive', 222px, 420px]
+      letter-spacing: 'responsive'
+
+
+.test:::1:
+  width: 200px
+  hover:
+    on:
+      font-size: ['responsive', 10px, 50px]
+      line-height: 'responsive'
+    non:
+      font-size: ['responsive', 222px, 420px]
+      letter-spacing: 'responsive'
+

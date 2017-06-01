@@ -1,0 +1,18 @@
+ctrSetClass('$evalSaturate', {
+  $$: {
+    base: #c33
+    bg: "saturate($base$, 20%)"
+  }
+  background: "$bg$"
+  color: saturate(#c33, 40%)
+})
+
+.test
+  ctr({
+    extend: $evalSaturate
+  })
+
+ctr('.test', {
+  extend: $evalSaturate
+})
+

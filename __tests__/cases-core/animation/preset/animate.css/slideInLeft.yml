@@ -1,0 +1,14 @@
+# File generated from ---> slideInLeft.styl
+
+
+.test:::0:
+  width: 400px
+  anim:
+    preset: 'slideInLeft'
+
+
+.test:::1:
+  width: 400px
+  anim:
+    preset: 'slideInLeft'
+

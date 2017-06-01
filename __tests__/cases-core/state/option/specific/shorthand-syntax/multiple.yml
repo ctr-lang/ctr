@@ -1,0 +1,33 @@
+# File generated from ---> multiple.yml.styl
+
+
+ctr:::setOption:
+  global:
+    transitionShorthand: true
+
+
+.test:::0:
+  size: 100px
+  states:
+    hover:
+      on:
+        background: red
+      non:
+        background: green
+    active:
+      # auto gen
+      color: red
+
+
+.test:::1:
+  size: 100px
+  states:
+    hover:
+      on:
+        background: red
+      non:
+        background: green
+    active:
+      # auto gen
+      color: red
+

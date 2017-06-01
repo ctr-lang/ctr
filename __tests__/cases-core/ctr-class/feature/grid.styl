@@ -1,0 +1,15 @@
+ctrSetClass('$myGridClass', {
+  height: 200px
+  grid: {
+    column: '1/2'
+  }
+})
+
+.test
+  ctr({
+    extend: '$myGridClass'
+  })
+
+ctr('.test', {
+  extend: '$myGridClass'
+})

@@ -1,0 +1,26 @@
+.test {
+  width: 200px;
+}
+.test::before {
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  font-size: 10px;
+  content: "test";
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+.test {
+  width: 200px;
+}
+.test::before {
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  font-size: 10px;
+  content: "test";
+  position: absolute;
+  transform: translate(-50%, -50%);
+}

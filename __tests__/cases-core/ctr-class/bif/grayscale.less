@@ -1,0 +1,27 @@
+// File generated from ---> grayscale.styl 
+
+ctrSetClass('$evalGrayscale', {
+  // SYNTAX_YAML
+  $$:
+    base: '#fd0cc7'
+    bg: "grayscale($base$)"
+  background: "$bg$"
+  color: 'grayscale(#fd0cc7)'
+})
+ctrSetClass('$evalGrayscale', {
+  $$: {
+    base: #fd0cc7
+    bg: "grayscale($base$)"
+  }
+  background: "$bg$"
+  color: grayscale(#fd0cc7)
+})
+
+ctr('.test', {
+  // SYNTAX_YAML
+  extend: $evalGrayscale
+})
+
+ctr('.test', {
+  extend: $evalGrayscale
+})

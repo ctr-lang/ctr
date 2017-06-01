@@ -1,0 +1,24 @@
+# File generated from ---> static-in-on.styl
+
+
+.test:::0:
+  width: 200px
+  hover:
+    on:
+      font-size: 20px
+      static:
+        background: green
+        option:
+          appendTo: '.appendTo'
+
+
+.test:::1:
+  width: 200px
+  hover:
+    on:
+      font-size: 20px
+      static:
+        background: green
+        option:
+          appendTo: '.appendTo'
+

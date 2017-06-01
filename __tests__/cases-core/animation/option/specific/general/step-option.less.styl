@@ -1,0 +1,66 @@
+.test
+  ctr({
+    anim: {
+      timeline: 'stepTest'
+      option: {
+        ease: steps(5, start)
+      }
+    }
+  })
+
+ctr('.test', {
+  anim: {
+    timeline: 'stepTest'
+    option: {
+      ease: steps(5, start)
+    }
+  }
+})
+
+//string wrap
+.test
+  ctr({
+    anim: {
+      timeline: 'stepTest'
+      option: {
+        ease: 'steps(5, start)'
+      }
+    }
+  })
+
+ctr('.test', {
+  anim: {
+    timeline: 'stepTest'
+    option: {
+      ease: 'steps(5, start)'
+    }
+  }
+})
+
+
+//@test should auto-get but its not working properly so fuck it
+ctr('.test', {
+  anim: {
+    shorthand: {
+      stepTest: default default 'steps(5, start)'
+    }
+  }
+})
+
+// .test
+//   ctr({
+//     anim: {
+//       shorthand: {
+//         stepTest: [default, default, 'steps(5, start)']
+//       }
+//     }
+//   })
+
+
+ctr('.test', {
+  anim: {
+    shorthand: {
+      stepTest: default default 'steps(5, start)'
+    }
+  }
+})

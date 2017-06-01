@@ -1,0 +1,20 @@
+.test {
+  left: 10px;
+  width: 200px;
+  height: 200px;
+  font-size: 1em;
+  transition-delay: 0s, 0s, 0s;
+  transition-duration: 0.5s, 0.5s, 0.5s;
+  transition-property: height, font-size, left;
+  transition-timing-function: ease-out, cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test {
+  left: 10px;
+  width: 200px;
+  height: 200px;
+  font-size: 1em;
+  transition-delay: 0s, 0s, 0s;
+  transition-duration: 0.5s, 0.5s, 0.5s;
+  transition-property: height, font-size, left;
+  transition-timing-function: ease-out, cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+}

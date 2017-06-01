@@ -1,0 +1,28 @@
+# File generated from ---> on-non-common.styl
+
+
+.test:::0:
+  width: 200px
+  hover:
+    common:
+      background: green
+      option:
+        appendTo: '.appendTo'
+    on:
+      font-size: 20px
+    non:
+      font-size: 10px
+
+
+.test:::1:
+  width: 200px
+  hover:
+    common:
+      background: green
+      option:
+        appendTo: '.appendTo'
+    on:
+      font-size: 20px
+    non:
+      font-size: 10px
+

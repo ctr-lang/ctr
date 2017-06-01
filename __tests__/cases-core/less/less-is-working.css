@@ -1,0 +1,9 @@
+#header {
+  color: #5B83AD;
+}
+#header .navigation {
+  font-size: 12px;
+}
+#header .logo {
+  width: 300px;
+}

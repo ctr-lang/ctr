@@ -1,0 +1,24 @@
+# File generated from ---> autoGen-override.styl
+
+
+.test:::0:
+  width: 200px
+  anim:
+    option:
+      name: 'noGenProps'
+      autoGen: false
+    tl:
+      '50':
+        background: green
+
+
+.test:::1:
+  width: 200px
+  anim:
+    option:
+      name: 'noGenProps'
+      autoGen: false
+    tl:
+      '50':
+        background: green
+

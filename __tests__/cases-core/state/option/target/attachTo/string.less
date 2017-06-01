@@ -1,0 +1,72 @@
+// File generated from ---> string.styl 
+
+ctr('.test', {
+  // SYNTAX_YAML
+  width: 200px
+  comp:
+    '.aClass':
+      height: 200px
+      comp:
+        'span':
+          hover:
+            font-size: 20px
+            option:
+              attachTo: '.aClass'
+  
+})
+
+
+ctr('.test', {
+  width: 200px
+  comp: {
+    '.aClass': {
+      height: 200px
+      comp: {
+        'span': {
+          hover: {
+            font-size: 20px
+            option: {
+              attachTo: '.aClass'
+            }
+          }
+        }
+      }
+    }
+  }
+})
+
+//without prefix
+ctr('.test', {
+  // SYNTAX_YAML
+  width: 200px
+  comp:
+    '.aClass':
+      height: 200px
+      comp:
+        'span':
+          hover:
+            font-size: 20px
+            option:
+              attachTo: 'aClass'
+  
+})
+
+
+ctr('.test', {
+  width: 200px
+  comp: {
+    '.aClass': {
+      height: 200px
+      comp: {
+        'span': {
+          hover: {
+            font-size: 20px
+            option: {
+              attachTo: 'aClass'
+            }
+          }
+        }
+      }
+    }
+  }
+})

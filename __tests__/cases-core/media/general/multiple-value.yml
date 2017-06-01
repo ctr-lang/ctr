@@ -1,0 +1,34 @@
+# File generated from ---> multiple-value.styl
+
+
+.test:::0:
+  width: 200px
+  media:
+    width: 100px
+    query:
+      'max-width': [800px, 80vw]
+
+
+.test:::1:
+  width: 200px
+  media:
+    width: 100px
+    query:
+      'max-width': [800px, 80vw]
+
+
+.test:::2:
+  width: 200px
+  media:
+    width: 100px
+    query:
+      'max-width': [800px, 80vw, 80em]
+
+
+.test:::3:
+  width: 200px
+  media:
+    width: 100px
+    query:
+      'max-width': [800px, 80vw, 80em]
+

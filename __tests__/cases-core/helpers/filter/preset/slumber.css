@@ -1,0 +1,70 @@
+.test {
+  width: 600px;
+  position: relative;
+  filter: saturate(0.66) brightness(1.05);
+}
+.test img {
+  z-index: 1;
+  width: 100%;
+}
+.test::before {
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  content: "";
+  display: block;
+  position: absolute;
+  pointer-events: none;
+  mix-blend-mode: lighten;
+  background: rgba(69,41,12,0.4);
+}
+.test::after {
+  top: 0;
+  left: 0;
+  z-index: 3;
+  width: 100%;
+  height: 100%;
+  content: "";
+  display: block;
+  position: absolute;
+  pointer-events: none;
+  mix-blend-mode: soft-light;
+  background: rgba(125,105,24,0.5);
+}
+.test {
+  width: 600px;
+  position: relative;
+  filter: saturate(0.66) brightness(1.05);
+}
+.test img {
+  z-index: 1;
+  width: 100%;
+}
+.test::before {
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  content: "";
+  display: block;
+  position: absolute;
+  pointer-events: none;
+  mix-blend-mode: lighten;
+  background: rgba(69,41,12,0.4);
+}
+.test::after {
+  top: 0;
+  left: 0;
+  z-index: 3;
+  width: 100%;
+  height: 100%;
+  content: "";
+  display: block;
+  position: absolute;
+  pointer-events: none;
+  mix-blend-mode: soft-light;
+  background: rgba(125,105,24,0.5);
+}

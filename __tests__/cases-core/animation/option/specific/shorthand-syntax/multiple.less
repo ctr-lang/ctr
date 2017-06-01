@@ -1,0 +1,62 @@
+// File generated from ---> multiple.less.styl 
+
+ctrSetOption({
+  // SYNTAX_YAML
+  global:
+    animationShorthand: true
+})
+
+
+ctr('.test', {
+  // SYNTAX_YAML
+  size: 100px
+  background: gray
+  animations:
+    one:
+      tl:
+        '25':
+          background: red
+        '75':
+          background: blue
+    two:
+      tl:
+        '25':
+          color: red
+        '75':
+          color: blue
+  
+})
+
+
+ctrSetOption({
+  global: {
+    animationShorthand: true
+  }
+})
+
+ctr('.test', {
+  size: 100px
+  background: gray
+  animations: {
+    one: {
+      tl: {
+        '25': {
+          background: red
+        }
+        '75': {
+          background: blue
+        }
+      }
+    }
+    two: {
+      tl: {
+        '25': {
+          color: red
+        }
+        '75': {
+          color: blue
+        }
+      }
+    }
+  }
+})

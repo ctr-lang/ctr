@@ -1,0 +1,14 @@
+# File generated from ---> slideOutLeft.styl
+
+
+.test:::0:
+  width: 400px
+  anim:
+    preset: 'slideOutLeft'
+
+
+.test:::1:
+  width: 400px
+  anim:
+    preset: 'slideOutLeft'
+

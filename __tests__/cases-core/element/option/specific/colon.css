@@ -1,0 +1,18 @@
+.test {
+  width: 200px;
+}
+.test:before {
+  content: "beer";
+}
+.test:::::::::::::::::after {
+  content: "beer";
+}
+.test {
+  width: 200px;
+}
+.test:before {
+  content: "beer";
+}
+.test:::::::::::::::::after {
+  content: "beer";
+}

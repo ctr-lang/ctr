@@ -1,0 +1,32 @@
+.test {
+  width: 200px;
+}
+.test:hover {
+  color: #f00;
+  transition-delay: 0s;
+  transition-duration: 0.5s;
+  transition-property: color;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test {
+  width: 200px;
+}
+.test:hover {
+  color: #f00;
+  transition-delay: 0s;
+  transition-duration: 0.5s;
+  transition-property: color;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test {
+  width: 200px;
+}
+.test:link {
+  color: #f00;
+}
+.test {
+  width: 200px;
+}
+.test:link {
+  color: #f00;
+}

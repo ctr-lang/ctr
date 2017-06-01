@@ -1,0 +1,38 @@
+.test
+  ctr({
+    width: 200px
+    customTransitions: {
+      one: {
+        option: {
+          ease: 'ease-out'
+        }
+        height: 200px
+      }
+      two: {
+        font-size: 1em
+      }
+      three: {
+        left: 10px
+      }
+    }
+  })
+
+
+ctr('.test', {
+  width: 200px
+  customTransitionsOneTwoThree: {
+    one: {
+      option: {
+        ease: 'ease-out'
+      }
+      height: 200px
+    }
+    two: {
+      font-size: 1em
+    }
+    three: {
+      left: 10px
+    }
+  }
+})
+

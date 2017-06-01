@@ -1,0 +1,32 @@
+.test {
+  width: 200px;
+}
+.test::after {
+  content: "kool";
+}
+@media (min-width: 600px) and (max-width: 800px) {
+  .test::after {
+    content: "magic";
+  }
+}
+@media (min-width: 800px) and (max-width: 1050px) {
+  .test::after {
+    content: "witchcraft";
+  }
+}
+.test {
+  width: 200px;
+}
+.test::after {
+  content: "kool";
+}
+@media (min-width: 600px) and (max-width: 800px) {
+  .test::after {
+    content: "magic";
+  }
+}
+@media (min-width: 800px) and (max-width: 1050px) {
+  .test::after {
+    content: "witchcraft";
+  }
+}

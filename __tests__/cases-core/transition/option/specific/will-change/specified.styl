@@ -1,0 +1,25 @@
+.test
+  ctr({
+    width: 300px
+    trans: {
+      background: green
+      color: red
+      option: {
+        will-change: background font-size
+        duration: 1s
+      }
+    }
+  })
+  
+
+ctr('.test', {
+  width: 300px
+  trans: {
+    background: green
+    color: red
+    option: {
+      will-change: 'background' 'font-size'
+      duration: 1s
+    }
+  }
+})

@@ -1,0 +1,4 @@
+.test:
+  size: 200px
+  hover:
+    size: 400px

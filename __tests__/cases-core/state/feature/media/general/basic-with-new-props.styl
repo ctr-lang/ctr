@@ -1,0 +1,57 @@
+.test
+  ctr({
+    width: 200px
+    hover: {
+      on: {
+        height: 400px
+        color: red
+
+        media: {
+          'md': {
+            height: 300px
+            font-size: 20px
+          }
+        }
+      }
+      non: {
+        height: 200px
+        color: blue
+
+        media: {
+          'md': {
+            height: 100px
+            font-size: 10px
+          }
+        }
+      }
+    }
+  })
+
+
+ctr('.test', {
+  width: 200px
+  hover: {
+    on: {
+      height: 400px
+      color: red
+
+      media: {
+        'md': {
+          height: 300px
+          font-size: 20px
+        }
+      }
+    }
+    non: {
+      height: 200px
+      color: blue
+
+      media: {
+        'md': {
+          height: 100px
+          font-size: 10px
+        }
+      }
+    }
+  }
+})

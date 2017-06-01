@@ -1,0 +1,1 @@
+__Description__: The `setOption` can be used multiple times and every time you set it those options are merged with one another -> deepMerged'n shit

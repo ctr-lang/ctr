@@ -1,0 +1,36 @@
+.test {
+  width: 200px;
+}
+.test:not(.today) {
+  height: 200px;
+  flex: 0 0 auto;
+  width: calc(99.9% * 1 / 3 - (30px - 30px * 1 / 3));
+}
+.test:not(.today):nth-child(1n) {
+  margin-right: 30px;
+}
+.test:not(.today):last-child {
+  margin-right: 0;
+}
+.test:not(.today):nth-child(3n) {
+  float: right;
+  margin-right: 0;
+}
+.test {
+  width: 200px;
+}
+.test:not(.today) {
+  height: 200px;
+  flex: 0 0 auto;
+  width: calc(99.9% * 1 / 3 - (30px - 30px * 1 / 3));
+}
+.test:not(.today):nth-child(1n) {
+  margin-right: 30px;
+}
+.test:not(.today):last-child {
+  margin-right: 0;
+}
+.test:not(.today):nth-child(3n) {
+  float: right;
+  margin-right: 0;
+}

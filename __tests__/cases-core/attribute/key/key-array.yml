@@ -1,0 +1,38 @@
+# File generated from ---> key-array.styl
+
+
+.test:::0:
+  width: 200px
+  comp:
+    'div':
+      attr:
+        key: ['[class*="te"]', '[class*="kool"]']
+        background: teal
+
+
+.test:::1:
+  width: 200px
+  comp:
+    'div':
+      attr:
+        key: ['[class*="te"]', '[class*="kool"]']
+        background: teal
+
+
+.test:::2:
+  width: 200px
+  comp:
+    'div':
+      attr:
+        key: ['class*="te"', 'class*="kool"']
+        background: teal
+
+
+.test:::3:
+  width: 200px
+  comp:
+    'div':
+      attr:
+        key: ['class*="te"', 'class*="kool"']
+        background: teal
+

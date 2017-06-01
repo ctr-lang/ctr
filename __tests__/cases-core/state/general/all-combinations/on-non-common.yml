@@ -1,0 +1,32 @@
+# File generated from ---> on-non-common.styl
+
+
+.test:::0:
+  width: 200px
+  hover:
+    common:
+      color: black
+      option:
+        duration: 100000s
+    on:
+      height: 200px
+      background: black
+    non:
+      height: 100px
+      background: red
+
+
+.test:::1:
+  width: 200px
+  hover:
+    common:
+      color: black
+      option:
+        duration: 100000s
+    on:
+      height: 200px
+      background: black
+    non:
+      height: 100px
+      background: red
+

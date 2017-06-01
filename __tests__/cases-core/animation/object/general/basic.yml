@@ -1,0 +1,54 @@
+# File generated from ---> basic.styl
+
+
+.test:::0:
+  animations:
+    one:
+      name: 'tlOne'
+      timeline:
+        '50':
+          background: green
+    tlTwo:
+      timeline:
+        '50':
+          color: green
+
+
+.test:::1:
+  animations:
+    one:
+      name: 'tlOne'
+      timeline:
+        '50':
+          background: green
+    tlTwo:
+      timeline:
+        '50':
+          color: green
+
+
+.test:::2:
+  anims:
+    one:
+      name: 'tlOne'
+      timeline:
+        '50':
+          background: green
+    tlTwo:
+      timeline:
+        '50':
+          color: green
+
+
+.test:::3:
+  anims:
+    one:
+      name: 'tlOne'
+      timeline:
+        '50':
+          background: green
+    tlTwo:
+      timeline:
+        '50':
+          color: green
+

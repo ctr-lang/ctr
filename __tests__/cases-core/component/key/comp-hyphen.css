@@ -1,0 +1,36 @@
+.test {
+  width: 200px;
+}
+.test > span {
+  font-size: 10px;
+}
+.test > p {
+  font-size: 20px;
+}
+.test > .class {
+  width: 300px;
+}
+.test > #id {
+  width: 400px;
+}
+.test > .override {
+  width: 500px;
+}
+.test {
+  width: 200px;
+}
+.test > span {
+  font-size: 10px;
+}
+.test > p {
+  font-size: 20px;
+}
+.test > .class {
+  width: 300px;
+}
+.test > #id {
+  width: 400px;
+}
+.test > .override {
+  width: 500px;
+}

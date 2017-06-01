@@ -1,0 +1,40 @@
+// File generated from ---> extend-order.styl 
+
+ctrSetClass('$one', {
+  // SYNTAX_YAML
+  width: 100px
+})
+ctrSetClass('$one', {
+  width: 100px
+})
+
+ctrSetClass('$two', {
+  // SYNTAX_YAML
+  width: 200px
+})
+ctrSetClass('$two', {
+  width: 200px
+})
+
+ctr('.test', {
+  // SYNTAX_YAML
+  //width: 100px
+  extend: ['$one', '$two']
+})
+
+ctr('.test', {
+  // SYNTAX_YAML
+  //width: 200px
+  extend: ['$two', '$one']
+})
+
+
+ctr('.test', {
+  //width: 100px
+  extend: '$one' '$two'
+})
+
+ctr('.test', {
+  //width: 200px
+  extend: '$two' '$one'
+})

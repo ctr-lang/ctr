@@ -1,0 +1,70 @@
+.test {
+  width: 200px;
+}
+.test:hover {
+  font-size: 20px;
+  transition-delay: 0s;
+  transition-duration: 0.5s;
+  transition-property: font-size;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test:not(:hover) {
+  font-size: 10px;
+  transition-delay: 0s;
+  transition-duration: 0.5s;
+  transition-property: font-size;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test > .kool {
+  width: 100px;
+  height: 100px;
+}
+.test > .kool:focus {
+  font-size: 20px;
+  transition-delay: 0s;
+  transition-duration: 0.5s;
+  transition-property: font-size;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test > .kool:not(:focus) {
+  font-size: 10px;
+  transition-delay: 0s;
+  transition-duration: 0.5s;
+  transition-property: font-size;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test {
+  width: 200px;
+}
+.test:hover {
+  font-size: 20px;
+  transition-delay: 0s;
+  transition-duration: 0.5s;
+  transition-property: font-size;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test:not(:hover) {
+  font-size: 10px;
+  transition-delay: 0s;
+  transition-duration: 0.5s;
+  transition-property: font-size;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test > .kool {
+  width: 100px;
+  height: 100px;
+}
+.test > .kool:focus {
+  font-size: 20px;
+  transition-delay: 0s;
+  transition-duration: 0.5s;
+  transition-property: font-size;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test > .kool:not(:focus) {
+  font-size: 10px;
+  transition-delay: 0s;
+  transition-duration: 0.5s;
+  transition-property: font-size;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}

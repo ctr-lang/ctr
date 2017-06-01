@@ -1,0 +1,33 @@
+//flex
+.test
+  ctr({
+    grid: {
+      move: {
+        fraction: '-1/3'
+        direction: 'column'
+      }
+    }
+  })
+
+ctr('.test', {
+  grid: {
+    move: {
+      fraction: '-1/3'
+      direction: 'column'
+    }
+  }
+})
+
+
+.test
+  ctr({
+    grid: {
+      move: '-1/3' 'column'
+    }
+  })
+
+ctr('.test', {
+  grid: {
+    move: '-1/3' 'column'
+  }
+})

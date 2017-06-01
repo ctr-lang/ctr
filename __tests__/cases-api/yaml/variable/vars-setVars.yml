@@ -1,0 +1,19 @@
+# global varibles injectes with setVar
+.test:
+  color: alpha($color$, 0.2)
+  component:
+    key: $array$
+    width: 200px
+    hover: $obj$
+    component:
+      key: ['.testMe', '$selector$']
+      font-size: $font-size$
+  before:
+    content: false
+    color: $deep.as.dirt$
+    background: $deep.as.the.well.will.go.water$
+
+# you can still set $vars$ in your yml and they trump setVar
+$vars$:
+  # trums the setVar -> font-size
+  font-size: 20px

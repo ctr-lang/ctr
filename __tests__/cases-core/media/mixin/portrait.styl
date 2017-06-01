@@ -1,0 +1,48 @@
+.test
+  ctr({
+    width: 200px
+    media: {
+      height: 300px
+      query: {
+        mixin: {
+          portrait: true
+        }
+      }
+    }
+  })
+
+.test
+  ctr({
+    width: 200px
+    media: {
+      height: 300px
+      query: {
+        portrait: true
+      }
+    }
+  })
+
+  
+
+ctr('.test', {
+  width: 200px
+  media: {
+    height: 300px
+    query: {
+      mixin: {
+        portrait: true
+      }
+    }
+  }
+})
+  
+
+ctr('.test', {
+  width: 200px
+  media: {
+    height: 300px
+    query: {
+      portrait: true
+    }
+  }
+})

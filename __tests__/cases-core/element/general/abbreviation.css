@@ -1,0 +1,14 @@
+.test {
+  width: 200px;
+}
+.test::after {
+  font-size: 10px;
+  content: "ctr";
+}
+.test {
+  width: 200px;
+}
+.test::before {
+  font-size: 10px;
+  content: "ctr";
+}

@@ -1,0 +1,102 @@
+.test
+  ctr({
+    grid: {
+      column: {
+        fraction: '1/3'
+        gutter: 0.75vw
+      }
+    }
+  })
+
+ctr('.test', {
+  grid: {
+    column: {
+      fraction: '1/3'
+      gutter: 0.75vw
+    }
+  }
+})
+
+
+.test
+  ctr({
+    grid: {
+      column: '1/3' default 0.75vw
+    }
+  })
+
+ctr('.test', {
+  grid: {
+    column: '1/3' default 0.75vw
+  }
+})
+
+// negative
+.test
+  ctr({
+    grid: {
+      column: {
+        fraction: '1/3'
+        gutter: -1.2em
+      }
+    }
+  })
+
+ctr('.test', {
+  grid: {
+    column: {
+      fraction: '1/3'
+      gutter: -1.2em
+    }
+  }
+})
+
+
+.test
+  ctr({
+    grid: {
+      column: '1/3' default -1.2em
+    }
+  })
+
+ctr('.test', {
+  grid: {
+    column: '1/3' default -1.2em
+  }
+})
+
+
+// percent
+.test
+  ctr({
+    grid: {
+      column: {
+        fraction: '1/3'
+        gutter: 10%
+      }
+    }
+  })
+
+ctr('.test', {
+  grid: {
+    column: {
+      fraction: '1/3'
+      gutter: 10%
+    }
+  }
+})
+
+
+.test
+  ctr({
+    grid: {
+      column: '1/3' default 10%
+    }
+  })
+
+ctr('.test', {
+  grid: {
+    column: '1/3' default 10%
+  }
+})
+

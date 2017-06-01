@@ -1,0 +1,40 @@
+.test {
+  width: 200px;
+}
+.test > div[class*="test1"] {
+  background: #f00;
+  font-size: 100px;
+}
+.test > div[class*="test2"] {
+  height: 200px;
+  background: #f00;
+  font-size: 100px;
+}
+.test > div[class*="test1"] > span {
+  opacity: 1;
+  color: #f00;
+}
+.test > div[class*="test2"] > span {
+  opacity: 1;
+  color: #f00;
+}
+.test {
+  width: 200px;
+}
+.test > div[class*="test1"] {
+  background: #f00;
+  font-size: 100px;
+}
+.test > div[class*="test2"] {
+  height: 200px;
+  background: #f00;
+  font-size: 100px;
+}
+.test > div[class*="test1"] > span {
+  opacity: 1;
+  color: #f00;
+}
+.test > div[class*="test2"] > span {
+  opacity: 1;
+  color: #f00;
+}

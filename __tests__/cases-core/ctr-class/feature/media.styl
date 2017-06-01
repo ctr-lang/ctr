@@ -1,0 +1,17 @@
+ctrSetClass('$myMediaClass', {
+  width: 200px
+  media: {
+    'lg': {
+      width: 300px
+    }
+  }
+})
+
+.test
+  ctr({
+    extend: '$myMediaClass'
+  })
+
+ctr('.test', {
+  extend: '$myMediaClass'
+})

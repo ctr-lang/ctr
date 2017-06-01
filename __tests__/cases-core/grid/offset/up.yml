@@ -1,0 +1,26 @@
+# File generated from ---> up.styl
+
+
+.test:::0:
+  grid:
+    offset:
+      fraction: '1/3'
+      direction: 'column'
+
+
+.test:::1:
+  grid:
+    offset:
+      fraction: '1/3'
+      direction: 'column'
+
+
+.test:::2:
+  grid:
+    offset: ['1/3', 'column', default]
+
+
+.test:::3:
+  grid:
+    offset: ['1/3', 'column', default]
+

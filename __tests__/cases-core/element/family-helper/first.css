@@ -1,0 +1,48 @@
+.test {
+  width: 200px;
+}
+.test:first-child {
+  height: 400px;
+}
+.test {
+  width: 200px;
+}
+.test:first-child {
+  height: 400px;
+}
+.test {
+  width: 200px;
+}
+.test:nth-child(-n+3) {
+  height: 400px;
+}
+.test {
+  width: 200px;
+}
+.test:nth-child(-n+3) {
+  height: 400px;
+}
+.test {
+  width: 200px;
+}
+.test:first-child {
+  height: 400px;
+}
+.test {
+  width: 200px;
+}
+.test:first-child {
+  height: 400px;
+}
+.test {
+  width: 200px;
+}
+.test:nth-child(-n+3) {
+  height: 400px;
+}
+.test {
+  width: 200px;
+}
+.test:nth-child(-n+3) {
+  height: 400px;
+}

@@ -1,0 +1,82 @@
+# File generated from ---> overwrite.styl
+
+
+.test:::0:
+  width: 200px
+  # position: [[type], [1], [1], [1], [1]]
+  position: [absolute, 10px]
+  top: 11px
+  right: 22px
+  bottom: 33px
+  left: 44px
+
+
+.test:::1:
+  width: 200px
+  # position: [[type], [1], [2], [1], [2]]
+  position: [absolute, 10px, 20px]
+  top: 11px
+  right: 22px
+  bottom: 33px
+  left: 44px
+
+
+.test:::2:
+  width: 200px
+  # position: [[type], [1], [2], [3], [2]]
+  position: [absolute, 10px, 20px, 30px]
+  top: 11px
+  right: 22px
+  bottom: 33px
+  left: 44px
+
+
+.test:::3:
+  width: 200px
+  # position: [[type], [1], [2], [3], [4]]
+  position: [absolute, 10px, 20px, 30px, 40px]
+  top: 11px
+  right: 22px
+  bottom: 33px
+  left: 44px
+
+
+.test:::4:
+  width: 200px
+  # position: [[type], [1], [1], [1], [1]]
+  position: [absolute, 10px]
+  top: 11px
+  right: 22px
+  bottom: 33px
+  left: 44px
+
+
+.test:::5:
+  width: 200px
+  # position: [[type], [1], [2], [1], [2]]
+  position: [absolute, 10px, 20px]
+  top: 11px
+  right: 22px
+  bottom: 33px
+  left: 44px
+
+
+.test:::6:
+  width: 200px
+  # position: [[type], [1], [2], [3], [2]]
+  position: [absolute, 10px, 20px, 30px]
+  top: 11px
+  right: 22px
+  bottom: 33px
+  left: 44px
+
+
+.test:::7:
+  width: 200px
+  # position: [[type], [1], [2], [3], [4]]
+  position: [absolute, 10px, 20px, 30px, 40px]
+  top: 11px
+  right: 22px
+  bottom: 33px
+  left: 44px
+

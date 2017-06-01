@@ -1,0 +1,18 @@
+# File generated from ---> hyphen.styl
+
+
+.test:::0:
+  width: 200px
+  visited-on:
+    height: 300px
+  visited-non:
+    height: 200px
+
+
+.test:::1:
+  width: 200px
+  visited-on:
+    height: 300px
+  visited-non:
+    height: 200px
+

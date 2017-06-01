@@ -1,0 +1,58 @@
+// File generated from ---> option-shorthand.styl 
+
+ctr('.test', {
+  // SYNTAX_YAML
+  width: 300px
+  transitions:
+    common:
+      option:
+        duration: 1s
+        //color should pick this up and not dup
+        shorthand:
+          color: 1s
+    one:
+      height: 420px
+    two:
+      font-size: 1.2rem
+      color: red
+    three:
+      letter-spacing: 1.1rem
+      shorthand:
+        width: 2s
+        top: [1s, default, ease-out]
+        bottom: [1.2s, 3s, ease-in]
+  
+})
+
+
+
+
+ctr('.test', {
+  width: 300px
+  transitions: {
+    common: {
+      option: {
+        duration: 1s
+        //color should pick this up and not dup
+        shorthand: {
+          color: 1s
+        }
+      }
+    }
+    one: {
+      height: 420px
+    }
+    two: {
+      font-size: 1.2rem
+      color: red
+    }
+    three: {
+      letter-spacing: 1.1rem
+      shorthand: {
+        width: 2s
+        top: 1s default ease-out
+        bottom: 1.2s 3s ease-in
+      }
+    }
+  }
+})

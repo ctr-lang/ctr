@@ -1,0 +1,130 @@
+// File generated from ---> omit.styl 
+
+ctr('.test', {
+  // SYNTAX_YAML
+  width: 200px
+  states:
+    common:
+      on:
+        opacity: 1
+        option:
+          duration: 11s
+          shorthand:
+            background: 1s
+      non:
+        opacity: 0.5
+        option:
+          duration: 77s
+          shorthand:
+            background: [9s, 99s, 'ease-out']
+            //should not overwrite
+            color: 1000s
+    hover:
+      option:
+        duration: 420s
+      on:
+        background: red
+      non:
+        background: green
+        option:
+          // you can omit from the non context
+          // but you cannot omit on from this
+          // non context you must specify it in
+          // on or the option obj
+          omit: 'non'
+          ease: 'ease-out'
+    active:
+      //auto gen, as in it needs to
+      //gen color: [red, on, active, but]
+      //not on not(:active)
+      color: red
+      option:
+        //since this is autogen this omit is considered to be in the global
+        //non context so it works
+        omit: ['non', 'on.option.shorthand']
+        shorthand:
+          color: 100s
+    holyState:
+      on:
+        font-size: 10px
+      non:
+        font-size: 20px
+      option:
+        //will be key
+        key: 'link'
+  
+})
+
+
+ctr('.test', {
+  width: 200px
+  states: {
+    common: {
+      on: {
+        opacity: 1
+        option: {
+          duration: 11s
+          shorthand: {
+            background: 1s
+          }
+        }
+      }
+      non: {
+        opacity: 0.5
+        option: {
+          duration: 77s
+          shorthand: {
+            background: 9s 99s 'ease-out'
+            //should not overwrite
+            color: 1000s
+          }
+        }
+      }
+    }
+    hover: {
+      option: {
+        duration: 420s
+      }
+      on: {
+        background: red
+      }
+      non: {
+        background: green
+        option: {
+          // you can omit from the non context
+          // but you cannot omit on from this
+          // non context you must specify it in
+          // on or the option obj
+          omit: 'non'
+          ease: 'ease-out'
+        }
+      }
+    }
+    active: {
+      //auto gen, as in it needs to
+      //gen color: red on active but
+      //not on not(:active)
+      color: red
+      option: {
+        //since this is autogen this omit is considered to be in the global
+        //non context so it works
+        omit: 'non' 'on.option.shorthand'
+        shorthand: {
+          color: 100s
+        }
+      }
+    }
+    holyState: {
+      on: {
+        font-size: 10px
+      }
+      non: {
+        font-size: 20px
+      }
+      option: {
+        //will be key
+        key: 'link'
+      }
+    }
+  }
+})

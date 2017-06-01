@@ -1,0 +1,40 @@
+.test {
+  color: rgba(255,0,0,0.2);
+}
+.test > .one {
+  width: 200px;
+}
+.test > .two {
+  width: 200px;
+}
+.test::before {
+  color: #a52a2a;
+  content: "";
+  background: #00f;
+}
+.test > .one:hover {
+  width: 400px;
+  transition-delay: 0s;
+  transition-duration: 0.5s;
+  transition-property: width;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test > .one > .testMe {
+  font-size: 10px;
+}
+.test > .one > .testOk {
+  font-size: 10px;
+}
+.test > .two:hover {
+  width: 400px;
+  transition-delay: 0s;
+  transition-duration: 0.5s;
+  transition-property: width;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test > .two > .testMe {
+  font-size: 10px;
+}
+.test > .two > .testOk {
+  font-size: 10px;
+}

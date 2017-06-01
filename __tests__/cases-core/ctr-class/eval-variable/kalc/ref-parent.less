@@ -1,0 +1,36 @@
+// File generated from ---> ref-parent.styl 
+
+ctrSetClass('$evalMathRefParent', {
+  // SYNTAX_YAML
+  $$:
+    base: 10
+    eval:
+      w: "kalc($base$ * 20px / 2)"
+      h: "kalc(($eval.w$ * 20) / 1.5)"
+      width: "kalc($eval.h$ * 0.1)"
+  height: "$eval.w$"
+  width: "$eval.h$"
+  border: ["$eval.width$", solid, green]
+})
+ctrSetClass('$evalMathRefParent', {
+  $$: {
+    base: 10
+    eval: {
+      w: "kalc($base$ * 20px / 2)"
+      h: "kalc(($eval.w$ * 20) / 1.5)"
+      width: "kalc($eval.h$ * 0.1)"
+    }
+  }
+  height: "$eval.w$"
+  width: "$eval.h$"
+  border: "$eval.width$" solid green
+})
+
+ctr('.test', {
+  // SYNTAX_YAML
+  extend: $evalMathRefParent
+})
+
+ctr('.test', {
+  extend: $evalMathRefParent
+})

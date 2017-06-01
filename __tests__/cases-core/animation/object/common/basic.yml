@@ -1,0 +1,48 @@
+# File generated from ---> basic.styl
+
+
+.test:::0:
+  width: 200px
+  animations:
+    common:
+      option:
+        duration: 2s
+        state: 'paused'
+      timeline:
+        '44':
+          opacity: 1
+    one:
+      name: 'tlOne'
+      timeline:
+        '50':
+          background: green
+    tlTwo:
+      option:
+        duration: 4s
+      timeline:
+        '50':
+          color: green
+
+
+.test:::1:
+  width: 200px
+  animations:
+    common:
+      option:
+        duration: 2s
+        state: 'paused'
+      timeline:
+        '44':
+          opacity: 1
+    one:
+      name: 'tlOne'
+      timeline:
+        '50':
+          background: green
+    tlTwo:
+      option:
+        duration: 4s
+      timeline:
+        '50':
+          color: green
+

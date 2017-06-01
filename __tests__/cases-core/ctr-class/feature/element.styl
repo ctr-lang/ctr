@@ -1,0 +1,15 @@
+ctrSetClass('$myElmClass', {
+  width: 200px
+  before: {
+    content: 'test'
+  }
+})
+
+.test
+  ctr({
+    extend: '$myElmClass'
+  })
+
+ctr('.test', {
+  extend: '$myElmClass'
+})

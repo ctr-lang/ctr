@@ -1,0 +1,36 @@
+# File generated from ---> previous.styl
+
+
+.test:::0:
+  width: 200px
+  comp:
+    span:
+      font-size: 20px
+      first-child:
+        width: 200px
+      comp:
+        p:
+          color: red
+          hover:
+            font-size: 10px
+            # attaching to span
+            option:
+              attachTo: 'previous'
+
+
+.test:::1:
+  width: 200px
+  comp:
+    span:
+      font-size: 20px
+      first-child:
+        width: 200px
+      comp:
+        p:
+          color: red
+          hover:
+            font-size: 10px
+            # attaching to span
+            option:
+              attachTo: 'previous'
+

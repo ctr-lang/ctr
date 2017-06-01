@@ -1,0 +1,49 @@
+// File generated from ---> key-array.styl 
+
+ctr('.test', {
+  // SYNTAX_YAML
+  width: 200px
+  comp:
+    'div':
+      attr:
+        key: ['[class*="te"]', '[class*="kool"]']
+        background: teal
+  
+})
+
+ctr('.test', {
+  width: 200px
+  comp: {
+    'div': {
+      attr: {
+        key: '[class*="te"]' '[class*="kool"]'
+        background: teal
+      }
+    }
+  }
+})
+
+//bracketless
+ctr('.test', {
+  // SYNTAX_YAML
+  width: 200px
+  comp:
+    'div':
+      attr:
+        key: ['class*="te"', 'class*="kool"']
+        background: teal
+  
+})
+
+
+ctr('.test', {
+  width: 200px
+  comp: {
+    'div': {
+      attr: {
+        key: 'class*="te"' 'class*="kool"'
+        background: teal
+      }
+    }
+  }
+})

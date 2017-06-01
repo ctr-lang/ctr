@@ -1,0 +1,24 @@
+# File generated from ---> auto-gen.styl
+
+
+.test:::0:
+  width: 200px
+  trans:
+    background: green
+    font-size: 2rem
+    height: 300px
+    shorthand:
+      background: 1s
+      font-size: [0.5s, 0.25s, ease-out]
+
+
+.test:::1:
+  width: 200px
+  transition:
+    background: green
+    font-size: 2rem
+    height: 300px
+    shorthand:
+      background: 1s
+      font-size: [0.5s, 0.25s, ease-out]
+

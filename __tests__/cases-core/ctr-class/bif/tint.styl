@@ -1,0 +1,19 @@
+ctrSetClass('$evalTint', {
+  $$: {
+    base: #fd0cc7
+    bg: "tint($base$, 66%)"
+  }
+  background: "$bg$"
+  color: tint(#fd0cc7,66%)
+})
+
+
+
+.test
+  ctr({
+    extend: $evalTint
+  })
+
+ctr('.test', {
+  extend: $evalTint
+})

@@ -1,0 +1,16 @@
+.test {
+  width: 200px;
+}
+@media (min-resolution: 3dpi) and (min-resolution: 2dppx) {
+  .test {
+    width: 100px;
+  }
+}
+.test {
+  width: 200px;
+}
+@media (min-resolution: 3dpi) and (min-resolution: 2dppx) {
+  .test {
+    width: 100px;
+  }
+}

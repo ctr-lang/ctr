@@ -1,0 +1,20 @@
+@media (min-width: 800px) and (max-width: 1050px) {
+  .test {
+    background: #f00;
+  }
+}
+@keyframes tester {
+  50% {
+    background: #008000;
+  }
+}
+@media (min-width: 800px) and (max-width: 1050px) {
+  .test {
+    background: #f00;
+  }
+}
+@keyframes tester {
+  50% {
+    background: #008000;
+  }
+}

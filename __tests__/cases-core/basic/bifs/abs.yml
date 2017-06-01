@@ -1,0 +1,12 @@
+# File generated from ---> abs.styl
+
+
+.test:::0:
+  width: 200px
+  font-size: abs(-5px)
+
+
+.test:::1:
+  width: 200px
+  font-size: abs(-5px)
+

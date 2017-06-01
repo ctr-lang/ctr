@@ -1,0 +1,119 @@
+.test
+  ctr({
+    width: 200px
+    components: {
+      'span': {
+        font-size: 10px
+      }
+      '#beerMe': {
+        width: 300px
+      }
+      '.please': {
+        width: 400px
+      }
+      random: {
+        font-size: 20px
+        option: {
+          //will be key
+          key: 'li'
+        }
+      }
+      //applied to all comps
+      global: {
+        background: yellow
+        option: {
+          selector: '~'
+        }
+      }
+    }
+  })
+
+
+ctr('.test', {
+  width: 200px
+  components: {
+    'span': {
+      font-size: 10px
+    }
+    '#beerMe': {
+      width: 300px
+    }
+    '.please': {
+      width: 400px
+    }
+    random: {
+      font-size: 20px
+      option: {
+        //will be key
+        key: 'li'
+      }
+    }
+    //applied to all comps
+    global: {
+      background: yellow
+      option: {
+        selector: '~'
+      }
+    }
+  }
+})
+
+.test
+  ctr({
+    width: 200px
+    comp: {
+      'span': {
+        font-size: 10px
+      }
+      '#beerMe': {
+        width: 300px
+      }
+      '.please': {
+        width: 400px
+      }
+      random: {
+        font-size: 20px
+        option: {
+          //will be key
+          key: 'li'
+        }
+      }
+      //applied to all comps
+      common: {
+        background: yellow
+        option: {
+          selector: '~'
+        }
+      }
+    }
+  })
+
+
+ctr('.test', {
+  width: 200px
+  comp: {
+    'span': {
+      font-size: 10px
+    }
+    '#beerMe': {
+      width: 300px
+    }
+    '.please': {
+      width: 400px
+    }
+    random: {
+      font-size: 20px
+      option: {
+        //will be key
+        key: 'li'
+      }
+    }
+    //applied to all comps
+    common: {
+      background: yellow
+      option: {
+        selector: '~'
+      }
+    }
+  }
+})

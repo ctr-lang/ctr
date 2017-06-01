@@ -1,0 +1,14 @@
+# File generated from ---> rotateOutDownLeft.styl
+
+
+.test:::0:
+  width: 400px
+  anim:
+    preset: 'rotateOutDownLeft'
+
+
+.test:::1:
+  width: 400px
+  anim:
+    preset: 'rotateOutDownLeft'
+

@@ -1,0 +1,70 @@
+.test
+  ctr({
+    height: 200px
+    medias: {
+      //added to all
+      common: {
+        background: green
+        query: {
+          type: 'screen'
+          max-height: 800px
+        }
+      }
+      xs: {
+        width: 100px
+      }
+      '+md': {
+        option: {
+          //pick
+          pick: 'query.max-height'
+        }
+        width: 200px
+      }
+      custom: {
+        width: 400px
+        option: {
+          pick: 'background' 'query.max-height'
+        }
+        query: {
+          at: 'hd'
+          min-height: 200px
+        }
+      }
+    }
+  })
+
+
+ctr('.test', {
+  height: 200px
+  medias: {
+    //added to all
+    common: {
+      background: green
+      query: {
+        type: 'screen'
+        max-height: 800px
+      }
+    }
+    xs: {
+      width: 100px
+    }
+    '+md': {
+      option: {
+        //pick
+        pick: 'query.max-height'
+      }
+      width: 200px
+    }
+    custom: {
+      width: 400px
+      option: {
+        pick: 'background' 'query.max-height'
+      }
+      query: {
+        at: 'hd'
+        min-height: 200px
+      }
+    }
+  }
+})
+

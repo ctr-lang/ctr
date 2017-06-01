@@ -1,0 +1,51 @@
+// File generated from ---> extensible.styl 
+
+ctrSetClass('$buttonExt', {
+  // SYNTAX_YAML
+  width: 200px
+  height: 200px
+  comp:
+    'p':
+      font-size: 300
+    'span':
+      font-size: 100
+  
+})
+ctrSetClass('$buttonExt', {
+  width: 200px
+  height: 200px
+  comp: {
+    'p': {
+      font-size: 300
+    }
+    'span': {
+      font-size: 100
+    }
+  }
+})
+
+//imparative
+ctr('.test', {
+  // SYNTAX_YAML
+  extend:
+    class: '$buttonExt'
+  font-size: 20px
+  comp:
+    'p':
+      font-size: 10px
+  
+})
+
+
+//declarative
+ctr('.test', {
+  extend: {
+    class: '$buttonExt'
+  }
+  font-size: 20px
+  comp: {
+    'p': {
+      font-size: 10px
+    }
+  }
+})

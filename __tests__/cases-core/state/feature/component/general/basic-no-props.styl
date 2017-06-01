@@ -1,0 +1,41 @@
+.test
+  ctr({
+    width: 200px
+    hover: {
+      on: {
+        comp: {
+          '.aClass': {
+            height: 400px
+          }
+        }
+      }
+      non: {
+        comp: {
+          '.aClass': {
+            height: 200px
+          }
+        }
+      }
+    }
+  })
+
+
+ctr('.test', {
+  width: 200px
+  hover: {
+    on: {
+      comp: {
+        '.aClass': {
+          height: 400px
+        }
+      }
+    }
+    non: {
+      comp: {
+        '.aClass': {
+          height: 200px
+        }
+      }
+    }
+  }
+})

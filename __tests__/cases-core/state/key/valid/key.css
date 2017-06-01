@@ -1,0 +1,18 @@
+.test {
+  width: 200px;
+}
+.test:valid {
+  height: 300px;
+}
+.test:not(:valid) {
+  height: 200px;
+}
+.test {
+  width: 200px;
+}
+.test:valid {
+  height: 300px;
+}
+.test:not(:valid) {
+  height: 200px;
+}

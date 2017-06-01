@@ -1,0 +1,63 @@
+
+//invalid no set vars
+//since there is no set vars yet
+//ctr will not check the vars thus
+//it will not throw a warning and the
+//val will not be $var-not-found$
+//it will just be the strings above
+ctr('.test-1', {
+  // SYNTAX_YAML
+  width: 200px
+  height: '$height$'
+  color: '$color$'
+  top: '$top$'
+})
+
+//set vars
+ctrSetVariable({
+  // SYNTAX_YAML
+  height: 200px
+  color: red
+  top: 50
+})
+
+
+ctr('.test-2', {
+  // SYNTAX_YAML
+  width: 200px
+  height: '$height$'
+  color: '$color$'
+  top: '$top$'
+})
+
+//set new vars but only once
+ctrSetVariable({
+  // SYNTAX_YAML
+  height: 420px
+  top: 100
+  set:::option:
+    once: true
+})
+
+
+//color will still be inherited
+ctr('.test-3', {
+  // SYNTAX_YAML
+  width: 200px
+  height: '$height$'
+  color: '$color$'
+  top: '$top$'
+})
+
+
+//should === .test-2
+ctr('.test-4', {
+  // SYNTAX_YAML
+  width: 200px
+  height: '$height$'
+  color: '$color$'
+  top: '$top$'
+})
+
+
+

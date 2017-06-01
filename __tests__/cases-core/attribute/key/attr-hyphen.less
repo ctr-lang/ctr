@@ -1,0 +1,76 @@
+// File generated from ---> attr-hyphen.styl 
+
+ctr('.test', {
+  // SYNTAX_YAML
+  width: 200px
+  comp:
+    'div':
+      'attr-[class*="te"]':
+        background: teal
+  
+})
+
+
+ctr('.test', {
+  width: 200px
+  comp: {
+    'div': {
+      'attr-[class*="te"]': {
+        background: teal
+      }
+    }
+  }
+})
+
+
+//bracketltess
+ctr('.test', {
+  // SYNTAX_YAML
+  width: 200px
+  comp:
+    'div':
+      'attr-class*="te"':
+        background: teal
+  
+})
+
+
+ctr('.test', {
+  width: 200px
+  comp: {
+    'div': {
+      'attr-class*="te"': {
+        background: teal
+      }
+    }
+  }
+})
+
+
+//override
+ctr('.test', {
+  // SYNTAX_YAML
+  width: 200px
+  comp:
+    'div':
+      'attr-class*="te"':
+        background: teal
+        option:
+          key: 'class*="artisin"'
+  
+})
+
+
+ctr('.test', {
+  width: 200px
+  comp: {
+    'div': {
+      'attr-class*="te"': {
+        background: teal
+        option: {
+          key: 'class*="artisin"'
+        }
+      }
+    }
+  }
+})

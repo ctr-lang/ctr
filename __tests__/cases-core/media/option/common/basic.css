@@ -1,0 +1,108 @@
+.test {
+  height: 200px;
+}
+@media only screen and (max-width: 400px) {
+  .test {
+    width: 100px;
+    background: #008000;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 800px) {
+  .test {
+    width: 200px;
+    background: #008000;
+  }
+}
+@media only screen and (min-width: 1050px) {
+  .test {
+    width: 300px;
+    background: #008000;
+  }
+}
+@media only screen and (min-width: 1050px) and (min-height: 200px) {
+  .test {
+    width: 400px;
+    background: #008000;
+  }
+}
+.test {
+  height: 200px;
+}
+@media only screen and (max-width: 400px) {
+  .test {
+    width: 100px;
+    background: #008000;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 800px) {
+  .test {
+    width: 200px;
+    background: #008000;
+  }
+}
+@media only screen and (min-width: 1050px) {
+  .test {
+    width: 300px;
+    background: #008000;
+  }
+}
+@media only screen and (min-width: 1050px) and (min-height: 200px) {
+  .test {
+    width: 400px;
+    background: #008000;
+  }
+}
+.test {
+  height: 200px;
+}
+@media only screen and (max-width: 400px) {
+  .test {
+    width: 100px;
+    background: #008000;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 800px) {
+  .test {
+    width: 200px;
+    background: #008000;
+  }
+}
+@media only screen and (min-width: 1050px) {
+  .test {
+    width: 300px;
+    background: #008000;
+  }
+}
+@media only screen and (min-width: 1050px) and (min-height: 200px) {
+  .test {
+    width: 400px;
+    background: #008000;
+  }
+}
+.test {
+  height: 200px;
+}
+@media only screen and (max-width: 400px) {
+  .test {
+    width: 100px;
+    background: #008000;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 800px) {
+  .test {
+    width: 200px;
+    background: #008000;
+  }
+}
+@media only screen and (min-width: 1050px) {
+  .test {
+    width: 300px;
+    background: #008000;
+  }
+}
+@media only screen and (min-width: 1050px) and (min-height: 200px) {
+  .test {
+    width: 400px;
+    background: #008000;
+  }
+}

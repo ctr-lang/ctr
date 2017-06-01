@@ -1,0 +1,1 @@
+__Description__: If the keyword of `__hash__` is in the name it will convert it into a random hash. For testing purposes if hashTest is `true` it will convert to `_!!hashit!!`

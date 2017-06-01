@@ -1,0 +1,57 @@
+//flex
+.test
+  ctr({
+    grid: {
+      offset: {
+        fraction: '1/2'
+        gutter: 60px
+      }
+    }
+  })
+
+ctr('.test', {
+  grid: {
+    offset: {
+      fraction: '1/2'
+      gutter: '60px'
+    }
+  }
+})
+
+
+.test
+  ctr({
+    grid: {
+      // fraction row|column gutter
+      offset: '1/2' default '60px'
+    }
+  })
+
+ctr('.test', {
+  grid: {
+    // fraction row|column gutter
+    offset: '1/2' default '60px'
+  }
+})
+
+
+//false === 0
+//flex
+.test
+  ctr({
+    grid: {
+      offset: {
+        fraction: '1/2'
+        gutter: false
+      }
+    }
+  })
+
+ctr('.test', {
+  grid: {
+    offset: {
+      fraction: '1/2'
+      gutter: false
+    }
+  }
+})

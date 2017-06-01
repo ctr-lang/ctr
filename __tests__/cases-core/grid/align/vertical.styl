@@ -1,0 +1,86 @@
+//alias: 'vertical', 'vr'
+
+//flex
+.test
+  ctr({
+    grid: {
+      align: {
+        location: 'vertical'
+      }
+    }
+  })
+
+ctr('.test', {
+  grid: {
+    align: {
+      location: 'vertical'
+    } 
+  }
+})
+
+//non-flex
+.test
+  ctr({
+    grid: {
+      align: {
+        location: 'vertical'
+        flex: false
+      }
+    }
+  })
+
+
+ctr('.test', {
+  grid: {
+    align: {
+      location: 'vertical'
+      flex: false
+    }
+  }
+})
+
+//flex
+.test
+  ctr({
+    grid: {
+      align: 'vertical'
+    }
+  })
+
+ctr('.test', {
+  grid: {
+    align: 'vertical' 
+  }
+})
+
+//non-flex
+.test
+  ctr({
+    grid: {
+      align: 'vertical' false
+    }
+  })
+
+
+ctr('.test', {
+  grid: {
+    align: 'vertical' false
+  }
+})
+
+
+
+// alais
+.test
+  ctr({
+    grid: {
+      align: 'vr'
+    }
+  })
+
+
+ctr('.test', {
+  grid: {
+    align: 'vr'
+  }
+})

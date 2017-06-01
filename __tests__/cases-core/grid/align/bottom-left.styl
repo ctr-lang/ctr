@@ -1,0 +1,86 @@
+//alias: 'bottom-left', 'bl'
+
+//flex
+.test
+  ctr({
+    grid: {
+      align: {
+        location: 'bottom-left'
+      }
+    }
+  })
+
+ctr('.test', {
+  grid: {
+    align: {
+      location: 'bottom-left'
+    } 
+  }
+})
+
+//non-flex
+.test
+  ctr({
+    grid: {
+      align: {
+        location: 'bottom-left'
+        flex: false
+      }
+    }
+  })
+
+
+ctr('.test', {
+  grid: {
+    align: {
+      location: 'bottom-left'
+      flex: false
+    }
+  }
+})
+
+//flex
+.test
+  ctr({
+    grid: {
+      align: 'bottom-left'
+    }
+  })
+
+ctr('.test', {
+  grid: {
+    align: 'bottom-left' 
+  }
+})
+
+//non-flex
+.test
+  ctr({
+    grid: {
+      align: 'bottom-left' false
+    }
+  })
+
+
+ctr('.test', {
+  grid: {
+    align: 'bottom-left' false
+  }
+})
+
+
+
+//alias
+.test
+  ctr({
+    grid: {
+      align: 'bl'
+    }
+  })
+
+
+ctr('.test', {
+  grid: {
+    align: 'bl'
+  }
+})

@@ -1,0 +1,22 @@
+# File generated from ---> specified.styl
+
+
+.test:::0:
+  width: 300px
+  trans:
+    background: green
+    color: red
+    option:
+      will-change: [background, font-size]
+      duration: 1s
+
+
+.test:::1:
+  width: 300px
+  trans:
+    background: green
+    color: red
+    option:
+      will-change: ['background', 'font-size']
+      duration: 1s
+

@@ -1,0 +1,46 @@
+# File generated from ---> pick.styl
+
+
+.test:::0:
+  width: 200px
+  components:
+    common:
+      font-size: 100px
+      background: red
+      'comp-span':
+        color: red
+        opacity: 1
+    '.one':
+      option:
+        # pick
+        pick: ['font-size', 'comp-span.opacity']
+      height: 100px
+    '.two':
+      height: 200px
+      font-size: 200px
+    three:
+      key: '.three'
+      height: 300px
+
+
+.test:::1:
+  width: 200px
+  components:
+    common:
+      font-size: 100px
+      background: red
+      'comp-span':
+        color: red
+        opacity: 1
+    '.one':
+      option:
+        # pick
+        pick: ['font-size', 'comp-span.opacity']
+      height: 100px
+    '.two':
+      height: 200px
+      font-size: 200px
+    three:
+      key: '.three'
+      height: 300px
+

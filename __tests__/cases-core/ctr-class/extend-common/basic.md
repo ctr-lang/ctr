@@ -1,0 +1,1 @@
+__Description__: If common object is present apply all common props to all classes unless specified otherwise

@@ -1,0 +1,44 @@
+// File generated from ---> flexbox.styl 
+
+ctr('.test', {
+  // SYNTAX_YAML
+  grid:
+    waffle:
+      fraction: '2/5'
+      cycle: 3
+      gutter: 0
+      //default value
+      // flex: true
+  
+})
+
+ctr('.test', {
+  grid: {
+    waffle: {
+      fraction: '2/5'
+      cycle: 3
+      gutter: 0
+      //default value
+      // flex: true
+    }
+  }
+})
+
+
+ctr('.test', {
+  // SYNTAX_YAML
+  grid:
+    //flex by default
+    // fraction cycle gutter flex
+    waffle: ['2/5', '3', '0', true]
+  
+})
+
+
+ctr('.test', {
+  grid: {
+    //flex by default
+    // fraction cycle gutter flex
+    waffle: '2/5' '3' '0' true
+  }
+})

@@ -1,0 +1,30 @@
+# File generated from ---> each.styl
+
+
+.test:::0:
+  width: 200px
+  elm:
+    key: 'each(3)'
+    height: 400px
+
+
+.test:::1:
+  width: 200px
+  elm:
+    key: 'each(3)'
+    height: 400px
+
+
+.test:::2:
+  width: 200px
+  elm:
+    key: fm-each(3)
+    height: 400px
+
+
+.test:::3:
+  width: 200px
+  elm:
+    key: fm-each(3)
+    height: 400px
+

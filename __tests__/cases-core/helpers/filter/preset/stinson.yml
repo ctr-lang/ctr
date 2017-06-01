@@ -1,0 +1,12 @@
+# File generated from ---> stinson.styl
+
+
+.test:::0:
+  width: 600px
+  filter: 'stinson'
+
+
+.test:::1:
+  width: 600px
+  filter: 'stinson'
+

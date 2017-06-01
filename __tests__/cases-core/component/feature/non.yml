@@ -1,0 +1,22 @@
+# File generated from ---> non.styl
+
+
+.test:::0:
+  width: 200px
+  component:
+    '.aClass':
+      font-size: 10px
+      non:
+        key: '.today'
+        height: 200px
+
+
+.test:::1:
+  width: 200px
+  component:
+    '.aClass':
+      font-size: 10px
+      non:
+        key: '.today'
+        height: 200px
+

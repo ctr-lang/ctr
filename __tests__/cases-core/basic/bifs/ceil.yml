@@ -1,0 +1,12 @@
+# File generated from ---> ceil.styl
+
+
+.test:::0:
+  width: 200px
+  font-size: ceil(5.5in)
+
+
+.test:::1:
+  width: 200px
+  font-size: ceil(5.5in)
+

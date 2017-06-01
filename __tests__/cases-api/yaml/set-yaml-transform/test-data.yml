@@ -1,0 +1,16 @@
+.test-1:
+  size: 200px
+  color: red
+
+.test-2:
+  size: 300px
+  color: red
+  comp-.kool:
+    position: [absolute, 0]
+    background: green
+
+.test-3:
+  size: 400px
+  hover:
+    on:
+      background: red

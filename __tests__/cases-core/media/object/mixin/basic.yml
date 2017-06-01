@@ -1,0 +1,40 @@
+# File generated from ---> basic.styl
+
+
+.test:::0:
+  height: 200px
+  medias:
+    xs:
+      width: 100px
+      query:
+        max-height: 100px
+    md:
+      width: 200px
+      query:
+        type: 'screen'
+    hd:
+      width: 300px
+    custom:
+      width: 999px
+      query:
+        min-width: 9999px
+
+
+.test:::1:
+  height: 200px
+  medias:
+    xs:
+      width: 100px
+      query:
+        max-height: 100px
+    md:
+      width: 200px
+      query:
+        type: 'screen'
+    hd:
+      width: 300px
+    custom:
+      width: 999px
+      query:
+        min-width: 9999px
+

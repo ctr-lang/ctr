@@ -1,0 +1,54 @@
+.test {
+  width: 200px;
+}
+.test > span {
+  background: #008000;
+}
+.test > span > .kool {
+  width: 200px;
+}
+.test > span > .kool:hover {
+  background: #008000;
+  transition-delay: 0s;
+  transition-duration: 0.5s;
+  transition-property: background;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test > span > .kool:not(:hover) {
+  transition-delay: 0s;
+  transition-duration: 0.5s;
+  transition-property: background;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+@media (min-width: 600px) and (max-width: 800px) {
+  .test > span {
+    background: #ff0;
+  }
+}
+.test {
+  width: 200px;
+}
+.test > span {
+  background: #008000;
+}
+.test > span > .kool {
+  width: 200px;
+}
+.test > span > .kool:hover {
+  background: #008000;
+  transition-delay: 0s;
+  transition-duration: 0.5s;
+  transition-property: background;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test > span > .kool:not(:hover) {
+  transition-delay: 0s;
+  transition-duration: 0.5s;
+  transition-property: background;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+@media (min-width: 600px) and (max-width: 800px) {
+  .test > span {
+    background: #ff0;
+  }
+}

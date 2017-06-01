@@ -1,0 +1,1 @@
+__Description__: Js file should be able to define a custom assertion

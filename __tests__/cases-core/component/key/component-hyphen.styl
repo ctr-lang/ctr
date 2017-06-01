@@ -1,0 +1,42 @@
+.test
+  ctr({
+    width: 200px
+    component-span: {
+      font-size: 10px
+    }
+    component-p: {
+      font-size: 20px
+    }
+    'component-.class': {
+      width: 300px
+    }
+    'component-#id': {
+      width: 400px
+    }
+    'component-h1': {
+      //override hyphn key
+      key: '.override'
+      width: 500px
+    }
+  })
+
+ctr('.test', {
+  width: 200px
+  component-span: {
+    font-size: 10px
+  }
+  component-p: {
+    font-size: 20px
+  }
+  'component-.class': {
+    width: 300px
+  }
+  'component-#id': {
+    width: 400px
+  }
+  'component-h1': {
+    //override hyphn key
+    key: '.override'
+    width: 500px
+  }
+})

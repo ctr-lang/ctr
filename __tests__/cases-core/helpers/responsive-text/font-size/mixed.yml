@@ -1,0 +1,32 @@
+# File generated from ---> mixed.styl
+
+
+.test:::0:
+  font-size: [responsive, 1rem, 3rem]
+  font-size-range: [420px, 1280px]
+
+
+.test:::1:
+  font-size: [responsive, 1rem, 3rem]
+  font-size-range: [20em, 60em]
+
+
+.test:::2:
+  font-size: [responsive, 1em, 3em]
+  font-size-range: [420px, 1280px]
+
+
+.test:::3:
+  font-size: [responsive, 1rem, 3rem]
+  font-size-range: [420px, 1280px]
+
+
+.test:::4:
+  font-size: [responsive, 1rem, 3rem]
+  font-size-range: [20em, 60em]
+
+
+.test:::5:
+  font-size: [responsive, 1em, 3em]
+  font-size-range: [420px, 1280px]
+

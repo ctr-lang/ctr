@@ -1,0 +1,19 @@
+// File generated from ---> alpha.styl 
+
+ctr('.test', {
+  // SYNTAX_YAML
+  $$:
+    base: red
+    bg: "alpha($base$, 0.2)"
+  background: "$bg$"
+  color: alpha(red, 0.2)
+})
+
+ctr('.test', {
+  $$: {
+    base: red
+    bg: "alpha($base$, 0.2)"
+  }
+  background: "$bg$"
+  color: alpha(red, 0.2)
+})

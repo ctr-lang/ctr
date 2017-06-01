@@ -1,0 +1,34 @@
+# File generated from ---> on.styl
+
+
+.test:::0:
+  width: 200px
+  hover:
+    on:
+      font-size: 20px
+      background: green
+      color: red
+      height: 33px
+      option:
+        shorthand:
+          font-size: [10s, 2s]
+          background: [44s, default, funky-town]
+          color: [default, default, tedious]
+        duration: 420s
+
+
+.test:::1:
+  width: 200px
+  hover:
+    on:
+      font-size: 20px
+      background: green
+      color: red
+      height: 33px
+      option:
+        shorthand:
+          font-size: [10s, 2s]
+          background: [44s, default, funky-town]
+          color: [default, default, tedious]
+        duration: 420s
+

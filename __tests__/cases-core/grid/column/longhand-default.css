@@ -1,0 +1,28 @@
+.test {
+  flex: 0 0 auto;
+  width: calc(99.9% * 2 / 6 - (30px - 30px * 2 / 6));
+}
+.test:nth-child(1n) {
+  margin-right: 30px;
+}
+.test:last-child {
+  margin-right: 0;
+}
+.test:nth-child(6n) {
+  float: right;
+  margin-right: 0;
+}
+.test {
+  flex: 0 0 auto;
+  width: calc(99.9% * 2 / 6 - (30px - 30px * 2 / 6));
+}
+.test:nth-child(1n) {
+  margin-right: 30px;
+}
+.test:last-child {
+  margin-right: 0;
+}
+.test:nth-child(6n) {
+  float: right;
+  margin-right: 0;
+}

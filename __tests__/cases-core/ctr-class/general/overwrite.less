@@ -1,0 +1,27 @@
+// File generated from ---> overwrite.styl 
+
+//extend class
+ctrSetClass('$buttonOver', {
+  // SYNTAX_YAML
+  width: 200px
+  height: 200px
+  background: green
+})
+ctrSetClass('$buttonOver', {
+  width: 200px
+  height: 200px
+  background: green
+})
+
+
+ctr('.test', {
+  // SYNTAX_YAML
+  height: 300px
+  extend: '$buttonOver'
+})
+
+
+ctr('.test', {
+  extend: '$buttonOver'
+  height: 300px
+})

@@ -1,0 +1,18 @@
+# File generated from ---> basic.styl
+
+
+.test:::0:
+  width: 200px
+  media:
+    width: 100px
+    query:
+      'max-width': 800px
+
+
+.test:::1:
+  width: 200px
+  media:
+    width: 100px
+    query:
+      'max-width': 800px
+

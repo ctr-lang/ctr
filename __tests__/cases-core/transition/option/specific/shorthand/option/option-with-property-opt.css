@@ -1,0 +1,14 @@
+.test {
+  width: 200px;
+  transition-delay: 0s, 0.25s, 0s, 0s;
+  transition-duration: 1s, 0.5s, 3s, 2.2s;
+  transition-property: background, font-size, left, right;
+  transition-timing-function: ease-in, ease-out, ease-in, ease-in;
+}
+.test {
+  width: 200px;
+  transition-delay: 0s, 0.25s, 0s, 0s;
+  transition-duration: 1s, 0.5s, 3s, 2.2s;
+  transition-property: background, font-size, left, right;
+  transition-timing-function: ease-in, ease-out, ease-in, ease-in;
+}

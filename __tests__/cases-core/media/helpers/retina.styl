@@ -1,0 +1,82 @@
+.test
+  ctr({
+    width: 200px
+    customMedia: {
+      query: {
+        retina: true
+      }
+      width: 400px
+    }
+  })
+
+ctr('.test', {
+  width: 200px
+  customMedia: {
+    query: {
+      retina: true
+    }
+    width: 400px
+  }
+})
+
+
+//------------------------------//
+// With or condition
+//------------------------------//
+.test
+  ctr({
+    width: 200px
+    customMedia: {
+      query: {
+        retina: true
+        orCond: {
+          max-height: 222px
+        }
+      }
+      width: 400px
+    }
+  })
+
+ctr('.test', {
+  width: 200px
+  customMedia: {
+    query: {
+      retina: true
+      orCond: {
+        max-height: 222px
+      }
+    }
+    width: 400px
+  }
+})
+
+
+//------------------------------//
+// with and condition
+//------------------------------//
+.test
+  ctr({
+    width: 200px
+    customMedia: {
+      query: {
+        retina: true
+        andCond: {
+          max-height: 222px
+        }
+      }
+      width: 400px
+    }
+  })
+
+ctr('.test', {
+  width: 200px
+  customMedia: {
+    query: {
+      retina: true
+      andCond: {
+        max-height: 222px
+      }
+    }
+    width: 400px
+  }
+})

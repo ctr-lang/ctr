@@ -1,0 +1,18 @@
+# File generated from ---> shade.styl
+
+
+.test:::0:
+  $$:
+    base: '#fd0cc7'
+    bg: "shade($base$, 66%)"
+  background: "$bg$"
+  color: 'shade(#fd0cc7,66%)'
+
+
+.test:::1:
+  $$:
+    base: '#fd0cc7'
+    bg: "shade($base$, 66%)"
+  background: "$bg$"
+  color: 'shade(#fd0cc7,66%)'
+

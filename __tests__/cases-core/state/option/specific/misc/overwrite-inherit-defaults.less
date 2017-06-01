@@ -1,0 +1,47 @@
+// File generated from ---> overwrite-inherit-defaults.styl 
+
+ctr('.test', {
+  // SYNTAX_YAML
+  option:
+    transition:
+      ease: 'test'
+      duration: 100s
+    hover:
+      //priority
+      duration: 0.25s
+      ease: 100s
+  width: 200px
+  hover:
+    on:
+      height: 200px
+      option:
+        //priority
+        ease: 10s
+  
+})
+
+
+
+ctr('.test', {
+  option: {
+    transition: {
+      ease: 'test'
+      duration: 100s
+    }
+    hover: {
+      //priority
+      duration: 0.25s
+      ease: 100s
+    }
+  }
+  width: 200px
+  hover: {
+    on: {
+      height: 200px
+      option: {
+        //priority
+        ease: 10s
+      }
+    }
+  }
+})

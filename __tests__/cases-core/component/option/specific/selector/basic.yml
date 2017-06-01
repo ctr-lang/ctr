@@ -1,0 +1,47 @@
+# File generated from ---> basic.styl
+
+
+.test:::0:
+  width: 200px
+  comp:
+    span:
+      font-size: 20px
+      option:
+        selector: '+'
+
+
+.test:::1:
+  width: 200px
+  comp:
+    span:
+      font-size: 20px
+      option:
+        selector: '+'
+
+
+.test:::2:
+  width: 200px
+  comp:
+    span:
+      font-size: 20px
+      option:
+        selector: '~'
+
+
+.test:::3:
+  width: 200px
+  comp:
+    span:
+      font-size: 20px
+      option:
+        selector: '~'
+
+
+.test:::4:
+  width: 200px
+  comp:
+    span:
+      font-size: 20px
+      option:
+        selector: ','
+

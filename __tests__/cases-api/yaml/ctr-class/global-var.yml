@@ -1,0 +1,33 @@
+###
+# global var which can be ref'ed from below classes
+###
+$$:
+  opacity: 1
+
+###
+# classes
+###
+box100:
+  $$:
+    background: red
+    border-radius: 1px
+  size: 100
+  background: _$background$_
+  border-radius: _$border-radius$_
+  opacity: _$opacity$_
+
+box200:
+  size: 200
+  background: red
+  border-radius: 2px
+  opacity: _$opacity$_
+
+box300:
+  $$:
+    background: red
+    border-radius: 3px
+  size: 300
+  background: _$background$_
+  border-radius: _$border-radius$_
+  opacity: _$opacity$_
+

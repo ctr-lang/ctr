@@ -1,0 +1,14 @@
+# File generated from ---> rollOut.styl
+
+
+.test:::0:
+  width: 400px
+  anim:
+    preset: 'rollOut'
+
+
+.test:::1:
+  width: 400px
+  anim:
+    preset: 'rollOut'
+

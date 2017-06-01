@@ -1,0 +1,36 @@
+.test {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.test::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+.test {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.test::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+.test {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.test::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+.test {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.test::after {
+  clear: both;
+  content: "";
+  display: table;
+}

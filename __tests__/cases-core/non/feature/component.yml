@@ -1,0 +1,22 @@
+# File generated from ---> component.styl
+
+
+.test:::0:
+  width: 200px
+  non:
+    key: '.today'
+    height: 200px
+    comp:
+      'span':
+        background: black
+
+
+.test:::1:
+  width: 200px
+  non:
+    key: '.today'
+    height: 200px
+    comp:
+      'span':
+        background: black
+

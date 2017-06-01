@@ -1,0 +1,48 @@
+.test {
+  width: 200px;
+}
+@media (min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2) {
+  .test {
+    width: 400px;
+  }
+}
+.test {
+  width: 200px;
+}
+@media (min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2) {
+  .test {
+    width: 400px;
+  }
+}
+.test {
+  width: 200px;
+}
+@media (min-resolution: 192dpi), (max-height: 222px), (-webkit-min-device-pixel-ratio: 2) {
+  .test {
+    width: 400px;
+  }
+}
+.test {
+  width: 200px;
+}
+@media (min-resolution: 192dpi), (max-height: 222px), (-webkit-min-device-pixel-ratio: 2) {
+  .test {
+    width: 400px;
+  }
+}
+.test {
+  width: 200px;
+}
+@media (max-height: 222px) and (min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2) {
+  .test {
+    width: 400px;
+  }
+}
+.test {
+  width: 200px;
+}
+@media (max-height: 222px) and (min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2) {
+  .test {
+    width: 400px;
+  }
+}

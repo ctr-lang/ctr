@@ -1,0 +1,1 @@
+__Description__: Should be able to use a `element` within a `transition` object

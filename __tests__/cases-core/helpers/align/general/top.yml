@@ -1,0 +1,32 @@
+# File generated from ---> top.styl
+
+
+.test:::0:
+  width: 200px
+  align: 'top'
+
+
+.test:::1:
+  width: 200px
+  alignSelf: 'top'
+
+
+.test:::2:
+  width: 200px
+  align: 'top-center'
+
+
+.test:::3:
+  width: 200px
+  alignSelf: 'top-center'
+
+
+.test:::4:
+  width: 200px
+  align: 'tc'
+
+
+.test:::5:
+  width: 200px
+  alignSelf: 'tc'
+

@@ -1,0 +1,75 @@
+.test
+  ctr({
+    anim: {
+      multiple: true
+      timeline: {
+        tlOne: tlOne
+        tlTwo: tlTwo
+      }
+    }
+  })
+
+
+ctr('.test', {
+  anim: {
+    multiple: true
+    timeline: {
+      tlOne: tlOne
+      tlTwo: tlTwo
+    }
+  }
+})
+
+//string
+.test
+  ctr({
+    anim: {
+      multiple: true
+      timeline: {
+        tlOne: 'tlOne'
+        tlTwo: 'tlTwo'
+      }
+    }
+  })
+
+
+ctr('.test', {
+  anim: {
+    multiple: true
+    timeline: {
+      tlOne: 'tlOne'
+      tlTwo: 'tlTwo'
+    }
+  }
+})
+
+//recommended
+.test
+  ctr({
+    anim: {
+      multiple: true
+      timeline: {
+        tlOne: {
+         name: 'tlOne'
+        }
+        tlTwo: {
+         name: 'tlTwo'
+        }
+      }
+    }
+  })
+
+
+ctr('.test', {
+  anim: {
+    multiple: true
+    timeline: {
+      tlOne: {
+       name: 'tlOne'
+      }
+      tlTwo: {
+       name: 'tlTwo'
+      }
+    }
+  }
+})

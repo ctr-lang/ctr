@@ -1,0 +1,40 @@
+# File generated from ---> custom.styl
+
+
+.test:::0:
+  width: 400px
+  customAn:
+    name: 'one'
+    timeline:
+      '50':
+        background: teal
+  customAnim:
+    name: 'two'
+    timeline:
+      '50':
+        background: teal
+  customAnimation:
+    name: 'three'
+    timeline:
+      '50':
+        background: teal
+
+
+.test:::1:
+  width: 400px
+  customAn:
+    name: 'one'
+    timeline:
+      '50':
+        background: teal
+  customAnim:
+    name: 'two'
+    timeline:
+      '50':
+        background: teal
+  customAnimation:
+    name: 'three'
+    timeline:
+      '50':
+        background: teal
+

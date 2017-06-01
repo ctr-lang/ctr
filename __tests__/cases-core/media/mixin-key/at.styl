@@ -1,0 +1,50 @@
+.test
+  ctr({
+    height: 200px
+    media-xs: {
+      width: 100px
+      query: {
+        max-height: 100px
+      }
+    }
+    media-md: {
+      width: 200px
+      query: {
+        type: 'screen'
+      }
+    }
+    media-hd: {
+      width: 300px
+    }
+    media-custom: {
+      width: 999px
+      query: {
+        min-width: 9999px
+      }
+    }
+  })
+
+ctr('.test', {
+  height: 200px
+  media-xs: {
+    width: 100px
+    query: {
+      max-height: 100px
+    }
+  }
+  media-md: {
+    width: 200px
+    query: {
+      type: 'screen'
+    }
+  }
+  media-hd: {
+    width: 300px
+  }
+  media-custom: {
+    width: 999px
+    query: {
+      min-width: 9999px
+    }
+  }
+})

@@ -1,0 +1,10 @@
+.test {
+  height: calc(10 * 20px / 2);
+  width: calc(((10 * 20px / 2) * 20) / 1.5);
+  border: calc((((10 * 20px / 2) * 20) / 1.5) * 0.1) solid #008000;
+}
+.test {
+  height: calc(10 * 20px / 2);
+  width: calc(((10 * 20px / 2) * 20) / 1.5);
+  border: calc((((10 * 20px / 2) * 20) / 1.5) * 0.1) solid #008000;
+}

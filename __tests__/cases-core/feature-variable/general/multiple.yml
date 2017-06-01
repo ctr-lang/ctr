@@ -1,0 +1,38 @@
+# File generated from ---> multiple.yml.styl
+
+
+.test:::0:
+  $$:
+    color: red
+    size: 40px
+    compTo: ['.one', '#two', 'span']
+    state:
+      on:
+        font-size: 20px
+      non:
+        font-size: 10px
+  width: 200px
+  border: ['$size$', solid, '$color$']
+  hover: '$state$'
+  customComp:
+    key: '$compTo$'
+    height: 300px
+
+
+.test:::1:
+  $$:
+    color: red
+    size: 40px
+    compTo: ['.one', '#two', 'span']
+    state:
+      on:
+        font-size: 20px
+      non:
+        font-size: 10px
+  width: 200px
+  border: ['$size$', solid, '$color$']
+  hover: '$state$'
+  customComp:
+    key: '$compTo$'
+    height: 300px
+

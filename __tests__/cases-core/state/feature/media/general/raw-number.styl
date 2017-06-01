@@ -1,0 +1,49 @@
+.test
+  ctr({
+    width: 200px
+    hover: {
+      on: {
+        opacity: 1
+        media: {
+          'md': {
+            opacity: 0.5
+            height: 300px
+          }
+        }
+      }
+      non: {
+        opacity: 1
+        media: {
+          'md': {
+            opacity: 0.5
+            height: 200px
+          }
+        }
+      }
+    }
+  })
+
+
+ctr('.test', {
+  width: 200px
+  hover: {
+    on: {
+      opacity: 1
+      media: {
+        'md': {
+          opacity: 0.5
+          height: 300px
+        }
+      }
+    }
+    non: {
+      opacity: 1
+      media: {
+        'md': {
+          opacity: 0.5
+          height: 200px
+        }
+      }
+    }
+  }
+})

@@ -1,0 +1,68 @@
+
+//invalid no set vars
+//since there is no set vars yet
+//ctr will not check the vars thus
+//it will not throw a warning and the
+//val will not be $var-not-found$
+//it will just be the strings above
+ctr('.test-1', {
+  // SYNTAX_YAML
+  width: 200px
+  height: '$height$'
+  color: '$color$'
+  top: '$top$'
+})
+
+//set init
+ctrSetVariable({
+  // SYNTAX_YAML
+  height: 50px
+  top: 100
+  color: red
+})
+
+//should pick up above vars
+ctr('.test-2', {
+  // SYNTAX_YAML
+  width: 200px
+  height: '$height$'
+  color: '$color$'
+  top: '$top$'
+})
+
+//not trump === test-2
+ctrSetVariable({
+  // SYNTAX_YAML
+  height: 150px
+  top: 200
+  color: blue
+})
+
+ctr('.test-3', {
+  // SYNTAX_YAML
+  width: 200px
+  height: '$height$'
+  color: '$color$'
+  top: '$top$'
+})
+
+//trump
+ctrSetVariable({
+  // SYNTAX_YAML
+  height: 150px
+  top: 200
+  color: blue
+  set:::option:
+    overwrite: true
+})
+
+
+ctr('.test-4', {
+  // SYNTAX_YAML
+  width: 200px
+  height: '$height$'
+  color: '$color$'
+  top: '$top$'
+})
+
+

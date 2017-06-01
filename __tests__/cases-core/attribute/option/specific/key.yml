@@ -1,0 +1,22 @@
+# File generated from ---> key.styl
+
+
+.test:::0:
+  width: 200px
+  component:
+    'div':
+      attribute:
+        font-size: 10px
+        option:
+          key: '[title~="test"]'
+
+
+.test:::1:
+  width: 200px
+  component:
+    'div':
+      attribute:
+        font-size: 10px
+        option:
+          key: '[title~="test"]'
+

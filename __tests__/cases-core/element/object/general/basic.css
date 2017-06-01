@@ -1,0 +1,36 @@
+.test {
+  width: 200px;
+}
+.test::before {
+  font-size: 10px;
+  content: "kool";
+}
+.test::after {
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+.test:last-of-type {
+  font-size: 10px;
+}
+.test:nth-of-type(2) {
+  font-size: 10px;
+}
+.test {
+  width: 200px;
+}
+.test::before {
+  font-size: 10px;
+  content: "kool";
+}
+.test::after {
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+.test:last-of-type {
+  font-size: 10px;
+}
+.test:nth-of-type(2) {
+  font-size: 10px;
+}

@@ -1,0 +1,16 @@
+# File generated from ---> multiple-props.styl
+
+
+.test:::0:
+  width: 200px
+  trans:
+    background: green
+    color: red
+
+
+.test:::1:
+  width: 200px
+  transition:
+    background: green
+    color: red
+

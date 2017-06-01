@@ -1,0 +1,24 @@
+ctrSetClass('$buttonExtend', {
+  width: 200px
+  height: 200px
+  background: #ff0
+})
+
+ctrSetClass('$fontExtend', {
+  font-family: "'Ubuntu', Georgia, Serif"
+})
+
+ctrSetClass('$boldFontExtend', {
+  font-weight: bold
+  extend: '$fontExtend'
+})
+
+.test
+  ctr({
+    extend: '$buttonExtend' '$boldFontExtend'
+  })
+
+
+ctr('.test', {
+  extend: '$buttonExtend' '$boldFontExtend'
+})

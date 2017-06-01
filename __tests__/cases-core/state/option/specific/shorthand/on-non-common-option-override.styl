@@ -1,0 +1,55 @@
+.test
+  ctr({
+    width: 200px
+    hover: {
+      common: {
+        shorthand: {
+          font-size: default 420s
+        }
+      }
+      on: {
+        font-size: 20px
+        //override
+        option: {
+          ease: funky-town
+        }
+      }
+      non: {
+        font-size: 10px
+        //override
+        option: {
+          //will not override shorthand > option
+          delay: 22s
+          duration: 1s
+        }
+      }
+    }
+  })
+
+
+ctr('.test', {
+  width: 200px
+  hover: {
+    common: {
+      shorthand: {
+        font-size: default 420s
+      }
+    }
+    on: {
+      font-size: 20px
+      //override
+      option: {
+        ease: funky-town
+      }
+    }
+    non: {
+      font-size: 10px
+      //override
+      option: {
+        //will not override shorthand > option
+        delay: 22s
+        duration: 1s
+      }
+    }
+  }
+})

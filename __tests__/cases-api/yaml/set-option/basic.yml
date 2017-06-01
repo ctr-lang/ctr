@@ -1,0 +1,15 @@
+# Sets the option globally for all styles in this yaml file
+ctr:::setOption:
+  hover:
+    duration: 10s
+
+.test:
+  size: 200px
+  hover:
+    size: 400px
+
+
+.test2:
+  size: 400px
+  hover:
+    size: 200px

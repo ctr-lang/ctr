@@ -1,0 +1,20 @@
+# File generated from ---> transition.styl
+
+
+.test:::0:
+  width: 200px
+  non:
+    key: '.today'
+    height: 200px
+    transition:
+      background: black
+
+
+.test:::1:
+  width: 200px
+  non:
+    key: '.today'
+    height: 200px
+    transition:
+      background: black
+

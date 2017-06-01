@@ -1,0 +1,58 @@
+# File generated from ---> bottom-left.styl
+
+
+.test:::0:
+  grid:
+    align:
+      location: 'bottom-left'
+
+
+.test:::1:
+  grid:
+    align:
+      location: 'bottom-left'
+
+
+.test:::2:
+  grid:
+    align:
+      location: 'bottom-left'
+      flex: false
+
+
+.test:::3:
+  grid:
+    align:
+      location: 'bottom-left'
+      flex: false
+
+
+.test:::4:
+  grid:
+    align: 'bottom-left'
+
+
+.test:::5:
+  grid:
+    align: ['bottom-left', ]
+
+
+.test:::6:
+  grid:
+    align: ['bottom-left', false]
+
+
+.test:::7:
+  grid:
+    align: ['bottom-left', false]
+
+
+.test:::8:
+  grid:
+    align: 'bl'
+
+
+.test:::9:
+  grid:
+    align: 'bl'
+

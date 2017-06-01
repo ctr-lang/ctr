@@ -1,0 +1,322 @@
+//----------------------------------------------------------------------------//
+// -> Raw data to be merged
+//----------------------------------------------------------------------------//
+//------------------------------//
+// Icon
+//------------------------------//
+$IconVars = {
+  $$: {
+    icon: false
+    content: 'no-icon'
+
+    preset: {
+      'thumbs-up': {
+        content: '\e807'
+      }
+    }
+  }
+}
+$Icon = {
+  font-family: "fontello"
+  font-style: normal
+  font-weight: normal
+  speak: none
+  text-decoration: inherit
+  display: inline-block
+  line-height: 1
+  -webkit-font-smoothing: antialiased
+  text-align: center
+  font-variant: normal
+  text-transform: none
+  before: {
+    use: '$icon$'
+    content: '$content$'
+  }
+}
+//------------------------------//
+// Loader
+//------------------------------//
+$Loader = {
+  $$: {
+    width: 380px
+    height: 90px
+    primary-color: alpha(#19CC95, 90%)
+    secondary-color: #fff
+    border-radius: 60px
+    error-color: #c0392b
+    success-color: '$primary-color$'
+    opacity-non: 1
+    margin-v: 7px
+    margin-h: 0px
+    button: {
+      border-width: 4px
+      background: '$secondary-color$'
+      background-hover: '$primary-color$'
+      hover-duration: 0.3s
+    }
+    text: {
+      color: '$primary-color$'
+      color-hover: '$secondary-color$'
+      font-size: 2em
+      size-trans: 0.2s
+      opacity-trans: 0.15s
+    }
+    loader: {
+      border-width: 7px
+      border-size: 'calc(100% + ($loader.border-width$ * 2))'
+      border-pos: '-$loader.border-width$'
+      loader-color: 'alpha($primary-color$, 60%)'
+      track-color: #BBBBBB
+      width: '$height$'
+    }
+  }
+  //------------------------------//
+  // Button basics
+  //------------------------------//
+  height: '$height$'
+  padding: 10px 45px
+  margin: '$margin-v$' '$margin-h$'
+  border: '$button.border-width$' solid '$primary-color$'
+  border-radius: '$border-radius$'
+  cursor: pointer
+  outline: none
+  position: relative
+  hover: {
+    option: {
+      duration: '$button.hover-duration$'
+    }
+    common: {
+      width: '$width$'
+    }
+    on: {
+      opacity: 1
+      background: '$button.background-hover$'
+    }
+    non: {
+      opacity: '$opacity-non$'
+      background: '$button.background$'
+    }
+  }
+  ///------------------------------> Resting state for success/error
+  before: {
+    trans: {
+      opacity: 0
+    }
+  }
+
+  //------------------------------//
+  // Button text
+  //------------------------------//
+  'comp-span': {
+    color: '$primary-color$'
+    letter-spacing: 2px
+    font-weight: bold
+    alignSelf: 'center'
+    hover: {
+      option: {
+        duration: 0.38s
+        attachTo: 'root'
+        shorthand: {
+          opacity: '$text.opacity-trans$'
+          font-size: '$text.size-trans$'
+        }
+      }
+      common: {
+        font-size: 2em
+      }
+      on: {
+        opacity: 1
+        color: '$text.color-hover$'
+        font-size: 'calc($text.font-size$ * 1.1)'
+      }
+      non: {
+        opacity: '$opacity-non$'
+        color: '$text.color$'
+        font-size: '$text.font-size$'
+      }
+    }
+  }
+
+  //------------------------------//
+  // Loader track, ie gray track for loading fill
+  //------------------------------//
+  'comp-.loader': {
+    option: {
+      appendKey: true
+    }
+    background: '$secondary-color$'
+    border: '$loader.border-width$' solid '$loader.track-color$'
+    padding: 0
+    color: '$secondary-color$'
+    trans: {
+      width: '$loader.width$'
+    }
+    'comp-span': {
+      trans: {
+        shorthand: {
+          opacity: '$text.opacity-trans$'
+          font-size: '$text.size-trans$'
+        }
+        opacity: 0
+        font-size: 0
+      }
+    }
+  }
+
+  //------------------------------//
+  // Loading effect/track styles and the effect
+  // of "loading" is simulated via clip-path
+  // and the below data attributes
+  //------------------------------//
+  'comp-.loading': {
+    option: {
+      appendKey: true
+    }
+    cursor: wait
+    position: relative
+    before: {
+      content: false
+      position: absolute
+      top: '$loader.border-pos$'
+      left: '$loader.border-pos$'
+      height: '$loader.border-size$'
+      width: '$loader.border-size$'
+      border: '$loader.border-width$' solid '$loader.loader-color$'
+      border-radius: '$border-radius$'
+      //opacity is needed to avoid ugly before flash of green
+      //until js takes over
+      opacity: 1
+      trans: {
+        shorthand: {
+          opacity: 0.15s 0.2s
+        }
+      }
+    }
+  }
+
+  //------------------------------//
+  // State components -> success/error
+  //------------------------------//
+  components: {
+    ///------------------------------> Common
+    common: {
+      option: {
+        appendKey: true
+      }
+      cursor: not-allowed
+      width: '$loader.width$'
+      border: '$loader.border-width$' solid '$loader.loader-color$'
+      padding: 0
+      // //Pulls in thumbs-up icon
+      extend-Icon: {
+        preset: 'thumbs-up'
+        icon: true
+      }
+      //thumbs-up icon styles
+      before: {
+        alignSelf: 'center'
+        font-size: 'calc($height$ - 1.75em)'
+        color: '$text.color-hover$'
+        trans: {
+          option: {
+            duration: '$text.size-trans$'
+          }
+          opacity: 1
+          //@specify background color
+        }
+      }
+      //normal bg trans and slow opacity fade for dat disabled deel
+      trans: {
+        shorthand: {
+          background: '$button.hover-duration$'
+          opacity: 3s 1s
+        }
+        opacity: 0.5
+        background: '$button.background-hover$'
+      }
+      //hide text on success
+      'comp-span': {
+        trans: {
+          shorthand: {
+            font-size: '$text.size-trans$'
+          }
+          opacity: 0
+          font-size: 0
+        }
+      }
+    }
+    ///------------------------------> success
+    '.success': {
+      //success bg main hover color
+      trans: {
+        background: '$button.background-hover$'
+      }
+    }
+    ///------------------------------> error
+    '.error': {
+      before: {
+        //rotate to thumbs-down, translate from alignSelf
+        transform: translate(-50%, -50%) rotate(180deg)
+      }
+      //error bg main hover color
+      trans: {
+        background: '$error-color$'
+      }
+      border: '$button.border-width$' solid '$error-color$'
+    }
+  }
+}
+
+
+
+
+
+//----------------------------------------------------------------------------//
+// -> Create classes
+//----------------------------------------------------------------------------//
+ctrSetClass('Icon', {
+  merge: $IconVars $Icon
+})
+ctrSetClass('LoaderSubmit', {
+  merge: $Loader
+})
+
+
+
+//----------------------------------------------------------------------------//
+// -> Extend class test
+//----------------------------------------------------------------------------//
+ctr('.test', {
+  extend: 'LoaderSubmit'
+})
+
+
+
+//----------------------------------------------------------------------------//
+// -> Merge test comp
+//----------------------------------------------------------------------------//
+// so the reson we can't declare the components in the ctr instance iteself
+// is cus it fucks the source order of the objec thus fucking our test.
+// This is purly for testing purposes, and if your pulling shitty jank like this
+// just us Js
+$MergeForOrder = {
+  components: {
+    common: {
+      merge: $Icon
+      extend-Icon: {
+        use: false
+      }
+      before: {
+        use: true
+        content: '\e807'
+      }
+    }
+  }
+}
+
+ctr('.test', {
+  merge: $IconVars $Loader $MergeForOrder
+})
+
+
+

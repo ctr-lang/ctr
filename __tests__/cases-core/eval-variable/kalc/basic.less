@@ -1,0 +1,28 @@
+// File generated from ---> basic.styl 
+
+ctr('.test', {
+  // SYNTAX_YAML
+  $$:
+    base: 10
+    fac: 2
+    eval:
+      calcB: 'kalc($base$ * 2)'
+      w: 'kalc($eval.calcB$ * 20px / 2)'
+      h: 'kalc(($eval.calcB$ * 20px) / 1.5)'
+  height: '$eval.w$'
+  border-width: '$eval.h$'
+})
+
+ctr('.test', {
+  $$: {
+    base: 10
+    fac: 2
+    eval: {
+      calcB: 'kalc($base$ * 2)'
+      w: 'kalc($eval.calcB$ * 20px / 2)'
+      h: 'kalc(($eval.calcB$ * 20px) / 1.5)'
+    }
+  }
+  height: '$eval.w$'
+  border-width: '$eval.h$'
+})

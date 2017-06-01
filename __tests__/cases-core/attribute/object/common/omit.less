@@ -1,0 +1,55 @@
+// File generated from ---> omit.styl 
+
+ctr('.test', {
+  // SYNTAX_YAML
+  width: 200px
+  'comp-div':
+    attributes:
+      common:
+        font-size: 100px
+        background: red
+        'comp-span':
+          color: red
+          opacity: 1
+      '[class*="test1"]':
+        option:
+          //omit list
+          omit: ['background', 'comp-span.color']
+        height: 100px
+      '[class*="test2"]':
+        height: 200px
+      three:
+        key: '[class*="test3"]'
+        height: 300px
+  
+})
+
+ctr('.test', {
+  width: 200px
+  'comp-div': {
+    attributes: {
+      common: {
+        font-size: 100px
+        background: red
+        'comp-span': {
+          color: red
+          opacity: 1
+        }
+      }
+      '[class*="test1"]': {
+        option: {
+          //omit list
+          omit: 'background' 'comp-span.color'
+        }
+        height: 100px
+      }
+      '[class*="test2"]': {
+        height: 200px
+      }
+      three: {
+        key: '[class*="test3"]'
+        height: 300px
+      }
+    }
+  }
+})

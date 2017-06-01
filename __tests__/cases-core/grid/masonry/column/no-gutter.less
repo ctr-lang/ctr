@@ -1,0 +1,59 @@
+// File generated from ---> no-gutter.styl 
+
+//!important!, there's a code conflict
+//in the lost library as to what the gutter
+//and fraction actually define
+ctr('.test', {
+  // SYNTAX_YAML
+  grid:
+    masonry-column:
+      gutter: 0
+      flex: false
+  
+})
+
+
+ctr('.test', {
+  grid: {
+    masonry-column: {
+      gutter: 0
+      flex: false
+    }
+  }
+})
+
+
+ctr('.test', {
+  // SYNTAX_YAML
+  grid:
+    masonry-column: [default, 0, false]
+  
+})
+
+
+ctr('.test', {
+  grid: {
+    masonry-column: default 0 false
+  }
+})
+
+
+//false
+ctr('.test', {
+  // SYNTAX_YAML
+  grid:
+    masonry-column:
+      gutter: false
+      flex: false
+  
+})
+
+
+ctr('.test', {
+  grid: {
+    masonry-column: {
+      gutter: false
+      flex: false
+    }
+  }
+})

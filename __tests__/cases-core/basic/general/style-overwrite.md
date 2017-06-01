@@ -1,0 +1,1 @@
+__Description__: The user should be able to overwrite the `style` properties

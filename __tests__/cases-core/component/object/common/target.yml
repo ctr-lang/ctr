@@ -1,0 +1,46 @@
+# File generated from ---> target.styl
+
+
+.test:::0:
+  width: 200px
+  components:
+    common:
+      option:
+        # target list
+        target: ['.two', 'three']
+      font-size: 100px
+      background: red
+      'comp-span':
+        color: red
+        opacity: 1
+    '.one':
+      height: 100px
+    '.two':
+      height: 200px
+      font-size: 200px
+    three:
+      key: '.three'
+      height: 300px
+
+
+.test:::1:
+  width: 200px
+  components:
+    common:
+      option:
+        # target list
+        target: ['.two', 'three']
+      font-size: 100px
+      background: red
+      'comp-span':
+        color: red
+        opacity: 1
+    '.one':
+      height: 100px
+    '.two':
+      height: 200px
+      font-size: 200px
+    three:
+      key: '.three'
+      height: 300px
+

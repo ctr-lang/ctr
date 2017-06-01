@@ -1,0 +1,42 @@
+.test {
+  width: 200px;
+  height: 200px;
+  animation-delay: 0s;
+  animation-name: test;
+  transition-delay: 0s;
+  animation-duration: 0.5s;
+  animation-fill-mode: none;
+  transition-duration: 0.5s;
+  animation-direction: normal;
+  transition-property: height;
+  animation-iteration-count: 1;
+  animation-play-state: running;
+  animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+@keyframes test {
+  50% {
+    background: #000;
+  }
+}
+.test {
+  width: 200px;
+  height: 200px;
+  animation-delay: 0s;
+  animation-name: test;
+  transition-delay: 0s;
+  animation-duration: 0.5s;
+  animation-fill-mode: none;
+  transition-duration: 0.5s;
+  animation-direction: normal;
+  transition-property: height;
+  animation-iteration-count: 1;
+  animation-play-state: running;
+  animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+@keyframes test {
+  50% {
+    background: #000;
+  }
+}

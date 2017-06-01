@@ -1,0 +1,35 @@
+.test
+  ctr({
+    option: {
+      global: {
+        processMedia: false
+      }
+    }
+    width: 200px
+    media: {
+      width: 100px
+      query: {
+        type: 'screen'
+        'min-width': 'sm'
+        'max-width': 'lg'
+      }
+    }
+  })
+
+
+ctr('.test', {
+  option: {
+    global: {
+      processMedia: false
+    }
+  }
+  width: 200px
+  media: {
+    width: 100px
+    query: {
+      type: 'screen'
+      'min-width': 'sm'
+      'max-width': 'lg'
+    }
+  }
+})

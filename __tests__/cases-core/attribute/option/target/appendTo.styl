@@ -1,0 +1,31 @@
+.test
+  ctr({
+    width: 200px
+    component: {
+      'div': {
+        attribute: {
+          key: '[class$="test"]'
+          font-size: 10px
+          option: {
+            appendTo: ':first-child'
+          }
+        }
+      }
+    }
+  })
+
+
+ctr('.test', {
+  width: 200px
+  component: {
+    'div': {
+      attribute: {
+        key: '[class$="test"]'
+        font-size: 10px
+        option: {
+          appendTo: ':first-child'
+        }
+      }
+    }
+  }
+})

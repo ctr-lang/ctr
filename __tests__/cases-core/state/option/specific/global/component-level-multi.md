@@ -1,0 +1,1 @@
+__Description__: Multiple properties should be able to put on the root from seperate `component` objects and joined together

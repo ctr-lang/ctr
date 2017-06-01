@@ -1,0 +1,15 @@
+ctrSetClass('$myAttrClass', {
+  width: 200px
+  'attr-[data-role="test"]': {
+    font-size: 10px
+  }
+})
+
+.test
+  ctr({
+    extend: '$myAttrClass'
+  })
+
+ctr('.test', {
+  extend: '$myAttrClass'
+})

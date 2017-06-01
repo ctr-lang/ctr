@@ -1,0 +1,44 @@
+.test
+  ctr({
+    width: 200px
+    component: {
+      'div': {
+        attribute: {
+          key: '[data-role="test"]'
+          color: red
+
+          hover: {
+            on: {
+              font-size: 20px
+            }
+            non: {
+              font-size: 10px
+            }
+          }
+        }
+      }
+    }
+  })
+
+
+
+ctr('.test', {
+  width: 200px
+  component: {
+    'div': {
+      attribute: {
+        key: '[data-role="test"]'
+        color: red
+
+        hover: {
+          on: {
+            font-size: 20px
+          }
+          non: {
+            font-size: 10px
+          }
+        }
+      }
+    }
+  }
+})

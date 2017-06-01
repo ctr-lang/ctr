@@ -1,0 +1,32 @@
+.test {
+  width: 400px;
+  animation-delay: 2s;
+  animation-name: kool;
+  animation-duration: 1s;
+  animation-fill-mode: none;
+  animation-direction: normal;
+  animation-play-state: paused;
+  animation-iteration-count: 5;
+  animation-timing-function: ease-in;
+}
+@keyframes kool {
+  50% {
+    background: #008080;
+  }
+}
+.test {
+  width: 400px;
+  animation-delay: 2s;
+  animation-name: kool;
+  animation-duration: 1s;
+  animation-fill-mode: none;
+  animation-direction: normal;
+  animation-play-state: paused;
+  animation-iteration-count: 5;
+  animation-timing-function: ease-in;
+}
+@keyframes kool {
+  50% {
+    background: #008080;
+  }
+}

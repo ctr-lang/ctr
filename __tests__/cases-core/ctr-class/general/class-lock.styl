@@ -1,0 +1,40 @@
+ctrSetOption({
+  classLock: true
+})
+
+//extend class
+ctrSetClass('buttonLock', {
+  width: 200px
+  height: 200px
+  background: green
+})
+
+
+.test
+  ctr({
+    extend: 'buttonLock'
+  })
+
+
+ctr('.test', {
+  extend: 'buttonLock'
+})
+
+
+//should not be able to overwrite class
+ctrSetClass('buttonLock', {
+  width: 444px
+  height: 444px
+  background: green
+})
+
+.test
+  ctr({
+    extend: 'buttonLock'
+  })
+
+
+ctr('.test', {
+  extend: 'buttonLock'
+})
+

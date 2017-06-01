@@ -1,0 +1,14 @@
+.test {
+  width: 200px;
+}
+.test[data-role="test"] {
+  font-size: 10px;
+  transform: translateX(10px) translateY(20px) scaleX(90deg);
+}
+.test {
+  width: 200px;
+}
+.test[data-role="test"] {
+  font-size: 10px;
+  transform: translateX(10px) translateY(20px) scaleX(90deg);
+}

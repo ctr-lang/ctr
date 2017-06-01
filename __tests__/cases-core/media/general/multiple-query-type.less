@@ -1,0 +1,46 @@
+// File generated from ---> multiple-query-type.styl 
+
+//object
+ctr('.test', {
+  // SYNTAX_YAML
+  width: 200px
+  media:
+    width: 100px
+    query:
+      type:
+        media: ['screen', 'tv']
+  
+})
+
+ctr('.test', {
+  width: 200px
+  media: {
+    width: 100px
+    query: {
+      type: {
+        media: 'screen' 'tv'
+      }
+    }
+  }
+})
+
+//shorthand
+ctr('.test', {
+  // SYNTAX_YAML
+  width: 200px
+  media:
+    width: 100px
+    query:
+      type: ['screen', 'tv']
+  
+})
+
+ctr('.test', {
+  width: 200px
+  media: {
+    width: 100px
+    query: {
+      type: 'screen' 'tv'
+    }
+  }
+})

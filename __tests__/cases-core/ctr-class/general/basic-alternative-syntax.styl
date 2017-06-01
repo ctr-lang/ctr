@@ -1,0 +1,38 @@
+//inilize class
+$buttonBasic = CtrClass({
+  width: 200px
+  height: 200px
+})
+
+//Literal
+//imparative
+.test
+  ctr({
+    extend: {
+      class: $buttonBasic
+    }
+  })
+
+//declarative
+ctr('.test', {
+  extend: {
+    class: $buttonBasic
+  }
+})
+
+
+//String
+//imparative
+.test
+  ctr({
+    extend: {
+      class: '$buttonBasic'
+    }
+  })
+
+//declarative
+ctr('.test', {
+  extend: {
+    class: '$buttonBasic'
+  }
+})

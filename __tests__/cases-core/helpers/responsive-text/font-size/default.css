@@ -1,0 +1,26 @@
+.test {
+  font-size: calc(12px + 9 * ((100vw - 400px) / 1400));
+}
+@media only screen and (max-width: 400px) {
+  .test {
+    font-size: 12px;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  .test {
+    font-size: 21px;
+  }
+}
+.test {
+  font-size: calc(12px + 9 * ((100vw - 400px) / 1400));
+}
+@media only screen and (max-width: 400px) {
+  .test {
+    font-size: 12px;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  .test {
+    font-size: 21px;
+  }
+}

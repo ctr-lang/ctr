@@ -1,0 +1,1 @@
+__Description__: The user should be able to define a `static` object within their `on` object and all properties defined with the `static` object will not generate transition properties

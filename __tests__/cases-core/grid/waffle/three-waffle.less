@@ -1,0 +1,68 @@
+// File generated from ---> three-waffle.styl 
+
+//flex
+ctr('.test', {
+  // SYNTAX_YAML
+  grid:
+    waffle:
+      fraction: '1/3'
+  
+})
+
+ctr('.test', {
+  grid: {
+    waffle: {
+      fraction: '1/3'
+    }
+  }
+})
+
+//non-flex
+ctr('.test', {
+  // SYNTAX_YAML
+  grid:
+    waffle:
+      fraction: '1/3'
+      flex: false
+  
+})
+
+ctr('.test', {
+  grid: {
+    waffle: {
+      fraction: '1/3'
+      flex: false
+    }
+  }
+})
+
+
+//flex
+ctr('.test', {
+  // SYNTAX_YAML
+  grid:
+    waffle: '1/3'
+  
+})
+
+ctr('.test', {
+  grid: {
+    waffle: '1/3'
+  }
+})
+
+//non-flex
+ctr('.test', {
+  // SYNTAX_YAML
+  grid:
+    // fraction cycle gutter flex
+    waffle: ['1/3', default, default, false]
+  
+})
+
+ctr('.test', {
+  grid: {
+    // fraction cycle gutter flex
+    waffle: '1/3' default default false
+  }
+})

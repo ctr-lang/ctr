@@ -1,0 +1,57 @@
+// File generated from ---> and-with-mixin.styl 
+
+ctr('.test', {
+  // SYNTAX_YAML
+  width: 200px
+  media:
+    width: 100px
+    query:
+      above: 'sm'
+      andCond:
+        min-height: 200px
+        max-height: 300px
+  
+})
+
+
+ctr('.test', {
+  width: 200px
+  media: {
+    width: 100px
+    query: {
+      above: 'sm'
+      andCondition: {
+        min-height: 200px
+        max-height: 300px
+      }
+    }
+  }
+})
+
+ctr('.test', {
+  // SYNTAX_YAML
+  width: 200px
+  media:
+    width: 100px
+    query:
+      andCond:
+        above: 'sm'
+        min-height: 200px
+        max-height: 300px
+  
+})
+
+
+ctr('.test', {
+  width: 200px
+  media: {
+    width: 100px
+    query: {
+      andCondition: {
+        above: 'sm'
+        min-height: 200px
+        max-height: 300px
+      }
+    }
+  }
+})

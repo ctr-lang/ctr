@@ -1,0 +1,1 @@
+__Description__: Should gen trans props is shorthand is present and no props

@@ -1,0 +1,48 @@
+# File generated from ---> sort.styl
+
+
+.test:::0:
+  style: true
+  option:
+    global:
+      sort: 'len'
+
+
+.test:::1:
+  style: true
+  option:
+    global:
+      sort: '-len'
+
+
+.test:::2:
+  style: true
+  option:
+    global:
+      sort: 'abc'
+
+
+.test:::3:
+  style: true
+  option:
+    global:
+      sort: '-abc'
+
+
+.test:::4:
+  option:
+    global:
+      sort: false
+  border-radius: 10px
+  color: red
+  background: red
+
+
+.test:::5:
+  option:
+    global:
+      sort: false
+  background: red
+  border-radius: 10px
+  color: red
+

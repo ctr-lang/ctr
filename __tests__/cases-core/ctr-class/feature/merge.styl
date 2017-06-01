@@ -1,0 +1,62 @@
+ctrSetClass('mergeTest', {
+  $$: {
+    font-size: 10px
+    height: 200px
+    color: red
+  }
+  width: 200px
+  font-size: '$font-size$'
+  height: '$height$'
+  color: '$color$'
+})
+
+
+.test
+  ctr({
+    $$: {
+      common: {
+        font-size: 20px
+        height: 400px
+      }
+    }
+    components: {
+      '.one': {
+        'extend-mergeTest': {
+          merge: '$common$'
+          color: pink
+        }
+      }
+      '.two': {
+        'extend-mergeTest': {
+          merge: '$common$'
+          color: purple
+        }
+      }
+    }
+  })
+
+
+ctr('.test', {
+  $$: {
+    common: {
+      font-size: 20px
+      height: 400px
+    }
+  }
+  components: {
+    '.one': {
+      'extend-mergeTest': {
+        merge: '$common$'
+        color: pink
+      }
+    }
+    '.two': {
+      'extend-mergeTest': {
+        merge: '$common$'
+        color: purple
+      }
+    }
+  }
+})
+
+

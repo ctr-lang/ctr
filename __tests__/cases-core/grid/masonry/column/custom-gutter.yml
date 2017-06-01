@@ -1,0 +1,26 @@
+# File generated from ---> custom-gutter.styl
+
+
+.test:::0:
+  grid:
+    masonry-column:
+      gutter: 60px
+      flex: false
+
+
+.test:::1:
+  grid:
+    masonry-column:
+      gutter: 60px
+      flex: false
+
+
+.test:::2:
+  grid:
+    masonry-column: [default, 60px, false]
+
+
+.test:::3:
+  grid:
+    masonry-column: [default, 60px, false]
+

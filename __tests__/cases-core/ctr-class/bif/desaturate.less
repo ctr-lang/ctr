@@ -1,0 +1,27 @@
+// File generated from ---> desaturate.styl 
+
+ctrSetClass('$evalDesaturate', {
+  // SYNTAX_YAML
+  $$:
+    base: red
+    bg: "desaturate($base$, 20%)"
+  background: "$bg$"
+  color: desaturate(red, 20%)
+})
+ctrSetClass('$evalDesaturate', {
+  $$: {
+    base: red
+    bg: "desaturate($base$, 20%)"
+  }
+  background: "$bg$"
+  color: desaturate(red, 20%)
+})
+
+ctr('.test', {
+  // SYNTAX_YAML
+  extend: $evalDesaturate
+})
+
+ctr('.test', {
+  extend: $evalDesaturate
+})

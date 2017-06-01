@@ -1,0 +1,36 @@
+.test {
+  width: 200px;
+}
+.test:not(:only-child) {
+  height: 400px;
+}
+.test {
+  width: 200px;
+}
+.test:not(:only-child) {
+  height: 400px;
+}
+.test {
+  width: 200px;
+}
+.test:not(:only-child) {
+  height: 400px;
+}
+.test {
+  width: 200px;
+}
+.test:not(:only-child) {
+  height: 400px;
+}
+.test {
+  width: 200px;
+}
+.test:not(:only-child) {
+  height: 400px;
+}
+.test {
+  width: 200px;
+}
+.test:not(:only-child) {
+  height: 400px;
+}

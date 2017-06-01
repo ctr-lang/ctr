@@ -1,0 +1,36 @@
+# File generated from ---> none-false.styl
+
+
+.test:::0:
+  width: 200px
+  comp:
+    span:
+      font-size: 20px
+      option:
+        selector: false
+
+
+.test:::1:
+  width: 200px
+  comp:
+    span:
+      font-size: 20px
+      option:
+        selector: false
+
+
+.test:::2:
+  width: 200px
+  comp:
+    span:
+      selector: false
+      font-size: 20px
+
+
+.test:::3:
+  width: 200px
+  comp:
+    span:
+      selector: false
+      font-size: 20px
+

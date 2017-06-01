@@ -1,0 +1,74 @@
+.test {
+  display: flex;
+  align-items: center;
+  justify-content: inherit;
+}
+.test {
+  display: flex;
+  align-items: center;
+  justify-content: inherit;
+}
+.test {
+  position: relative;
+}
+.test > * {
+  top: 50%;
+  left: auto;
+  right: auto;
+  bottom: auto;
+  position: absolute;
+  transform: translate(0, -50%);
+}
+.test {
+  position: relative;
+}
+.test > * {
+  top: 50%;
+  left: auto;
+  right: auto;
+  bottom: auto;
+  position: absolute;
+  transform: translate(0, -50%);
+}
+.test {
+  display: flex;
+  align-items: center;
+  justify-content: inherit;
+}
+.test {
+  display: flex;
+  align-items: center;
+  justify-content: inherit;
+}
+.test {
+  position: relative;
+}
+.test > * {
+  top: 50%;
+  left: auto;
+  right: auto;
+  bottom: auto;
+  position: absolute;
+  transform: translate(0, -50%);
+}
+.test {
+  position: relative;
+}
+.test > * {
+  top: 50%;
+  left: auto;
+  right: auto;
+  bottom: auto;
+  position: absolute;
+  transform: translate(0, -50%);
+}
+.test {
+  display: flex;
+  align-items: center;
+  justify-content: inherit;
+}
+.test {
+  display: flex;
+  align-items: center;
+  justify-content: inherit;
+}

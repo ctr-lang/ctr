@@ -1,0 +1,22 @@
+# File generated from ---> media.styl
+
+
+.test:::0:
+  width: 200px
+  component:
+    '.aClass':
+      font-size: 10px
+      media:
+        'lg':
+          font-size: 20px
+
+
+.test:::1:
+  width: 200px
+  component:
+    '.aClass':
+      font-size: 10px
+      media:
+        'lg':
+          font-size: 20px
+

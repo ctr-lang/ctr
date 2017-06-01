@@ -1,0 +1,24 @@
+# File generated from ---> list.styl
+
+
+.test:::0:
+  width: 200px
+  hover:
+    on:
+      font-size: 10px
+      color: red
+      opacity: 0.5
+      option:
+        transition: 'font-size'
+
+
+.test:::1:
+  width: 200px
+  hover:
+    on:
+      font-size: 10px
+      color: red
+      opacity: 0.5
+      option:
+        transition: 'font-size'
+

@@ -1,0 +1,48 @@
+# File generated from ---> on-non.styl
+
+
+.test:::0:
+  width: 200px
+  hover:
+    on:
+      font-size: 30px
+      border-radius: 10px
+      height: 200px
+      option:
+        shorthand:
+          font-size: [10s, 2s]
+          height: [default, default, tedious]
+        duration: 420s
+    non:
+      font-size: 10px
+      border-radius: 5px
+      height: 300px
+      option:
+        shorthand:
+          font-size: [1s, 2s, holy-hell-this-is-boring]
+          height: [default, 222s, tedious]
+        duration: 420s
+
+
+.test:::1:
+  width: 200px
+  hover:
+    on:
+      font-size: 30px
+      border-radius: 10px
+      height: 200px
+      option:
+        shorthand:
+          font-size: [10s, 2s]
+          height: [default, default, tedious]
+        duration: 420s
+    non:
+      font-size: 10px
+      border-radius: 5px
+      height: 300px
+      option:
+        shorthand:
+          font-size: [1s, 2s, holy-hell-this-is-boring]
+          height: [default, 222s, tedious]
+        duration: 420s
+

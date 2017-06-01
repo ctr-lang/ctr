@@ -1,0 +1,18 @@
+.test {
+  width: 200px;
+}
+.test > div[data-role="test"] {
+  width: 300px;
+}
+.test > div[data-role="test"] > span {
+  font-size: 10px;
+}
+.test {
+  width: 200px;
+}
+.test > div[data-role="test"] {
+  width: 300px;
+}
+.test > div[data-role="test"] > span {
+  font-size: 10px;
+}

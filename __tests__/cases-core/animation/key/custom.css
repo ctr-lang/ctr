@@ -1,0 +1,52 @@
+.test {
+  width: 400px;
+  animation-delay: 0s, 0s, 0s;
+  animation-name: one, two, three;
+  animation-iteration-count: 1, 1, 1;
+  animation-duration: 0.5s, 0.5s, 0.5s;
+  animation-fill-mode: none, none, none;
+  animation-direction: normal, normal, normal;
+  animation-play-state: running, running, running;
+  animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+}
+@keyframes one {
+  50% {
+    background: #008080;
+  }
+}
+@keyframes two {
+  50% {
+    background: #008080;
+  }
+}
+@keyframes three {
+  50% {
+    background: #008080;
+  }
+}
+.test {
+  width: 400px;
+  animation-delay: 0s, 0s, 0s;
+  animation-name: one, two, three;
+  animation-iteration-count: 1, 1, 1;
+  animation-duration: 0.5s, 0.5s, 0.5s;
+  animation-fill-mode: none, none, none;
+  animation-direction: normal, normal, normal;
+  animation-play-state: running, running, running;
+  animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+}
+@keyframes one {
+  50% {
+    background: #008080;
+  }
+}
+@keyframes two {
+  50% {
+    background: #008080;
+  }
+}
+@keyframes three {
+  50% {
+    background: #008080;
+  }
+}

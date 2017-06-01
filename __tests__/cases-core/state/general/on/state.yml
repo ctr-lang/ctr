@@ -1,0 +1,36 @@
+# File generated from ---> state.styl
+
+
+.test:::0:
+  width: 200px
+  state:
+    key: 'hover'
+    on:
+      color: red
+
+
+.test:::1:
+  width: 200px
+  state:
+    option:
+      key: 'hover'
+    on:
+      color: red
+
+
+.test:::2:
+  width: 200px
+  state:
+    key: 'link'
+    on:
+      color: red
+
+
+.test:::3:
+  width: 200px
+  state:
+    option:
+      key: 'link'
+    on:
+      color: red
+

@@ -1,0 +1,12 @@
+.test {
+  width: 200px;
+}
+.test:first-child .applyTo {
+  font-size: 20px;
+}
+.test {
+  width: 200px;
+}
+.test:first-child .applyTo {
+  font-size: 20px;
+}

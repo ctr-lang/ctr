@@ -1,0 +1,42 @@
+# File generated from ---> basic-or.styl
+
+
+.test:::0:
+  background: teal
+  media:
+    background: red
+    query:
+      orCond:
+        min-height: 200px
+        max-height: 300px
+
+
+.test:::1:
+  background: teal
+  media:
+    background: red
+    query:
+      orCondition:
+        min-height: 200px
+        max-height: 300px
+
+
+.test:::2:
+  background: teal
+  media:
+    background: red
+    query:
+      orCond:
+        min-height: 200px
+        max-height: 300px
+
+
+.test:::3:
+  background: teal
+  media:
+    background: red
+    query:
+      orCondition:
+        min-height: 200px
+        max-height: 300px
+

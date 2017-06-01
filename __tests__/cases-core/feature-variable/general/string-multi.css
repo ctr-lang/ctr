@@ -1,0 +1,8 @@
+.test {
+  width: 200px;
+  box-shadow: calc(1.5em * -1) calc(1.5em * -1) 0 10px #008000, calc(1.5em * -1) 1.5em 0 10px #00f;
+}
+.test {
+  width: 200px;
+  box-shadow: calc(1.5em * -1) calc(1.5em * -1) 0 10px #008000, calc(1.5em * -1) 1.5em 0 10px #00f;
+}

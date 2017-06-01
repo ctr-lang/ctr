@@ -1,0 +1,42 @@
+# File generated from ---> custom-gutter.styl
+
+
+.test:::0:
+  grid:
+    offset:
+      fraction: '1/2'
+      gutter: 60px
+
+
+.test:::1:
+  grid:
+    offset:
+      fraction: '1/2'
+      gutter: '60px'
+
+
+.test:::2:
+  grid:
+    #  fraction row|column gutter
+    offset: ['1/2', default, '60px']
+
+
+.test:::3:
+  grid:
+    #  fraction row|column gutter
+    offset: ['1/2', default, '60px']
+
+
+.test:::4:
+  grid:
+    offset:
+      fraction: '1/2'
+      gutter: false
+
+
+.test:::5:
+  grid:
+    offset:
+      fraction: '1/2'
+      gutter: false
+

@@ -1,0 +1,45 @@
+.test
+  ctr({
+    width: 200px
+    hover: {
+      on: {
+        height: 400px
+
+        first-child: {
+          color: red
+          font-size: 20px
+        }
+      }
+      non: {
+        height: 200px
+
+        first-child: {
+          color: blue
+          font-size: 10px
+        }
+      }
+    }
+  })
+
+
+ctr('.test', {
+  width: 200px
+  hover: {
+    on: {
+      height: 400px
+
+      first-child: {
+        color: red
+        font-size: 20px
+      }
+    }
+    non: {
+      height: 200px
+
+      first-child: {
+        color: blue
+        font-size: 10px
+      }
+    }
+  }
+})

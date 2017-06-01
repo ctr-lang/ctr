@@ -1,0 +1,27 @@
+// File generated from ---> similar-regex.styl 
+
+ctr('.test', {
+  // SYNTAX_YAML
+  $$:
+    color: red
+    colorB: blue
+  color: '$color$'
+  background: red
+  before:
+    color: '$colorB$'
+    background: blue
+  
+})
+
+ctr('.test', {
+  $$: {
+    color: red
+    colorB: blue
+  }
+  color: '$color$'
+  background: red
+  before: {
+    color: '$colorB$'
+    background: blue
+  }
+})

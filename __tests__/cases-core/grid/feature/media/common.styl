@@ -1,0 +1,40 @@
+.test
+  ctr({
+    height: 200px
+    grid: {
+      column: '1/2'
+      media: {
+        common: {
+          query: {
+            type: 'screen'
+          }
+        }
+        '-md': {
+          column: '1/4'
+        }
+        '-sm': {
+          column: '1/8'
+        }
+      }
+    }
+  })
+
+ctr('.test', {
+  height: 200px
+  grid: {
+    column: '1/2'
+    media: {
+      common: {
+        query: {
+          type: 'screen'
+        }
+      }
+      '-md': {
+        column: '1/4'
+      }
+      '-sm': {
+        column: '1/8'
+      }
+    }
+  }
+})

@@ -1,0 +1,44 @@
+# File generated from ---> multiple-or.styl
+
+
+.test:::0:
+  width: 200px
+  media:
+    width: 100px
+    query:
+      orCondition:
+        density: '2'
+        above: '300px'
+
+
+.test:::1:
+  width: 200px
+  media:
+    width: 100px
+    query:
+      orCondition:
+        density: '2'
+        above: '300px'
+
+
+.test:::2:
+  width: 200px
+  media:
+    width: 100px
+    query:
+      orCondition:
+        mixin:
+          density: '2'
+          above: '300px'
+
+
+.test:::3:
+  width: 200px
+  media:
+    width: 100px
+    query:
+      orCondition:
+        mixin:
+          density: '2'
+          above: '300px'
+

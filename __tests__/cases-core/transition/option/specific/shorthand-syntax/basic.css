@@ -1,0 +1,12 @@
+.test {
+  width: 100px;
+  height: 100px;
+  transform: scale(2);
+  transition: transform 0.5s cubic-bezier(0.42, 0, 0.58, 1) 0s;
+}
+.test {
+  width: 100px;
+  height: 100px;
+  transform: scale(2);
+  transition: transform 0.5s cubic-bezier(0.42, 0, 0.58, 1) 0s;
+}

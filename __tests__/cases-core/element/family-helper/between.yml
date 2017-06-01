@@ -1,0 +1,30 @@
+# File generated from ---> between.styl
+
+
+.test:::0:
+  width: 200px
+  elm:
+    key: 'between(3, 6)'
+    height: 400px
+
+
+.test:::1:
+  width: 200px
+  elm:
+    key: 'between(3, 6)'
+    height: 400px
+
+
+.test:::2:
+  width: 200px
+  elm:
+    key: fm-between(3, 6)
+    height: 400px
+
+
+.test:::3:
+  width: 200px
+  elm:
+    key: fm-between(3, 6)
+    height: 400px
+

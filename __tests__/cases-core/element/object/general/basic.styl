@@ -1,0 +1,51 @@
+.test
+  ctr({
+    width: 200px
+    elements: {
+      before: {
+        content: 'kool'
+        font-size: 10px
+      }
+      after: {
+        position: absolute
+        top: 0
+        left: 0
+      }
+      elm-last-of-type: {
+        font-size: 10px
+      }
+      random: {
+        font-size: 10px
+        option: {
+          //will be key
+          key: "nth-of-type(2)"
+        }
+      }
+    }
+  })
+
+
+ctr('.test', {
+  width: 200px
+  elms: {
+    before: {
+      content: 'kool'
+      font-size: 10px
+    }
+    after: {
+      position: absolute
+      top: 0
+      left: 0
+    }
+    elm-last-of-type: {
+      font-size: 10px
+    }
+    random: {
+      font-size: 10px
+      option: {
+        //will be key
+        key: "nth-of-type(2)"
+      }
+    }
+  }
+})

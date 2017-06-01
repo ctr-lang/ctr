@@ -1,0 +1,60 @@
+.test
+  ctr({
+    width: 200px
+    'comp-div': {
+      attributes: {
+        common: {
+          font-size: 100px
+          background: red
+          'comp-span': {
+            color: red
+            opacity: 1
+          }
+        }
+        '[class*="test1"]': {
+          option: {
+            //pick
+            pick: 'font-size' 'comp-span.opacity'
+          }
+          height: 100px
+        }
+        '[class*="test2"]': {
+          height: 200px
+        }
+        three: {
+          key: '[class*="test3"]'
+          height: 300px
+        }
+      }
+    }
+  })
+
+ctr('.test', {
+  width: 200px
+  'comp-div': {
+    attributes: {
+      common: {
+        font-size: 100px
+        background: red
+        'comp-span': {
+          color: red
+          opacity: 1
+        }
+      }
+      '[class*="test1"]': {
+        option: {
+          //pick
+          pick: 'font-size' 'comp-span.opacity'
+        }
+        height: 100px
+      }
+      '[class*="test2"]': {
+        height: 200px
+      }
+      three: {
+        key: '[class*="test3"]'
+        height: 300px
+      }
+    }
+  }
+})

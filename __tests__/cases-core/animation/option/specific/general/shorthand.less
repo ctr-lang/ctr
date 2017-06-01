@@ -1,0 +1,67 @@
+// File generated from ---> shorthand.styl 
+
+ctr('.test', {
+  // SYNTAX_YAML
+  width: 400px
+  anim:
+    //name will be picked up from shorthand key
+    shorthand:
+      //dur, delay, ease, count, dir, mode, state
+      test: [1s, default, ease-in, 5, reverse, both, paused]
+    timeline:
+      '50':
+        background: teal
+  
+})
+
+
+ctr('.test', {
+  width: 400px
+  anim: {
+    //name will be picked up from shorthand key
+    shorthand: {
+      //dur, delay, ease, count, dir, mode, state
+      test: 1s default ease-in 5 reverse both paused
+    }
+    timeline: {
+      '50': {
+        background: teal
+      }
+    }
+  }
+})
+
+
+ctr('.test', {
+  // SYNTAX_YAML
+  width: 400px
+  anim:
+    option:
+      //name will be picked up from shorthand key
+      shorthand:
+        //dur, delay, ease, count, dir, mode, state
+        test: [1s, default, ease-in, 5, reverse, both, paused]
+    timeline:
+      '50':
+        background: teal
+  
+})
+
+
+ctr('.test', {
+  width: 400px
+  anim: {
+    option: {
+      //name will be picked up from shorthand key
+      shorthand: {
+        //dur, delay, ease, count, dir, mode, state
+        test: 1s default ease-in 5 reverse both paused
+      }
+    }
+    timeline: {
+      '50': {
+        background: teal
+      }
+    }
+  }
+})

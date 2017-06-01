@@ -1,0 +1,20 @@
+# File generated from ---> between.styl
+
+
+.test:::0:
+  height: 200px
+  medias:
+    '400px-800px':
+      width: 100px
+    '1050px-1800px':
+      width: 300px
+
+
+.test:::1:
+  height: 200px
+  medias:
+    '400px-800px':
+      width: 100px
+    '1050px-1800px':
+      width: 300px
+

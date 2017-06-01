@@ -1,0 +1,251 @@
+.test
+  ctr({
+    use: false
+    width: 100000px
+  })
+
+.test
+  ctr({
+    width: 200px
+    use: true
+    'comp-span': {
+      color: red
+      use: false
+    }
+  })
+
+
+.test
+  ctr({
+    width: 200px
+    use: 'true'
+    anim: {
+      name: 'test'
+      use: false
+      tl: {
+        '50': {
+          color: red
+        }
+      }
+    }
+  })
+
+.test
+  ctr({
+    width: 200px
+    anim: {
+      name: 'test'
+      option: {
+        duration: 10s
+        use: false
+      }
+      tl: {
+        '50': {
+          color: red
+          use: true
+        }
+      }
+    }
+  })
+
+
+
+.test
+  ctr({
+    width: 200px
+    use: 'true'
+    hover: {
+      use: false
+      background: red
+    }
+  })
+
+.test
+  ctr({
+    width: 200px
+    use: true
+    hover: {
+      on: {
+        use: false
+        background: red
+      }
+    }
+  })
+
+
+.test
+  ctr({
+    width: 200px
+    hover: {
+      on: {
+        option: {
+          use: false
+          duration: 10s
+        }
+        background: red
+        use: 'true'
+      }
+    }
+  })
+
+.test
+  ctr({
+    width: 200px
+    use: true
+    hover: {
+      on: {
+        shorthand: {
+          use: false
+          background: 100s
+        }
+        background: red
+      }
+    }
+  })
+
+.test
+  ctr({
+    width: 200px
+    anim: {
+      name: 'test'
+      tl: {
+        '25': {
+          color: red
+          use: 'true'
+        }
+        '55': {
+          color: blue
+          use: false
+        }
+      }
+    }
+
+    media: {
+      '+lg': {
+        width: 400px
+        use: true
+      }
+      '-sm': {
+        width: 40900px
+        use: false
+      }
+    }
+  })
+
+
+
+ctr('.test', {
+  use: false
+  width: 100000px
+})
+
+ctr('.test', {
+  width: 200px
+  'comp-span': {
+    color: red
+    use: false
+  }
+})
+
+
+ctr('.test', {
+  width: 200px
+  anim: {
+    name: 'test'
+    use: false
+    tl: {
+      '50': {
+        color: red
+      }
+    }
+  }
+})
+
+ctr('.test', {
+  width: 200px
+  anim: {
+    name: 'test'
+    option: {
+      duration: 10s
+      use: false
+    }
+    tl: {
+      '50': {
+        color: red
+      }
+    }
+  }
+})
+
+
+
+ctr('.test', {
+  width: 200px
+  hover: {
+    use: false
+    background: red
+  }
+})
+
+ctr('.test', {
+  width: 200px
+  hover: {
+    on: {
+      use: false
+      background: red
+    }
+  }
+})
+
+
+ctr('.test', {
+  width: 200px
+  hover: {
+    on: {
+      option: {
+        use: false
+        duration: 10s
+      }
+      background: red
+    }
+  }
+})
+
+ctr('.test', {
+  width: 200px
+  hover: {
+    on: {
+      shorthand: {
+        use: false
+        background: 100s
+      }
+      background: red
+    }
+  }
+})
+
+ctr('.test', {
+  width: 200px
+  anim: {
+    name: 'test'
+    tl: {
+      '25': {
+        color: red
+      }
+      '55': {
+        color: blue
+        use: false
+      }
+    }
+  }
+
+  media: {
+    '+lg': {
+      width: 400px
+    }
+    '-sm': {
+      width: 40900px
+      use: false
+    }
+  }
+})

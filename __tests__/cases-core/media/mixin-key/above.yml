@@ -1,0 +1,18 @@
+# File generated from ---> above.styl
+
+
+.test:::0:
+  height: 200px
+  'media-+sm':
+    width: 100px
+  'media-+lg':
+    width: 300px
+
+
+.test:::1:
+  height: 200px
+  'media-+sm':
+    width: 100px
+  'media-+lg':
+    width: 300px
+

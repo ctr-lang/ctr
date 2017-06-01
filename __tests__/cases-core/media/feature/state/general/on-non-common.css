@@ -1,0 +1,56 @@
+.test {
+  width: 200px;
+}
+@media (min-width: 600px) and (max-width: 800px) {
+  .test {
+    width: 150px;
+  }
+}
+@media (min-width: 600px) and (max-width: 800px) {
+  .test:hover {
+    font-size: 20px;
+    background: #008000;
+    transition-delay: 0s, 0s;
+    transition-duration: 0.5s, 0.5s;
+    transition-property: background, font-size;
+    transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+  }
+}
+@media (min-width: 600px) and (max-width: 800px) {
+  .test:not(:hover) {
+    font-size: 10px;
+    background: #008000;
+    transition-delay: 0s, 0s;
+    transition-duration: 0.5s, 0.5s;
+    transition-property: background, font-size;
+    transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+  }
+}
+.test {
+  width: 200px;
+}
+@media (min-width: 600px) and (max-width: 800px) {
+  .test {
+    width: 150px;
+  }
+}
+@media (min-width: 600px) and (max-width: 800px) {
+  .test:hover {
+    font-size: 20px;
+    background: #008000;
+    transition-delay: 0s, 0s;
+    transition-duration: 0.5s, 0.5s;
+    transition-property: background, font-size;
+    transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+  }
+}
+@media (min-width: 600px) and (max-width: 800px) {
+  .test:not(:hover) {
+    font-size: 10px;
+    background: #008000;
+    transition-delay: 0s, 0s;
+    transition-duration: 0.5s, 0.5s;
+    transition-property: background, font-size;
+    transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+  }
+}

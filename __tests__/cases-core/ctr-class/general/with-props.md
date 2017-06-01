@@ -1,0 +1,1 @@
+__Description__: Should be able to mix and match properties from and `extend` and the local `ctr` instance

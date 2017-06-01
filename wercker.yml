@@ -1,0 +1,38 @@
+box: kkarczmarczyk/node-yarn
+build:
+  steps:
+    - script:
+        name: install n
+        code: |
+          yarn global add n
+    - script:
+      name: report yarn version
+      code: yarn --version
+    - script:
+      name: set yarn cache
+      code: |
+        export YARN_CACHE=$WERCKER_CACHE_DIR/yarn
+    - script:
+      name: link package
+      code: yarn run link
+    - script:
+      name: install dependencies - link - test lts 4.x.x
+      code: |
+        # Install latest 4.x.x lts versions
+        n 4.8.3
+        echo "node version $(node -v) running"
+        yarn install
+    - script:
+      name: test lts 6.X.X
+      code: |
+        # Install latest 6.x.x lts versions
+        n 6.10.3
+        echo "node version $(node -v) running"
+        yarn test
+    - script:
+      name: test 8.0.0
+      code: |
+        # Install latest
+        n 8.0.0
+        echo "node version $(node -v) running"
+        yarn test

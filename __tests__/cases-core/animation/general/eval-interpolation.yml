@@ -1,0 +1,46 @@
+# File generated from ---> eval-interpolation.yml.styl
+
+
+.test:::0:
+  $$:
+    delay: 0s
+    duration: 15s
+    c1: alpha(#78C5D6, 0.75)
+    c2: alpha(#459BA8, 0.75)
+    s1: 2px
+    s2: 4px
+    s3: 3px
+    eval:
+      c1-s: 'alpha(#78C5D6, 0.3)'
+      c2-s: $s1$ $s2$ $s3$ $c1$
+  anim:
+    name: 'test'
+    option:
+      duration: $duration$
+    timeline:
+      '50':
+        color: $eval.c1-s$
+        text-shadow: $eval.c2-s$
+
+
+.test:::1:
+  $$:
+    delay: 0s
+    duration: 15s
+    c1: alpha(#78C5D6, 0.75)
+    c2: alpha(#459BA8, 0.75)
+    s1: 2px
+    s2: 4px
+    s3: 3px
+    eval:
+      c1-s: 'alpha(#78C5D6, 0.3)'
+      c2-s: $s1$ $s2$ $s3$ $c1$
+  anim:
+    name: 'test'
+    option:
+      duration: $duration$
+    timeline:
+      '50':
+        color: $eval.c1-s$
+        text-shadow: $eval.c2-s$
+

@@ -1,0 +1,26 @@
+# File generated from ---> animation.styl
+
+
+.test:::0:
+  width: 200px
+  non:
+    key: '.today'
+    height: 200px
+    anim:
+      name: 'test'
+      tl:
+        '50':
+          background: black
+
+
+.test:::1:
+  width: 200px
+  non:
+    key: '.today'
+    height: 200px
+    anim:
+      name: 'test'
+      tl:
+        '50':
+          background: black
+

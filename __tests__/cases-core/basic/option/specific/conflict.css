@@ -1,0 +1,16 @@
+.test {
+  width: 200px;
+}
+.test > .conflict {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.test {
+  width: 200px;
+}
+.test > .conflict {
+  align-items: center;
+  display: inline-block;
+  justify-content: center;
+}

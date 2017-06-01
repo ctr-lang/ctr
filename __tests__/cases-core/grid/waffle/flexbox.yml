@@ -1,0 +1,36 @@
+# File generated from ---> flexbox.styl
+
+
+.test:::0:
+  grid:
+    waffle:
+      fraction: '2/5'
+      cycle: 3
+      gutter: 0
+      # default value
+      #  flex: true
+
+
+.test:::1:
+  grid:
+    waffle:
+      fraction: '2/5'
+      cycle: 3
+      gutter: 0
+      # default value
+      #  flex: true
+
+
+.test:::2:
+  grid:
+    # flex by default
+    #  fraction cycle gutter flex
+    waffle: ['2/5', '3', '0', true]
+
+
+.test:::3:
+  grid:
+    # flex by default
+    #  fraction cycle gutter flex
+    waffle: ['2/5', '3', '0', true]
+

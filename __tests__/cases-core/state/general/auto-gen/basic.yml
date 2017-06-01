@@ -1,0 +1,26 @@
+# File generated from ---> basic.styl
+
+
+.test:::0:
+  width: 200px
+  hover:
+    height: 300px
+
+
+.test:::1:
+  width: 200px
+  hover:
+    height: 300px
+
+
+.test:::2:
+  width: 200px
+  active:
+    height: 300px
+
+
+.test:::3:
+  width: 200px
+  active:
+    height: 300px
+

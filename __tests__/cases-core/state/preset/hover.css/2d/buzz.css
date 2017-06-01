@@ -1,0 +1,70 @@
+.test {
+  width: 200px;
+  height: 200px;
+  background: #008080;
+}
+.test:hover {
+  animation-delay: 0s;
+  display: inline-block;
+  vertical-align: middle;
+  animation-name: hvr-buzz;
+  animation-fill-mode: none;
+  animation-duration: 0.15s;
+  animation-direction: normal;
+  backface-visibility: hidden;
+  animation-play-state: running;
+  animation-timing-function: linear;
+  -moz-osx-font-smoothing: grayscale;
+  animation-iteration-count: infinite;
+  box-shadow: 0 0 1px rgba(0,0,0,0);
+}
+.test:not(:hover) {
+  display: inline-block;
+  vertical-align: middle;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  box-shadow: 0 0 1px rgba(0,0,0,0);
+}
+@keyframes hvr-buzz {
+  50% {
+    transform: translateX(3px) rotate(2deg);
+  }
+  100% {
+    transform: translateX(-3px) rotate(-2deg);
+  }
+}
+.test {
+  width: 200px;
+  height: 200px;
+  background: #008080;
+}
+.test:hover {
+  animation-delay: 0s;
+  display: inline-block;
+  vertical-align: middle;
+  animation-name: hvr-buzz;
+  animation-fill-mode: none;
+  animation-duration: 0.15s;
+  animation-direction: normal;
+  backface-visibility: hidden;
+  animation-play-state: running;
+  animation-timing-function: linear;
+  -moz-osx-font-smoothing: grayscale;
+  animation-iteration-count: infinite;
+  box-shadow: 0 0 1px rgba(0,0,0,0);
+}
+.test:not(:hover) {
+  display: inline-block;
+  vertical-align: middle;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  box-shadow: 0 0 1px rgba(0,0,0,0);
+}
+@keyframes hvr-buzz {
+  50% {
+    transform: translateX(3px) rotate(2deg);
+  }
+  100% {
+    transform: translateX(-3px) rotate(-2deg);
+  }
+}

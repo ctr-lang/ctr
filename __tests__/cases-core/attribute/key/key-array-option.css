@@ -1,0 +1,36 @@
+.test {
+  width: 200px;
+}
+.test > div[class*="te"] {
+  background: #008080;
+}
+.test > div[class*="kool"] {
+  background: #008080;
+}
+.test {
+  width: 200px;
+}
+.test > div[class*="te"] {
+  background: #008080;
+}
+.test > div[class*="kool"] {
+  background: #008080;
+}
+.test {
+  width: 200px;
+}
+.test > div[class*="te"] {
+  background: #008080;
+}
+.test > div[class*="kool"] {
+  background: #008080;
+}
+.test {
+  width: 200px;
+}
+.test > div[class*="te"] {
+  background: #008080;
+}
+.test > div[class*="kool"] {
+  background: #008080;
+}

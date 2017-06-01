@@ -1,0 +1,28 @@
+.test {
+  width: 200px;
+}
+.test > span {
+  display: block;
+  pointer-events: none;
+  counter-increment: linenumber;
+}
+.test > span::before {
+  display: block;
+  text-align: right;
+  padding-right: 0.8em;
+  content: counter(linenumber);
+}
+.test {
+  width: 200px;
+}
+.test > span {
+  display: block;
+  pointer-events: none;
+  counter-increment: linenumber;
+}
+.test > span::before {
+  display: block;
+  text-align: right;
+  padding-right: 0.8em;
+  content: counter(linenumber);
+}

@@ -1,0 +1,14 @@
+# File generated from ---> fadeInUpBig.styl
+
+
+.test:::0:
+  width: 400px
+  anim:
+    preset: 'fadeInUpBig'
+
+
+.test:::1:
+  width: 400px
+  anim:
+    preset: 'fadeInUpBig'
+

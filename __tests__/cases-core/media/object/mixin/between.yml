@@ -1,0 +1,20 @@
+# File generated from ---> between.styl
+
+
+.test:::0:
+  height: 200px
+  medias:
+    'xs-md':
+      width: 100px
+    'lg-hd':
+      width: 300px
+
+
+.test:::1:
+  height: 200px
+  medias:
+    'xs-md':
+      width: 100px
+    'lg-hd':
+      width: 300px
+

@@ -1,0 +1,34 @@
+# File generated from ---> element-hyphen.styl
+
+
+.test:::0:
+  width: 200px
+  element-after:
+    content: 'test'
+    font-size: 10px
+  element-first-child:
+    font-size: 10px
+  'element-nth-child(1)':
+    font-size: 10px
+  # override
+  'element-nth-child(2)':
+    option:
+      key: 'last-of-type'
+    font-size: 10px
+
+
+.test:::1:
+  width: 200px
+  element-after:
+    content: 'test'
+    font-size: 10px
+  element-first-child:
+    font-size: 10px
+  'element-nth-child(1)':
+    font-size: 10px
+  # override
+  'element-nth-child(2)':
+    option:
+      key: 'last-of-type'
+    font-size: 10px
+

@@ -1,0 +1,54 @@
+.test
+  ctr({
+    grid: {
+      column: '1/2'
+      media: {
+        'sm': {
+          column: '1/3'
+        }
+      }
+    }
+  })
+
+.test
+  ctr({
+    grid: {
+      column: {
+        fraction: '1/2'
+        media: {
+          'sm': {
+            fraction: '1/3'
+          }
+        }
+      }
+    }
+  })
+
+
+
+
+ctr('.test', {
+  grid: {
+    column: '1/2'
+    media: {
+      'sm': {
+        column: '1/3'
+      }
+    }
+  }
+})
+
+
+ctr('.test', {
+  grid: {
+    column: {
+      fraction: '1/2'
+      media: {
+        'sm': {
+          fraction: '1/3'
+        }
+      }
+    }
+  }
+})
+

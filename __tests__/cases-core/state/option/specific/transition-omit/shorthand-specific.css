@@ -1,0 +1,36 @@
+.test:hover {
+  width: 200px;
+  height: 200px;
+  background: #008000;
+  transition-delay: 0s, 0s;
+  transition-duration: 10s, 0.5s;
+  transition-property: height, background;
+  transition-timing-function: ease-in, cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test:not(:hover) {
+  width: 200px;
+  height: 100px;
+  background: #008000;
+  transition-delay: 0s, 0s;
+  transition-duration: 10s, 0.5s;
+  transition-property: height, background;
+  transition-timing-function: ease-in, cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test:hover {
+  width: 200px;
+  height: 200px;
+  background: #008000;
+  transition-delay: 0s, 0s;
+  transition-duration: 10s, 0.5s;
+  transition-property: height, background;
+  transition-timing-function: ease-in, cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test:not(:hover) {
+  width: 200px;
+  height: 100px;
+  background: #008000;
+  transition-delay: 0s, 0s;
+  transition-duration: 10s, 0.5s;
+  transition-property: height, background;
+  transition-timing-function: ease-in, cubic-bezier(0.42, 0, 0.58, 1);
+}

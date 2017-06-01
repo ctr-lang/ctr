@@ -1,0 +1,12 @@
+.test {
+  width: 200px;
+}
+.test > span.appendTo {
+  font-size: 20px;
+}
+.test {
+  width: 200px;
+}
+.test > span.appendTo {
+  font-size: 20px;
+}

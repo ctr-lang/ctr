@@ -1,0 +1,1 @@
+__Description__: Template strings can be used as the data format, although, you better of using yaml in my opinion becuase that is what is happeneing anyways. It takes the template string and throughs it through the yaml pahrser.

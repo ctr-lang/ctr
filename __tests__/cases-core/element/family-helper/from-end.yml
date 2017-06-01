@@ -1,0 +1,44 @@
+# File generated from ---> from-end.styl
+
+
+.test:::0:
+  width: 200px
+  elm:
+    key: 'from-end(3)'
+    height: 400px
+
+
+.test:::1:
+  width: 200px
+  elm:
+    key: 'from-end(3)'
+    height: 400px
+
+
+.test:::2:
+  width: 200px
+  elm:
+    key: fm-from-end(3)
+    height: 400px
+
+
+.test:::3:
+  width: 200px
+  elm:
+    key: fm-from-end(3)
+    height: 400px
+
+
+.test:::4:
+  width: 200px
+  elm:
+    key: 'fromEnd(3)'
+    height: 400px
+
+
+.test:::5:
+  width: 200px
+  elm:
+    key: 'fromEnd(3)'
+    height: 400px
+

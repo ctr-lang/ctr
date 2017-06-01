@@ -1,0 +1,24 @@
+// File generated from ---> attribute.styl 
+
+ctrSetClass('$myAttrClass', {
+  // SYNTAX_YAML
+  width: 200px
+  'attr-[data-role="test"]':
+    font-size: 10px
+  
+})
+ctrSetClass('$myAttrClass', {
+  width: 200px
+  'attr-[data-role="test"]': {
+    font-size: 10px
+  }
+})
+
+ctr('.test', {
+  // SYNTAX_YAML
+  extend: '$myAttrClass'
+})
+
+ctr('.test', {
+  extend: '$myAttrClass'
+})

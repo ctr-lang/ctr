@@ -1,0 +1,28 @@
+.test {
+  width: 100px;
+  height: 100px;
+}
+.test:hover {
+  background: #f00;
+  transform: scale(2);
+  transition: transform 0.5s cubic-bezier(0.42, 0, 0.58, 1) 0s, background 0.5s cubic-bezier(0.42, 0, 0.58, 1) 0s;
+}
+.test:not(:hover) {
+  background: #00f;
+  transform: scale(1);
+  transition: transform 0.5s cubic-bezier(0.42, 0, 0.58, 1) 0s, background 0.5s cubic-bezier(0.42, 0, 0.58, 1) 0s;
+}
+.test {
+  width: 100px;
+  height: 100px;
+}
+.test:hover {
+  background: #f00;
+  transform: scale(2);
+  transition: transform 0.5s cubic-bezier(0.42, 0, 0.58, 1) 0s, background 0.5s cubic-bezier(0.42, 0, 0.58, 1) 0s;
+}
+.test:not(:hover) {
+  background: #00f;
+  transform: scale(1);
+  transition: transform 0.5s cubic-bezier(0.42, 0, 0.58, 1) 0s, background 0.5s cubic-bezier(0.42, 0, 0.58, 1) 0s;
+}

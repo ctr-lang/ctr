@@ -1,0 +1,42 @@
+.test {
+  width: 200px;
+}
+.test > div[title~="test"] {
+  font-size: 10px;
+}
+.test > div[class|="test"] {
+  font-size: 20px;
+}
+.test > div[class^="test"] {
+  font-size: 30px;
+}
+.test > div[class$="test"] {
+  font-size: 40px;
+}
+.test > div[class*="te"] {
+  font-size: 50px;
+}
+.test > div[class*="artisin"] {
+  font-size: 60px;
+}
+.test {
+  width: 200px;
+}
+.test > div[title~="test"] {
+  font-size: 10px;
+}
+.test > div[class|="test"] {
+  font-size: 20px;
+}
+.test > div[class^="test"] {
+  font-size: 30px;
+}
+.test > div[class$="test"] {
+  font-size: 40px;
+}
+.test > div[class*="te"] {
+  font-size: 50px;
+}
+.test > div[class*="artisin"] {
+  font-size: 60px;
+}

@@ -1,0 +1,1 @@
+__Description__: Should be able to use class key with multiple classes via an Array

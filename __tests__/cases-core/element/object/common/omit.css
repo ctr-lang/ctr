@@ -1,0 +1,78 @@
+.test {
+  width: 200px;
+}
+.test::before {
+  font-size: 1em;
+  border-radius: 50%;
+  content: "before";
+}
+.test:first-child {
+  color: #f00;
+  font-size: 1em;
+}
+.test:nth-child(2) {
+  color: #000;
+  font-size: 1em;
+}
+.test:hover::before {
+  opacity: 0.5;
+  font-size: 2em;
+  transition-delay: 0s, 0s;
+  transition-duration: 0.5s, 0.5s;
+  transition-property: opacity, font-size;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test:first-child:hover {
+  opacity: 0.5;
+  transition-delay: 0s;
+  transition-duration: 0.5s;
+  transition-property: opacity;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test:nth-child(2):hover {
+  opacity: 0.5;
+  font-size: 2em;
+  transition-delay: 0s, 0s;
+  transition-duration: 0.5s, 0.5s;
+  transition-property: opacity, font-size;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test {
+  width: 200px;
+}
+.test::before {
+  font-size: 1em;
+  border-radius: 50%;
+  content: "before";
+}
+.test:first-child {
+  color: #f00;
+  font-size: 1em;
+}
+.test:nth-child(2) {
+  color: #000;
+  font-size: 1em;
+}
+.test:hover::before {
+  opacity: 0.5;
+  font-size: 2em;
+  transition-delay: 0s, 0s;
+  transition-duration: 0.5s, 0.5s;
+  transition-property: opacity, font-size;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test:first-child:hover {
+  opacity: 0.5;
+  transition-delay: 0s;
+  transition-duration: 0.5s;
+  transition-property: opacity;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test:nth-child(2):hover {
+  opacity: 0.5;
+  font-size: 2em;
+  transition-delay: 0s, 0s;
+  transition-duration: 0.5s, 0.5s;
+  transition-property: opacity, font-size;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+}

@@ -1,0 +1,17 @@
+//yml start
+ctr:::setVariable:
+  obj:
+    width: 200px
+    height: 200px
+//yml end
+
+.test
+  ctr({
+    merge: '$obj$'
+  })
+
+
+ctr('.test', {
+  merge: '$obj$'
+})
+

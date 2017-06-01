@@ -1,0 +1,36 @@
+# File generated from ---> between.styl
+
+
+.test:::0:
+  width: 200px
+  media:
+    width: 100px
+    query:
+      mixin:
+        between: ['300px', '800px']
+
+
+.test:::1:
+  width: 200px
+  media:
+    width: 100px
+    query:
+      between: ['300px', '800px']
+
+
+.test:::2:
+  width: 200px
+  media:
+    width: 100px
+    query:
+      mixin:
+        between: ['300px', '800px']
+
+
+.test:::3:
+  width: 200px
+  media:
+    width: 100px
+    query:
+      between: ['300px', '800px']
+

@@ -1,0 +1,76 @@
+.test {
+  width: 200px;
+}
+.test ~ span {
+  font-size: 10px;
+  background: #ff0;
+}
+.test ~ #beerMe {
+  width: 300px;
+  background: #ff0;
+}
+.test ~ .please {
+  width: 400px;
+  background: #ff0;
+}
+.test ~ li {
+  font-size: 20px;
+  background: #ff0;
+}
+.test {
+  width: 200px;
+}
+.test ~ span {
+  font-size: 10px;
+  background: #ff0;
+}
+.test ~ #beerMe {
+  width: 300px;
+  background: #ff0;
+}
+.test ~ .please {
+  width: 400px;
+  background: #ff0;
+}
+.test ~ li {
+  font-size: 20px;
+  background: #ff0;
+}
+.test {
+  width: 200px;
+}
+.test ~ span {
+  font-size: 10px;
+  background: #ff0;
+}
+.test ~ #beerMe {
+  width: 300px;
+  background: #ff0;
+}
+.test ~ .please {
+  width: 400px;
+  background: #ff0;
+}
+.test ~ li {
+  font-size: 20px;
+  background: #ff0;
+}
+.test {
+  width: 200px;
+}
+.test ~ span {
+  font-size: 10px;
+  background: #ff0;
+}
+.test ~ #beerMe {
+  width: 300px;
+  background: #ff0;
+}
+.test ~ .please {
+  width: 400px;
+  background: #ff0;
+}
+.test ~ li {
+  font-size: 20px;
+  background: #ff0;
+}

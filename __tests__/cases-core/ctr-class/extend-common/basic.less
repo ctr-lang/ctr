@@ -1,0 +1,69 @@
+// File generated from ---> basic.styl 
+
+ctrSetClass('height', {
+  // SYNTAX_YAML
+  $$:
+    p-size: 200px
+    f-size: 1em
+  height: '$p-size$'
+  font-size: '$f-size$'
+})
+ctrSetClass('height', {
+  $$: {
+    p-size: 200px
+    f-size: 1em
+  }
+  height: '$p-size$'
+  font-size: '$f-size$'
+})
+
+ctrSetClass('width', {
+  // SYNTAX_YAML
+  $$:
+    p-size: 200px
+    f-size: 1em
+  width: '$p-size$'
+  line-height: '$f-size$'
+})
+ctrSetClass('width', {
+  $$: {
+    p-size: 200px
+    f-size: 1em
+  }
+  width: '$p-size$'
+  line-height: '$f-size$'
+})
+
+ctrSetClass('border', {
+  // SYNTAX_YAML
+  $$:
+    p-size: 200px
+    opacity: 1
+  border-radius: '$p-size$'
+  opacity: '$opacity$'
+})
+ctrSetClass('border', {
+  $$: {
+    p-size: 200px
+    opacity: 1
+  }
+  border-radius: '$p-size$'
+  opacity: '$opacity$'
+})
+
+
+ctr('.test', {
+  extend: {
+    $$: {
+      p-size: 444px
+    }
+    //all the following classes should have p-size of 444px
+    class: 'width'
+    custom: {
+      class: 'height'
+    }
+    border: {
+      opacity: 0.5
+    }
+  }
+})

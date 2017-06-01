@@ -1,0 +1,1 @@
+__Description__: If there are no raw properties to process and only a `animation` object then it should wrap the `animation` properties in the defined `state`

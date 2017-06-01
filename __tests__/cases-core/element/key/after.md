@@ -1,0 +1,1 @@
+__Description__: The user should be able to create a `after` element using the `after: {}` object syntax

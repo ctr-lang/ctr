@@ -1,0 +1,40 @@
+# File generated from ---> object-notation-with-props.styl
+
+
+.test:::0:
+  width: 200px
+  hover:
+    on:
+      height: 400px
+      anim:
+        name: 'beerOne'
+        tl:
+          '50':
+            color: blue
+    non:
+      height: 200px
+      anim:
+        name: 'beerTwo'
+        tl:
+          '50':
+            color: red
+
+
+.test:::1:
+  width: 200px
+  hover:
+    on:
+      height: 400px
+      anim:
+        name: 'beerOne'
+        tl:
+          '50':
+            color: blue
+    non:
+      height: 200px
+      anim:
+        name: 'beerTwo'
+        tl:
+          '50':
+            color: red
+

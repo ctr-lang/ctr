@@ -1,0 +1,42 @@
+# File generated from ---> custom-gutter.styl
+
+
+.test:::0:
+  grid:
+    masonry-wrap:
+      gutter: 60px
+      flex: false
+
+
+.test:::1:
+  grid:
+    masonry-wrap:
+      gutter: 60px
+      flex: false
+
+
+.test:::2:
+  grid:
+    # gutter flex --> default === true
+    masonry-wrap: [60px, false]
+
+
+.test:::3:
+  grid:
+    # gutter flex --> default === true
+    masonry-wrap: [60px, false]
+
+
+.test:::4:
+  grid:
+    masonry-wrap:
+      gutter: false
+      flex: false
+
+
+.test:::5:
+  grid:
+    masonry-wrap:
+      gutter: false
+      flex: false
+

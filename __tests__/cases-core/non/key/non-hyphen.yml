@@ -1,0 +1,16 @@
+# File generated from ---> non-hyphen.styl
+
+
+.test:::0:
+  width: 100px
+  # latin not cus we fanzy
+  non-p:
+    font-size: 10px
+
+
+.test:::1:
+  width: 100px
+  # latin not cus we fanzy
+  'non-.cool':
+    font-size: 10px
+

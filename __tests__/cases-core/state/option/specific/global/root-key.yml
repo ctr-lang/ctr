@@ -1,0 +1,26 @@
+# File generated from ---> root-key.styl
+
+
+.test:::0:
+  width: 200px
+  comp:
+    span:
+      font-size: 20px
+      hover:
+        font-size: 10px
+        # add trans to root
+        option:
+          global: 'root'
+
+
+.test:::1:
+  width: 200px
+  comp:
+    span:
+      font-size: 20px
+      hover:
+        font-size: 10px
+        # add trans to root
+        option:
+          global: 'root'
+

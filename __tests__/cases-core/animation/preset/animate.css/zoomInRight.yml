@@ -1,0 +1,14 @@
+# File generated from ---> zoomInRight.styl
+
+
+.test:::0:
+  width: 400px
+  anim:
+    preset: 'zoomInRight'
+
+
+.test:::1:
+  width: 400px
+  anim:
+    preset: 'zoomInRight'
+

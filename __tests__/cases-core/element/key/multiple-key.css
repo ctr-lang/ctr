@@ -1,0 +1,36 @@
+.test {
+  width: 200px;
+}
+.test::before {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.test::after {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.test:first-child {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.test {
+  width: 200px;
+}
+.test::before {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.test::after {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.test:first-child {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}

@@ -1,0 +1,144 @@
+// File generated from ---> custom-cycle.styl 
+
+//flex
+ctr('.test', {
+  // SYNTAX_YAML
+  grid:
+    column:
+      fraction: '2/4'
+      cycle: '2'
+  
+})
+
+ctr('.test', {
+  grid: {
+    column: {
+      fraction: '2/4'
+      cycle: '2'
+    }
+  }
+})
+
+//non-flex
+ctr('.test', {
+  // SYNTAX_YAML
+  grid:
+    column:
+      fraction: '2/4'
+      cycle: '2'
+      flex: false
+  
+})
+
+ctr('.test', {
+  grid: {
+    column: {
+      fraction: '2/4'
+      cycle: '2'
+      flex: false
+    }
+  }
+})
+
+
+//flex
+ctr('.test', {
+  // SYNTAX_YAML
+  grid:
+    //fraction cycle gutter flex
+    column: ['2/4', '2']
+  
+})
+
+ctr('.test', {
+  grid: {
+    //fraction cycle gutter flex
+    column: '2/4' '2'
+  }
+})
+
+//non-flex
+ctr('.test', {
+  // SYNTAX_YAML
+  grid:
+    //fraction cycle gutter flex
+    column: ['2/4', '2', default, false]
+  
+})
+
+ctr('.test', {
+  grid: {
+    //fraction cycle gutter flex
+    column: '2/4' '2' default false
+  }
+})
+
+
+// n1
+ctr('.test', {
+  // SYNTAX_YAML
+  grid:
+    column:
+      fraction: '2/4'
+      cycle: 1
+  
+})
+
+ctr('.test', {
+  grid: {
+    column: {
+      fraction: '2/4'
+      cycle: 1
+    }
+  }
+})
+
+ctr('.test', {
+  // SYNTAX_YAML
+  grid:
+    column: ['2/4', 1]
+  
+})
+
+ctr('.test', {
+  grid: {
+    column: '2/4' 1
+  }
+})
+
+
+
+// non-flex
+
+ctr('.test', {
+  // SYNTAX_YAML
+  grid:
+    column:
+      fraction: '2/4'
+      cycle: 1
+      flex: false
+  
+})
+
+ctr('.test', {
+  grid: {
+    column: {
+      fraction: '2/4'
+      cycle: 1
+      flex: false
+    }
+  }
+})
+
+ctr('.test', {
+  // SYNTAX_YAML
+  grid:
+    column: ['2/4', 1, default, false]
+  
+})
+
+ctr('.test', {
+  grid: {
+    column: '2/4' 1 default false
+  }
+})

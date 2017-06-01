@@ -1,0 +1,26 @@
+# File generated from ---> top.styl
+
+
+.test:::0:
+  grid:
+    move:
+      fraction: '1/3'
+      direction: 'column'
+
+
+.test:::1:
+  grid:
+    move:
+      fraction: '1/3'
+      direction: 'column'
+
+
+.test:::2:
+  grid:
+    move: ['1/3', 'column']
+
+
+.test:::3:
+  grid:
+    move: ['1/3', 'column']
+

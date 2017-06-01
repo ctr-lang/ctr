@@ -1,0 +1,41 @@
+.test
+  ctr({
+    width: 200px
+    media: {
+      'md': {
+        width: 150px
+        hover: {
+          common: {
+            background: green
+          }
+          on: {
+            font-size: 20px
+          }
+          non: {
+            font-size: 10px
+          }
+        }
+      }
+    }
+  })
+
+ctr('.test', {
+  width: 200px
+  media: {
+    'md': {
+      width: 150px
+      hover: {
+        common: {
+          background: green
+        }
+        on: {
+          font-size: 20px
+        }
+        non: {
+          font-size: 10px
+        }
+      }
+    }
+  }
+})
+

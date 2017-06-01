@@ -1,0 +1,20 @@
+//extend class
+ctrSetClass('$buttonProps', {
+  width: 200px
+  height: 200px
+  background: green
+})
+
+
+.test
+  ctr({
+    color: red
+    extend: '$buttonProps'
+  })
+
+
+ctr('.test', {
+  color: red
+  extend: '$buttonProps'
+})
+

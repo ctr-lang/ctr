@@ -1,0 +1,16 @@
+.test {
+  width: 200px;
+  font-size: 20px;
+  transition-delay: 2s;
+  transition-duration: 0.5s;
+  transition-property: font-size;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test {
+  width: 200px;
+  font-size: 20px;
+  transition-delay: 2s;
+  transition-duration: 0.5s;
+  transition-property: font-size;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}

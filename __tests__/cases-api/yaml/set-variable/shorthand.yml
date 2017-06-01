@@ -1,0 +1,31 @@
+# global varibles
+ctr:::setVar:
+  color: red
+  array: ['.one', '.two']
+  selector: '.testOk'
+  obj:
+    on:
+      width: 400px
+  deep:
+    as:
+      the:
+        well:
+          will:
+            go:
+              water: blue
+      dirt: brown
+
+
+.test:
+  color: alpha($color$, 0.2)
+  component:
+    key: $array$
+    width: 200px
+    hover: $obj$
+    component:
+      key: ['.testMe', '$selector$']
+      font-size: 10px
+  before:
+    content: false
+    color: $deep.as.dirt$
+    background: $deep.as.the.well.will.go.water$

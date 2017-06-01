@@ -1,0 +1,77 @@
+.test
+  ctr({
+    grid: {
+      align: {
+        location: 'bottom-center'
+      }
+      column: {
+        fraction: '1/4'
+        cycle: '3'
+      }
+      //alias option
+      global: {
+        flexbox: false
+      }
+    }
+  })
+
+
+
+.test
+  ctr({
+    grid: {
+      align: {
+        location: 'bottom-center'
+        //override
+        option: {
+          flexbox: true
+        }
+      }
+      column: {
+        fraction: '1/4'
+        cycle: '3'
+      }
+      option: {
+        flexbox: false
+      }
+    }
+  })
+
+
+
+ctr('.test', {
+  grid: {
+    align: {
+      location: 'bottom-center'
+    }
+    column: {
+      fraction: '1/4'
+      cycle: '3'
+    }
+    //alias option
+    global: {
+      flexbox: false
+    }
+  }
+})
+
+
+
+ctr('.test', {
+  grid: {
+    align: {
+      location: 'bottom-center'
+      //override
+      option: {
+        flexbox: true
+      }
+    }
+    column: {
+      fraction: '1/4'
+      cycle: '3'
+    }
+    option: {
+      flexbox: false
+    }
+  }
+})

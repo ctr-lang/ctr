@@ -1,0 +1,16 @@
+# File generated from ---> multiple-key.styl
+
+
+.test:::0:
+  width: 200px
+  non:
+    key: ['.today', 'span']
+    font-size: 10px
+
+
+.test:::1:
+  width: 200px
+  non:
+    key: ['.today', 'span']
+    font-size: 10px
+

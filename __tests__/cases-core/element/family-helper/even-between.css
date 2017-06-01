@@ -1,0 +1,36 @@
+.test {
+  width: 200px;
+}
+.test:nth-child(even):nth-child(n+3):nth-child(-n+12) {
+  height: 400px;
+}
+.test {
+  width: 200px;
+}
+.test:nth-child(even):nth-child(n+3):nth-child(-n+12) {
+  height: 400px;
+}
+.test {
+  width: 200px;
+}
+.test:nth-child(even):nth-child(n+3):nth-child(-n+12) {
+  height: 400px;
+}
+.test {
+  width: 200px;
+}
+.test:nth-child(even):nth-child(n+3):nth-child(-n+12) {
+  height: 400px;
+}
+.test {
+  width: 200px;
+}
+.test:nth-child(even):nth-child(n+3):nth-child(-n+12) {
+  height: 400px;
+}
+.test {
+  width: 200px;
+}
+.test:nth-child(even):nth-child(n+3):nth-child(-n+12) {
+  height: 400px;
+}

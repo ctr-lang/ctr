@@ -1,0 +1,30 @@
+# File generated from ---> on-non-common-option-override.styl
+
+
+.test:::0:
+  width: 200px
+  hover:
+    common:
+      delay: 10s
+    on:
+      font-size: 20px
+      # override
+      option:
+        delay: 1s
+    non:
+      font-size: 10px
+
+
+.test:::1:
+  width: 200px
+  hover:
+    common:
+      delay: 10s
+    on:
+      font-size: 20px
+      # override
+      option:
+        delay: 1s
+    non:
+      font-size: 10px
+

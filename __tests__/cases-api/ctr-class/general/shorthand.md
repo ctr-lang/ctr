@@ -1,0 +1,1 @@
+__Description__: Shorthand syntax is comprised of with a single String class or an Array of string classes

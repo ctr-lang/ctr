@@ -1,0 +1,18 @@
+# File generated from ---> growRotate.styl
+
+
+.test:::0:
+  width: 200px
+  height: 200px
+  background: teal
+  hover:
+    preset: 'growRotate'
+
+
+.test:::1:
+  width: 200px
+  height: 200px
+  background: teal
+  hover:
+    preset: 'growRotate'
+

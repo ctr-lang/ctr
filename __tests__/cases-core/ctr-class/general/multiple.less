@@ -1,0 +1,35 @@
+// File generated from ---> multiple.styl 
+
+ctrSetClass('$buttonMulti', {
+  // SYNTAX_YAML
+  width: 200px
+  height: 200px
+  background: '#008000'
+})
+ctrSetClass('$buttonMulti', {
+  width: 200px
+  height: 200px
+  background: #008000
+})
+
+ctrSetClass('$boldFontMulti', {
+  // SYNTAX_YAML
+  font-weight: bold
+  font-family: ["'Ubuntu', Georgia, Serif"]
+})
+ctrSetClass('$boldFontMulti', {
+  font-weight: bold
+  font-family: "'Ubuntu', Georgia, Serif"
+})
+
+ctr('.test', {
+  // SYNTAX_YAML
+  //apply both
+  extend: ['$buttonMulti', '$boldFontMulti']
+})
+
+
+ctr('.test', {
+  //apply both
+  extend: '$buttonMulti' '$boldFontMulti'
+})

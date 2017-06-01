@@ -1,0 +1,16 @@
+.test {
+  width: 200px;
+  font-size: 10px;
+}
+.test {
+  width: 200px;
+  font-size: 10px;
+}
+.test {
+  width: 200px;
+  font-size: calc(12rem * ((100vw - 25rem) / 87.5));
+}
+.test {
+  width: 200px;
+  font-size: calc(12rem * ((100vw - 25rem) / 87.5));
+}

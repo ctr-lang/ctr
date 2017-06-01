@@ -1,0 +1,50 @@
+# File generated from ---> key.styl
+
+
+.test:::0:
+  $$:
+    element:
+      element:
+        key: ['_', 'first-child']
+  width: 200px
+  merge: '$element$'
+  element:
+    key: ['_', 'after']
+    width: '200px'
+
+
+.test:::1:
+  $$:
+    element:
+      element:
+        key: ['_', 'first-child']
+  width: 200px
+  merge: '$element$'
+  element:
+    key: ['_', 'after']
+    width: '200px'
+
+
+.test:::2:
+  $$:
+    element:
+      element:
+        key: ['first-child', 'last-child']
+  width: 200px
+  merge: '$element$'
+  element:
+    key: ['after', 'before']
+    width: '200px'
+
+
+.test:::3:
+  $$:
+    element:
+      element:
+        key: ['first-child', 'last-child']
+  width: 200px
+  merge: '$element$'
+  element:
+    key: ['after', 'before']
+    width: '200px'
+

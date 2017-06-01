@@ -1,0 +1,68 @@
+//flex
+.test
+  ctr({
+    grid: {
+      waffle: {
+        fraction: '1/3'
+      }
+    }
+  })
+
+ctr('.test', {
+  grid: {
+    waffle: {
+      fraction: '1/3'
+    }
+  }
+})
+
+//non-flex
+.test
+  ctr({
+    grid: {
+      waffle: {
+        fraction: '1/3'
+        flex: false
+      }
+    }
+  })
+
+ctr('.test', {
+  grid: {
+    waffle: {
+      fraction: '1/3'
+      flex: false
+    }
+  }
+})
+
+
+//flex
+.test
+  ctr({
+    grid: {
+      waffle: '1/3'
+    }
+  })
+
+ctr('.test', {
+  grid: {
+    waffle: '1/3'
+  }
+})
+
+//non-flex
+.test
+  ctr({
+    grid: {
+      // fraction cycle gutter flex
+      waffle: '1/3' default default false
+    }
+  })
+
+ctr('.test', {
+  grid: {
+    // fraction cycle gutter flex
+    waffle: '1/3' default default false
+  }
+})

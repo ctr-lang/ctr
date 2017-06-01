@@ -1,0 +1,1 @@
+__Description__: Selector can be defined in the root of the component object

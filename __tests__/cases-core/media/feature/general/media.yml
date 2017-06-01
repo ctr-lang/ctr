@@ -1,0 +1,26 @@
+# File generated from ---> media.styl
+
+
+.test:::0:
+  width: 200px
+  media:
+    'md':
+      width: 150px
+      media:
+        border-radius: 10px
+        query:
+          'min-height': 200px
+          'max-height': 500px
+
+
+.test:::1:
+  width: 200px
+  media:
+    'md':
+      width: 150px
+      media:
+        border-radius: 10px
+        query:
+          'min-height': 200px
+          'max-height': 500px
+

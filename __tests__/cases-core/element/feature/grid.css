@@ -1,0 +1,36 @@
+.test {
+  width: 200px;
+}
+.test::before {
+  flex: 0 0 auto;
+  content: "test";
+  width: calc(99.9% * 1 / 2 - (30px - 30px * 1 / 2));
+}
+.test::before:nth-child(1n) {
+  margin-right: 30px;
+}
+.test::before:last-child {
+  margin-right: 0;
+}
+.test::before:nth-child(2n) {
+  float: right;
+  margin-right: 0;
+}
+.test {
+  width: 200px;
+}
+.test::before {
+  flex: 0 0 auto;
+  content: "test";
+  width: calc(99.9% * 1 / 2 - (30px - 30px * 1 / 2));
+}
+.test::before:nth-child(1n) {
+  margin-right: 30px;
+}
+.test::before:last-child {
+  margin-right: 0;
+}
+.test::before:nth-child(2n) {
+  float: right;
+  margin-right: 0;
+}

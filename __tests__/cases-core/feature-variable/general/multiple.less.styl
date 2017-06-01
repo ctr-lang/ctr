@@ -1,0 +1,44 @@
+// File generated from ---> multiple.styl
+
+ctr('.test', {
+  // SYNTAX_YAML
+  $$:
+    color: red
+    size: 40px
+    compTo: ['.one', '#two', 'span']
+    state:
+      on:
+        font-size: 20px
+      non:
+        font-size: 10px
+  width: 200px
+  border: ['$size$', solid, '$color$']
+  hover: '$state$'
+  customComp:
+    key: '$compTo$'
+    height: 300px
+})
+
+ctr('.test', {
+  $$: {
+    color: red
+    size: 40px
+    compTo: '.one' '#two' 'span'
+    state: {
+      on: {
+        font-size: 20px
+      }
+      non: {
+        font-size: 10px
+      }
+    }
+  }
+
+  width: 200px
+  border: '$size$' solid '$color$'
+  hover: '$state$'
+  customComp: {
+    key: '$compTo$'
+    height: 300px
+  }
+})

@@ -1,0 +1,36 @@
+ctr('.test', {
+  width: 200px
+  components: {
+    common: {
+      grid: {
+        align: 'center'
+      }
+    }
+    '.conflict': {
+      option: {
+        conflict: 'flex'
+      }
+      //grid should overwrite -> to flex
+      display: inline-block
+    }
+  }
+})
+
+
+ctr('.test', {
+  width: 200px
+  components: {
+    common: {
+      grid: {
+        align: 'center'
+      }
+    }
+    '.conflict': {
+      option: {
+        conflict: 'work' 'on' 'a' 'list' 'inline-block'
+      }
+      //should keep inline-block
+      display: inline-block
+    }
+  }
+})

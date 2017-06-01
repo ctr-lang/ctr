@@ -1,0 +1,14 @@
+# File generated from ---> pulse.styl
+
+
+.test:::0:
+  width: 400px
+  anim:
+    preset: 'pulse'
+
+
+.test:::1:
+  width: 400px
+  anim:
+    preset: 'pulse'
+

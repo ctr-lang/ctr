@@ -1,0 +1,1 @@
+__Description__: If a `component` has a `option.selector` value of: `''` an empty string the selector be just that, an nothing, an empty string

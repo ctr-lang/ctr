@@ -1,0 +1,85 @@
+.test
+  ctr({
+    $$: {
+      size: 12px
+      font-size: '$ize$'
+    }
+    width: 200px
+    font-size: '$font-size$'
+  })
+
+ctr('.test', {
+  $$: {
+    size: 12px
+    font-size: '$ize$'
+  }
+  width: 200px
+  font-size: '$font-size$'
+})
+
+.test
+  ctr({
+    $$: {
+      size: 12
+      type: 'px'
+      font-size: '$ize$$type$'
+    }
+    width: 200px
+    font-size: '$font-size$'
+  })
+
+ctr('.test', {
+  $$: {
+    size: 12
+    type: 'px'
+    font-size: '$ize$$type$'
+  }
+  width: 200px
+  font-size: '$font-size$'
+})
+
+
+
+
+// bracket
+
+// bracket
+.test
+  ctr({
+    $$: {
+      size: 12px
+      font-size: '$[ize]$'
+    }
+    width: 200px
+    font-size: '$[font-size]$'
+  })
+
+ctr('.test', {
+  $$: {
+    size: 12px
+    font-size: '$[ize]$'
+  }
+  width: 200px
+  font-size: '$[font-size]$'
+})
+
+.test
+  ctr({
+    $$: {
+      size: 12
+      type: 'px'
+      font-size: '$[ize]$$[type]$'
+    }
+    width: 200px
+    font-size: '$[font-size]$'
+  })
+
+ctr('.test', {
+  $$: {
+    size: 12
+    type: 'px'
+    font-size: '$[ize]$$[type]$'
+  }
+  width: 200px
+  font-size: '$[font-size]$'
+})

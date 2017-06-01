@@ -1,0 +1,70 @@
+//flex
+.test
+  ctr({
+    grid: {
+      column: {
+        fraction: '2/5'
+      }
+    }
+  })
+
+ctr('.test', {
+  grid: {
+    column: {
+      fraction: '2/5'
+    }
+  }
+})
+
+//non-flex
+.test
+  ctr({
+    grid: {
+      column: {
+        fraction: '2/5'
+        flex: false
+      }
+    }
+  })
+
+ctr('.test', {
+  grid: {
+    column: {
+      fraction: '2/5'
+      flex: false
+    }
+  }
+})
+
+
+//flex
+.test
+  ctr({
+    grid: {
+      //fraction cycle gutter flex
+      column: '2/5'
+    }
+  })
+
+ctr('.test', {
+  grid: {
+    //fraction cycle gutter flex
+    column: '2/5'
+  }
+})
+
+//non-flex
+.test
+  ctr({
+    grid: {
+      //fraction cycle gutter flex
+      column: '2/5' default default false
+    }
+  })
+
+ctr('.test', {
+  grid: {
+    //fraction cycle gutter flex
+    column: '2/5' default default false
+  }
+})

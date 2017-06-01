@@ -1,0 +1,42 @@
+.inherit {
+  width: 200px;
+}
+#inherit {
+  width: 200px;
+}
+input {
+  width: 200px;
+}
+input:first-child {
+  width: 200px;
+}
+:first-of-type {
+  width: 200px;
+}
+.add + #me {
+  width: 200px;
+}
+div ~ p:nth-child(2) > .cool {
+  width: 200px;
+}
+.inherit {
+  width: 200px;
+}
+#inherit {
+  width: 200px;
+}
+input {
+  width: 200px;
+}
+input:first-child {
+  width: 200px;
+}
+:first-of-type {
+  width: 200px;
+}
+.add + #me {
+  width: 200px;
+}
+div ~ p:nth-child(2) > .cool {
+  width: 200px;
+}

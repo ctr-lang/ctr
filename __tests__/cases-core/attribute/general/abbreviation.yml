@@ -1,0 +1,146 @@
+# File generated from ---> abbreviation.styl
+
+
+.test:::0:
+  width: 200px
+  component:
+    'a':
+      attr:
+        key: '[target]'
+        font-size: 10px
+
+
+.test:::1:
+  width: 200px
+  component:
+    'a':
+      attr:
+        key: '[target="_blank"]'
+        font-size: 10px
+
+
+.test:::2:
+  width: 200px
+  component:
+    'div':
+      attr:
+        key: '[title~="test"]'
+        font-size: 10px
+
+
+.test:::3:
+  width: 200px
+  component:
+    'div':
+      attr:
+        key: '[class|="test"]'
+        font-size: 10px
+
+
+.test:::4:
+  width: 200px
+  component:
+    'div':
+      attr:
+        key: '[class^="test"]'
+        font-size: 10px
+
+
+.test:::5:
+  width: 200px
+  component:
+    'div':
+      attr:
+        key: '[class$="test"]'
+        font-size: 10px
+
+
+.test:::6:
+  width: 200px
+  component:
+    'div':
+      attr:
+        key: '[class*="te"]'
+        font-size: 10px
+
+
+.test:::7:
+  width: 200px
+  component:
+    'input':
+      attr:
+        key: '[type="text"]'
+        font-size: 10px
+
+
+.test:::8:
+  width: 200px
+  component:
+    'a':
+      attr:
+        key: '[target]'
+        font-size: 10px
+
+
+.test:::9:
+  width: 200px
+  component:
+    'a':
+      attr:
+        key: '[target="_blank"]'
+        font-size: 10px
+
+
+.test:::10:
+  width: 200px
+  component:
+    'div':
+      attr:
+        key: '[title~="test"]'
+        font-size: 10px
+
+
+.test:::11:
+  width: 200px
+  component:
+    'div':
+      attr:
+        key: '[class|="test"]'
+        font-size: 10px
+
+
+.test:::12:
+  width: 200px
+  component:
+    'div':
+      attr:
+        key: '[class^="test"]'
+        font-size: 10px
+
+
+.test:::13:
+  width: 200px
+  component:
+    'div':
+      attr:
+        key: '[class$="test"]'
+        font-size: 10px
+
+
+.test:::14:
+  width: 200px
+  component:
+    'div':
+      attr:
+        key: '[class*="te"]'
+        font-size: 10px
+
+
+.test:::15:
+  width: 200px
+  component:
+    'input':
+      attr:
+        key: '[type="text"]'
+        font-size: 10px
+

@@ -1,0 +1,40 @@
+.test {
+  width: 200px;
+}
+.test > .aClass {
+  font-size: 10px;
+}
+.test > .aClass:hover {
+  color: #f00;
+  transition-delay: 0s;
+  transition-duration: 0.5s;
+  transition-property: color;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test > .aClass:not(:hover) {
+  color: #f00;
+  transition-delay: 0s;
+  transition-duration: 0.5s;
+  transition-property: color;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test {
+  width: 200px;
+}
+.test > .aClass {
+  font-size: 10px;
+}
+.test > .aClass:hover {
+  color: #f00;
+  transition-delay: 0s;
+  transition-duration: 0.5s;
+  transition-property: color;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test > .aClass:not(:hover) {
+  color: #f00;
+  transition-delay: 0s;
+  transition-duration: 0.5s;
+  transition-property: color;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}

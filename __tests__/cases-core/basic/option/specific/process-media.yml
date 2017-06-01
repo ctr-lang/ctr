@@ -1,0 +1,28 @@
+# File generated from ---> process-media.styl
+
+
+.test:::0:
+  option:
+    global:
+      processMedia: false
+  width: 200px
+  media:
+    width: 100px
+    query:
+      type: 'screen'
+      'min-width': 'sm'
+      'max-width': 'lg'
+
+
+.test:::1:
+  option:
+    global:
+      processMedia: false
+  width: 200px
+  media:
+    width: 100px
+    query:
+      type: 'screen'
+      'min-width': 'sm'
+      'max-width': 'lg'
+

@@ -1,0 +1,45 @@
+ctrSetClass('MergeWithBugTest', {
+  $$: {
+    size: 400px
+    option: {
+      duration: 0.45s
+      delay: 0.1s
+    }
+    eval: {
+      mainColor: red
+    }
+  }
+  width: '$size$'
+
+  trans: {
+    //merge with should only merge its actual val
+    //there was a bug in which color and bg
+    //both where being treated as mergeWith values, now fixed.
+    mergeWith: '$option$'
+    color: '$eval.mainColor$'
+    background-color: '$eval.mainColor$'
+  }
+})
+
+.test
+  ctr({
+    width: 200px
+    'extend-MergeWithBugTest': {
+      size: 10px
+      option: {
+        duration: 2s
+      }
+    }
+  })
+
+ctr('.test', {
+  width: 200px
+  'extend-MergeWithBugTest': {
+    size: 10px
+    option: {
+      duration: 2s
+    }
+  }
+})
+
+

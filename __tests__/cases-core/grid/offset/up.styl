@@ -1,0 +1,33 @@
+//flex
+.test
+  ctr({
+    grid: {
+      offset: {
+        fraction: '1/3'
+        direction: 'column'
+      }
+    }
+  })
+
+ctr('.test', {
+  grid: {
+    offset: {
+      fraction: '1/3'
+      direction: 'column'
+    }
+  }
+})
+
+
+.test
+  ctr({
+    grid: {
+      offset: '1/3' 'column' default
+    }
+  })
+
+ctr('.test', {
+  grid: {
+    offset: '1/3' 'column' default
+  }
+})

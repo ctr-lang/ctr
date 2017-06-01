@@ -1,0 +1,32 @@
+# File generated from ---> customEl.styl
+
+
+.test:::0:
+  width: 200px
+  customEl:
+    font-size: 10px
+    option:
+      key: first-line
+
+
+.test:::1:
+  width: 200px
+  customEl:
+    font-size: 10px
+    option:
+      key: 'first-line'
+
+
+.test:::2:
+  width: 200px
+  customEl:
+    key: 'first-line'
+    font-size: 10px
+
+
+.test:::3:
+  width: 200px
+  customEl:
+    key: first-line
+    font-size: 10px
+

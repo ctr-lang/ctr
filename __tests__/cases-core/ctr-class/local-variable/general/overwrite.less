@@ -1,0 +1,30 @@
+// File generated from ---> overwrite.styl 
+
+ctrSetClass('$localFontOverwrite', {
+  // SYNTAX_YAML
+  $$:
+    font: 10px
+  font-size: '_$font$_'
+})
+ctrSetClass('$localFontOverwrite', {
+  $$: {
+    font: 10px
+  }
+  font-size: '_$font$_'
+})
+
+ctr('.test', {
+  // SYNTAX_YAML
+  extend:
+    '$localFontOverwrite':
+      font: 20px
+  
+})
+
+ctr('.test', {
+  extend: {
+    '$localFontOverwrite': {
+      font: 20px
+    }
+  }
+})

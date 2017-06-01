@@ -1,0 +1,1 @@
+__Description__: Should be able to use an Array value to apply multiple values to the prop

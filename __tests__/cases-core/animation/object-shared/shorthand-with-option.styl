@@ -1,0 +1,62 @@
+.test
+  ctr({
+    anim: {
+      option: {
+        multiple: true
+        state: paused
+        duration: 100s
+        ease: no-go
+        shorthand: {
+          //default should default to the outside opts
+          //since they act like global options.
+          tlTwo: default 11s
+          tlOne: 1s default ease-in 10
+        }
+      }
+      timeline: {
+        tlOne: {
+          "50%": {
+            background: purple
+          }
+        }
+        koolBrah: {
+          name: tlTwo
+          "50%": {
+            color: yellow
+          }
+        }
+      }
+    }
+  })
+
+
+
+ctr('.test', {
+  anim: {
+    option: {
+      multiple: true
+      state: paused
+      duration: 100s
+      ease: no-go
+      shorthand: {
+        //default should default to the outside opts
+        //since they act like global options.
+        tlTwo: default 11s
+        tlOne: 1s default ease-in 10
+      }
+    }
+    timeline: {
+      tlOne: {
+        "50%": {
+          background: purple
+        }
+      }
+      koolBrah: {
+        name: tlTwo
+        "50%": {
+          color: yellow
+        }
+      }
+    }
+  }
+})

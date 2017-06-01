@@ -1,0 +1,21 @@
+ctrSetOption({
+  global: {
+    transitionShorthand: true
+  }
+})
+
+.test
+  ctr({
+    size: 100px
+    transition: {
+      transform: scale(2)
+    }
+  })
+
+
+ctr('.test', {
+  size: 100px
+  transition: {
+    transform: scale(2)
+  }
+})

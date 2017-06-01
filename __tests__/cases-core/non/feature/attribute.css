@@ -1,0 +1,18 @@
+.test {
+  width: 200px;
+}
+.test:not(.today) {
+  height: 200px;
+}
+.test:not(.today)[data-role="test"] {
+  background: #000;
+}
+.test {
+  width: 200px;
+}
+.test:not(.today) {
+  height: 200px;
+}
+.test:not(.today)[data-role="test"] {
+  background: #000;
+}

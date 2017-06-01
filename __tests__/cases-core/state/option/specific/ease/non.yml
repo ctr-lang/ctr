@@ -1,0 +1,20 @@
+# File generated from ---> non.styl
+
+
+.test:::0:
+  width: 200px
+  hover:
+    non:
+      font-size: 20px
+      option:
+        ease: tedious
+
+
+.test:::1:
+  width: 200px
+  hover:
+    non:
+      font-size: 20px
+      option:
+        ease: tedious
+

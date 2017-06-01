@@ -1,0 +1,27 @@
+// File generated from ---> saturate.styl 
+
+ctrSetClass('$evalSaturate', {
+  // SYNTAX_YAML
+  $$:
+    base: '#c33'
+    bg: "saturate($base$, 20%)"
+  background: "$bg$"
+  color: 'saturate(#c33, 40%)'
+})
+ctrSetClass('$evalSaturate', {
+  $$: {
+    base: #c33
+    bg: "saturate($base$, 20%)"
+  }
+  background: "$bg$"
+  color: saturate(#c33, 40%)
+})
+
+ctr('.test', {
+  // SYNTAX_YAML
+  extend: $evalSaturate
+})
+
+ctr('.test', {
+  extend: $evalSaturate
+})

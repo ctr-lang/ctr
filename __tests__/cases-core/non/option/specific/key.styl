@@ -1,0 +1,44 @@
+.test
+  ctr({
+    width: 200px
+    non: {
+      font-size: 10px
+      option: {
+        key: 'p'
+      }
+    }
+  })
+
+ctr('.test', {
+  width: 200px
+  non: {
+    font-size: 10px
+    option: {
+      key: 'p'
+    }
+  }
+})
+
+
+.test
+  ctr({
+    width: 200px
+    'not': {
+      font-size: 10px
+      option: {
+        key: '.class'
+      }
+    }
+  })
+
+
+ctr('.test', {
+  width: 200px
+  'not': {
+    font-size: 10px
+    option: {
+      key: '.class'
+    }
+  }
+})
+

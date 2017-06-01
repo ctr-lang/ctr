@@ -1,0 +1,31 @@
+.test
+  ctr({
+    width: 200px
+    before: {
+      content: 'test'
+      anim: {
+        name: 'test'
+        tl: {
+          '50': {
+            color: red
+          }
+        }
+      }
+    }
+  })
+
+
+ctr('.test', {
+  width: 200px
+  before: {
+    content: 'test'
+    anim: {
+      name: 'test'
+      tl: {
+        '50': {
+          color: red
+        }
+      }
+    }
+  }
+})

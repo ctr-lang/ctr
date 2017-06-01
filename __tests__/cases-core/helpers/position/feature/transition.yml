@@ -1,0 +1,14 @@
+# File generated from ---> transition.styl
+
+
+.test:::0:
+  background: black
+  transition:
+    position: [absolute, 1111px, 2222px]
+
+
+.test:::1:
+  background: black
+  transition:
+    position: [absolute, 1111px, 2222px]
+

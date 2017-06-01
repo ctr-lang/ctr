@@ -1,0 +1,22 @@
+# File generated from ---> static.styl
+
+
+.test:::0:
+  width: 200px
+  media:
+    'md':
+      width: 150px
+      hover:
+        static:
+          background: green
+
+
+.test:::1:
+  width: 200px
+  media:
+    'md':
+      width: 150px
+      hover:
+        static:
+          background: green
+

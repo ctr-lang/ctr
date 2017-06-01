@@ -1,0 +1,48 @@
+// File generated from ---> basic.styl 
+
+ctr('.test', {
+  // SYNTAX_YAML
+  hover:
+    common:
+      //common added to both
+      background: green
+      width: 200px
+      option:
+        delay: 20s
+        //omit the transition
+        transition: false
+    on:
+      height: 200px
+      option:
+        //priority
+        delay: 420s
+    non:
+      height: 100px
+  
+})
+
+
+ctr('.test', {
+  hover: {
+    common: {
+      //common added to both
+      background: green
+      width: 200px
+      option: {
+        delay: 20s
+        //omit the transition
+        trans: false
+      }
+    }
+    on: {
+      height: 200px
+      option: {
+        //priority
+        delay: 420s
+      }
+    }
+    non: {
+      height: 100px
+    }
+  }
+})

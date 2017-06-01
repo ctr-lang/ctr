@@ -1,0 +1,20 @@
+# File generated from ---> non.styl
+
+
+.test:::0:
+  width: 200px
+  transition:
+    height: 200px
+    non:
+      key: '.atmosphere'
+      background: black
+
+
+.test:::1:
+  width: 200px
+  transition:
+    height: 200px
+    non:
+      key: '.atmosphere'
+      background: black
+

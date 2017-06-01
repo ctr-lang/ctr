@@ -1,0 +1,79 @@
+// File generated from ---> global.styl 
+
+ctrSetOption({
+  // SYNTAX_YAML
+  grid:
+    gutter: 60px
+    rtl: false
+    flexbox: false
+  
+})
+ctrSetOption({
+  grid: {
+    gutter: 60px
+    rtl: false
+    flexbox: false
+  }
+})
+
+ctr('.test', {
+  // SYNTAX_YAML
+  grid:
+    align:
+      location: 'bottom-center'
+    column:
+      fraction: '1/4'
+      cycle: '3'
+  
+})
+
+
+
+
+ctr('.test', {
+  grid: {
+    align: {
+      location: 'bottom-center'
+    }
+    column: {
+      fraction: '1/4'
+      cycle: '3'
+    }
+  }
+})
+
+
+//override
+
+ctr('.test', {
+  // SYNTAX_YAML
+  grid:
+    align:
+      location: 'bottom-center'
+    column:
+      fraction: '1/4'
+      cycle: '3'
+    option:
+      flexbox: true
+      gutter: 30px
+  
+})
+
+
+
+
+ctr('.test', {
+  grid: {
+    align: {
+      location: 'bottom-center'
+    }
+    column: {
+      fraction: '1/4'
+      cycle: '3'
+    }
+    option: {
+      flexbox: true
+      gutter: 30px
+    }
+  }
+})

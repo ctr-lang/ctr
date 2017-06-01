@@ -1,0 +1,69 @@
+// +
+.test
+  ctr({
+    width: 200px
+    comp: {
+      span: {
+        font-size: 20px
+        option: {
+          selector: '+'
+        }
+      }
+    }
+  })
+
+ctr('.test', {
+  width: 200px
+  comp: {
+    span: {
+      font-size: 20px
+      option: {
+        selector: '+'
+      }
+    }
+  }
+})
+
+
+// ~
+.test
+  ctr({
+    width: 200px
+    comp: {
+      span: {
+        font-size: 20px
+        option: {
+          selector: '~'
+        }
+      }
+    }
+  })
+
+ctr('.test', {
+  width: 200px
+  comp: {
+    span: {
+      font-size: 20px
+      option: {
+        selector: '~'
+      }
+    }
+  }
+})
+
+
+// ,
+// note can only use `,` decalritvly
+ctr('.test', {
+  width: 200px
+  comp: {
+    span: {
+      font-size: 20px
+      option: {
+        selector: ','
+      }
+    }
+  }
+})
+
+

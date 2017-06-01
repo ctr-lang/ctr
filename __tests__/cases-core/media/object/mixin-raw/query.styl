@@ -1,0 +1,37 @@
+.test
+  ctr({
+    width: 200px
+    medias: {
+      '-800px': {
+        query: {
+          max-height: '800px'
+        }
+        width: 300px
+      }
+      '+800px': {
+        query: {
+          min-height: '800px'
+        }
+        width: 400px
+      }
+    }
+  })
+
+
+ctr('.test', {
+  width: 200px
+  medias: {
+    '-800px': {
+      query: {
+        max-height: '800px'
+      }
+      width: 300px
+    }
+    '+800px': {
+      query: {
+        min-height: '800px'
+      }
+      width: 400px
+    }
+  }
+})

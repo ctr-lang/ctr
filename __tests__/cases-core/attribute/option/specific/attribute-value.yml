@@ -1,0 +1,50 @@
+# File generated from ---> attribute-value.styl
+
+
+.test:::0:
+  width: 200px
+  comp:
+    'div':
+      attr:
+        background: teal
+        option:
+          # without = and quotes
+          key: 'class*'
+          value: 'te'
+
+
+.test:::1:
+  width: 200px
+  comp:
+    'div':
+      attr:
+        background: teal
+        option:
+          # with
+          key: 'class*='
+          value: '"te"'
+
+
+.test:::2:
+  width: 200px
+  comp:
+    'div':
+      attr:
+        background: teal
+        option:
+          # without = and quotes
+          key: 'class*'
+          value: 'te'
+
+
+.test:::3:
+  width: 200px
+  comp:
+    'div':
+      attr:
+        background: teal
+        option:
+          # with
+          key: 'class*='
+          value: '"te"'
+

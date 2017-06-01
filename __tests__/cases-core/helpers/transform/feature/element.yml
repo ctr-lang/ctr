@@ -1,0 +1,24 @@
+# File generated from ---> element.styl
+
+
+.test:::0:
+  width: 200px
+  before:
+    content: 'test'
+    font-size: 10px
+    transform:
+      translateX: 10px
+      translateY: 20px
+      scaleX: 90deg
+
+
+.test:::1:
+  width: 200px
+  before:
+    content: 'test'
+    font-size: 10px
+    transform:
+      translateX: 10px
+      translateY: 20px
+      scaleX: 90deg
+

@@ -1,0 +1,80 @@
+.test {
+  animation-delay: 1s, 1s;
+  animation-name: tlOne, tlTwo;
+  animation-duration: 10s, 10s;
+  animation-iteration-count: 1, 1;
+  animation-fill-mode: none, none;
+  animation-direction: normal, normal;
+  animation-play-state: paused, paused;
+  animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+}
+@keyframes tlOne {
+  50% {
+    background: #800080;
+  }
+}
+@keyframes tlTwo {
+  50% {
+    color: #ff0;
+  }
+}
+.test {
+  animation-delay: 1s, 1s;
+  animation-name: tlOne, tlTwo;
+  animation-duration: 10s, 10s;
+  animation-iteration-count: 1, 1;
+  animation-fill-mode: none, none;
+  animation-direction: normal, normal;
+  animation-play-state: paused, paused;
+  animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+}
+@keyframes tlOne {
+  50% {
+    background: #800080;
+  }
+}
+@keyframes tlTwo {
+  50% {
+    color: #ff0;
+  }
+}
+.test {
+  animation-delay: 1s, 1s;
+  animation-name: tlOne, tlTwo;
+  animation-duration: 10s, 10s;
+  animation-iteration-count: 1, 1;
+  animation-fill-mode: none, none;
+  animation-direction: normal, normal;
+  animation-play-state: paused, paused;
+  animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+}
+@keyframes tlOne {
+  50% {
+    background: #800080;
+  }
+}
+@keyframes tlTwo {
+  50% {
+    color: #ff0;
+  }
+}
+.test {
+  animation-delay: 1s, 1s;
+  animation-name: tlOne, tlTwo;
+  animation-duration: 10s, 10s;
+  animation-iteration-count: 1, 1;
+  animation-fill-mode: none, none;
+  animation-direction: normal, normal;
+  animation-play-state: paused, paused;
+  animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+}
+@keyframes tlOne {
+  50% {
+    background: #800080;
+  }
+}
+@keyframes tlTwo {
+  50% {
+    color: #ff0;
+  }
+}

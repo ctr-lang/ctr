@@ -1,0 +1,5 @@
+.test {
+  width: 200px;
+  height: 200px;
+  error-msg-should-format-key-too: "$merge-var-not-found$";
+}

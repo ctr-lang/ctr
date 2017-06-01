@@ -1,0 +1,24 @@
+// File generated from ---> grid.styl 
+
+ctrSetClass('$myGridClass', {
+  // SYNTAX_YAML
+  height: 200px
+  grid:
+    column: '1/2'
+  
+})
+ctrSetClass('$myGridClass', {
+  height: 200px
+  grid: {
+    column: '1/2'
+  }
+})
+
+ctr('.test', {
+  // SYNTAX_YAML
+  extend: '$myGridClass'
+})
+
+ctr('.test', {
+  extend: '$myGridClass'
+})

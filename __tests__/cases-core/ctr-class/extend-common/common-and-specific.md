@@ -1,0 +1,1 @@
+__Description__: If `class` is specified it should only apply the common props to the `class` list which is specified

@@ -1,0 +1,137 @@
+//flex
+.test
+  ctr({
+    grid: {
+      align: {
+        location: 'reset'
+      }
+    }
+  })
+
+ctr('.test', {
+  grid: {
+    align: {
+      location: 'reset'
+    } 
+  }
+})
+
+//non-flex
+.test
+  ctr({
+    grid: {
+      align: {
+        location: 'reset'
+        flex: false
+      }
+    }
+  })
+
+
+ctr('.test', {
+  grid: {
+    align: {
+      location: 'reset'
+      flex: false
+    }
+  }
+})
+
+//flex
+.test
+  ctr({
+    grid: {
+      align: 'reset'
+    }
+  })
+
+ctr('.test', {
+  grid: {
+    align: 'reset' 
+  }
+})
+
+//non-flex
+.test
+  ctr({
+    grid: {
+      align: 'reset' false
+    }
+  })
+
+
+ctr('.test', {
+  grid: {
+    align: 'reset' false
+  }
+})
+
+
+//False alias
+//flex
+.test
+  ctr({
+    grid: {
+      align: {
+        location: false
+      }
+    }
+  })
+
+ctr('.test', {
+  grid: {
+    align: {
+      location: false
+    } 
+  }
+})
+
+//non-flex
+.test
+  ctr({
+    grid: {
+      align: {
+        location: false
+        flex: false
+      }
+    }
+  })
+
+
+ctr('.test', {
+  grid: {
+    align: {
+      location: false
+      flex: false
+    }
+  }
+})
+
+//flex
+.test
+  ctr({
+    grid: {
+      align: false
+    }
+  })
+
+ctr('.test', {
+  grid: {
+    align: false 
+  }
+})
+
+//non-flex
+.test
+  ctr({
+    grid: {
+      align: false false
+    }
+  })
+
+
+ctr('.test', {
+  grid: {
+    align: false false
+  }
+})

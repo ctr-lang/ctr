@@ -1,0 +1,28 @@
+.test {
+  width: 100px;
+  height: 100px;
+  background: #808080;
+  animation: 200s ease-out 100s 420 normal forwards paused test;
+}
+@keyframes test {
+  25% {
+    background: #f00;
+  }
+  75% {
+    background: #00f;
+  }
+}
+.test {
+  width: 100px;
+  height: 100px;
+  background: #808080;
+  animation: 200s ease-out 100s 420 normal forwards paused test;
+}
+@keyframes test {
+  25% {
+    background: #f00;
+  }
+  75% {
+    background: #00f;
+  }
+}

@@ -1,0 +1,17 @@
+.test {
+  width: 200px;
+}
+#override:onHoverBoard {
+  font-size: 20px;
+  transition-delay: 0s;
+  transition-duration: 0.5s;
+  transition-property: font-size;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+#override:nonHoverBoard {
+  font-size: 20px;
+  transition-delay: 0s;
+  transition-duration: 0.5s;
+  transition-property: font-size;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}

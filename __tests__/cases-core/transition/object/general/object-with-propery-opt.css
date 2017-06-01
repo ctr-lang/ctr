@@ -1,0 +1,24 @@
+.test {
+  color: #f00;
+  width: 300px;
+  height: 200px;
+  border-width: 4px;
+  font-size: 1.2rem;
+  border-color: #008000;
+  transition-delay: 0s, 0s, 0s, 0s, 0s, 0s;
+  transition-duration: 1s, 1s, 1s, 1.3s, 1.2s, 1.8s;
+  transition-property: border-width, font-size, color, height, left, right;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test {
+  color: #f00;
+  width: 300px;
+  height: 200px;
+  border-width: 4px;
+  font-size: 1.2rem;
+  border-color: #008000;
+  transition-delay: 0s, 0s, 0s, 0s, 0s, 0s;
+  transition-duration: 1s, 1s, 1s, 1.3s, 1.2s, 1.8s;
+  transition-property: border-width, font-size, color, height, left, right;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+}

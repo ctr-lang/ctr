@@ -1,0 +1,12 @@
+# File generated from ---> tan.styl
+
+
+.test:::0:
+  width: 200px
+  transform: rotate(unit(tan(3*PI/4), deg))
+
+
+.test:::1:
+  width: 200px
+  transform: rotate(unit(tan(3*PI/4), deg))
+

@@ -1,0 +1,61 @@
+.test
+  ctr({
+    width: 200px
+    nons: {
+      common: {
+        option: {
+          //target
+          target: '.class' 'aList'
+        }
+        height: 100px
+        color: red
+        'comp-span': {
+          font-size: 1em
+          opacity: 0.5
+        }
+      }
+      '.class': {
+        width: 300px
+      }
+      'not-#id': {
+        font-size: 30px
+      }
+      aList: {
+        option: {
+          key: 'li'
+        }
+        font-size: 20px
+      }
+    }
+  })
+
+
+ctr('.test', {
+  width: 200px
+  nons: {
+    common: {
+      option: {
+        //target
+        target: '.class' 'aList'
+      }
+      height: 100px
+      color: red
+      'comp-span': {
+        font-size: 1em
+        opacity: 0.5
+      }
+    }
+    '.class': {
+      width: 300px
+    }
+    'not-#id': {
+      font-size: 30px
+    }
+    aList: {
+      option: {
+        key: 'li'
+      }
+      font-size: 20px
+    }
+  }
+})

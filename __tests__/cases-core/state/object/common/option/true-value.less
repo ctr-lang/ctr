@@ -1,0 +1,83 @@
+// File generated from ---> true-value.styl 
+
+ctr('.test', {
+  // SYNTAX_YAML
+  width: 200px
+  states:
+    common:
+      option:
+        //target
+        target: ['hover', 'holyState']
+      on:
+        opacity: 1
+        option:
+          duration: 11s
+          shorthand:
+            background: 1s
+      non:
+        opacity: 0.5
+        option:
+          duration: 77s
+          shorthand:
+            background: [9s, 99s, 'ease-out']
+            //should not overwrite
+            color: 1000s
+    hover: true
+    active:
+      //auto gen, as in it needs to
+      //gen color: [red, on, active, but]
+      //not on not(:active)
+      color: red
+      option:
+        pick: ['on.opacity', 'on.option.duration']
+        shorthand:
+          color: 100s
+    link: true
+  
+})
+
+ctr('.test', {
+  width: 200px
+  states: {
+    common: {
+      option: {
+        //target
+        target: 'hover' 'holyState'
+      }
+      on: {
+        opacity: 1
+        option: {
+          duration: 11s
+          shorthand: {
+            background: 1s
+          }
+        }
+      }
+      non: {
+        opacity: 0.5
+        option: {
+          duration: 77s
+          shorthand: {
+            background: 9s 99s 'ease-out'
+            //should not overwrite
+            color: 1000s
+          }
+        }
+      }
+    }
+    hover: true
+    active: {
+      //auto gen, as in it needs to
+      //gen color: red on active but
+      //not on not(:active)
+      color: red
+      option: {
+        pick: 'on.opacity' 'on.option.duration'
+        shorthand: {
+          color: 100s
+        }
+      }
+    }
+    link: true
+  }
+})

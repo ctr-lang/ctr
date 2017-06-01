@@ -1,0 +1,24 @@
+# File generated from ---> or-with-mixin.styl
+
+
+.test:::0:
+  width: 200px
+  media:
+    width: 100px
+    query:
+      above: 'sm'
+      orCond:
+        min-height: 200px
+        max-height: 300px
+
+
+.test:::1:
+  width: 200px
+  media:
+    width: 100px
+    query:
+      above: 'sm'
+      orCondition:
+        min-height: 200px
+        max-height: 300px
+

@@ -1,0 +1,22 @@
+# File generated from ---> query.styl
+
+
+.test:::0:
+  height: 200px
+  grid:
+    column: '1/2'
+    media:
+      query:
+        below: 'md'
+      column: '1/4'
+
+
+.test:::1:
+  height: 200px
+  grid:
+    column: '1/2'
+    media:
+      query:
+        below: 'md'
+      column: '1/4'
+

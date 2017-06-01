@@ -1,0 +1,58 @@
+.test {
+  width: 400px;
+  height: 400px;
+  border-width: 4px;
+  font-weight: bold;
+  border-color: #ff0;
+  border-radius: 20px;
+  font-family: 'Ubuntu', Georgia, Serif;
+}
+.test > span:hover {
+  color: #fff;
+  width: 200px;
+  height: 200px;
+  background: #008000;
+  transition-delay: 0s, 0s, 0s;
+  transition-duration: 0.5s, 0.5s, 0.5s;
+  transition-property: width, height, background;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test > span:not(:hover) {
+  color: #fff;
+  width: 150px;
+  height: 150px;
+  background: #f00;
+  transition-delay: 0s, 0s, 0s;
+  transition-duration: 0.5s, 0.5s, 0.5s;
+  transition-property: width, height, background;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test {
+  width: 400px;
+  height: 400px;
+  border-width: 4px;
+  font-weight: bold;
+  border-color: #ff0;
+  border-radius: 20px;
+  font-family: 'Ubuntu', Georgia, Serif;
+}
+.test > span:hover {
+  color: #fff;
+  width: 200px;
+  height: 200px;
+  background: #008000;
+  transition-delay: 0s, 0s, 0s;
+  transition-duration: 0.5s, 0.5s, 0.5s;
+  transition-property: width, height, background;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test > span:not(:hover) {
+  color: #fff;
+  width: 150px;
+  height: 150px;
+  background: #f00;
+  transition-delay: 0s, 0s, 0s;
+  transition-duration: 0.5s, 0.5s, 0.5s;
+  transition-property: width, height, background;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+}

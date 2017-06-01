@@ -1,0 +1,10 @@
+# File generated from ---> s.styl
+
+
+.test:::0:
+  color: s('rgba(%s,%s,%s,0.5)', 255, 100, 50)
+
+
+.test:::1:
+  color: s('rgba(%s,%s,%s,0.5)', 255, 100, 50)
+

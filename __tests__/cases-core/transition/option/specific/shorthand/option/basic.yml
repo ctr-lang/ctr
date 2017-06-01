@@ -1,0 +1,18 @@
+# File generated from ---> basic.styl
+
+
+.test:::0:
+  width: 200px
+  trans:
+    background: green
+    shorthand:
+      background: [1s, 10s, ease-out]
+
+
+.test:::1:
+  width: 200px
+  transition:
+    background: green
+    shorthand:
+      background: [1s, 10s, ease-out]
+

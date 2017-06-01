@@ -1,0 +1,22 @@
+# File generated from ---> right.styl
+
+
+.test:::0:
+  width: 200px
+  align: 'right'
+
+
+.test:::1:
+  width: 200px
+  alignSelf: 'right'
+
+
+.test:::2:
+  width: 200px
+  align: 'center-right'
+
+
+.test:::3:
+  width: 200px
+  alignSelf: 'center-right'
+

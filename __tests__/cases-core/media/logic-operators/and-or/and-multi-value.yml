@@ -1,0 +1,42 @@
+# File generated from ---> and-multi-value.styl
+
+
+.test:::0:
+  background: teal
+  media:
+    background: red
+    query:
+      andCond:
+        min-height: [200px, 20vh]
+        max-height: [300px, 30vh]
+
+
+.test:::1:
+  background: teal
+  media:
+    background: red
+    query:
+      andCondition:
+        min-height: [200px, 20vh]
+        max-height: [300px, 30vh]
+
+
+.test:::2:
+  background: teal
+  media:
+    background: red
+    query:
+      andCond:
+        min-height: [200px, 20vh]
+        max-height: [300px, 30vh]
+
+
+.test:::3:
+  background: teal
+  media:
+    background: red
+    query:
+      andCondition:
+        min-height: [200px, 20vh]
+        max-height: [300px, 30vh]
+

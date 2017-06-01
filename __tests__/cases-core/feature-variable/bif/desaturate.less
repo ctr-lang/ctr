@@ -1,0 +1,19 @@
+// File generated from ---> desaturate.styl 
+
+ctr('.test', {
+  // SYNTAX_YAML
+  $$:
+    base: red
+    bg: "desaturate($base$, 20%)"
+  background: "$bg$"
+  color: desaturate(red, 20%)
+})
+
+ctr('.test', {
+  $$: {
+    base: red
+    bg: "desaturate($base$, 20%)"
+  }
+  background: "$bg$"
+  color: desaturate(red, 20%)
+})

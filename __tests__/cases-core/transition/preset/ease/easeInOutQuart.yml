@@ -1,0 +1,34 @@
+# File generated from ---> easeInOutQuart.styl
+
+
+.test:::0:
+  width: 200px
+  trans:
+    option:
+      ease: 'easeInOutQuart'
+    height: 400px
+
+
+.test:::1:
+  width: 200px
+  trans:
+    option:
+      ease: 'easeInOutQuart'
+    height: 400px
+
+
+.test:::2:
+  width: 200px
+  trans:
+    option:
+      ease: 'ease-in-out-quart'
+    height: 400px
+
+
+.test:::3:
+  width: 200px
+  trans:
+    option:
+      ease: 'ease-in-out-quart'
+    height: 400px
+

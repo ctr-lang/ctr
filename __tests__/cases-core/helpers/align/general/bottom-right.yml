@@ -1,0 +1,22 @@
+# File generated from ---> bottom-right.styl
+
+
+.test:::0:
+  width: 200px
+  align: 'bottom-right'
+
+
+.test:::1:
+  width: 200px
+  alignSelf: 'bottom-right'
+
+
+.test:::2:
+  width: 200px
+  align: 'br'
+
+
+.test:::3:
+  width: 200px
+  alignSelf: 'br'
+

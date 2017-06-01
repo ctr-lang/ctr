@@ -1,0 +1,1 @@
+__Description__: If the `content` value is `false` its indicates an empty string

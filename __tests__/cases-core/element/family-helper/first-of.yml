@@ -1,0 +1,44 @@
+# File generated from ---> first-of.styl
+
+
+.test:::0:
+  width: 200px
+  elm:
+    key: 'first-of(10)'
+    height: 400px
+
+
+.test:::1:
+  width: 200px
+  elm:
+    key: 'first-of(10)'
+    height: 400px
+
+
+.test:::2:
+  width: 200px
+  elm:
+    key: fm-first-of(10)
+    height: 400px
+
+
+.test:::3:
+  width: 200px
+  elm:
+    key: fm-first-of(10)
+    height: 400px
+
+
+.test:::4:
+  width: 200px
+  elm:
+    key: 'firstOf(10)'
+    height: 400px
+
+
+.test:::5:
+  width: 200px
+  elm:
+    key: 'firstOf(10)'
+    height: 400px
+

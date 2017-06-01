@@ -1,0 +1,46 @@
+# File generated from ---> option.styl
+
+
+.test:::0:
+  width: 200px
+  link:
+    on:
+      font-size: 20px
+    non:
+      font-size: 10px
+    option:
+      autoGen: true
+
+
+.test:::1:
+  width: 200px
+  link:
+    on:
+      font-size: 20px
+    non:
+      font-size: 10px
+    option:
+      autoGen: true
+
+
+.test:::2:
+  width: 200px
+  hover:
+    on:
+      font-size: 20px
+    non:
+      font-size: 10px
+    option:
+      autoGen: false
+
+
+.test:::3:
+  width: 200px
+  hover:
+    on:
+      font-size: 20px
+    non:
+      font-size: 10px
+    option:
+      autoGen: false
+

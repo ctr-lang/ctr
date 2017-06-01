@@ -1,0 +1,27 @@
+// File generated from ---> shade.styl 
+
+ctrSetClass('$evalShade', {
+  // SYNTAX_YAML
+  $$:
+    base: '#fd0cc7'
+    bg: "shade($base$, 66%)"
+  background: "$bg$"
+  color: 'shade(#fd0cc7,66%)'
+})
+ctrSetClass('$evalShade', {
+  $$: {
+    base: #fd0cc7
+    bg: "shade($base$, 66%)"
+  }
+  background: "$bg$"
+  color: shade(#fd0cc7,66%)
+})
+
+ctr('.test', {
+  // SYNTAX_YAML
+  extend: $evalShade
+})
+
+ctr('.test', {
+  extend: $evalShade
+})

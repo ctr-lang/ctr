@@ -1,0 +1,19 @@
+// File generated from ---> spin.styl 
+
+ctr('.test', {
+  // SYNTAX_YAML
+  $$:
+    base: '#ff0000'
+    bg: "spin($base$, 90deg)"
+  background: "$bg$"
+  color: 'spin(#ff0000, 90deg)'
+})
+
+ctr('.test', {
+  $$: {
+    base: '#ff0000'
+    bg: "spin($base$, 90deg)"
+  }
+  background: "$bg$"
+  color: spin(#ff0000, 90deg)
+})

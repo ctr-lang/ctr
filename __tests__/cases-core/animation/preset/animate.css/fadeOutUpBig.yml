@@ -1,0 +1,14 @@
+# File generated from ---> fadeOutUpBig.styl
+
+
+.test:::0:
+  width: 400px
+  anim:
+    preset: 'fadeOutUpBig'
+
+
+.test:::1:
+  width: 400px
+  anim:
+    preset: 'fadeOutUpBig'
+

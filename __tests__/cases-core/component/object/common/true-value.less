@@ -1,0 +1,37 @@
+// File generated from ---> true-value.styl 
+
+ctr('.test', {
+  // SYNTAX_YAML
+  width: 200px
+  components:
+    common:
+      font-size: 100px
+      background: red
+      'comp-span':
+        color: red
+        opacity: 1
+    '.one': true
+    '.two':
+      height: 200px
+      font-size: 200px
+  
+})
+
+ctr('.test', {
+  width: 200px
+  components: {
+    common: {
+      font-size: 100px
+      background: red
+      'comp-span': {
+        color: red
+        opacity: 1
+      }
+    }
+    '.one': true
+    '.two': {
+      height: 200px
+      font-size: 200px
+    }
+  }
+})

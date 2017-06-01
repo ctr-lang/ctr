@@ -1,0 +1,1 @@
+__Description__: If comment is string in the option object, use it as a custom comment

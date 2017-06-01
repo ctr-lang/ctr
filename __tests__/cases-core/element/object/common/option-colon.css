@@ -1,0 +1,44 @@
+.test {
+  width: 200px;
+}
+.test::before {
+  color: #f00;
+  font-size: 10px;
+  content: "kool";
+}
+.test:after {
+  top: 0;
+  left: 0;
+  color: #f00;
+  position: absolute;
+}
+.test:last-of-type {
+  color: #f00;
+  font-size: 10px;
+}
+.test:nth-of-type(2) {
+  color: #f00;
+  font-size: 10px;
+}
+.test {
+  width: 200px;
+}
+.test::before {
+  color: #f00;
+  font-size: 10px;
+  content: "kool";
+}
+.test:after {
+  top: 0;
+  left: 0;
+  color: #f00;
+  position: absolute;
+}
+.test:last-of-type {
+  color: #f00;
+  font-size: 10px;
+}
+.test:nth-of-type(2) {
+  color: #f00;
+  font-size: 10px;
+}

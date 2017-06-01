@@ -1,0 +1,28 @@
+//native stylus, copy of ctr-bench
+.test
+  width: 200px
+  height: 200px
+  bottom: green
+  &:hover
+    color: red
+    font-size: 10px
+    transition: color 0.5s cubic-bezier(0.42, 0, 0.58, 1) 0s, font-size 0.5s cubic-bezier(0.42, 0, 0.58, 1) 0s
+    &:before
+      width: 100px
+      conent: speed
+      height: 100px
+      transition: conent 0.5s cubic-bezier(0.42, 0, 0.58, 1) 0s, height 0.5s cubic-bezier(0.42, 0, 0.58, 1) 0s, width 0.5s cubic-bezier(0.42, 0, 0.58, 1) 0s
+  &:not(:hover)
+    color: purple
+    font-size: 12px
+    transition: color 0.5s cubic-bezier(0.42, 0, 0.58, 1) 0s, font-size 0.5s cubic-bezier(0.42, 0, 0.58, 1) 0s
+
+@media (min-width: 600px)
+  .test
+    &:not(:hover)
+      font-size: 8px
+@media (min-width: 1050px)
+  .test
+    &:not(:hover)
+      font-size: 20px
+

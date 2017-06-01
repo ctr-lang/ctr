@@ -1,0 +1,16 @@
+.test
+  ctr({
+    width: 100px
+    //cannot pass raw not
+    not-p: {
+      font-size: 10px
+    }
+  })
+
+ctr('.test', {
+  width: 100px
+  //cannot pass raw not
+  'not-.cool': {
+    font-size: 10px
+  }
+})

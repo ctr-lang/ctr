@@ -1,0 +1,12 @@
+# File generated from ---> alpha.styl
+
+
+.test:::0:
+  width: 200px
+  background: 'alpha(#fff, 0.5)'
+
+
+.test:::1:
+  width: 200px
+  background: 'alpha(#fff, 0.5)'
+

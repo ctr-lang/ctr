@@ -1,0 +1,66 @@
+.test {
+  width: 200px;
+}
+.test:not(:hover) .andRollItUp {
+  animation-delay: 0s;
+  animation-duration: 1s;
+  animation-name: beerOne;
+  animation-fill-mode: none;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-play-state: running;
+  animation-timing-function: get-funky;
+}
+.test:not(:hover) {
+  animation-delay: 2s;
+  animation-name: beerTwo;
+  animation-duration: 0.5s;
+  animation-fill-mode: none;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-play-state: running;
+  animation-timing-function: get-funky;
+}
+@keyframes beerOne {
+  50% {
+    background: #008000;
+  }
+}
+@keyframes beerTwo {
+  50% {
+    color: #f00;
+  }
+}
+.test {
+  width: 200px;
+}
+.test:not(:hover) .andRollItUp {
+  animation-delay: 0s;
+  animation-duration: 1s;
+  animation-name: beerOne;
+  animation-fill-mode: none;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-play-state: running;
+  animation-timing-function: get-funky;
+}
+.test:not(:hover) {
+  animation-delay: 2s;
+  animation-name: beerTwo;
+  animation-duration: 0.5s;
+  animation-fill-mode: none;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-play-state: running;
+  animation-timing-function: get-funky;
+}
+@keyframes beerOne {
+  50% {
+    background: #008000;
+  }
+}
+@keyframes beerTwo {
+  50% {
+    color: #f00;
+  }
+}

@@ -1,0 +1,18 @@
+.test {
+  width: 200px;
+}
+.test:link {
+  height: 300px;
+}
+.test:not(:link) {
+  height: 200px;
+}
+.test {
+  width: 200px;
+}
+.test:link {
+  height: 300px;
+}
+.test:not(:link) {
+  height: 200px;
+}

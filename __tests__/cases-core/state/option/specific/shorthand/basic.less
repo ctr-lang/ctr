@@ -1,0 +1,45 @@
+// File generated from ---> basic.styl 
+
+ctr('.test', {
+  // SYNTAX_YAML
+  width: 200px
+  hover:
+    on:
+      font-size: 10px
+      color: red
+      height: 200px
+      option:
+        //default
+        ease: funk-bis
+        shorthand:
+          //prop: [duration, ease, delay]
+          color: [10s, 20s, ease-out]
+          font-size: [5s, 10s, ease-in]
+          height: [2s, 2s, default]
+  
+})
+
+
+
+
+
+ctr('.test', {
+  width: 200px
+  hover: {
+    on: {
+      font-size: 10px
+      color: red
+      height: 200px
+      option: {
+        //default
+        ease: funk-bis
+        shorthand: {
+          //prop: duration ease delay
+          color: 10s 20s ease-out
+          font-size: 5s 10s ease-in
+          height: 2s 2s default
+        }
+      }
+    }
+  }
+})

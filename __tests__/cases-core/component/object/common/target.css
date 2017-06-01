@@ -1,0 +1,48 @@
+.test {
+  width: 200px;
+}
+.test > .one {
+  height: 100px;
+}
+.test > .two {
+  height: 200px;
+  background: #f00;
+  font-size: 200px;
+}
+.test > .three {
+  height: 300px;
+  background: #f00;
+  font-size: 100px;
+}
+.test > .two > span {
+  opacity: 1;
+  color: #f00;
+}
+.test > .three > span {
+  opacity: 1;
+  color: #f00;
+}
+.test {
+  width: 200px;
+}
+.test > .one {
+  height: 100px;
+}
+.test > .two {
+  height: 200px;
+  background: #f00;
+  font-size: 200px;
+}
+.test > .three {
+  height: 300px;
+  background: #f00;
+  font-size: 100px;
+}
+.test > .two > span {
+  opacity: 1;
+  color: #f00;
+}
+.test > .three > span {
+  opacity: 1;
+  color: #f00;
+}

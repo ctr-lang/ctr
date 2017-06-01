@@ -1,0 +1,32 @@
+.test {
+  width: 200px;
+}
+@media (orientation: landscape) {
+  .test {
+    height: 300px;
+  }
+}
+.test {
+  width: 200px;
+}
+@media (orientation: landscape) {
+  .test {
+    height: 300px;
+  }
+}
+.test {
+  width: 200px;
+}
+@media (orientation: landscape) {
+  .test {
+    height: 300px;
+  }
+}
+.test {
+  width: 200px;
+}
+@media (orientation: landscape) {
+  .test {
+    height: 300px;
+  }
+}

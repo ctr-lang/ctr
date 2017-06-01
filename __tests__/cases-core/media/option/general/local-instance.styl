@@ -1,0 +1,33 @@
+.test
+  ctr({
+    option: {
+      media: {
+        //default === 600px
+        sm: 200px
+      }
+    }
+    width: 200px
+    media: {
+      width: 100px
+      query: {
+        max-width: 'sm'
+      }
+    }
+  })
+
+
+ctr('.test', {
+  option: {
+    media: {
+      //default === 600px
+      sm: 200px
+    }
+  }
+  width: 200px
+  media: {
+    width: 100px
+    query: {
+      max-width: 'sm'
+    }
+  }
+})

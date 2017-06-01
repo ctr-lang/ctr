@@ -1,0 +1,19 @@
+// File generated from ---> darken.styl 
+
+ctr('.test', {
+  // SYNTAX_YAML
+  $$:
+    base: red
+    bg: "darken($base$, 20%)"
+  background: "$bg$"
+  color: darken(red, 20%)
+})
+
+ctr('.test', {
+  $$: {
+    base: red
+    bg: "darken($base$, 20%)"
+  }
+  background: "$bg$"
+  color: darken(red, 20%)
+})

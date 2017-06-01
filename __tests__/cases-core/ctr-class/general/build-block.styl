@@ -1,0 +1,55 @@
+ctrSetClass('$boxBuild', {
+  border-radius: 20px
+  width: 400px
+  height: 400px
+  border-color: #ff0
+  border-width: 4px
+})
+
+ctrSetClass('$buttonBuild', {
+  hover: {
+    static: {
+      color: white
+    }
+    on: {
+      width: 200px
+      height: 200px
+      background: green
+    }
+    non: {
+      width: 150px
+      height: 150px
+      background: red
+    }
+  }
+})
+
+ctrSetClass('$font', {
+  font-family: "'Ubuntu', Georgia, Serif"
+})
+
+ctrSetClass('$boldFont', {
+  font-weight: bold
+  extend: '$font'
+})
+
+.test
+  ctr({
+    extend: '$boxBuild' '$boldFont'
+    comp: {
+      span: {
+        extend: '$buttonBuild'
+      }
+    }
+  })
+
+
+ctr('.test', {
+  extend: '$boxBuild' '$boldFont'
+  comp: {
+    span: {
+      extend: '$buttonBuild'
+    }
+  }
+})
+

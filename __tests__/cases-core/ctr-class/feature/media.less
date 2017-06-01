@@ -1,0 +1,27 @@
+// File generated from ---> media.styl 
+
+ctrSetClass('$myMediaClass', {
+  // SYNTAX_YAML
+  width: 200px
+  media:
+    'lg':
+      width: 300px
+  
+})
+ctrSetClass('$myMediaClass', {
+  width: 200px
+  media: {
+    'lg': {
+      width: 300px
+    }
+  }
+})
+
+ctr('.test', {
+  // SYNTAX_YAML
+  extend: '$myMediaClass'
+})
+
+ctr('.test', {
+  extend: '$myMediaClass'
+})

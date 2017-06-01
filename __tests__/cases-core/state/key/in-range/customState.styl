@@ -1,0 +1,41 @@
+.test
+  ctr({
+    width: 200px
+    customState: {
+      // state: 'in-range'
+      key: 'in-range'
+      common: {
+        option: {
+          duration: 0.25s
+        }
+      }
+      on: {
+        height: 300px
+      }
+      non: {
+        height: 200px
+      }
+    }
+  })
+
+
+ctr('.test', {
+  width: 200px
+  customState: {
+    option: {
+      // state: 'in-range'
+      key: 'in-range'
+    }
+    common: {
+      option: {
+        duration: 0.25s
+      }
+    }
+    on: {
+      height: 300px
+    }
+    non: {
+      height: 200px
+    }
+  }
+})

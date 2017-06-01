@@ -1,0 +1,12 @@
+# File generated from ---> toaster.styl
+
+
+.test:::0:
+  width: 600px
+  filter: 'toaster'
+
+
+.test:::1:
+  width: 600px
+  filter: 'toaster'
+

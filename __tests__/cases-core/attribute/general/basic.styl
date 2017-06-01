@@ -1,0 +1,217 @@
+//[attribute] Selector
+.test
+  ctr({
+    width: 200px
+    component: {
+      'a': {
+        attribute: {
+          key: '[target]'
+          font-size: 10px
+        }
+      }
+    }
+  })
+
+//[attribute="value"] Selector
+.test
+  ctr({
+    width: 200px
+    component: {
+      'a': {
+        attribute: {
+          key: '[target="_blank"]'
+          font-size: 10px
+        }
+      }
+    }
+  })
+
+//[attribute~="value"] Selector
+.test
+  ctr({
+    width: 200px
+    component: {
+      'div': {
+        attribute: {
+          key: '[title~="test"]'
+          font-size: 10px
+        }
+      }
+    }
+  })
+
+//[attribute|="value"] Selector
+.test
+  ctr({
+    width: 200px
+    component: {
+      'div': {
+        attribute: {
+          key: '[class|="test"]'
+          font-size: 10px
+        }
+      }
+    }
+  })
+
+//[attribute^="value"] Selector
+.test
+  ctr({
+    width: 200px
+    component: {
+      'div': {
+        attribute: {
+          key: '[class^="test"]'
+          font-size: 10px
+        }
+      }
+    }
+  })
+
+//[attribute$="value"] Selector
+.test
+  ctr({
+    width: 200px
+    component: {
+      'div': {
+        attribute: {
+          key: '[class$="test"]'
+          font-size: 10px
+        }
+      }
+    }
+  })
+
+//[attribute*="value"] Selector
+.test
+  ctr({
+    width: 200px
+    component: {
+      'div': {
+        attribute: {
+          key: '[class*="te"]'
+          font-size: 10px
+        }
+      }
+    }
+  })
+
+//Styling Forms
+.test
+  ctr({
+    width: 200px
+    component: {
+      'input': {
+        attribute: {
+          key: '[type="text"]'
+          font-size: 10px
+        }
+      }
+    }
+  })
+
+
+
+//[attribute] Selector
+ctr('.test', {
+  width: 200px
+  component: {
+    'a': {
+      attribute: {
+        key: '[target]'
+        font-size: 10px
+      }
+    }
+  }
+})
+
+//[attribute="value"] Selector
+ctr('.test', {
+  width: 200px
+  component: {
+    'a': {
+      attribute: {
+        key: '[target="_blank"]'
+        font-size: 10px
+      }
+    }
+  }
+})
+
+//[attribute~="value"] Selector
+ctr('.test', {
+  width: 200px
+  component: {
+    'div': {
+      attribute: {
+        key: '[title~="test"]'
+        font-size: 10px
+      }
+    }
+  }
+})
+
+//[attribute|="value"] Selector
+ctr('.test', {
+  width: 200px
+  component: {
+    'div': {
+      attribute: {
+        key: '[class|="test"]'
+        font-size: 10px
+      }
+    }
+  }
+})
+
+//[attribute^="value"] Selector
+ctr('.test', {
+  width: 200px
+  component: {
+    'div': {
+      attribute: {
+        key: '[class^="test"]'
+        font-size: 10px
+      }
+    }
+  }
+})
+
+//[attribute$="value"] Selector
+ctr('.test', {
+  width: 200px
+  component: {
+    'div': {
+      attribute: {
+        key: '[class$="test"]'
+        font-size: 10px
+      }
+    }
+  }
+})
+
+//[attribute*="value"] Selector
+ctr('.test', {
+  width: 200px
+  component: {
+    'div': {
+      attribute: {
+        key: '[class*="te"]'
+        font-size: 10px
+      }
+    }
+  }
+})
+
+//Styling Forms
+ctr('.test', {
+  width: 200px
+  component: {
+    'input': {
+      attribute: {
+        key: '[type="text"]'
+        font-size: 10px
+      }
+    }
+  }
+})

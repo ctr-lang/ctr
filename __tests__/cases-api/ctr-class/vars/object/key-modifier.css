@@ -1,0 +1,18 @@
+.test {
+  width: 200px;
+}
+.test:hover {
+  color: #00f;
+  background: #00f;
+  border-color: #008080;
+  transition-delay: 0.25s, 0s, 0.25s;
+  transition-duration: 0.5s, 0.75s, 0.5s;
+  transition-property: border-color, background, color;
+  transition-timing-function: ease-in, ease-in, ease-in;
+}
+.test:not(:hover) {
+  transition-delay: 0.25s, 0s, 0.25s;
+  transition-duration: 0.5s, 0.75s, 0.5s;
+  transition-property: border-color, background, color;
+  transition-timing-function: ease-in, ease-in, ease-in;
+}

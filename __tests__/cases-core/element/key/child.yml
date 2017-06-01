@@ -1,0 +1,34 @@
+# File generated from ---> child.styl
+
+
+.test:::0:
+  width: 200px
+  comp:
+    li:
+      first-child:
+        font-size: 10px
+      last-child:
+        font-size: 10px
+      "nth-child(2)":
+        font-size: 10px
+      "nth-child(22)":
+        font-size: 10px
+      "nth-child(222)":
+        font-size: 10px
+
+
+.test:::1:
+  width: 200px
+  comp:
+    li:
+      first-child:
+        font-size: 10px
+      last-child:
+        font-size: 10px
+      "nth-child(2)":
+        font-size: 10px
+      "nth-child(22)":
+        font-size: 10px
+      "nth-child(222)":
+        font-size: 10px
+

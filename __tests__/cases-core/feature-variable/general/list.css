@@ -1,0 +1,24 @@
+.test {
+  width: 200px;
+}
+.test > .one {
+  height: 300px;
+}
+.test > #two {
+  height: 300px;
+}
+.test > span {
+  height: 300px;
+}
+.test {
+  width: 200px;
+}
+.test > .one {
+  height: 300px;
+}
+.test > #two {
+  height: 300px;
+}
+.test > span {
+  height: 300px;
+}

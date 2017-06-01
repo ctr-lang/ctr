@@ -1,0 +1,37 @@
+.test
+  ctr({
+    size: 100px
+    background: gray
+    anim: {
+      name: 'test'
+      animationShorthand: true
+      tl: {
+        '25': {
+          background: red
+        }
+        '75': {
+          background: blue
+        }
+      }
+    }
+  })
+
+ctr('.test', {
+  size: 100px
+  background: gray
+  anim: {
+    option: {
+      name: 'test'
+      animationShorthand: true
+    }
+    tl: {
+      '25': {
+        background: red
+      }
+      '75': {
+        background: blue
+      }
+    }
+  }
+})
+

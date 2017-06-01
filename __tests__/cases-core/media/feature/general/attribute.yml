@@ -1,0 +1,18 @@
+# File generated from ---> attribute.styl
+
+
+.test:::0:
+  width: 200px
+  media:
+    'md':
+      'attr-[data-role="test"]':
+        font-size: 10px
+
+
+.test:::1:
+  width: 200px
+  media:
+    'md':
+      'attr-[data-role="test"]':
+        font-size: 10px
+

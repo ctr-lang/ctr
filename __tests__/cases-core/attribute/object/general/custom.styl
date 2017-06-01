@@ -1,0 +1,78 @@
+.test
+  ctr({
+    width: 200px
+    component: {
+      'div': {
+        customAttributes: {
+          'class*="te"': {
+            background: teal
+          }
+          '[class*="art"]': {
+            background: teal
+          }
+        }
+      }
+    }
+  })
+
+
+ctr('.test', {
+  width: 200px
+  component: {
+    'div': {
+      customAttributesKool: {
+        common: {
+          opacity: 1
+        }
+        'class*="te"': {
+          background: teal
+        }
+        '[class*="art"]': {
+          background: teal
+        }
+        '[class*="work"]': true
+      }
+    }
+  }
+})
+
+
+//abbrv
+.test
+  ctr({
+    width: 200px
+    comp: {
+      'div': {
+        customAttrs: {
+          'class*="te"': {
+            background: teal
+          }
+          '[class*="art"]': {
+            background: teal
+          }
+        }
+      }
+    }
+  })
+
+
+ctr('.test', {
+  width: 200px
+  comp: {
+    'div': {
+      customAttrsBeer: {
+        common: {
+          opacity: 1
+        }
+        'class*="te"': {
+          background: teal
+        }
+        '[class*="art"]': {
+          background: teal
+        }
+        '[class*="work"]': true
+      }
+    }
+  }
+})
+

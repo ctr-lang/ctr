@@ -1,0 +1,34 @@
+# File generated from ---> alternative-syntax.styl
+
+
+.test:::0:
+  $$:
+    fz: 10px
+  width: 200px
+  font-size: '$[fz]$'
+
+
+.test:::1:
+  $$:
+    fz: 10px
+  width: 200px
+  font-size: '$[fz]$'
+
+
+.test:::2:
+  $$:
+    size: 12
+    type: 'rem'
+    font-size: 'calc($[size]$$[type]$ * ((100vw - 25rem) / 87.5))'
+  width: 200px
+  font-size: '$font-size$'
+
+
+.test:::3:
+  $$:
+    size: 12
+    type: 'rem'
+    font-size: 'calc($[size]$$[type]$ * ((100vw - 25rem) / 87.5))'
+  width: 200px
+  font-size: '$font-size$'
+

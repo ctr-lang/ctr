@@ -1,0 +1,79 @@
+//----------------------------------------------------------------------------//
+// -> The numbers represent the order in which the style is complied
+//----------------------------------------------------------------------------//
+
+//------------------------------//
+// processBy: level (default)
+//------------------------------//
+.test
+  ctr({
+    // 1
+    width: 111px
+    // 2
+    comp-div: {
+      width: 222px
+      // 4
+      comp-p: {
+        width: 333px
+        // 7
+        media--lg: {
+          width: 444px
+        }
+      }
+    }
+    medias: {
+      // 5
+      '-sm': {
+        width: 11px
+        // 8
+        before: {
+          content: 'cool'
+        }
+      }
+      // 6
+      '-md': {
+        width: 22px
+      }
+    }
+    // 3
+    hover-on: {
+      color: red
+    }
+  })
+
+
+ctr('.test', {
+  // 1
+  width: 111px
+  // 2
+  comp-div: {
+    width: 222px
+    // 4
+    comp-p: {
+      width: 333px
+      // 7
+      media--lg: {
+        width: 444px
+      }
+    }
+  }
+  medias: {
+    // 5
+    '-sm': {
+      width: 11px
+      // 8
+      before: {
+        content: 'cool'
+      }
+    }
+    // 6
+    '-md': {
+      width: 22px
+    }
+  }
+  // 3
+  hover-on: {
+    color: red
+  }
+})
+

@@ -1,0 +1,146 @@
+//flex
+.test
+  ctr({
+    grid: {
+      column: {
+        fraction: '2/4'
+        cycle: '2'
+      }
+    }
+  })
+
+ctr('.test', {
+  grid: {
+    column: {
+      fraction: '2/4'
+      cycle: '2'
+    }
+  }
+})
+
+//non-flex
+.test
+  ctr({
+    grid: {
+      column: {
+        fraction: '2/4'
+        cycle: '2'
+        flex: false
+      }
+    }
+  })
+
+ctr('.test', {
+  grid: {
+    column: {
+      fraction: '2/4'
+      cycle: '2'
+      flex: false
+    }
+  }
+})
+
+
+//flex
+.test
+  ctr({
+    grid: {
+      //fraction cycle gutter flex
+      column: '2/4' '2'
+    }
+  })
+
+ctr('.test', {
+  grid: {
+    //fraction cycle gutter flex
+    column: '2/4' '2'
+  }
+})
+
+//non-flex
+.test
+  ctr({
+    grid: {
+      //fraction cycle gutter flex
+      column: '2/4' '2' default false
+    }
+  })
+
+ctr('.test', {
+  grid: {
+    //fraction cycle gutter flex
+    column: '2/4' '2' default false
+  }
+})
+
+
+// n1
+.test
+  ctr({
+    grid: {
+      column: {
+        fraction: '2/4'
+        cycle: 1
+      }
+    }
+  })
+
+ctr('.test', {
+  grid: {
+    column: {
+      fraction: '2/4'
+      cycle: 1
+    }
+  }
+})
+
+.test
+  ctr({
+    grid: {
+      column: '2/4' 1
+    }
+  })
+
+ctr('.test', {
+  grid: {
+    column: '2/4' 1
+  }
+})
+
+
+
+// non-flex
+
+.test
+  ctr({
+    grid: {
+      column: {
+        fraction: '2/4'
+        cycle: 1
+        flex: false
+      }
+    }
+  })
+
+ctr('.test', {
+  grid: {
+    column: {
+      fraction: '2/4'
+      cycle: 1
+      flex: false
+    }
+  }
+})
+
+.test
+  ctr({
+    grid: {
+      column: '2/4' 1 default false
+    }
+  })
+
+ctr('.test', {
+  grid: {
+    column: '2/4' 1 default false
+  }
+})

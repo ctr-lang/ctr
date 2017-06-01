@@ -1,0 +1,36 @@
+.test
+  ctr({
+    $$: {
+      option: {
+        duration: 1s
+      }
+    }
+    background: black
+    hover: {
+      mergeWith: '$option$'
+      on: {
+        width: 200px
+      }
+      non: {
+        width: 100px
+      }
+    }
+  })
+
+ctr('.test', {
+  $$: {
+    option: {
+      duration: 1s
+    }
+  }
+  background: black
+  hover: {
+    mergeWith: '$option$'
+    on: {
+      width: 200px
+    }
+    non: {
+      width: 100px
+    }
+  }
+})

@@ -1,0 +1,72 @@
+.test {
+  width: 200px;
+}
+.test:hover {
+  background: #f00;
+  transition-delay: 88s;
+  transition-duration: 420s;
+  transition-property: background;
+  transition-timing-function: ease-in;
+}
+.test:not(:hover) {
+  background: #008000;
+  transition-delay: 88s;
+  transition-duration: 420s;
+  transition-property: background;
+  transition-timing-function: ease-out;
+}
+.test:active {
+  color: #f00;
+  transition-delay: 88s;
+  transition-duration: 100s;
+  transition-property: color;
+  transition-timing-function: ease-in;
+}
+.test:not(:active) {
+  transition-delay: 88s;
+  transition-duration: 100s;
+  transition-property: color;
+  transition-timing-function: ease-in;
+}
+.test:link {
+  font-size: 10px;
+}
+.test:not(:link) {
+  font-size: 20px;
+}
+.test {
+  width: 200px;
+}
+.test:hover {
+  background: #f00;
+  transition-delay: 88s;
+  transition-duration: 420s;
+  transition-property: background;
+  transition-timing-function: ease-in;
+}
+.test:not(:hover) {
+  background: #008000;
+  transition-delay: 88s;
+  transition-duration: 420s;
+  transition-property: background;
+  transition-timing-function: ease-out;
+}
+.test:active {
+  color: #f00;
+  transition-delay: 88s;
+  transition-duration: 100s;
+  transition-property: color;
+  transition-timing-function: ease-in;
+}
+.test:not(:active) {
+  transition-delay: 88s;
+  transition-duration: 100s;
+  transition-property: color;
+  transition-timing-function: ease-in;
+}
+.test:link {
+  font-size: 10px;
+}
+.test:not(:link) {
+  font-size: 20px;
+}

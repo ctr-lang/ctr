@@ -1,0 +1,23 @@
+//alternative syntax for ctrSetVar
+ctrSetVar({
+  height: 50px
+  top: 100
+  color: red
+})
+
+// Deprecated
+// $$({
+//   color: red
+// })
+
+//should pick up above vars
+ctr('.test', {
+  width: 200px
+  height: '$height$'
+  color: '$color$'
+  top: '$top$'
+})
+
+
+
+

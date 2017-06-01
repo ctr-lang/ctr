@@ -1,0 +1,12 @@
+# File generated from ---> rgba.styl
+
+
+.test:::0:
+  width: 200px
+  color: 'rgba(#ffcc00, 0.5)'
+
+
+.test:::1:
+  width: 200px
+  color: 'rgba(#ffcc00, 0.5)'
+

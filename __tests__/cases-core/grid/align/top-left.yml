@@ -1,0 +1,58 @@
+# File generated from ---> top-left.styl
+
+
+.test:::0:
+  grid:
+    align:
+      location: 'top-left'
+
+
+.test:::1:
+  grid:
+    align:
+      location: 'top-left'
+
+
+.test:::2:
+  grid:
+    align:
+      location: 'top-left'
+      flex: false
+
+
+.test:::3:
+  grid:
+    align:
+      location: 'top-left'
+      flex: false
+
+
+.test:::4:
+  grid:
+    align: 'top-left'
+
+
+.test:::5:
+  grid:
+    align: ['top-left', ]
+
+
+.test:::6:
+  grid:
+    align: ['top-left', false]
+
+
+.test:::7:
+  grid:
+    align: ['top-left', false]
+
+
+.test:::8:
+  grid:
+    align: 'tl'
+
+
+.test:::9:
+  grid:
+    align: 'tl'
+

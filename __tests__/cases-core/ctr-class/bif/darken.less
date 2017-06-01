@@ -1,0 +1,27 @@
+// File generated from ---> darken.styl 
+
+ctrSetClass('$evalDarken', {
+  // SYNTAX_YAML
+  $$:
+    base: red
+    bg: "darken($base$, 20%)"
+  background: "$bg$"
+  color: darken(red, 20%)
+})
+ctrSetClass('$evalDarken', {
+  $$: {
+    base: red
+    bg: "darken($base$, 20%)"
+  }
+  background: "$bg$"
+  color: darken(red, 20%)
+})
+
+ctr('.test', {
+  // SYNTAX_YAML
+  extend: $evalDarken
+})
+
+ctr('.test', {
+  extend: $evalDarken
+})

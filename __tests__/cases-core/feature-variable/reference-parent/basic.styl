@@ -1,0 +1,20 @@
+.test
+  ctr({
+    $$: {
+      base: 200
+      units: 'px'
+      width: '$base$$units$'
+    }
+    width: '$width$'
+  })
+
+
+ctr('.test', {
+  $$: {
+    base: 200
+    units: 'px'
+    width: '$base$$units$'
+  }
+  width: '$width$'
+})
+

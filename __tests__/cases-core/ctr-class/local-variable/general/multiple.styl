@@ -1,0 +1,27 @@
+ ctrSetClass('$multiple', {
+  $$: {
+    font: 10px
+    color: red
+    background: black
+    size: 200px
+  }
+  height: '_$size$_'
+  width: '_$size$_'
+  font-size: '_$font$_'
+  border: '_$size$_' solid '_$color$_'
+  comp: {
+    p: {
+      font-size: '_$font$_'
+      background: '_$background$_'
+    }
+  }
+})
+
+.test
+  ctr({
+    extend: '$multiple'
+  })
+
+ctr('.test', {
+  extend: '$multiple'
+})

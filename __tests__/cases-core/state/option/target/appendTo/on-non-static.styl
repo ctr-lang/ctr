@@ -1,0 +1,38 @@
+.test
+  ctr({
+    width: 200px
+    hover: {
+      static: {
+        background: green
+        option: {
+          appendTo: '.appendTo'
+        }
+      }
+      on: {
+        font-size: 20px
+      }
+      non: {
+        font-size: 10px
+      }
+    }
+  })
+
+
+
+ctr('.test', {
+  width: 200px
+  hover: {
+    static: {
+      background: green
+      option: {
+        appendTo: '.appendTo'
+      }
+    }
+    on: {
+      font-size: 20px
+    }
+    non: {
+      font-size: 10px
+    }
+  }
+})

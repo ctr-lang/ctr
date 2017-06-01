@@ -1,0 +1,33 @@
+.test-10 {
+  width: 200px;
+  height: 200px;
+}
+.test-10:hover {
+  width: 400px;
+  transition-delay: 0s;
+  transition-duration: 10s;
+  transition-property: width;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test-20 {
+  width: 200px;
+  height: 200px;
+}
+.test-20:hover {
+  width: 400px;
+  transition-delay: 0s;
+  transition-duration: 20s;
+  transition-property: width;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test-30 {
+  width: 200px;
+  height: 200px;
+}
+.test-30:hover {
+  width: 400px;
+  transition-delay: 0s;
+  transition-duration: 30s;
+  transition-property: width;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}

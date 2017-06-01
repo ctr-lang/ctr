@@ -1,0 +1,23 @@
+# set vars
+ctr:::setVariable:
+  size: 400px
+  color: red
+
+ctr:::setOption:
+  hover:
+    duration: 10s
+
+.test-1:
+  size: $size$
+  color: $color$
+  hover:
+    background: green
+
+# reset
+ctr:::development: true
+
+.test-2:
+  size: $size$
+  color: $color$
+  hover:
+    background: green

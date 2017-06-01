@@ -1,0 +1,18 @@
+# File generated from ---> tint.styl
+
+
+.test:::0:
+  $$:
+    base: '#fd0cc7'
+    bg: "tint($base$, 66%)"
+  background: "$bg$"
+  color: 'tint(#fd0cc7,66%)'
+
+
+.test:::1:
+  $$:
+    base: '#fd0cc7'
+    bg: "tint($base$, 66%)"
+  background: "$bg$"
+  color: 'tint(#fd0cc7,66%)'
+

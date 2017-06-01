@@ -1,0 +1,72 @@
+// File generated from ---> timeline-literal.styl 
+
+ctr('.test', {
+  // SYNTAX_YAML
+  anim:
+    multiple: true
+    timeline:
+      tlOne: tlOne
+      tlTwo: tlTwo
+  
+})
+
+
+ctr('.test', {
+  anim: {
+    multiple: true
+    timeline: {
+      tlOne: tlOne
+      tlTwo: tlTwo
+    }
+  }
+})
+
+//string
+ctr('.test', {
+  // SYNTAX_YAML
+  anim:
+    multiple: true
+    timeline:
+      tlOne: 'tlOne'
+      tlTwo: 'tlTwo'
+  
+})
+
+
+ctr('.test', {
+  anim: {
+    multiple: true
+    timeline: {
+      tlOne: 'tlOne'
+      tlTwo: 'tlTwo'
+    }
+  }
+})
+
+//recommended
+ctr('.test', {
+  // SYNTAX_YAML
+  anim:
+    multiple: true
+    timeline:
+      tlOne:
+       name: 'tlOne'
+      tlTwo:
+       name: 'tlTwo'
+  
+})
+
+
+ctr('.test', {
+  anim: {
+    multiple: true
+    timeline: {
+      tlOne: {
+       name: 'tlOne'
+      }
+      tlTwo: {
+       name: 'tlTwo'
+      }
+    }
+  }
+})

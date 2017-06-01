@@ -1,0 +1,12 @@
+# File generated from ---> hue.styl
+
+
+.test:::0:
+  width: 200px
+  color: 'hue(#00c, 90deg)'
+
+
+.test:::1:
+  width: 200px
+  color: 'hue(#00c, 90deg)'
+

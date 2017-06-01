@@ -1,0 +1,1 @@
+__Description__: If class conflict lowest index trumps, but it still should merege non-conflict props

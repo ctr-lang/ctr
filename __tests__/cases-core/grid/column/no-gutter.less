@@ -1,0 +1,124 @@
+// File generated from ---> no-gutter.styl 
+
+//flex
+ctr('.test', {
+  // SYNTAX_YAML
+  grid:
+    column:
+      fraction: '2/5'
+      cycle: 3
+      gutter: 0
+  
+})
+
+ctr('.test', {
+  grid: {
+    column: {
+      fraction: '2/5'
+      cycle: 3
+      gutter: 0
+    }
+  }
+})
+
+//non-flex
+ctr('.test', {
+  // SYNTAX_YAML
+  grid:
+    column:
+      fraction: '2/5'
+      gutter: 0
+      cycle: 3
+      flex: false
+  
+})
+
+ctr('.test', {
+  grid: {
+    column: {
+      fraction: '2/5'
+      gutter: 0
+      cycle: 3
+      flex: false
+    }
+  }
+})
+
+
+//flex
+ctr('.test', {
+  // SYNTAX_YAML
+  grid:
+    //fraction cycle gutter flex
+    column: ['2/5', 3, '0']
+  
+})
+
+ctr('.test', {
+  grid: {
+    //fraction cycle gutter flex
+    column: '2/5' 3 '0'
+  }
+})
+
+//non-flex
+ctr('.test', {
+  // SYNTAX_YAML
+  grid:
+    //fraction cycle gutter flex
+    column: ['2/5', 3, '0', false]
+  
+})
+
+ctr('.test', {
+  grid: {
+    //fraction cycle gutter flex
+    column: '2/5' 3 '0' false
+  }
+})
+
+
+//false key
+//flex
+ctr('.test', {
+  // SYNTAX_YAML
+  grid:
+    column:
+      fraction: '2/5'
+      cycle: 3
+      gutter: false
+  
+})
+
+ctr('.test', {
+  grid: {
+    column: {
+      fraction: '2/5'
+      cycle: 3
+      gutter: false
+    }
+  }
+})
+
+//non-flex
+ctr('.test', {
+  // SYNTAX_YAML
+  grid:
+    column:
+      fraction: '2/5'
+      gutter: false
+      cycle: 3
+      flex: false
+  
+})
+
+ctr('.test', {
+  grid: {
+    column: {
+      fraction: '2/5'
+      gutter: false
+      cycle: 3
+      flex: false
+    }
+  }
+})

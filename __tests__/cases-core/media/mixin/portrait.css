@@ -1,0 +1,32 @@
+.test {
+  width: 200px;
+}
+@media (orientation: portrait) {
+  .test {
+    height: 300px;
+  }
+}
+.test {
+  width: 200px;
+}
+@media (orientation: portrait) {
+  .test {
+    height: 300px;
+  }
+}
+.test {
+  width: 200px;
+}
+@media (orientation: portrait) {
+  .test {
+    height: 300px;
+  }
+}
+.test {
+  width: 200px;
+}
+@media (orientation: portrait) {
+  .test {
+    height: 300px;
+  }
+}

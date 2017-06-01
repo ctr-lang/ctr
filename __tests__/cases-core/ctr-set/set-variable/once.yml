@@ -1,0 +1,51 @@
+
+# invalid no set vars
+# since there is no set vars yet
+# ctr will not check the vars thus
+# it will not throw a warning and the
+# val will not be $var-not-found$
+# it will just be the strings above
+.test-1:
+  width: 200px
+  height: $height$
+  color: $color$
+  top: $top$
+
+# set vars
+ctr:::setVariable:1:
+  height: 200px
+  color: red
+  top: 50
+
+
+.test-2:
+  width: 200px
+  height: $height$
+  color: $color$
+  top: $top$
+
+# set new vars but only once
+ctr:::setVariable:2:
+  height: 420px
+  top: 100
+  ctr:::option:
+    once: true
+
+
+# color will still be inherited
+.test-3:
+  width: 200px
+  height: $height$
+  color: $color$
+  top: $top$
+
+
+# should === .test-2
+.test-4:
+  width: 200px
+  height: $height$
+  color: $color$
+  top: $top$
+
+
+

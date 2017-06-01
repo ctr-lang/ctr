@@ -1,0 +1,26 @@
+$obj = {
+  height: 200px
+}
+
+$obj2 = {
+  hover: {
+    on: {
+      font-size: 20px
+    }
+    non: {
+      font-size: 10px
+    }
+  }
+}
+
+.test
+  ctr({
+    width: 200px
+    merge: $obj $obj2
+  })
+
+
+ctr('.test', {
+  width: 200px
+  merge: $obj $obj2
+})

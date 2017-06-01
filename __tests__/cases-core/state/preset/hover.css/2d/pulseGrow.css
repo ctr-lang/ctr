@@ -1,0 +1,68 @@
+.test {
+  width: 200px;
+  height: 200px;
+  background: #008080;
+}
+.test:hover {
+  animation-delay: 0s;
+  display: inline-block;
+  vertical-align: middle;
+  animation-duration: 0.3s;
+  transform: translateZ(0);
+  animation-fill-mode: none;
+  backface-visibility: hidden;
+  animation-play-state: running;
+  animation-direction: alternate;
+  animation-name: hvr-pulse-grow;
+  animation-timing-function: linear;
+  -moz-osx-font-smoothing: grayscale;
+  animation-iteration-count: infinite;
+  box-shadow: 0 0 1px rgba(0,0,0,0);
+}
+.test:not(:hover) {
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  box-shadow: 0 0 1px rgba(0,0,0,0);
+}
+@keyframes hvr-pulse-grow {
+  to {
+    transform: scale(1.1);
+  }
+}
+.test {
+  width: 200px;
+  height: 200px;
+  background: #008080;
+}
+.test:hover {
+  animation-delay: 0s;
+  display: inline-block;
+  vertical-align: middle;
+  animation-duration: 0.3s;
+  transform: translateZ(0);
+  animation-fill-mode: none;
+  backface-visibility: hidden;
+  animation-play-state: running;
+  animation-direction: alternate;
+  animation-name: hvr-pulse-grow;
+  animation-timing-function: linear;
+  -moz-osx-font-smoothing: grayscale;
+  animation-iteration-count: infinite;
+  box-shadow: 0 0 1px rgba(0,0,0,0);
+}
+.test:not(:hover) {
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  box-shadow: 0 0 1px rgba(0,0,0,0);
+}
+@keyframes hvr-pulse-grow {
+  to {
+    transform: scale(1.1);
+  }
+}

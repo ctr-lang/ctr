@@ -1,0 +1,54 @@
+.test {
+  width: 200px;
+}
+.test:not(.class) {
+  width: 300px;
+  height: 100px;
+}
+.test:not(#id) {
+  color: #f00;
+  height: 100px;
+  font-size: 30px;
+}
+.test:not(li) {
+  height: 100px;
+  font-size: 20px;
+}
+.test:not(.class) > span {
+  opacity: 0.5;
+}
+.test:not(#id) > span {
+  opacity: 0.5;
+  font-size: 1em;
+}
+.test:not(li) > span {
+  opacity: 0.5;
+  font-size: 1em;
+}
+.test {
+  width: 200px;
+}
+.test:not(.class) {
+  width: 300px;
+  height: 100px;
+}
+.test:not(#id) {
+  color: #f00;
+  height: 100px;
+  font-size: 30px;
+}
+.test:not(li) {
+  height: 100px;
+  font-size: 20px;
+}
+.test:not(.class) > span {
+  opacity: 0.5;
+}
+.test:not(#id) > span {
+  opacity: 0.5;
+  font-size: 1em;
+}
+.test:not(li) > span {
+  opacity: 0.5;
+  font-size: 1em;
+}

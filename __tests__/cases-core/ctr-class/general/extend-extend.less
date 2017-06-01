@@ -1,0 +1,41 @@
+// File generated from ---> extend-extend.styl 
+
+ctrSetClass('$buttonExtend', {
+  // SYNTAX_YAML
+  width: 200px
+  height: 200px
+  background: '#ff0'
+})
+ctrSetClass('$buttonExtend', {
+  width: 200px
+  height: 200px
+  background: #ff0
+})
+
+ctrSetClass('$fontExtend', {
+  // SYNTAX_YAML
+  font-family: ["'Ubuntu', Georgia, Serif"]
+})
+ctrSetClass('$fontExtend', {
+  font-family: "'Ubuntu', Georgia, Serif"
+})
+
+ctrSetClass('$boldFontExtend', {
+  // SYNTAX_YAML
+  font-weight: bold
+  extend: '$fontExtend'
+})
+ctrSetClass('$boldFontExtend', {
+  font-weight: bold
+  extend: '$fontExtend'
+})
+
+ctr('.test', {
+  // SYNTAX_YAML
+  extend: ['$buttonExtend', '$boldFontExtend']
+})
+
+
+ctr('.test', {
+  extend: '$buttonExtend' '$boldFontExtend'
+})

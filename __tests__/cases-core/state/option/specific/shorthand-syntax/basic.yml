@@ -1,0 +1,25 @@
+# File generated from ---> basic.yml.styl
+
+
+ctr:::setOption:
+  global:
+    transitionShorthand: true
+
+
+.test:::0:
+  size: 100px
+  hover:
+    on:
+      transform: scale(2)
+    non:
+      transform: scale(1)
+
+
+.test:::1:
+  size: 100px
+  hover:
+    on:
+      transform: scale(2)
+    non:
+      transform: scale(1)
+

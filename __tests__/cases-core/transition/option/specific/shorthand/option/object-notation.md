@@ -1,0 +1,1 @@
+__Description__: Should be able to use `shorthand` object within the `object` notation

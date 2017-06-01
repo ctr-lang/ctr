@@ -1,0 +1,1 @@
+__Description__: If there are properties within the `transition` object that are not specified in the `shorthand` object then intelligently create a `transition` properties for said properties using the defaults specified either locally or globally

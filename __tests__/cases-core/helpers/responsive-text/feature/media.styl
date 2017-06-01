@@ -1,0 +1,27 @@
+.test
+  ctr({
+    width: 200px
+    media: {
+      'custom': {
+        font-size: 'responsive' 10px 50px
+        line-height: 'responsive'
+        query: {
+          max-height: 222px
+        }
+      }
+    }
+  })
+
+
+ctr('.test', {
+  width: 200px
+  media: {
+    'custom': {
+      font-size: 'responsive' 10px 50px
+      line-height: 'responsive'
+      query: {
+        max-height: 222px
+      }
+    }
+  }
+})

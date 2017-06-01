@@ -1,0 +1,14 @@
+# File generated from ---> scale3d.styl
+
+
+.test:::0:
+  width: 200px
+  matrix:
+    scale3d: [2, .5, 1]
+
+
+.test:::1:
+  width: 200px
+  matrix:
+    scale3d: [2, .5, 1]
+

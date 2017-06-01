@@ -1,0 +1,54 @@
+.test {
+  width: 200px;
+  line-height: calc(1em + 2 * ((100vw - 16.667em) / 33.333));
+}
+@media only screen and (max-width: 300px) {
+  .test {
+    line-height: 1em;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .test {
+    line-height: 3em;
+  }
+}
+.test > span {
+  line-height: calc(1em + 2 * ((100vw - 16.667em) / 33.333));
+}
+@media only screen and (max-width: 300px) {
+  .test > span {
+    line-height: 1em;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .test > span {
+    line-height: 3em;
+  }
+}
+.test {
+  width: 200px;
+  line-height: calc(1em + 2 * ((100vw - 16.667em) / 33.333));
+}
+@media only screen and (max-width: 300px) {
+  .test {
+    line-height: 1em;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .test {
+    line-height: 3em;
+  }
+}
+.test > span {
+  line-height: calc(1em + 2 * ((100vw - 16.667em) / 33.333));
+}
+@media only screen and (max-width: 300px) {
+  .test > span {
+    line-height: 1em;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .test > span {
+    line-height: 3em;
+  }
+}

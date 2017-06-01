@@ -1,0 +1,18 @@
+// File generated from ---> string.styl 
+
+//dot notation
+ctr('.test', {
+  // SYNTAX_YAML
+  $$:
+    spread: 10px
+  width: 200px
+  box-shadow: '-1.5em -1.5em 0 $spread$ green, -1.5em 1.5em 0 $spread$ blue'
+})
+
+ctr('.test', {
+  $$: {
+    spread: 10px
+  }
+  width: 200px
+  box-shadow: '-1.5em -1.5em 0 $spread$ green, -1.5em 1.5em 0 $spread$ blue'
+})

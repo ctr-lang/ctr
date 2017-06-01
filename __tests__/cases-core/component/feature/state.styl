@@ -1,0 +1,37 @@
+.test
+  ctr({
+    width: 200px
+    component: {
+      '.aClass': {
+        font-size: 10px
+
+        hover: {
+          on: {
+            color: red
+          }
+          non: {
+            color: red
+          }
+        }
+      }
+    }
+  })
+
+
+ctr('.test', {
+  width: 200px
+  component: {
+    '.aClass': {
+      font-size: 10px
+
+      hover: {
+        on: {
+          color: red
+        }
+        non: {
+          color: red
+        }
+      }
+    }
+  }
+})

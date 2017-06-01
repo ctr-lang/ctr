@@ -1,0 +1,24 @@
+.test {
+  width: 200px;
+}
+.test:nth-last-child(-n+3) {
+  height: 400px;
+}
+.test {
+  width: 200px;
+}
+.test:nth-last-child(-n+3) {
+  height: 400px;
+}
+.test {
+  width: 200px;
+}
+.test:nth-last-child(-n+3) {
+  height: 400px;
+}
+.test {
+  width: 200px;
+}
+.test:nth-last-child(-n+3) {
+  height: 400px;
+}

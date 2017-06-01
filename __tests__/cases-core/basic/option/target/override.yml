@@ -1,0 +1,8 @@
+# File generated from ---> override.styl
+
+
+.test:::0:
+  width: 200px
+  option:
+    override: '.override'
+

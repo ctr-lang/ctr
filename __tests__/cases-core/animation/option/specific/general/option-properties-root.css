@@ -1,0 +1,32 @@
+.test {
+  width: 200px;
+  animation-name: test;
+  animation-delay: 100s;
+  animation-duration: 200s;
+  animation-direction: normal;
+  animation-play-state: paused;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 420;
+  animation-timing-function: ease-out;
+}
+@keyframes test {
+  50% {
+    width: 400px;
+  }
+}
+.test {
+  width: 200px;
+  animation-name: test;
+  animation-delay: 100s;
+  animation-duration: 200s;
+  animation-direction: normal;
+  animation-play-state: paused;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 420;
+  animation-timing-function: ease-out;
+}
+@keyframes test {
+  50% {
+    width: 400px;
+  }
+}

@@ -1,0 +1,90 @@
+.test {
+  width: 200px;
+}
+.test:not(li) {
+  font-size: 20px;
+}
+.test:not(span) {
+  font-size: 30px;
+}
+.test:not(.class) {
+  width: 300px;
+}
+.test:not(#id) {
+  font-size: 30px;
+}
+.test {
+  width: 200px;
+}
+.test:not(li) {
+  font-size: 20px;
+}
+.test:not(span) {
+  font-size: 30px;
+}
+.test:not(.class) {
+  width: 300px;
+}
+.test:not(#id) {
+  font-size: 30px;
+}
+.test {
+  width: 200px;
+}
+.test:not(li) {
+  font-size: 20px;
+}
+.test:not(span) {
+  font-size: 30px;
+}
+.test:not(.class) {
+  width: 300px;
+}
+.test:not(#id) {
+  font-size: 30px;
+}
+.test {
+  width: 200px;
+}
+.test:not(li) {
+  font-size: 20px;
+}
+.test:not(span) {
+  font-size: 30px;
+}
+.test:not(.class) {
+  width: 300px;
+}
+.test:not(#id) {
+  font-size: 30px;
+}
+.test {
+  width: 200px;
+}
+.test:not(li) {
+  font-size: 20px;
+}
+.test:not(span) {
+  font-size: 30px;
+}
+.test:not(.class) {
+  width: 300px;
+}
+.test:not(#id) {
+  font-size: 30px;
+}
+.test {
+  width: 200px;
+}
+.test:not(li) {
+  font-size: 20px;
+}
+.test:not(span) {
+  font-size: 30px;
+}
+.test:not(.class) {
+  width: 300px;
+}
+.test:not(#id) {
+  font-size: 30px;
+}

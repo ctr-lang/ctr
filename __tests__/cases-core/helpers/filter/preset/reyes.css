@@ -1,0 +1,68 @@
+.test {
+  width: 600px;
+  position: relative;
+  filter: sepia(0.22) brightness(1.1) contrast(0.85) saturate(0.75);
+}
+.test img {
+  z-index: 1;
+  width: 100%;
+}
+.test::before {
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  content: "";
+  display: block;
+  position: absolute;
+  pointer-events: none;
+}
+.test::after {
+  top: 0;
+  left: 0;
+  z-index: 3;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  content: "";
+  display: block;
+  position: absolute;
+  background: #efcdad;
+  pointer-events: none;
+  mix-blend-mode: soft-light;
+}
+.test {
+  width: 600px;
+  position: relative;
+  filter: sepia(0.22) brightness(1.1) contrast(0.85) saturate(0.75);
+}
+.test img {
+  z-index: 1;
+  width: 100%;
+}
+.test::before {
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  content: "";
+  display: block;
+  position: absolute;
+  pointer-events: none;
+}
+.test::after {
+  top: 0;
+  left: 0;
+  z-index: 3;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  content: "";
+  display: block;
+  position: absolute;
+  background: #efcdad;
+  pointer-events: none;
+  mix-blend-mode: soft-light;
+}

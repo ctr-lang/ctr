@@ -1,0 +1,14 @@
+# File generated from ---> flipOutX.styl
+
+
+.test:::0:
+  width: 400px
+  anim:
+    preset: 'flipOutX'
+
+
+.test:::1:
+  width: 400px
+  anim:
+    preset: 'flipOutX'
+

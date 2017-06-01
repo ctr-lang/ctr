@@ -1,0 +1,16 @@
+# File generated from ---> before.styl
+
+
+.test:::0:
+  width: 200px
+  before:
+    content: 'test'
+    font-size: 10px
+
+
+.test:::1:
+  width: 200px
+  before:
+    content: 'test'
+    font-size: 10px
+

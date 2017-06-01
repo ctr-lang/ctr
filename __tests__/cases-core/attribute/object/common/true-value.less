@@ -1,0 +1,38 @@
+// File generated from ---> true-value.styl 
+
+ctr('.test', {
+  // SYNTAX_YAML
+  width: 200px
+  'comp-div':
+    attributes:
+      common:
+        font-size: 100px
+        background: red
+        'comp-span':
+          color: red
+          opacity: 1
+      '[class*="test1"]': true
+      '[class*="test2"]':
+        height: 200px
+  
+})
+
+ctr('.test', {
+  width: 200px
+  'comp-div': {
+    attributes: {
+      common: {
+        font-size: 100px
+        background: red
+        'comp-span': {
+          color: red
+          opacity: 1
+        }
+      }
+      '[class*="test1"]': true
+      '[class*="test2"]': {
+        height: 200px
+      }
+    }
+  }
+})

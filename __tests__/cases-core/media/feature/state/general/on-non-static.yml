@@ -1,0 +1,30 @@
+# File generated from ---> on-non-static.styl
+
+
+.test:::0:
+  width: 200px
+  media:
+    'md':
+      width: 150px
+      hover:
+        static:
+          background: green
+        on:
+          font-size: 20px
+        non:
+          font-size: 10px
+
+
+.test:::1:
+  width: 200px
+  media:
+    'md':
+      width: 150px
+      hover:
+        static:
+          background: green
+        on:
+          font-size: 20px
+        non:
+          font-size: 10px
+

@@ -1,0 +1,9 @@
+$$:
+  height: 200px
+  width: 300px
+
+.test:
+  height: $height$
+  width: $width$
+  # set in ctr instance
+  color: $color$

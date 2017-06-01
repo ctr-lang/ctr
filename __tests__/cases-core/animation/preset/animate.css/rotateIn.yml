@@ -1,0 +1,14 @@
+# File generated from ---> rotateIn.styl
+
+
+.test:::0:
+  width: 400px
+  anim:
+    preset: 'rotateIn'
+
+
+.test:::1:
+  width: 400px
+  anim:
+    preset: 'rotateIn'
+

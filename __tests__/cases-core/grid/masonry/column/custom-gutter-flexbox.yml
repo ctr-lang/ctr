@@ -1,0 +1,28 @@
+# File generated from ---> custom-gutter-flexbox.styl
+
+
+.test:::0:
+  grid:
+    masonry-column:
+      gutter: 60px
+      # default === true
+      #  flex: true
+
+
+.test:::1:
+  grid:
+    masonry-column:
+      gutter: 60px
+      # default === true
+      #  flex: true
+
+
+.test:::2:
+  grid:
+    masonry-column: [default, 60px, true]
+
+
+.test:::3:
+  grid:
+    masonry-column: [default, 60px, true]
+

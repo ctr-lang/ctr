@@ -1,0 +1,56 @@
+.test
+  ctr({
+    grid: {
+      masonry-wrap: {
+        gutter: 60px
+        flex: false
+      }
+    }
+  })
+
+
+ctr('.test', {
+  grid: {
+    masonry-wrap: {
+      gutter: 60px
+      flex: false
+    }
+  }
+})
+
+.test
+  ctr({
+    grid: {
+      //gutter flex --> default === true
+      masonry-wrap: 60px false
+    }
+  })
+
+ctr('.test', {
+  grid: {
+    //gutter flex --> default === true
+    masonry-wrap: 60px false
+  }
+})
+
+
+//false === 0
+.test
+  ctr({
+    grid: {
+      masonry-wrap: {
+        gutter: false
+        flex: false
+      }
+    }
+  })
+
+
+ctr('.test', {
+  grid: {
+    masonry-wrap: {
+      gutter: false
+      flex: false
+    }
+  }
+})

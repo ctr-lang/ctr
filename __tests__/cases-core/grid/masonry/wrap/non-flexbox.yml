@@ -1,0 +1,26 @@
+# File generated from ---> non-flexbox.styl
+
+
+.test:::0:
+  grid:
+    masonry-wrap:
+      flex: false
+
+
+.test:::1:
+  grid:
+    masonry-wrap:
+      flex: false
+
+
+.test:::2:
+  grid:
+    # gutter flex --> default === true
+    masonry-wrap: [default, false]
+
+
+.test:::3:
+  grid:
+    # gutter flex --> default === true
+    masonry-wrap: [default, false]
+

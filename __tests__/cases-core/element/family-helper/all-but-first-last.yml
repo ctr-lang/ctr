@@ -1,0 +1,44 @@
+# File generated from ---> all-but-first-last.styl
+
+
+.test:::0:
+  width: 200px
+  elm:
+    key: 'all-but-first-last(2)'
+    height: 400px
+
+
+.test:::1:
+  width: 200px
+  elm:
+    key: 'all-but-first-last(2)'
+    height: 400px
+
+
+.test:::2:
+  width: 200px
+  elm:
+    key: fm-all-but-first-last(2)
+    height: 400px
+
+
+.test:::3:
+  width: 200px
+  elm:
+    key: fm-all-but-first-last(2)
+    height: 400px
+
+
+.test:::4:
+  width: 200px
+  elm:
+    key: allButFirstLast(2)
+    height: 400px
+
+
+.test:::5:
+  width: 200px
+  elm:
+    key: allButFirstLast(2)
+    height: 400px
+

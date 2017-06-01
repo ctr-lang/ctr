@@ -1,0 +1,52 @@
+.test {
+  z-index: 0;
+  color: #fff;
+  margin: 0rem;
+  width: 200px;
+  height: 200px;
+  padding: 0rem;
+  border: initial;
+  cursor: pointer;
+  font-size: 10rem;
+  overflow: hidden;
+  border-radius: 4px;
+  line-height: 200px;
+  position: relative;
+  text-align: center;
+  background: #2196f3;
+  box-shadow: initial;
+  font-family: initial;
+  font-weight: initial;
+  text-decoration: none;
+  vertical-align: middle;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-backface-visibility: hidden;
+}
+.test {
+  z-index: 0;
+  color: #fff;
+  margin: 0rem;
+  width: 200px;
+  height: 200px;
+  padding: 0rem;
+  border: initial;
+  cursor: pointer;
+  font-size: 10rem;
+  overflow: hidden;
+  border-radius: 4px;
+  line-height: 200px;
+  position: relative;
+  text-align: center;
+  background: #2196f3;
+  box-shadow: initial;
+  font-family: initial;
+  font-weight: initial;
+  text-decoration: none;
+  vertical-align: middle;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-backface-visibility: hidden;
+}

@@ -1,0 +1,1 @@
+__Description__: A callback function call be passed through throught the `option` object and it will be invoked after the file write

@@ -1,0 +1,1 @@
+__Description__: Any `option`'s defined in the `state` `option` object should be inherited by the `media` object although any `option`'s defined in the `media` object should supersede those `option`'s

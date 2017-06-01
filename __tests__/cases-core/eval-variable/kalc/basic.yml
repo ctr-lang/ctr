@@ -1,0 +1,26 @@
+# File generated from ---> basic.yml.styl
+
+
+.test:::0:
+  $$:
+    base: 10
+    fac: 2
+    eval:
+      calcB: 'kalc($base$ * 2)'
+      w: 'kalc($eval.calcB$ * 20px / 2)'
+      h: 'kalc(($eval.calcB$ * 20px) / 1.5)'
+  height: '$eval.w$'
+  border-width: '$eval.h$'
+
+
+.test:::1:
+  $$:
+    base: 10
+    fac: 2
+    eval:
+      calcB: 'kalc($base$ * 2)'
+      w: 'kalc($eval.calcB$ * 20px / 2)'
+      h: 'kalc(($eval.calcB$ * 20px) / 1.5)'
+  height: '$eval.w$'
+  border-width: '$eval.h$'
+

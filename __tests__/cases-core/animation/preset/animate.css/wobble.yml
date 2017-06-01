@@ -1,0 +1,14 @@
+# File generated from ---> wobble.styl
+
+
+.test:::0:
+  width: 400px
+  anim:
+    preset: 'wobble'
+
+
+.test:::1:
+  width: 400px
+  anim:
+    preset: 'wobble'
+

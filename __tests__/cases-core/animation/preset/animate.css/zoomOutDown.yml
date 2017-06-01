@@ -1,0 +1,14 @@
+# File generated from ---> zoomOutDown.styl
+
+
+.test:::0:
+  width: 400px
+  anim:
+    preset: 'zoomOutDown'
+
+
+.test:::1:
+  width: 400px
+  anim:
+    preset: 'zoomOutDown'
+

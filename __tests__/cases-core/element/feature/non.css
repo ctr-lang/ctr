@@ -1,0 +1,18 @@
+.test {
+  width: 200px;
+}
+.test:first-child {
+  content: "test";
+}
+.test:first-child:not(.today) {
+  font-size: 10px;
+}
+.test {
+  width: 200px;
+}
+.test:first-child {
+  content: "test";
+}
+.test:first-child:not(.today) {
+  font-size: 10px;
+}

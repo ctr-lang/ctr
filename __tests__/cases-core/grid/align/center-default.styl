@@ -1,0 +1,60 @@
+//alias: 'center', 'true'
+
+
+//flex
+.test
+  ctr({
+    grid: {
+      align: 'center'
+    }
+  })
+
+ctr('.test', {
+  grid: {
+    align: 'center'
+  }
+})
+
+//non-flex
+.test
+  ctr({
+    grid: {
+      align: 'center' false
+    }
+  })
+
+
+ctr('.test', {
+  grid: {
+    align: 'center' false
+  }
+})
+
+//flex
+.test
+  ctr({
+    grid: {
+      align: true
+    }
+  })
+
+ctr('.test', {
+  grid: {
+    align: true
+  }
+})
+
+//non-flex
+.test
+  ctr({
+    grid: {
+      align: true false
+    }
+  })
+
+
+ctr('.test', {
+  grid: {
+    align: true false
+  }
+})

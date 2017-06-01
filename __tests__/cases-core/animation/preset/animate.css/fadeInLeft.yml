@@ -1,0 +1,14 @@
+# File generated from ---> fadeInLeft.styl
+
+
+.test:::0:
+  width: 400px
+  anim:
+    preset: 'fadeInLeft'
+
+
+.test:::1:
+  width: 400px
+  anim:
+    preset: 'fadeInLeft'
+

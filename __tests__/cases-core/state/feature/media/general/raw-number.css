@@ -1,0 +1,74 @@
+.test {
+  width: 200px;
+}
+.test:hover {
+  opacity: 1;
+  transition-delay: 0s;
+  transition-duration: 0.5s;
+  transition-property: opacity;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test:not(:hover) {
+  opacity: 1;
+  transition-delay: 0s;
+  transition-duration: 0.5s;
+  transition-property: opacity;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+@media (min-width: 600px) and (max-width: 800px) {
+  .test:hover {
+    opacity: 0.5;
+    height: 300px;
+    transition-delay: 0s, 0s;
+    transition-duration: 0.5s, 0.5s;
+    transition-property: opacity, height;
+    transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+  }
+}
+@media (min-width: 600px) and (max-width: 800px) {
+  .test:not(:hover) {
+    opacity: 0.5;
+    height: 200px;
+    transition-delay: 0s, 0s;
+    transition-duration: 0.5s, 0.5s;
+    transition-property: opacity, height;
+    transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+  }
+}
+.test {
+  width: 200px;
+}
+.test:hover {
+  opacity: 1;
+  transition-delay: 0s;
+  transition-duration: 0.5s;
+  transition-property: opacity;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test:not(:hover) {
+  opacity: 1;
+  transition-delay: 0s;
+  transition-duration: 0.5s;
+  transition-property: opacity;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+@media (min-width: 600px) and (max-width: 800px) {
+  .test:hover {
+    opacity: 0.5;
+    height: 300px;
+    transition-delay: 0s, 0s;
+    transition-duration: 0.5s, 0.5s;
+    transition-property: opacity, height;
+    transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+  }
+}
+@media (min-width: 600px) and (max-width: 800px) {
+  .test:not(:hover) {
+    opacity: 0.5;
+    height: 200px;
+    transition-delay: 0s, 0s;
+    transition-duration: 0.5s, 0.5s;
+    transition-property: opacity, height;
+    transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+  }
+}

@@ -1,0 +1,44 @@
+# File generated from ---> multiple-and.styl
+
+
+.test:::0:
+  width: 200px
+  media:
+    width: 100px
+    query:
+      andCondition:
+        density: '2'
+        above: '300px'
+
+
+.test:::1:
+  width: 200px
+  media:
+    width: 100px
+    query:
+      andCondition:
+        density: '2'
+        above: '300px'
+
+
+.test:::2:
+  width: 200px
+  media:
+    width: 100px
+    query:
+      andCondition:
+        mixin:
+          density: '2'
+          above: '300px'
+
+
+.test:::3:
+  width: 200px
+  media:
+    width: 100px
+    query:
+      andCondition:
+        mixin:
+          density: '2'
+          above: '300px'
+

@@ -1,0 +1,46 @@
+# File generated from ---> option-shorthand.styl
+
+
+.test:::0:
+  width: 300px
+  transitions:
+    common:
+      option:
+        duration: 1s
+        # color should pick this up and not dup
+        shorthand:
+          color: 1s
+    one:
+      height: 420px
+    two:
+      font-size: 1.2rem
+      color: red
+    three:
+      letter-spacing: 1.1rem
+      shorthand:
+        width: 2s
+        top: [1s, default, ease-out]
+        bottom: [1.2s, 3s, ease-in]
+
+
+.test:::1:
+  width: 300px
+  transitions:
+    common:
+      option:
+        duration: 1s
+        # color should pick this up and not dup
+        shorthand:
+          color: 1s
+    one:
+      height: 420px
+    two:
+      font-size: 1.2rem
+      color: red
+    three:
+      letter-spacing: 1.1rem
+      shorthand:
+        width: 2s
+        top: [1s, default, ease-out]
+        bottom: [1.2s, 3s, ease-in]
+

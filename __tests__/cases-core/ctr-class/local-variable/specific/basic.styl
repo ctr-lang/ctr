@@ -1,0 +1,142 @@
+ctrSetClass('$height', {
+  $$: {
+    size: 100px
+  }
+  height: '$size$'
+})
+
+
+ctrSetClass('$width', {
+  $$: {
+    size: 200px
+  }
+  width: '$size$'
+})
+
+
+//base
+.test
+  ctr({
+    extend: '$height' '$width'
+    // width: 200px;
+    // height: 100px;
+  })
+
+//size change, will change both
+.test
+  ctr({
+    extend: {
+      $$: {
+        size: 500px
+      }
+      class: '$height' '$width'
+    }
+    // width: 500px;
+    // height: 500px;
+  })
+
+//specific change
+.test
+  ctr({
+    extend: {
+      $$: {
+        class: '$height'
+        size: 500px
+      }
+      class: '$width' '$height'
+    }
+    // width: 200px;
+    // height: 500px;
+  })
+
+//specific change
+.test
+  ctr({
+    extend: {
+      $$: {
+        class: '$width'
+        size: 500px
+      }
+      class: '$width' '$height'
+    }
+    // width: 500px;
+    // height: 100px;
+  })
+
+
+//specific change
+.test
+  ctr({
+    extend: {
+      '$height': {
+        size: 500px
+      }
+      '$width': {
+        size: 1000px
+      }
+    }
+    // width: 1000px;
+    // height: 500px;
+  })
+
+
+
+//base
+ctr('.test', {
+  extend: '$height' '$width'
+  // width: 200px;
+  // height: 100px;
+})
+
+//size change, will change both
+ctr('.test', {
+  extend: {
+    $$: {
+      size: 500px
+    }
+    class: '$height' '$width'
+  }
+  // width: 500px;
+  // height: 500px;
+})
+
+//specific change
+ctr('.test', {
+  extend: {
+    $$: {
+      class: '$height'
+      size: 500px
+    }
+    class: '$width' '$height'
+  }
+  // width: 200px;
+  // height: 500px;
+})
+
+//specific change
+ctr('.test', {
+  extend: {
+    $$: {
+      class: $width
+      size: 500px
+    }
+    class: '$width' '$height'
+  }
+  // width: 500px;
+  // height: 100px;
+})
+
+
+//specific change
+ctr('.test', {
+  extend: {
+    '$height': {
+      size: 500px
+    }
+    '$width': {
+      size: 1000px
+    }
+  }
+  // width: 1000px;
+  // height: 500px;
+})

@@ -1,0 +1,12 @@
+.test {
+  width: 200px;
+}
+.test > div[class$="test"] .applyToTest {
+  font-size: 10px;
+}
+.test {
+  width: 200px;
+}
+.test > div[class$="test"] .applyToTest {
+  font-size: 10px;
+}

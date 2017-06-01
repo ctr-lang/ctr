@@ -1,0 +1,26 @@
+.test {
+  letter-spacing: calc(10px + 20 * ((100vw - 300px) / 600));
+}
+@media only screen and (max-width: 300px) {
+  .test {
+    letter-spacing: 10px;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .test {
+    letter-spacing: 30px;
+  }
+}
+.test {
+  letter-spacing: calc(10px + 20 * ((100vw - 300px) / 600));
+}
+@media only screen and (max-width: 300px) {
+  .test {
+    letter-spacing: 10px;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .test {
+    letter-spacing: 30px;
+  }
+}

@@ -1,0 +1,28 @@
+.test {
+  width: 200px;
+}
+.test > .default-box {
+  width: 200px;
+  height: 200px;
+  background: #eee;
+}
+.test > .large-box {
+  width: 500px;
+  height: 500px;
+  background: #eee;
+}
+.test > .large-red-box {
+  width: 500px;
+  height: 500px;
+  background: #f00;
+}
+.test > .small-box {
+  width: 100px;
+  height: 100px;
+  background: #eee;
+}
+.test > .small-blue-box {
+  width: 100px;
+  height: 100px;
+  background: #00f;
+}

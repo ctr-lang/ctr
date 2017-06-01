@@ -1,0 +1,85 @@
+//alias: 'bottom', 'bottom-center', 'bc'
+
+//flex
+.test
+  ctr({
+    grid: {
+      align: {
+        location: 'bottom-center'
+      }
+    }
+  })
+
+ctr('.test', {
+  grid: {
+    align: {
+      location: 'bottom-center'
+    } 
+  }
+})
+
+//non-flex
+.test
+  ctr({
+    grid: {
+      align: {
+        location: 'bottom-center'
+        flex: false
+      }
+    }
+  })
+
+
+ctr('.test', {
+  grid: {
+    align: {
+      location: 'bottom-center'
+      flex: false
+    }
+  }
+})
+
+//flex
+.test
+  ctr({
+    grid: {
+      align: 'bottom-center'
+    }
+  })
+
+ctr('.test', {
+  grid: {
+    align: 'bottom-center' 
+  }
+})
+
+//non-flex
+.test
+  ctr({
+    grid: {
+      align: 'bottom-center' false
+    }
+  })
+
+
+ctr('.test', {
+  grid: {
+    align: 'bottom-center' false
+  }
+})
+
+
+//alias
+.test
+  ctr({
+    grid: {
+      align: 'bc'
+    }
+  })
+
+
+ctr('.test', {
+  grid: {
+    align: 'bc'
+  }
+})

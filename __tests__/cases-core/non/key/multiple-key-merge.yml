@@ -1,0 +1,24 @@
+# File generated from ---> multiple-key-merge.styl
+
+
+.test:::0:
+  width: 200px
+  customNot:
+    key: ['span', 'p', '.aClass']
+    font-size: 20px
+  'non-p':
+    color: red
+  'non-.aClass':
+    color: black
+
+
+.test:::1:
+  width: 200px
+  customNon:
+    key: ['span', 'p', '.aClass']
+    font-size: 20px
+  'non-p':
+    color: red
+  'non-.aClass':
+    color: black
+

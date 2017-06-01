@@ -1,0 +1,1 @@
+__Description__: Desciption: If their are options specified within the `common` `option` object then those options will be applied to both `on` and `non` if present

@@ -1,0 +1,70 @@
+// File generated from ---> option-key-specified.styl 
+
+ctr('.test', {
+  // SYNTAX_YAML
+  anim:
+    multiple: true
+    option:
+      //these opts act like global opts
+      duration: 10s
+      delay: 1s
+      tlOne:
+        //these opts are only applied to tlOn
+        ease: ease-in
+        count: 10
+        state: paused
+      snoop:
+        //these optis are only applied to snoop
+        delay: 2s
+    timeline:
+      tlOne:
+        "50%":
+          background: purple
+      koolBrah:
+        "50%":
+          color: yellow
+      snoop:
+        "50%":
+          font-size: 1.4rem
+  
+})
+
+
+
+ctr('.test', {
+  anim: {
+    multiple: true
+    option: {
+      //these opts act like global opts
+      duration: 10s
+      delay: 1s
+      tlOne: {
+        //these opts are only applied to tlOn
+        ease: ease-in
+        count: 10
+        state: paused
+      }
+      snoop: {
+        //these optis are only applied to snoop
+        delay: 2s
+      }
+    }
+    timeline: {
+      tlOne: {
+        "50%": {
+          background: purple
+        }
+      }
+      koolBrah: {
+        "50%": {
+          color: yellow
+        }
+      }
+      snoop: {
+        "50%": {
+          font-size: 1.4rem
+        }
+      }
+    }
+  }
+})

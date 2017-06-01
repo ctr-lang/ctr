@@ -1,0 +1,32 @@
+.test {
+  width: 200px;
+}
+@media (min-width: 300px) {
+  .test {
+    width: 100px;
+  }
+}
+.test {
+  width: 200px;
+}
+@media (min-width: 300px) {
+  .test {
+    width: 100px;
+  }
+}
+.test {
+  width: 200px;
+}
+@media (min-width: 300px) {
+  .test {
+    width: 100px;
+  }
+}
+.test {
+  width: 200px;
+}
+@media (min-width: 300px) {
+  .test {
+    width: 100px;
+  }
+}

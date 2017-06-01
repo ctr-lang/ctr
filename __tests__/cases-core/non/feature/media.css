@@ -1,0 +1,22 @@
+.test {
+  width: 200px;
+}
+.test:not(.today) {
+  height: 200px;
+}
+@media (min-width: 600px) and (max-width: 800px) {
+  .test:not(.today) {
+    height: 300px;
+  }
+}
+.test {
+  width: 200px;
+}
+.test:not(.today) {
+  height: 200px;
+}
+@media (min-width: 600px) and (max-width: 800px) {
+  .test:not(.today) {
+    height: 300px;
+  }
+}

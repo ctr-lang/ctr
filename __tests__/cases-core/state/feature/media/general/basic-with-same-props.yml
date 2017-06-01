@@ -1,0 +1,36 @@
+# File generated from ---> basic-with-same-props.styl
+
+
+.test:::0:
+  width: 200px
+  hover:
+    on:
+      height: 400px
+      color: red
+      media:
+        'md':
+          height: 300px
+    non:
+      height: 200px
+      color: blue
+      media:
+        'md':
+          height: 100px
+
+
+.test:::1:
+  width: 200px
+  hover:
+    on:
+      height: 400px
+      color: red
+      media:
+        'md':
+          height: 300px
+    non:
+      height: 200px
+      color: blue
+      media:
+        'md':
+          height: 100px
+

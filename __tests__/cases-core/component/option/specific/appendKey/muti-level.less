@@ -1,0 +1,56 @@
+// File generated from ---> muti-level.styl 
+
+ctr('.test', {
+  // SYNTAX_YAML
+  width: 200px
+  comp:
+    '.one':
+      font-size: 10px
+      comp:
+        '.two':
+          option:
+            appendKey: true
+          font-size: 20px
+    '.oneChain':
+      option:
+        appendKey: true
+      font-size: 10px
+      comp:
+        '.twoChain':
+          option:
+            appendKey: true
+          font-size: 20px
+  
+})
+
+
+ctr('.test', {
+  width: 200px
+  comp: {
+    '.one': {
+      font-size: 10px
+      comp: {
+        '.two': {
+          option: {
+            appendKey: true
+          }
+          font-size: 20px
+        }
+      }
+    }
+    '.oneChain': {
+      option: {
+        appendKey: true
+      }
+      font-size: 10px
+      comp: {
+        '.twoChain': {
+          option: {
+            appendKey: true
+          }
+          font-size: 20px
+        }
+      }
+    }
+  }
+})

@@ -1,0 +1,44 @@
+.test {
+  width: 200px;
+}
+.test > div[class*="te"] {
+  height: 200px;
+  font-size: 20px;
+}
+.test > div[class*="artisin"] {
+  height: 400px;
+  font-size: 20px;
+}
+.test {
+  width: 200px;
+}
+.test > div[class*="te"] {
+  height: 200px;
+  font-size: 20px;
+}
+.test > div[class*="artisin"] {
+  height: 400px;
+  font-size: 20px;
+}
+.test {
+  width: 200px;
+}
+.test > div[class*="te"] {
+  height: 200px;
+  font-size: 20px;
+}
+.test > div[class*="artisin"] {
+  height: 400px;
+  font-size: 20px;
+}
+.test {
+  width: 200px;
+}
+.test > div[class*="te"] {
+  height: 200px;
+  font-size: 20px;
+}
+.test > div[class*="artisin"] {
+  height: 400px;
+  font-size: 20px;
+}

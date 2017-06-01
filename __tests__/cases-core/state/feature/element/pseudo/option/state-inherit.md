@@ -1,0 +1,1 @@
+__Description__: Any `option`'s defined in the `state` `option` object should be inherited by the `pseudo-element` object although any `option`'s defined in the `pseudo-element` object should supersede those `option`'s

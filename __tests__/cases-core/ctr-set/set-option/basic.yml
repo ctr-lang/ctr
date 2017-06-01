@@ -1,0 +1,24 @@
+
+# no options
+.test-1:
+  size: 200px
+  hover:
+    on:
+      width: 400px
+
+ctr:::setOption:
+  hover:
+    duration: 10s
+    delay: 20s
+    ease: ease-in
+
+
+# has above options
+.test-2:
+  size: 200px
+  hover:
+    on:
+      width: 400px
+
+
+

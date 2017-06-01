@@ -1,0 +1,18 @@
+# File generated from ---> element.styl
+
+
+.test:::0:
+  width: 200px
+  transition:
+    height: 200px
+    first-child:
+      background: black
+
+
+.test:::1:
+  width: 200px
+  transition:
+    height: 200px
+    first-child:
+      background: black
+

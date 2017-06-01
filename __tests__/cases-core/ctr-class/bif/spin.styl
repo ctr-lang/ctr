@@ -1,0 +1,17 @@
+ctrSetClass('$evalSpin', {
+  $$: {
+    base: #ff0000
+    bg: "spin($base$, 90deg)"
+  }
+  background: "$bg$"
+  color: spin(#ff0000, 90deg)
+})
+
+.test
+  ctr({
+    extend: $evalSpin
+  })
+
+ctr('.test', {
+  extend: $evalSpin
+})

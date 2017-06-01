@@ -1,0 +1,20 @@
+# File generated from ---> focus.styl
+
+
+.test:::0:
+  width: 200px
+  state-focus:
+    on:
+      height: 300px
+    non:
+      height: 200px
+
+
+.test:::1:
+  width: 200px
+  state-focus:
+    on:
+      height: 300px
+    non:
+      height: 200px
+

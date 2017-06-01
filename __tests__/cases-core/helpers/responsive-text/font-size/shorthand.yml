@@ -1,0 +1,12 @@
+# File generated from ---> shorthand.styl
+
+
+.test:::0:
+  font-size: [responsive, 10px, 30px]
+  font-size-range: [300px, 900px]
+
+
+.test:::1:
+  font-size: [responsive, 10px, 30px]
+  font-size-range: [300px, 900px]
+

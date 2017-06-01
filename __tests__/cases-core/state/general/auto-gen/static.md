@@ -1,0 +1,1 @@
+__Description__: Autogen should work for static identifiers, and not gen trans

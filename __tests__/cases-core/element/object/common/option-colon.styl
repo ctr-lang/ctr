@@ -1,0 +1,72 @@
+.test
+  ctr({
+    width: 200px
+    elements: {
+      //common will be applied to all
+      common: {
+        //should work with colon
+        option: {
+          colon: ':'
+        }
+        color: red
+      }
+      before: {
+        option: {
+          colon: '::'
+        }
+        content: 'kool'
+        font-size: 10px
+      }
+      after: {
+        position: absolute
+        top: 0
+        left: 0
+      }
+      elm-last-of-type: {
+        font-size: 10px
+      }
+      random: {
+        font-size: 10px
+        option: {
+          //will be key
+          key: "nth-of-type(2)"
+        }
+      }
+    }
+  })
+
+ctr('.test', {
+  width: 200px
+  elements: {
+    //common will be applied to all
+    common: {
+      //should work with colon
+      option: {
+        colon: ':'
+      }
+      color: red
+    }
+    before: {
+      option: {
+        colon: '::'
+      }
+      content: 'kool'
+      font-size: 10px
+    }
+    after: {
+      position: absolute
+      top: 0
+      left: 0
+    }
+    elm-last-of-type: {
+      font-size: 10px
+    }
+    random: {
+      font-size: 10px
+      option: {
+        //will be key
+        key: "nth-of-type(2)"
+      }
+    }
+  }
+})

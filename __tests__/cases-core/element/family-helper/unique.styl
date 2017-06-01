@@ -1,0 +1,35 @@
+.test
+  ctr({
+    width: 200px
+    elm: {
+      key: 'unique()'
+      height: 400px
+    }
+  })
+
+ctr('.test', {
+  width: 200px
+  elm: {
+    key: 'unique()'
+    height: 400px
+  }
+})
+
+
+
+.test
+  ctr({
+    width: 200px
+    elm: {
+      key: fm-unique()
+      height: 400px
+    }
+  })
+
+ctr('.test', {
+  width: 200px
+  elm: {
+    key: fm-unique()
+    height: 400px
+  }
+})

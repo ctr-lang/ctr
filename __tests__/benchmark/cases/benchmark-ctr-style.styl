@@ -1,0 +1,26 @@
+ctr('.test', {
+  size: 200px
+  background: green
+  hover: {
+    on: {
+      color: red
+      font-size: 10px
+      before: {
+        conent: 'speed'
+        size: 100px
+      }
+    }
+    non: {
+      color: purple
+      font-size: 12px
+      media: {
+        '-sm': {
+          font-size: 8px
+        }
+        '+lg': {
+          font-size: 20px
+        }
+      }
+    }
+  }
+})

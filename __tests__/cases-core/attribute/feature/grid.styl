@@ -1,0 +1,33 @@
+.test
+  ctr({
+    width: 200px
+    component: {
+      'div': {
+        attribute: {
+          key: '[data-role="test"]'
+          height: 300px
+
+          grid: {
+            column: '1/2'
+          }
+        }
+      }
+    }
+  })
+
+
+ctr('.test', {
+  width: 200px
+  component: {
+    'div': {
+      attribute: {
+        key: '[data-role="test"]'
+        height: 300px
+
+        grid: {
+          column: '1/2'
+        }
+      }
+    }
+  }
+})

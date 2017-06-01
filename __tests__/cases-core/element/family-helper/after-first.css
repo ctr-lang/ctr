@@ -1,0 +1,36 @@
+.test {
+  width: 200px;
+}
+.test:nth-child(n+6) {
+  height: 400px;
+}
+.test {
+  width: 200px;
+}
+.test:nth-child(n+6) {
+  height: 400px;
+}
+.test {
+  width: 200px;
+}
+.test:nth-child(n+6) {
+  height: 400px;
+}
+.test {
+  width: 200px;
+}
+.test:nth-child(n+6) {
+  height: 400px;
+}
+.test {
+  width: 200px;
+}
+.test:nth-child(n+6) {
+  height: 400px;
+}
+.test {
+  width: 200px;
+}
+.test:nth-child(n+6) {
+  height: 400px;
+}

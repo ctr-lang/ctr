@@ -1,0 +1,10 @@
+$$:
+  height: 200px
+  width: 300px
+
+.test:
+  height: $height$
+  width: $width$
+  color: $color$
+  # should not be found === $var-not-found$
+  font-size: $fz$

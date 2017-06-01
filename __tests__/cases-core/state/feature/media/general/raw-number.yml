@@ -1,0 +1,36 @@
+# File generated from ---> raw-number.styl
+
+
+.test:::0:
+  width: 200px
+  hover:
+    on:
+      opacity: 1
+      media:
+        'md':
+          opacity: 0.5
+          height: 300px
+    non:
+      opacity: 1
+      media:
+        'md':
+          opacity: 0.5
+          height: 200px
+
+
+.test:::1:
+  width: 200px
+  hover:
+    on:
+      opacity: 1
+      media:
+        'md':
+          opacity: 0.5
+          height: 300px
+    non:
+      opacity: 1
+      media:
+        'md':
+          opacity: 0.5
+          height: 200px
+

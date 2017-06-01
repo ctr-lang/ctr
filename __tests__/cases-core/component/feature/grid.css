@@ -1,0 +1,36 @@
+.test {
+  width: 200px;
+}
+.test > .aClass {
+  flex: 0 0 auto;
+  font-size: 10px;
+  width: calc(99.9% * 1 / 2 - (30px - 30px * 1 / 2));
+}
+.test > .aClass:nth-child(1n) {
+  margin-right: 30px;
+}
+.test > .aClass:last-child {
+  margin-right: 0;
+}
+.test > .aClass:nth-child(2n) {
+  float: right;
+  margin-right: 0;
+}
+.test {
+  width: 200px;
+}
+.test > .aClass {
+  flex: 0 0 auto;
+  font-size: 10px;
+  width: calc(99.9% * 1 / 2 - (30px - 30px * 1 / 2));
+}
+.test > .aClass:nth-child(1n) {
+  margin-right: 30px;
+}
+.test > .aClass:last-child {
+  margin-right: 0;
+}
+.test > .aClass:nth-child(2n) {
+  float: right;
+  margin-right: 0;
+}

@@ -1,0 +1,34 @@
+//yml start
+ctr:::setOption: {
+  global: {
+    transitionShorthand: true
+  }
+}
+//yml end
+
+.test
+  ctr({
+    size: 100px
+    transition: {
+      option: {
+        duration: 10s
+        ease: ease-out
+        delay: 2s
+      }
+      transform: scale(2)
+      background: red
+    }
+  })
+
+ctr('.test', {
+  size: 100px
+  transition: {
+    option: {
+      duration: 10s
+      ease: ease-out
+      delay: 2s
+    }
+    transform: scale(2)
+    background: red
+  }
+})

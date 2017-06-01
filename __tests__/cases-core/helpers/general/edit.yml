@@ -1,0 +1,22 @@
+# File generated from ---> edit.styl
+
+
+.test:::0:
+  width: 200px
+  edit: true
+
+
+.test:::1:
+  width: 200px
+  edit: true
+
+
+.test:::2:
+  width: 200px
+  edit: alpha(teal, 0.1)
+
+
+.test:::3:
+  width: 200px
+  edit: alpha(teal, 0.1)
+

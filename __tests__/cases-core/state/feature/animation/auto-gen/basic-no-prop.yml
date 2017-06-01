@@ -1,0 +1,22 @@
+# File generated from ---> basic-no-prop.styl
+
+
+.test:::0:
+  width: 400px
+  hover:
+    anim:
+      name: 'test'
+      tl:
+        '50':
+          background: green
+
+
+.test:::1:
+  width: 400px
+  hover:
+    anim:
+      name: 'test'
+      tl:
+        '50':
+          background: green
+

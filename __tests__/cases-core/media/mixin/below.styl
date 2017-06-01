@@ -1,0 +1,45 @@
+.test
+  ctr({
+    width: 200px
+    media: {
+      width: 100px
+      query: {
+        mixin: {
+          below: 800px
+        }
+      }
+    }
+  })
+
+.test
+  ctr({
+    width: 200px
+    media: {
+      width: 100px
+      query: {
+        below: 800px
+      }
+    }
+  })
+
+ctr('.test', {
+  width: 200px
+  media: {
+    width: 100px
+    query: {
+      mixin: {
+        below: 800px
+      }
+    }
+  }
+})
+
+ctr('.test', {
+  width: 200px
+  media: {
+    width: 100px
+    query: {
+      below: 800px
+    }
+  }
+})

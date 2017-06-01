@@ -1,0 +1,18 @@
+# File generated from ---> basic-no-prop.styl
+
+
+.test:::0:
+  width: 200px
+  hover:
+    before:
+      content: 'test'
+      font-size: 10px
+
+
+.test:::1:
+  width: 200px
+  hover:
+    before:
+      content: 'test'
+      font-size: 10px
+

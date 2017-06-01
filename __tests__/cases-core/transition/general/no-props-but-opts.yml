@@ -1,0 +1,16 @@
+# File generated from ---> no-props-but-opts.styl
+
+
+.test:::0:
+  trans:
+    option:
+      property: all
+      duration: 10s
+
+
+.test:::1:
+  trans:
+    option:
+      property: all
+      duration: 10s
+

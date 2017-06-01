@@ -1,0 +1,96 @@
+.test {
+  width: 200px;
+}
+.test > a[target] {
+  font-size: 10px;
+}
+.test {
+  width: 200px;
+}
+.test > a[target="_blank"] {
+  font-size: 10px;
+}
+.test {
+  width: 200px;
+}
+.test > div[title~="test"] {
+  font-size: 10px;
+}
+.test {
+  width: 200px;
+}
+.test > div[class|="test"] {
+  font-size: 10px;
+}
+.test {
+  width: 200px;
+}
+.test > div[class^="test"] {
+  font-size: 10px;
+}
+.test {
+  width: 200px;
+}
+.test > div[class$="test"] {
+  font-size: 10px;
+}
+.test {
+  width: 200px;
+}
+.test > div[class*="te"] {
+  font-size: 10px;
+}
+.test {
+  width: 200px;
+}
+.test > input[type="text"] {
+  font-size: 10px;
+}
+.test {
+  width: 200px;
+}
+.test > a[target] {
+  font-size: 10px;
+}
+.test {
+  width: 200px;
+}
+.test > a[target="_blank"] {
+  font-size: 10px;
+}
+.test {
+  width: 200px;
+}
+.test > div[title~="test"] {
+  font-size: 10px;
+}
+.test {
+  width: 200px;
+}
+.test > div[class|="test"] {
+  font-size: 10px;
+}
+.test {
+  width: 200px;
+}
+.test > div[class^="test"] {
+  font-size: 10px;
+}
+.test {
+  width: 200px;
+}
+.test > div[class$="test"] {
+  font-size: 10px;
+}
+.test {
+  width: 200px;
+}
+.test > div[class*="te"] {
+  font-size: 10px;
+}
+.test {
+  width: 200px;
+}
+.test > input[type="text"] {
+  font-size: 10px;
+}

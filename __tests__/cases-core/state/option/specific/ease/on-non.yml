@@ -1,0 +1,28 @@
+# File generated from ---> on-non.styl
+
+
+.test:::0:
+  width: 200px
+  hover:
+    on:
+      font-size: 30px
+      option:
+        ease: tedious
+    non:
+      font-size: 20px
+      option:
+        ease: funky-town
+
+
+.test:::1:
+  width: 200px
+  hover:
+    on:
+      font-size: 30px
+      option:
+        ease: tedious
+    non:
+      font-size: 20px
+      option:
+        ease: funky-town
+

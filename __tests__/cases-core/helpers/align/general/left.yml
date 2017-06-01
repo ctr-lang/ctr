@@ -1,0 +1,22 @@
+# File generated from ---> left.styl
+
+
+.test:::0:
+  width: 200px
+  align: 'left'
+
+
+.test:::1:
+  width: 200px
+  alignSelf: 'left'
+
+
+.test:::2:
+  width: 200px
+  align: 'center-left'
+
+
+.test:::3:
+  width: 200px
+  alignSelf: 'center-left'
+

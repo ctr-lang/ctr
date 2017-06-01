@@ -1,0 +1,1 @@
+__Description__: Should be able to `append` a `component` `key` composed of a list array to the previous parent selector with the key/value pair of `appendKey` in the `option` object.

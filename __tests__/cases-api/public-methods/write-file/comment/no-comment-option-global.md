@@ -1,0 +1,1 @@
+__Description__: No comment generation via global `option`

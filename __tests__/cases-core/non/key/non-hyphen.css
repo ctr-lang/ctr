@@ -1,0 +1,12 @@
+.test {
+  width: 100px;
+}
+.test:not(p) {
+  font-size: 10px;
+}
+.test {
+  width: 100px;
+}
+.test:not(.cool) {
+  font-size: 10px;
+}

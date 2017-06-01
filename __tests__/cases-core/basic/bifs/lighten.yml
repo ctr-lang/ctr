@@ -1,0 +1,12 @@
+# File generated from ---> lighten.styl
+
+
+.test:::0:
+  width: 200px
+  color: 'lighten(#2c2c2c, 30%)'
+
+
+.test:::1:
+  width: 200px
+  color: 'lighten(#2c2c2c, 30%)'
+

@@ -1,0 +1,11 @@
+.test {
+  height: 800px;
+  width: 800px;
+}
+.test:hover {
+  transition-timing-function: ease-out;
+  transition-property: width;
+  transition-duration: 10s;
+  transition-delay: 0s;
+  width: 400px;
+}

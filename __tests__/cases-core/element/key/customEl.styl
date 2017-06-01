@@ -1,0 +1,41 @@
+.test
+  ctr({
+    width: 200px
+    customEl: {
+      font-size: 10px
+      option: {
+        key: first-line
+      }
+    }
+  })
+
+
+ctr('.test', {
+  width: 200px
+  customEl: {
+    font-size: 10px
+    option: {
+      key: 'first-line'
+    }
+  }
+})
+
+
+
+.test
+  ctr({
+    width: 200px
+    customEl: {
+      key: 'first-line'
+      font-size: 10px
+    }
+  })
+
+
+ctr('.test', {
+  width: 200px
+  customEl: {
+    key: first-line
+    font-size: 10px
+  }
+})

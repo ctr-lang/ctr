@@ -1,0 +1,54 @@
+// File generated from ---> non-grid-props.styl 
+
+ctr('.test', {
+  // SYNTAX_YAML
+  height: 200px
+  grid:
+    column: '1/2'
+    media:
+      query:
+        below: 'md'
+      color: red
+      column: '1/4'
+  
+})
+
+
+ctr('.test', {
+  height: 200px
+  grid: {
+    column: '1/2'
+    media: {
+      query: {
+        below: 'md'
+      }
+      color: red
+      column: '1/4'
+    }
+  }
+})
+
+
+
+ctr('.test', {
+  // SYNTAX_YAML
+  height: 200px
+  grid:
+    column: '1/2'
+    media--md:
+      color: red
+      column: '1/4'
+  
+})
+
+
+ctr('.test', {
+  height: 200px
+  grid: {
+    column: '1/2'
+    media--md: {
+      color: red
+      column: '1/4'
+    }
+  }
+})

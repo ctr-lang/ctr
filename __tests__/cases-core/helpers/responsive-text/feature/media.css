@@ -1,0 +1,42 @@
+.test {
+  width: 200px;
+}
+@media (max-height: 222px) {
+  .test {
+    font-size: calc(10px + 40 * ((100vw - 400px) / 1400));
+    line-height: calc(1rem + 1 * ((100vw - 25rem) / 87.5));
+  }
+}
+@media (max-height: 222px) and (max-width: 400px) {
+  .test {
+    font-size: 10px;
+    line-height: 1rem;
+  }
+}
+@media (max-height: 222px) and (min-width: 1800px) {
+  .test {
+    font-size: 50px;
+    line-height: 2rem;
+  }
+}
+.test {
+  width: 200px;
+}
+@media (max-height: 222px) {
+  .test {
+    font-size: calc(10px + 40 * ((100vw - 400px) / 1400));
+    line-height: calc(1rem + 1 * ((100vw - 25rem) / 87.5));
+  }
+}
+@media (max-height: 222px) and (max-width: 400px) {
+  .test {
+    font-size: 10px;
+    line-height: 1rem;
+  }
+}
+@media (max-height: 222px) and (min-width: 1800px) {
+  .test {
+    font-size: 50px;
+    line-height: 2rem;
+  }
+}

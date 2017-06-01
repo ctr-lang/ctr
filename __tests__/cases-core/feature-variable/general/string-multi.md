@@ -1,0 +1,1 @@
+__Description__: Use multiple local vars in string which is more than just a local var decleration

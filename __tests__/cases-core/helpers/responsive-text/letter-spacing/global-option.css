@@ -1,0 +1,54 @@
+.test {
+  width: 200px;
+  letter-spacing: calc(1em + 2 * ((100vw - 16.667em) / 33.333));
+}
+@media only screen and (max-width: 300px) {
+  .test {
+    letter-spacing: 1em;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .test {
+    letter-spacing: 3em;
+  }
+}
+.test > span {
+  letter-spacing: calc(1em + 2 * ((100vw - 16.667em) / 33.333));
+}
+@media only screen and (max-width: 300px) {
+  .test > span {
+    letter-spacing: 1em;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .test > span {
+    letter-spacing: 3em;
+  }
+}
+.test {
+  width: 200px;
+  letter-spacing: calc(1em + 2 * ((100vw - 16.667em) / 33.333));
+}
+@media only screen and (max-width: 300px) {
+  .test {
+    letter-spacing: 1em;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .test {
+    letter-spacing: 3em;
+  }
+}
+.test > span {
+  letter-spacing: calc(1em + 2 * ((100vw - 16.667em) / 33.333));
+}
+@media only screen and (max-width: 300px) {
+  .test > span {
+    letter-spacing: 1em;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .test > span {
+    letter-spacing: 3em;
+  }
+}

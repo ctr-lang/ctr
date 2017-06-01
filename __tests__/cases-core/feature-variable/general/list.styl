@@ -1,0 +1,23 @@
+.test
+  ctr({
+    $$: {
+      compTo: '.one' '#two' 'span'
+    }
+    width: 200px
+    customComp: {
+      key: '$compTo$'
+      height: 300px
+    }
+  })
+
+
+ctr('.test', {
+  $$: {
+    compTo: '.one' '#two' 'span'
+  }
+  width: 200px
+  customComp: {
+    key: '$compTo$'
+    height: 300px
+  }
+})

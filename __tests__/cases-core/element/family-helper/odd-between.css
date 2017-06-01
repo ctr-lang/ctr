@@ -1,0 +1,36 @@
+.test {
+  width: 200px;
+}
+.test:nth-child(odd):nth-child(n+3):nth-child(-n+13) {
+  height: 400px;
+}
+.test {
+  width: 200px;
+}
+.test:nth-child(odd):nth-child(n+3):nth-child(-n+13) {
+  height: 400px;
+}
+.test {
+  width: 200px;
+}
+.test:nth-child(odd):nth-child(n+3):nth-child(-n+13) {
+  height: 400px;
+}
+.test {
+  width: 200px;
+}
+.test:nth-child(odd):nth-child(n+3):nth-child(-n+13) {
+  height: 400px;
+}
+.test {
+  width: 200px;
+}
+.test:nth-child(odd):nth-child(n+3):nth-child(-n+13) {
+  height: 400px;
+}
+.test {
+  width: 200px;
+}
+.test:nth-child(odd):nth-child(n+3):nth-child(-n+13) {
+  height: 400px;
+}

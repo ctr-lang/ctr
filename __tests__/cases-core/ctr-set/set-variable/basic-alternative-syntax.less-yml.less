@@ -1,0 +1,17 @@
+//alternative syntax for ctrSetVar
+ctrSetVar({
+  // SYNTAX_YAML
+  height: 50px
+  top: 100
+  color: red
+})
+
+//should pick up above vars
+ctr('.test', {
+  // SYNTAX_YAML
+  width: 200px
+  height: '$height$'
+  color: '$color$'
+  top: '$top$'
+})
+

@@ -1,0 +1,26 @@
+# File generated from ---> basic-with-prop.styl
+
+
+.test:::0:
+  width: 400px
+  hover:
+    font-size: 8px
+    media:
+      'md':
+        font-size: 10px
+      'lg':
+        font-size: 20px
+        color: red
+
+
+.test:::1:
+  width: 400px
+  hover:
+    font-size: 8px
+    media:
+      'md':
+        font-size: 10px
+      'lg':
+        font-size: 20px
+        color: red
+

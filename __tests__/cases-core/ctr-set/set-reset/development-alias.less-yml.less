@@ -1,0 +1,35 @@
+// File generated from ---> development-alias.less-yml.styl 
+
+//set vars
+ctrSetVariable({
+  // SYNTAX_YAML
+  size: 400px
+  color: red
+})
+
+ctrSetOption({
+  // SYNTAX_YAML
+  hover:
+    duration: 10s
+})
+
+ctr('.test-1', {
+  // SYNTAX_YAML
+  size: '$size$'
+  color: '$color$'
+  hover:
+    background: green
+})
+
+//reset
+ctrDevelopment({
+  // SYNTAX_YAML
+})
+
+ctr('.test-2', {
+  // SYNTAX_YAML
+  size: '$size$'
+  color: '$color$'
+  hover:
+    background: green
+})

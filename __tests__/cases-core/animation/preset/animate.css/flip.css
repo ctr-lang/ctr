@@ -1,0 +1,68 @@
+.test {
+  width: 400px;
+  animation-delay: 0s;
+  animation-name: flip;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  backface-visibility: visible;
+  animation-play-state: running;
+  animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+@keyframes flip {
+  from {
+    animation-timing-function: ease-out;
+    transform: perspective(400px) rotate3d(0, 1, 0, -360deg);
+  }
+  40% {
+    animation-timing-function: ease-out;
+    transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -190deg);
+  }
+  50% {
+    animation-timing-function: ease-in;
+    transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -170deg);
+  }
+  80% {
+    animation-timing-function: ease-in;
+    transform: perspective(400px) scale3d(0.95, 0.95, 0.95);
+  }
+  to {
+    transform: perspective(400px);
+    animation-timing-function: ease-in;
+  }
+}
+.test {
+  width: 400px;
+  animation-delay: 0s;
+  animation-name: flip;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  backface-visibility: visible;
+  animation-play-state: running;
+  animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+@keyframes flip {
+  from {
+    animation-timing-function: ease-out;
+    transform: perspective(400px) rotate3d(0, 1, 0, -360deg);
+  }
+  40% {
+    animation-timing-function: ease-out;
+    transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -190deg);
+  }
+  50% {
+    animation-timing-function: ease-in;
+    transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -170deg);
+  }
+  80% {
+    animation-timing-function: ease-in;
+    transform: perspective(400px) scale3d(0.95, 0.95, 0.95);
+  }
+  to {
+    transform: perspective(400px);
+    animation-timing-function: ease-in;
+  }
+}

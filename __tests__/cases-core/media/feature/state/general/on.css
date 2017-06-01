@@ -1,0 +1,34 @@
+.test {
+  width: 200px;
+}
+@media (min-width: 600px) and (max-width: 800px) {
+  .test {
+    width: 150px;
+  }
+}
+@media (min-width: 600px) and (max-width: 800px) {
+  .test:hover {
+    background: #008000;
+    transition-delay: 0s;
+    transition-duration: 0.5s;
+    transition-property: background;
+    transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  }
+}
+.test {
+  width: 200px;
+}
+@media (min-width: 600px) and (max-width: 800px) {
+  .test {
+    width: 150px;
+  }
+}
+@media (min-width: 600px) and (max-width: 800px) {
+  .test:hover {
+    background: #008000;
+    transition-delay: 0s;
+    transition-duration: 0.5s;
+    transition-property: background;
+    transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  }
+}

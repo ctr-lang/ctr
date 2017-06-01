@@ -1,0 +1,34 @@
+# File generated from ---> shorthand.styl
+
+
+.test:::0:
+  width: 200px
+  trans:
+    shorthand:
+      height: [1s, default, 'easeInSine']
+    height: 400px
+
+
+.test:::1:
+  width: 200px
+  trans:
+    shorthand:
+      height: [1s, default, 'easeInSine']
+    height: 400px
+
+
+.test:::2:
+  width: 200px
+  trans:
+    shorthand:
+      height: [1s, default, 'ease-in-sine']
+    height: 400px
+
+
+.test:::3:
+  width: 200px
+  trans:
+    shorthand:
+      height: [1s, default, 'ease-in-sine']
+    height: 400px
+

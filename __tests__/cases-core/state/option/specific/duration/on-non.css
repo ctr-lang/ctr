@@ -1,0 +1,34 @@
+.test {
+  width: 200px;
+}
+.test:hover {
+  font-size: 30px;
+  transition-delay: 0s;
+  transition-duration: 5s;
+  transition-property: font-size;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test:not(:hover) {
+  font-size: 20px;
+  transition-delay: 0s;
+  transition-duration: 10s;
+  transition-property: font-size;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test {
+  width: 200px;
+}
+.test:hover {
+  font-size: 30px;
+  transition-delay: 0s;
+  transition-duration: 5s;
+  transition-property: font-size;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test:not(:hover) {
+  font-size: 20px;
+  transition-delay: 0s;
+  transition-duration: 10s;
+  transition-property: font-size;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}

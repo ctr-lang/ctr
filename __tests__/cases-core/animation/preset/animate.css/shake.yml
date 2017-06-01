@@ -1,0 +1,14 @@
+# File generated from ---> shake.styl
+
+
+.test:::0:
+  width: 400px
+  anim:
+    preset: 'shake'
+
+
+.test:::1:
+  width: 400px
+  anim:
+    preset: 'shake'
+

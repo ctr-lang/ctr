@@ -1,0 +1,38 @@
+# File generated from ---> true-value.styl
+
+
+.test:::0:
+  height: 200px
+  medias:
+    # added to all
+    common:
+      background: green
+      query:
+        type: 'screen'
+        max-height: 800px
+    xs: true
+    '+md': true
+    custom:
+      width: 400px
+      query:
+        at: 'hd'
+        min-height: 200px
+
+
+.test:::1:
+  height: 200px
+  medias:
+    # added to all
+    common:
+      background: green
+      query:
+        type: 'screen'
+        max-height: 800px
+    xs: true
+    '+md': true
+    custom:
+      width: 400px
+      query:
+        at: 'hd'
+        min-height: 200px
+

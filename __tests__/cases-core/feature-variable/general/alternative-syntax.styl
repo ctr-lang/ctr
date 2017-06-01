@@ -1,0 +1,38 @@
+.test
+  ctr({
+    $$: {
+      fz: 10px
+    }
+    width: 200px
+    font-size: '$[fz]$'
+  })
+
+ctr('.test', {
+  $$: {
+    fz: 10px
+  }
+  width: 200px
+  font-size: '$[fz]$'
+})
+
+
+.test
+  ctr({
+    $$: {
+      size: 12
+      type: 'rem'
+      font-size: 'calc($[size]$$[type]$ * ((100vw - 25rem) / 87.5))'
+    }
+    width: 200px
+    font-size: '$font-size$'
+  })
+
+ctr('.test', {
+  $$: {
+    size: 12
+    type: 'rem'
+    font-size: 'calc($[size]$$[type]$ * ((100vw - 25rem) / 87.5))'
+  }
+  width: 200px
+  font-size: '$font-size$'
+})

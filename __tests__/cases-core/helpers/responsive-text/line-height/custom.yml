@@ -1,0 +1,18 @@
+# File generated from ---> custom.styl
+
+
+.test:::0:
+  line-height: responsive
+  min-line-height: 10px
+  max-line-height: 30px
+  min-line-height-range: 300px
+  max-line-height-range: 900px
+
+
+.test:::1:
+  line-height: responsive
+  min-line-height: 10px
+  max-line-height: 30px
+  min-line-height-range: 300px
+  max-line-height-range: 900px
+

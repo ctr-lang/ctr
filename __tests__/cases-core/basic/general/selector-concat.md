@@ -1,0 +1,1 @@
+__Description__: __Description:__ Should be able to concat a string in a declarivice ctr instance.

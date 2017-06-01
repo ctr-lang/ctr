@@ -1,0 +1,52 @@
+# File generated from ---> multiple-merge.styl
+
+
+.test:::0:
+  width: 200px
+  customState:
+    key: ['hover', 'active', 'link']
+    common:
+      duration: 2s
+    on:
+      height: 200px
+    non:
+      height: 100px
+  hover:
+    on:
+      background: green
+    non:
+      background: red
+  active:
+    # option will only be applied these options
+    option:
+      duration: 1s
+    on:
+      border-width: 5px
+    non:
+      border-width: 1px
+
+
+.test:::1:
+  width: 200px
+  customState:
+    key: ['hover', 'active', 'link']
+    common:
+      duration: 2s
+    on:
+      height: 200px
+    non:
+      height: 100px
+  hover:
+    on:
+      background: green
+    non:
+      background: red
+  active:
+    # option will only be applied these options
+    option:
+      duration: 1s
+    on:
+      border-width: 5px
+    non:
+      border-width: 1px
+

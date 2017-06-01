@@ -1,0 +1,8 @@
+.test {
+  height: calc(10 * 20px / 2);
+  width: calc((10 * 20px) / 1.5);
+}
+.test {
+  height: calc(10 * 20px / 2);
+  width: calc((10 * 20px) / 1.5);
+}

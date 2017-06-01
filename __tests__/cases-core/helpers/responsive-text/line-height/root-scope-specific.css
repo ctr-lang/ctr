@@ -1,0 +1,26 @@
+.test {
+  line-height: calc(1.6rem + 3.2 * ((100vw - 42rem) / 86));
+}
+@media only screen and (max-width: 420px) {
+  .test {
+    line-height: 1.6rem;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .test {
+    line-height: 4.8rem;
+  }
+}
+.test {
+  line-height: calc(1.6rem + 3.2 * ((100vw - 42rem) / 86));
+}
+@media only screen and (max-width: 420px) {
+  .test {
+    line-height: 1.6rem;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .test {
+    line-height: 4.8rem;
+  }
+}

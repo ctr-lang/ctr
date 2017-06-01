@@ -1,0 +1,1 @@
+__Description__: If `commentFile` is false by the global option, omit the ctr file loc

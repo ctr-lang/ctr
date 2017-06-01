@@ -1,0 +1,30 @@
+# File generated from ---> custom.styl
+
+
+.test:::0:
+  width: 200px
+  customNon:
+    key: 'p'
+    font-size: 10px
+
+
+.test:::1:
+  width: 200px
+  customNo:
+    key: 'p'
+    font-size: 10px
+
+
+.test:::2:
+  width: 200px
+  customNonYOOO:
+    key: 'p'
+    font-size: 10px
+
+
+.test:::3:
+  width: 200px
+  customNoKool:
+    key: 'p'
+    font-size: 10px
+

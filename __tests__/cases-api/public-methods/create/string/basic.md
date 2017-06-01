@@ -1,0 +1,1 @@
+__Description__: Data can be in a string format, although, I don't recomend you do this. Use template strings, js, or yaml.

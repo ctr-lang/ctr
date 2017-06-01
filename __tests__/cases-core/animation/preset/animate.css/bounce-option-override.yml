@@ -1,0 +1,20 @@
+# File generated from ---> bounce-option-override.styl
+
+
+.test:::0:
+  width: 400px
+  anim:
+    preset: 'bounce'
+    option:
+      delay: 10s
+      duration: 10s
+
+
+.test:::1:
+  width: 400px
+  anim:
+    preset: 'bounce'
+    option:
+      delay: 10s
+      duration: 10s
+

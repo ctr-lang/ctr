@@ -1,0 +1,32 @@
+.test {
+  width: 200px;
+}
+@media only screen, tv {
+  .test {
+    width: 100px;
+  }
+}
+.test {
+  width: 200px;
+}
+@media only screen, tv {
+  .test {
+    width: 100px;
+  }
+}
+.test {
+  width: 200px;
+}
+@media only screen, tv {
+  .test {
+    width: 100px;
+  }
+}
+.test {
+  width: 200px;
+}
+@media only screen, tv {
+  .test {
+    width: 100px;
+  }
+}

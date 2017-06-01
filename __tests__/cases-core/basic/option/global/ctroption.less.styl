@@ -1,0 +1,43 @@
+
+ctrSetOption({
+  // SYNTAX_YAML
+  global:
+    sort: '-len'
+  hover:
+    duration: 2s
+  active:
+    delay: 100s
+})
+
+ctr('.test', {
+   // SYNTAX_YAML
+   width: 200px
+   hover:
+     background: green
+   active:
+     color: red
+})
+
+
+ctrSetOption({
+  global: {
+    sort: '-len'
+  }
+  hover: {
+    duration: 2s
+  }
+  active: {
+    delay: 100s
+  }
+})
+
+ctr('.test', {
+  width: 200px
+  hover: {
+    background: green
+  }
+  active: {
+    color: red
+  }
+})
+

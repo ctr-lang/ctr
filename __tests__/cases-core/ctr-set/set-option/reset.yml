@@ -1,0 +1,33 @@
+# $base -> no optiosn
+.test-1:
+  size: 200px
+  hover:
+    on:
+      width: 400px
+
+ctr:::setOption:1:
+  hover:
+    duration: 10s
+    delay: 10s
+
+ctr:::setOption:2:
+  hover:
+    ease: 'ease-out'
+
+# with options
+.test-2:
+  size: 200px
+  hover:
+    on:
+      width: 400px
+
+# resets the option
+ctr:::setOption:3:
+  reset: true
+
+# should === .test-1
+.test-3:
+  size: 200px
+  hover:
+    on:
+      width: 400px

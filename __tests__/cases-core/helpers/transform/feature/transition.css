@@ -1,0 +1,18 @@
+.test {
+  width: 200px;
+  background: #000;
+  transition-delay: 0s, 0s;
+  transition-duration: 0.5s, 0.5s;
+  transition-property: background, transform;
+  transform: translateX(10px) translateY(20px) scaleX(90deg);
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test {
+  width: 200px;
+  background: #000;
+  transition-delay: 0s, 0s;
+  transition-duration: 0.5s, 0.5s;
+  transition-property: background, transform;
+  transform: translateX(10px) translateY(20px) scaleX(90deg);
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+}

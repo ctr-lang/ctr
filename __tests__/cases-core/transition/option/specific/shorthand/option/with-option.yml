@@ -1,0 +1,22 @@
+# File generated from ---> with-option.styl
+
+
+.test:::0:
+  width: 200px
+  trans:
+    background: green
+    option:
+      delay: 10s
+    shorthand:
+      background: [1s, default, ease-out]
+
+
+.test:::1:
+  width: 200px
+  transition:
+    background: green
+    option:
+      delay: 10s
+    shorthand:
+      background: [1s, default, ease-out]
+

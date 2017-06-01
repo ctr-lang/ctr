@@ -1,0 +1,1 @@
+__Description__: The user should be able to specify a `andCondition` in combination with a `mixin` condition inside or out

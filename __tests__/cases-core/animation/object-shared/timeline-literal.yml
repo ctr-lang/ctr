@@ -1,0 +1,54 @@
+# File generated from ---> timeline-literal.styl
+
+
+.test:::0:
+  anim:
+    multiple: true
+    timeline:
+      tlOne: tlOne
+      tlTwo: tlTwo
+
+
+.test:::1:
+  anim:
+    multiple: true
+    timeline:
+      tlOne: tlOne
+      tlTwo: tlTwo
+
+
+.test:::2:
+  anim:
+    multiple: true
+    timeline:
+      tlOne: 'tlOne'
+      tlTwo: 'tlTwo'
+
+
+.test:::3:
+  anim:
+    multiple: true
+    timeline:
+      tlOne: 'tlOne'
+      tlTwo: 'tlTwo'
+
+
+.test:::4:
+  anim:
+    multiple: true
+    timeline:
+      tlOne:
+       name: 'tlOne'
+      tlTwo:
+       name: 'tlTwo'
+
+
+.test:::5:
+  anim:
+    multiple: true
+    timeline:
+      tlOne:
+       name: 'tlOne'
+      tlTwo:
+       name: 'tlTwo'
+

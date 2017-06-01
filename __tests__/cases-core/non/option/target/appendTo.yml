@@ -1,0 +1,20 @@
+# File generated from ---> appendTo.styl
+
+
+.test:::0:
+  width: 200px
+  non:
+    font-size: 20px
+    option:
+      key: '.class'
+      appendTo: '.appendTo'
+
+
+.test:::1:
+  width: 200px
+  non:
+    font-size: 20px
+    option:
+      key: '.class'
+      appendTo: '.appendTo'
+

@@ -1,0 +1,20 @@
+ctrSetClass('$myAminClass', {
+  width: 200px
+  anim: {
+    name: 'test'
+    tl: {
+      '50': {
+        color: red
+      }
+    }
+  }
+})
+
+.test
+  ctr({
+    extend: '$myAminClass'
+  })
+
+ctr('.test', {
+  extend: '$myAminClass'
+})

@@ -1,0 +1,12 @@
+# File generated from ---> last.styl
+
+
+.test:::0:
+  width: 200px
+  font-size: unit(last(1 2 3), px)
+
+
+.test:::1:
+  width: 200px
+  font-size: unit(last(1 2 3), px)
+

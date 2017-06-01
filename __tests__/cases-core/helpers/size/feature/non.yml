@@ -1,0 +1,18 @@
+# File generated from ---> non.styl
+
+
+.test:::0:
+  width: 200px
+  non:
+    key: '.today'
+    font-size: 10px
+    size: 400px
+
+
+.test:::1:
+  width: 200px
+  non:
+    key: '.today'
+    font-size: 10px
+    size: 400px
+

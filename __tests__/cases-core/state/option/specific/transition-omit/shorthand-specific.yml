@@ -1,0 +1,34 @@
+# File generated from ---> shorthand-specific.styl
+
+
+.test:::0:
+  hover:
+    common:
+      background: green
+      width: 200px
+    on:
+      height: 200px
+    non:
+      height: 100px
+    option:
+      shorthand:
+        height: [10s, default, ease-in]
+        # omit if passed false
+        width: false
+
+
+.test:::1:
+  hover:
+    common:
+      background: green
+      width: 200px
+    on:
+      height: 200px
+    non:
+      height: 100px
+    option:
+      shorthand:
+        height: [10s, default, ease-in]
+        # omit if passed false
+        width: false
+

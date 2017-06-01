@@ -1,0 +1,1 @@
+__Description__: The `writeFile` method should write the css result to `[__filename].css` although if there is a `fileName` option then write the file with the specified name.

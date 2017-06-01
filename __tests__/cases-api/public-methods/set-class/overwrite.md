@@ -1,0 +1,1 @@
+__Description__: Should be able to override the `classLock` option via `setClass` method by passing in option argument of `{overwrite: true}`

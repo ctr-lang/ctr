@@ -1,0 +1,86 @@
+# File generated from ---> basic.styl
+
+
+.test:::0:
+  height: 200px
+  medias:
+    # added to all
+    common:
+      background: green
+      query:
+        type: 'screen'
+    xs:
+      width: 100px
+    md:
+      width: 200px
+    hd:
+      width: 300px
+    custom:
+      width: 400px
+      query:
+        at: 'hd'
+        min-height: 200px
+
+
+.test:::1:
+  height: 200px
+  medias:
+    # added to all
+    common:
+      background: green
+      query:
+        type: 'screen'
+    xs:
+      width: 100px
+    md:
+      width: 200px
+    hd:
+      width: 300px
+    custom:
+      width: 400px
+      query:
+        at: 'hd'
+        min-height: 200px
+
+
+.test:::2:
+  height: 200px
+  medias:
+    # added to all
+    global:
+      background: green
+      query:
+        type: 'screen'
+    xs:
+      width: 100px
+    md:
+      width: 200px
+    hd:
+      width: 300px
+    custom:
+      width: 400px
+      query:
+        at: 'hd'
+        min-height: 200px
+
+
+.test:::3:
+  height: 200px
+  medias:
+    # added to all
+    global:
+      background: green
+      query:
+        type: 'screen'
+    xs:
+      width: 100px
+    md:
+      width: 200px
+    hd:
+      width: 300px
+    custom:
+      width: 400px
+      query:
+        at: 'hd'
+        min-height: 200px
+

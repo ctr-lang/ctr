@@ -1,0 +1,36 @@
+.test {
+  width: 200px;
+}
+.test:nth-child(3n):nth-child(n+10):nth-child(-n+20) {
+  height: 400px;
+}
+.test {
+  width: 200px;
+}
+.test:nth-child(3n):nth-child(n+10):nth-child(-n+20) {
+  height: 400px;
+}
+.test {
+  width: 200px;
+}
+.test:nth-child(3n):nth-child(n+10):nth-child(-n+20) {
+  height: 400px;
+}
+.test {
+  width: 200px;
+}
+.test:nth-child(3n):nth-child(n+10):nth-child(-n+20) {
+  height: 400px;
+}
+.test {
+  width: 200px;
+}
+.test:nth-child(3n):nth-child(n+10):nth-child(-n+20) {
+  height: 400px;
+}
+.test {
+  width: 200px;
+}
+.test:nth-child(3n):nth-child(n+10):nth-child(-n+20) {
+  height: 400px;
+}

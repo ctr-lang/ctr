@@ -1,0 +1,16 @@
+# File generated from ---> string.styl
+
+
+.test:::0:
+  $$:
+    spread: 10px
+  width: 200px
+  box-shadow: '-1.5em -1.5em 0 $spread$ green, -1.5em 1.5em 0 $spread$ blue'
+
+
+.test:::1:
+  $$:
+    spread: 10px
+  width: 200px
+  box-shadow: '-1.5em -1.5em 0 $spread$ green, -1.5em 1.5em 0 $spread$ blue'
+

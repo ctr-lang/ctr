@@ -1,0 +1,27 @@
+// File generated from ---> alpha.styl 
+
+ctrSetClass('$evalAlpha', {
+  // SYNTAX_YAML
+  $$:
+    base: red
+    bg: "alpha($base$, 0.2)"
+  background: "$bg$"
+  color: alpha(red, 0.2)
+})
+ctrSetClass('$evalAlpha', {
+  $$: {
+    base: red
+    bg: "alpha($base$, 0.2)"
+  }
+  background: "$bg$"
+  color: alpha(red, 0.2)
+})
+
+ctr('.test', {
+  // SYNTAX_YAML
+  extend: $evalAlpha
+})
+
+ctr('.test', {
+  extend: $evalAlpha
+})

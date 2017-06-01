@@ -1,0 +1,78 @@
+.test {
+  width: 400px;
+}
+.test:hover {
+  font-size: 8px;
+  transition-delay: 0s;
+  transition-duration: 0.5s;
+  transition-property: font-size;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test:not(:hover) {
+  transition-delay: 0s;
+  transition-duration: 0.5s;
+  transition-property: font-size;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+@media (min-width: 600px) and (max-width: 800px) {
+  .test:hover {
+    font-size: 10px;
+  }
+}
+@media (min-width: 800px) and (max-width: 1050px) {
+  .test:hover {
+    color: #f00;
+    font-size: 20px;
+    transition-delay: 0s, 0s;
+    transition-duration: 0.5s, 0.5s;
+    transition-property: font-size, color;
+    transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+  }
+}
+@media (min-width: 800px) and (max-width: 1050px) {
+  .test:not(:hover) {
+    transition-delay: 0s, 0s;
+    transition-duration: 0.5s, 0.5s;
+    transition-property: font-size, color;
+    transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+  }
+}
+.test {
+  width: 400px;
+}
+.test:hover {
+  font-size: 8px;
+  transition-delay: 0s;
+  transition-duration: 0.5s;
+  transition-property: font-size;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test:not(:hover) {
+  transition-delay: 0s;
+  transition-duration: 0.5s;
+  transition-property: font-size;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+@media (min-width: 600px) and (max-width: 800px) {
+  .test:hover {
+    font-size: 10px;
+  }
+}
+@media (min-width: 800px) and (max-width: 1050px) {
+  .test:hover {
+    color: #f00;
+    font-size: 20px;
+    transition-delay: 0s, 0s;
+    transition-duration: 0.5s, 0.5s;
+    transition-property: font-size, color;
+    transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+  }
+}
+@media (min-width: 800px) and (max-width: 1050px) {
+  .test:not(:hover) {
+    transition-delay: 0s, 0s;
+    transition-duration: 0.5s, 0.5s;
+    transition-property: font-size, color;
+    transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+  }
+}

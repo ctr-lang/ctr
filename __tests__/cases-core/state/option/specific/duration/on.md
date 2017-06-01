@@ -1,0 +1,1 @@
+__Description__: If there is a `duration: <value>` key/value pair in the `option` object within a `on` `state` object then said `duration` value should be applied to the `transition-duration` across all properties in `<selector>:<state>`

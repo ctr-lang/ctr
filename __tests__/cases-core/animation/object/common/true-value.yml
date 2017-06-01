@@ -1,0 +1,44 @@
+# File generated from ---> true-value.styl
+
+
+.test:::0:
+  width: 200px
+  animations:
+    common:
+      option:
+        duration: 2s
+        state: 'paused'
+      timeline:
+        '44':
+          opacity: 1
+        '66':
+          opacity: 0
+    one:
+      option:
+        name: 'tlOne'
+      timeline:
+        '50':
+          background: green
+    two: true
+
+
+.test:::1:
+  width: 200px
+  animations:
+    common:
+      option:
+        duration: 2s
+        state: 'paused'
+      timeline:
+        '44':
+          opacity: 1
+        '66':
+          opacity: 0
+    one:
+      option:
+        name: 'tlOne'
+      timeline:
+        '50':
+          background: green
+    two: true
+

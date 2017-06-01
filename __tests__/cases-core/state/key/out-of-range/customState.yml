@@ -1,0 +1,31 @@
+# File generated from ---> customState.styl
+
+
+.test:::0:
+  width: 200px
+  customState:
+    #  state: 'out-of-range'
+    key: 'out-of-range'
+    common:
+      option:
+        duration: 0.25s
+    on:
+      height: 300px
+    non:
+      height: 200px
+
+
+.test:::1:
+  width: 200px
+  customState:
+    option:
+      #  state: 'out-of-range'
+      key: 'out-of-range'
+    common:
+      option:
+        duration: 0.25s
+    on:
+      height: 300px
+    non:
+      height: 200px
+

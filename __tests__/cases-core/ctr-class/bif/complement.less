@@ -1,0 +1,27 @@
+// File generated from ---> complement.styl 
+
+ctrSetClass('$evalComplement', {
+  // SYNTAX_YAML
+  $$:
+    base: '#fd0cc7'
+    bg: "complement($base$)"
+  background: "$bg$"
+  color: 'complement(#fd0cc7)'
+})
+ctrSetClass('$evalComplement', {
+  $$: {
+    base: #fd0cc7
+    bg: "complement($base$)"
+  }
+  background: "$bg$"
+  color: complement(#fd0cc7)
+})
+
+ctr('.test', {
+  // SYNTAX_YAML
+  extend: $evalComplement
+})
+
+ctr('.test', {
+  extend: $evalComplement
+})

@@ -1,0 +1,1 @@
+__Description__: Any `option`'s defined in the `state` `option` object should be inherited by the `attribute` object although any `option`'s defined in the `attribute` object should supersede those `option`'s

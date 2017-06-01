@@ -1,0 +1,18 @@
+# File generated from ---> applyTo.styl
+
+
+.test:::0:
+  width: 200px
+  anim:
+    option:
+      applyTo: span
+    timeline: 'applyToTest'
+
+
+.test:::1:
+  width: 200px
+  anim:
+    option:
+      applyTo: span
+    timeline: 'applyToTest'
+

@@ -1,0 +1,33 @@
+.test
+  ctr({
+    width: 200px
+    comp: {
+      span: {
+        font-size: 20px
+        hover: {
+          font-size: 10px
+          //add trans to root
+          option: {
+            global: 'root'
+          }
+        }
+      }
+    }
+  })
+  
+
+ctr('.test', {
+  width: 200px
+  comp: {
+    span: {
+      font-size: 20px
+      hover: {
+        font-size: 10px
+        //add trans to root
+        option: {
+          global: 'root'
+        }
+      }
+    }
+  }
+})

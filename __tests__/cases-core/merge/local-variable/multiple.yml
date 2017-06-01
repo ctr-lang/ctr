@@ -1,0 +1,34 @@
+# File generated from ---> multiple.yml.styl
+
+
+.test:::0:
+  $$:
+    obj:
+      background: green
+      font-size: 10px
+    obj2:
+      hover:
+        on:
+          height: 200px
+  width: 200px
+  merge: [$obj$, $obj2$]
+  comp:
+    '.artisin':
+      merge: $obj2$
+
+
+.test:::1:
+  $$:
+    obj:
+      background: green
+      font-size: 10px
+    obj2:
+      hover:
+        on:
+          height: 200px
+  width: 200px
+  merge: [$obj$, $obj2$]
+  comp:
+    '.artisin':
+      merge: $obj2$
+

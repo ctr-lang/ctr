@@ -1,0 +1,32 @@
+# File generated from ---> mixed.styl
+
+
+.test:::0:
+  line-height: [responsive, 1rem, 3rem]
+  line-height-range: [420px, 1280px]
+
+
+.test:::1:
+  line-height: [responsive, 1rem, 3rem]
+  line-height-range: [20em, 60em]
+
+
+.test:::2:
+  line-height: [responsive, 1em, 3em]
+  line-height-range: [420px, 1280px]
+
+
+.test:::3:
+  line-height: [responsive, 1rem, 3rem]
+  line-height-range: [420px, 1280px]
+
+
+.test:::4:
+  line-height: [responsive, 1rem, 3rem]
+  line-height-range: [20em, 60em]
+
+
+.test:::5:
+  line-height: [responsive, 1em, 3em]
+  line-height-range: [420px, 1280px]
+

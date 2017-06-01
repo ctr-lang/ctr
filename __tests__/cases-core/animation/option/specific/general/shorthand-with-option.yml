@@ -1,0 +1,28 @@
+# File generated from ---> shorthand-with-option.styl
+
+
+.test:::0:
+  width: 400px
+  anim:
+    option:
+      state: paused
+      delay: 2s
+      shorthand:
+        kool: [1s, default, ease-in, 5]
+    timeline:
+      '50':
+        background: teal
+
+
+.test:::1:
+  width: 400px
+  anim:
+    option:
+      state: paused
+      delay: 2s
+      shorthand:
+        kool: [1s, default, ease-in, 5]
+    timeline:
+      '50':
+        background: teal
+

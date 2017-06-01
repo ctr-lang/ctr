@@ -1,0 +1,36 @@
+.test-1 {
+  font-size: 1em;
+}
+.test-1:hover {
+  color: #00f;
+  background: #f00;
+  border-color: #00f;
+  transition-delay: 0s, 222s, 0s;
+  transition-duration: 1s, 999s, 0.5s;
+  transition-property: background, color, border-color;
+  transition-timing-function: ease-in, ease-out, ease-out;
+}
+.test-1:not(:hover) {
+  transition-delay: 0s, 222s, 0s;
+  transition-duration: 1s, 999s, 0.5s;
+  transition-property: background, color, border-color;
+  transition-timing-function: ease-in, ease-out, ease-out;
+}
+.test-2 {
+  font-size: 1em;
+}
+.test-2:hover {
+  color: #00f;
+  background: #f00;
+  border-color: #00f;
+  transition-delay: 222s, 222s, 0s;
+  transition-duration: 1s, 999s, 0.5s;
+  transition-property: background, color, border-color;
+  transition-timing-function: ease-in, ease-out, ease-out;
+}
+.test-2:not(:hover) {
+  transition-delay: 222s, 222s, 0s;
+  transition-duration: 1s, 999s, 0.5s;
+  transition-property: background, color, border-color;
+  transition-timing-function: ease-in, ease-out, ease-out;
+}

@@ -1,0 +1,94 @@
+# File generated from ---> no-gutter.styl
+
+
+.test:::0:
+  grid:
+    column:
+      fraction: '2/5'
+      cycle: 3
+      gutter: 0
+
+
+.test:::1:
+  grid:
+    column:
+      fraction: '2/5'
+      cycle: 3
+      gutter: 0
+
+
+.test:::2:
+  grid:
+    column:
+      fraction: '2/5'
+      gutter: 0
+      cycle: 3
+      flex: false
+
+
+.test:::3:
+  grid:
+    column:
+      fraction: '2/5'
+      gutter: 0
+      cycle: 3
+      flex: false
+
+
+.test:::4:
+  grid:
+    # fraction cycle gutter flex
+    column: ['2/5', 3, '0']
+
+
+.test:::5:
+  grid:
+    # fraction cycle gutter flex
+    column: ['2/5', 3, '0']
+
+
+.test:::6:
+  grid:
+    # fraction cycle gutter flex
+    column: ['2/5', 3, '0', false]
+
+
+.test:::7:
+  grid:
+    # fraction cycle gutter flex
+    column: ['2/5', 3, '0', false]
+
+
+.test:::8:
+  grid:
+    column:
+      fraction: '2/5'
+      cycle: 3
+      gutter: false
+
+
+.test:::9:
+  grid:
+    column:
+      fraction: '2/5'
+      cycle: 3
+      gutter: false
+
+
+.test:::10:
+  grid:
+    column:
+      fraction: '2/5'
+      gutter: false
+      cycle: 3
+      flex: false
+
+
+.test:::11:
+  grid:
+    column:
+      fraction: '2/5'
+      gutter: false
+      cycle: 3
+      flex: false
+

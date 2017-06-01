@@ -1,0 +1,60 @@
+# File generated from ---> custom-gutter.styl
+
+
+.test:::0:
+  grid:
+    waffle:
+      fraction: '3/6'
+      cycle: '2'
+      gutter: '60px'
+
+
+.test:::1:
+  grid:
+    waffle:
+      fraction: '3/6'
+      cycle: '2'
+      gutter: '60px'
+
+
+.test:::2:
+  grid:
+    waffle:
+      fraction: '3/6'
+      cycle: '2'
+      gutter: '60px'
+      flex: false
+
+
+.test:::3:
+  grid:
+    waffle:
+      fraction: '3/6'
+      cycle: '2'
+      gutter: '60px'
+      flex: false
+
+
+.test:::4:
+  grid:
+    #  fraction cycle gutter flex
+    waffle: ['3/6', '2', '60px']
+
+
+.test:::5:
+  grid:
+    #  fraction cycle gutter flex
+    waffle: ['3/6', '2', '60px']
+
+
+.test:::6:
+  grid:
+    #  fraction cycle gutter flex
+    waffle: ['3/6', '2', '60px', false]
+
+
+.test:::7:
+  grid:
+    #  fraction cycle gutter flex
+    waffle: ['3/6', '2', '60px', false]
+

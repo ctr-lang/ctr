@@ -1,0 +1,18 @@
+ctrSetClass('$evalComplement', {
+  $$: {
+    base: #fd0cc7
+    bg: "complement($base$)"
+  }
+  background: "$bg$"
+  color: complement(#fd0cc7)
+})
+
+.test
+  ctr({
+    extend: $evalComplement
+  })
+
+ctr('.test', {
+  extend: $evalComplement
+})
+

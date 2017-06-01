@@ -1,0 +1,22 @@
+# File generated from ---> top-left.styl
+
+
+.test:::0:
+  width: 200px
+  align: 'top-left'
+
+
+.test:::1:
+  width: 200px
+  alignSelf: 'top-left'
+
+
+.test:::2:
+  width: 200px
+  align: 'tl'
+
+
+.test:::3:
+  width: 200px
+  alignSelf: 'tl'
+

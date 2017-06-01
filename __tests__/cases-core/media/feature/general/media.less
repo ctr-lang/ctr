@@ -1,0 +1,33 @@
+// File generated from ---> media.styl 
+
+ctr('.test', {
+  // SYNTAX_YAML
+  width: 200px
+  media:
+    'md':
+      width: 150px
+      media:
+        border-radius: 10px
+        query:
+          'min-height': 200px
+          'max-height': 500px
+  
+})
+  
+
+
+ctr('.test', {
+  width: 200px
+  media: {
+    'md': {
+      width: 150px
+      media: {
+        border-radius: 10px
+        query: {
+          'min-height': 200px
+          'max-height': 500px
+        }
+      }
+    }
+  }
+})

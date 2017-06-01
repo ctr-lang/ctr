@@ -1,0 +1,97 @@
+.test
+  ctr({
+    width: 200px
+    hover: {
+      on: {
+        height: 400px
+        //opts will be inherited by comp
+        option: {
+          duration: 2s
+          ease: 'easeInSine'
+          delay: 4s
+        }
+
+        before: {
+          content: 'on test'
+          font-size: 20px
+          color: red
+          option: {
+            //override
+            duration: 22s
+            shorthand: {
+              color: default default 'ease-out'
+            }
+          }
+        }
+      }
+      non: {
+        height: 200px
+        //opts will be inherited by comp
+        option: {
+          duration: 1s
+          ease: 'easeOutSine'
+          delay: 2s
+        }
+
+        before: {
+          content: 'non test'
+          font-size: 10px
+          color: blue
+          //shorthand
+          shorthand: {
+            //override
+            font-size: 10s 420s
+          }
+        }
+      }
+    }
+  })
+
+
+ctr('.test', {
+  width: 200px
+  hover: {
+    on: {
+      height: 400px
+      //opts will be inherited by comp
+      option: {
+        duration: 2s
+        ease: 'easeInSine'
+        delay: 4s
+      }
+
+      before: {
+        content: 'on test'
+        font-size: 20px
+        color: red
+        option: {
+          //override
+          duration: 22s
+          shorthand: {
+            color: default default 'ease-out'
+          }
+        }
+      }
+    }
+    non: {
+      height: 200px
+      //opts will be inherited by comp
+      option: {
+        duration: 1s
+        ease: 'easeOutSine'
+        delay: 2s
+      }
+
+      before: {
+        content: 'non test'
+        font-size: 10px
+        color: blue
+        //shorthand
+        shorthand: {
+          //override
+          font-size: 10s 420s
+        }
+      }
+    }
+  }
+})

@@ -1,0 +1,42 @@
+// File generated from ---> process-timeline.styl 
+
+ctr('.test', {
+  // SYNTAX_YAML
+  option:
+    //don't process timeline
+    global:
+      processTimeline: false
+  width: 400px
+  anim:
+    //name will be picked up from shorthand key
+    shorthand:
+      //dur, delay, ease, count, dir, mode, state
+      test: [1s, default, ease-in, 5, reverse, both, paused]
+    timeline:
+      '50':
+        background: teal
+  
+})
+
+
+ctr('.test', {
+  option: {
+    //don't process timeline
+    global: {
+      processTimeline: false
+    }
+  }
+  width: 400px
+  anim: {
+    //name will be picked up from shorthand key
+    shorthand: {
+      //dur, delay, ease, count, dir, mode, state
+      test: 1s default ease-in 5 reverse both paused
+    }
+    timeline: {
+      '50': {
+        background: teal
+      }
+    }
+  }
+})

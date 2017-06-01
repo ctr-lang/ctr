@@ -1,0 +1,30 @@
+.test {
+  width: 200px;
+}
+.test > .one {
+  font-size: 10px;
+}
+.test.oneChain {
+  font-size: 10px;
+}
+.test > .one.two {
+  font-size: 20px;
+}
+.test.oneChain.twoChain {
+  font-size: 20px;
+}
+.test {
+  width: 200px;
+}
+.test > .one {
+  font-size: 10px;
+}
+.test.oneChain {
+  font-size: 10px;
+}
+.test > .one.two {
+  font-size: 20px;
+}
+.test.oneChain.twoChain {
+  font-size: 20px;
+}

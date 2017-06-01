@@ -1,0 +1,19 @@
+// File generated from ---> shade.styl 
+
+ctr('.test', {
+  // SYNTAX_YAML
+  $$:
+    base: '#fd0cc7'
+    bg: "shade($base$, 66%)"
+  background: "$bg$"
+  color: 'shade(#fd0cc7,66%)'
+})
+
+ctr('.test', {
+  $$: {
+    base: '#fd0cc7'
+    bg: "shade($base$, 66%)"
+  }
+  background: "$bg$"
+  color: shade(#fd0cc7,66%)
+})

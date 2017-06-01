@@ -1,0 +1,26 @@
+# File generated from ---> global-option.yml.styl
+
+
+ctr:::setOption:
+  type:
+    rootSize: 18px
+    fontSize:
+      minSize: 1em
+      maxSize: 3em
+      minWidth: 300px
+      maxWidth: 900px
+
+
+.test:::0:
+  width: 200px
+  font-size: responsive
+  'comp-span':
+    font-size: responsive
+
+
+.test:::1:
+  width: 200px
+  font-size: responsive
+  'comp-span':
+    font-size: responsive
+

@@ -1,0 +1,26 @@
+# File generated from ---> multiple.styl
+
+
+.test:::0:
+  width: 200px
+  customState:
+    key: ['hover', 'active', 'link']
+    common:
+      duration: 2s
+    on:
+      height: 200px
+    non:
+      height: 100px
+
+
+.test:::1:
+  width: 200px
+  customState:
+    key: ['hover', 'active', 'link']
+    common:
+      duration: 2s
+    on:
+      height: 200px
+    non:
+      height: 100px
+

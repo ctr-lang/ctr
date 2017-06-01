@@ -1,0 +1,4 @@
+.test {
+  width: 200px;
+  error-msg: "$merge-var-not-found$";
+}

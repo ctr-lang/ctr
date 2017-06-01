@@ -1,0 +1,1 @@
+__Description__: If there is a `delay: <value>` key/value pair in the `option` object within a `on` or `non` `state` object then said `delay` value should be applied to the `transition-delay` across all properties in both `<selector>:<state>` and `<selector>:not(:<state>)`

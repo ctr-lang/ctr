@@ -1,0 +1,18 @@
+# File generated from ---> bounceOut.styl
+
+
+.test:::0:
+  width: 200px
+  height: 200px
+  background: teal
+  hover:
+    preset: 'bounceOut'
+
+
+.test:::1:
+  width: 200px
+  height: 200px
+  background: teal
+  hover:
+    preset: 'bounceOut'
+

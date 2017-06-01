@@ -1,0 +1,90 @@
+# File generated from ---> basic.styl
+
+
+.test:::0:
+  width: 400px
+  animation:
+    name: 'test'
+    timeline:
+      '50':
+        background: teal
+
+
+.test:::1:
+  width: 400px
+  animation:
+    name: 'test'
+    timeline:
+      '50':
+        background: teal
+
+
+.test:::2:
+  width: 400px
+  anim:
+    name: 'test'
+    tl:
+      '50':
+        background: teal
+
+
+.test:::3:
+  width: 400px
+  anim:
+    name: 'test'
+    tl:
+      '50':
+        background: teal
+
+
+.test:::4:
+  width: 400px
+  anim:
+    name: 'test'
+    tl:
+      '50%':
+        background: teal
+
+
+.test:::5:
+  width: 400px
+  anim:
+    name: 'test'
+    tl:
+      '50%':
+        background: teal
+
+
+.test:::6:
+  width: 400px
+  anim:
+    name: 'test'
+    tl:
+      'from':
+        font-size: 10px
+      'to':
+        font-size: 20px
+
+
+.test:::7:
+  width: 400px
+  anim:
+    name: 'test'
+    tl:
+      'from':
+        font-size: 10px
+      'to':
+        font-size: 20px
+
+
+.test:::8:
+  width: 400px
+  anim:
+    name: 'test'
+
+
+.test:::9:
+  width: 400px
+  anim:
+    name: 'test'
+

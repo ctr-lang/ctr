@@ -1,0 +1,64 @@
+.test {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.test {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.test {
+  position: relative;
+}
+.test > * {
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+.test {
+  position: relative;
+}
+.test > * {
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+.test {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.test {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.test {
+  position: relative;
+}
+.test > * {
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+.test {
+  position: relative;
+}
+.test > * {
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}

@@ -1,0 +1,85 @@
+.test
+  ctr({
+    width: 200px
+    animations: {
+      common: {
+        option: {
+          duration: 2s
+          state: 'paused'
+        }
+        timeline: {
+          '44': {
+            opacity: 1
+          }
+          '66': {
+            opacity: 0
+          }
+        }
+      }
+      one: {
+        option: {
+          //omit
+          omit: 'option.state' 'timeline.66'
+          name: 'tlOne'
+        }
+        timeline: {
+          '50': {
+            background: green
+          }
+        }
+      }
+      tlTwo: {
+        option: {
+          duration: 4s
+        }
+        timeline: {
+          '50': {
+            color: green
+          }
+        }
+      }
+    }
+  })
+
+
+ctr('.test', {
+  width: 200px
+  animations: {
+    common: {
+      option: {
+        duration: 2s
+        state: 'paused'
+      }
+      timeline: {
+        '44': {
+          opacity: 1
+        }
+        '66': {
+          opacity: 0
+        }
+      }
+    }
+    one: {
+      option: {
+        //omit
+        omit: 'option.state' 'timeline.66'
+        name: 'tlOne'
+      }
+      timeline: {
+        '50': {
+          background: green
+        }
+      }
+    }
+    tlTwo: {
+      option: {
+        duration: 4s
+      }
+      timeline: {
+        '50': {
+          color: green
+        }
+      }
+    }
+  }
+})

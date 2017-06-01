@@ -1,0 +1,32 @@
+# File generated from ---> basic-no-props.styl
+
+
+.test:::0:
+  width: 200px
+  hover:
+    on:
+      attribute:
+        key: '[data-role="test"]'
+        font-size: 20px
+        color: red
+    non:
+      attribute:
+        key: '[data-role="test"]'
+        font-size: 10px
+        color: blue
+
+
+.test:::1:
+  width: 200px
+  hover:
+    on:
+      attribute:
+        key: '[data-role="test"]'
+        font-size: 20px
+        color: red
+    non:
+      attribute:
+        key: '[data-role="test"]'
+        font-size: 10px
+        color: blue
+

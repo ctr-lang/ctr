@@ -1,0 +1,43 @@
+ctrSetOption({
+  global: {
+    transitionShorthand: true
+  }
+})
+
+.test
+  ctr({
+    size: 100px
+    states: {
+      hover: {
+        on: {
+          background: red
+        }
+        non: {
+          background: green
+        }
+      }
+      active: {
+        //auto gen
+        color: red
+      }
+    }
+  })
+
+ctr('.test', {
+  size: 100px
+  states: {
+    hover: {
+      on: {
+        background: red
+      }
+      non: {
+        background: green
+      }
+    }
+    active: {
+      //auto gen
+      color: red
+    }
+  }
+})
+

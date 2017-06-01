@@ -1,0 +1,26 @@
+# File generated from ---> non-with-common.styl
+
+
+.test:::0:
+  width: 200px
+  media:
+    'md':
+      width: 150px
+      hover:
+        common:
+          background: green
+        non:
+          font-size: 20px
+
+
+.test:::1:
+  width: 200px
+  media:
+    'md':
+      width: 150px
+      hover:
+        common:
+          background: green
+        non:
+          font-size: 20px
+

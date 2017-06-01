@@ -1,0 +1,16 @@
+.test {
+  width: 200px;
+}
+.test[data-role="test"] {
+  width: 400px;
+  height: 400px;
+  font-size: 10px;
+}
+.test {
+  width: 200px;
+}
+.test[data-role="test"] {
+  width: 400px;
+  height: 400px;
+  font-size: 10px;
+}

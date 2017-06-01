@@ -1,0 +1,114 @@
+.test {
+  z-index: 0;
+  color: #fff;
+  height: 60px;
+  margin: 0rem;
+  width: 200px;
+  padding: 0rem;
+  border: initial;
+  cursor: pointer;
+  font-size: 1rem;
+  overflow: hidden;
+  line-height: 60px;
+  border-radius: 4px;
+  position: relative;
+  text-align: center;
+  background: #2196f3;
+  box-shadow: initial;
+  font-family: initial;
+  font-weight: initial;
+  text-decoration: none;
+  vertical-align: middle;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-backface-visibility: hidden;
+}
+.test {
+  -webkit-backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  vertical-align: middle;
+  text-decoration: none;
+  font-weight: initial;
+  font-family: initial;
+  box-shadow: initial;
+  background: #2196f3;
+  text-align: center;
+  position: relative;
+  border-radius: 4px;
+  line-height: 60px;
+  overflow: hidden;
+  font-size: 1rem;
+  cursor: pointer;
+  border: initial;
+  padding: 0rem;
+  width: 200px;
+  margin: 0rem;
+  height: 60px;
+  color: #fff;
+  z-index: 0;
+}
+.test {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  background: #2196f3;
+  border: initial;
+  border-radius: 4px;
+  box-shadow: initial;
+  color: #fff;
+  cursor: pointer;
+  font-family: initial;
+  font-size: 1rem;
+  font-weight: initial;
+  height: 60px;
+  line-height: 60px;
+  margin: 0rem;
+  overflow: hidden;
+  padding: 0rem;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transform: translateZ(0);
+  vertical-align: middle;
+  width: 200px;
+  z-index: 0;
+}
+.test {
+  z-index: 0;
+  width: 200px;
+  vertical-align: middle;
+  transform: translateZ(0);
+  text-decoration: none;
+  text-align: center;
+  position: relative;
+  padding: 0rem;
+  overflow: hidden;
+  margin: 0rem;
+  line-height: 60px;
+  height: 60px;
+  font-weight: initial;
+  font-size: 1rem;
+  font-family: initial;
+  cursor: pointer;
+  color: #fff;
+  box-shadow: initial;
+  border-radius: 4px;
+  border: initial;
+  background: #2196f3;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+}
+.test {
+  border-radius: 10px;
+  color: #f00;
+  background: #f00;
+}
+.test {
+  background: #f00;
+  border-radius: 10px;
+  color: #f00;
+}

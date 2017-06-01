@@ -1,0 +1,37 @@
+// File generated from ---> on-non-static.styl 
+
+ctr('.test', {
+  // SYNTAX_YAML
+  width: 200px
+  media:
+    'md':
+      width: 150px
+      hover:
+        static:
+          background: green
+        on:
+          font-size: 20px
+        non:
+          font-size: 10px
+  
+})
+
+ctr('.test', {
+  width: 200px
+  media: {
+    'md': {
+      width: 150px
+      hover: {
+        static: {
+          background: green
+        }
+        on: {
+          font-size: 20px
+        }
+        non: {
+          font-size: 10px
+        }
+      }
+    }
+  }
+})

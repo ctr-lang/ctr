@@ -1,0 +1,18 @@
+.test {
+  width: 200px;
+}
+.test:visited {
+  height: 300px;
+}
+.test:not(:visited) {
+  height: 200px;
+}
+.test {
+  width: 200px;
+}
+.test:visited {
+  height: 300px;
+}
+.test:not(:visited) {
+  height: 200px;
+}

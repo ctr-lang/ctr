@@ -1,0 +1,29 @@
+.test
+  ctr({
+    width: 200px
+    component: {
+      'div': {
+        attribute: {
+          font-size: 10px
+          option: {
+            key: '[title~="test"]'
+          }
+        }
+      }
+    }
+  })
+
+
+ctr('.test', {
+  width: 200px
+  component: {
+    'div': {
+      attribute: {
+        font-size: 10px
+        option: {
+          key: '[title~="test"]'
+        }
+      }
+    }
+  }
+})

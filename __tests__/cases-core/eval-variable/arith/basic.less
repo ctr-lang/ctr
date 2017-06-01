@@ -1,0 +1,27 @@
+// File generated from ---> basic.styl 
+
+ctr('.test', {
+  // SYNTAX_YAML
+  $$:
+    base: 10
+    mult: 2
+    eval:
+      // 10 * 2 = 20
+      //need to append px
+      width: 'arith($base$ * $mult$)px'
+  width: '$eval.width$'
+})
+
+
+ctr('.test', {
+  $$: {
+    base: 10
+    mult: 2
+    eval: {
+      // 10 * 2 = 20
+      //need to append px
+      width: 'arith($base$ * $mult$)px'
+    }
+  }
+  width: '$eval.width$'
+})

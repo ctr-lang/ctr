@@ -1,0 +1,20 @@
+.test-1 {
+  width: 200px;
+  height: 400px;
+  background: #f00;
+}
+.TEST-2 {
+  WIDTH: 200PX;
+  HEIGHT: 400PX;
+  BACKGROUND: #F00;
+}
+.TEST-3 {
+  WIDTH: 200PX;
+  HEIGHT: 400PX;
+  BACKGROUND: #F00;
+}
+.test-4 {
+  width: 200px;
+  height: 400px;
+  background-color: #f00;
+}

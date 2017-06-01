@@ -1,0 +1,70 @@
+# File generated from ---> shorthand.styl
+
+
+.test:::0:
+  width: 200px
+  states:
+    common:
+      opacity: 1
+      shorthand:
+        opacity: 99s
+        border-radius: true
+    hover:
+      option:
+        duration: 420s
+      on:
+        background: red
+      non:
+        background: green
+        option:
+          ease: 'ease-out'
+    active:
+      # auto gen, as in it needs to
+      # gen color: [red, on, active, but]
+      # not on not(:active)
+      color: red
+      shorthand:
+        color: 100s
+    holyState:
+      on:
+        font-size: 10px
+      non:
+        font-size: 20px
+      option:
+        # will be key
+        key: 'link'
+
+
+.test:::1:
+  width: 200px
+  states:
+    common:
+      opacity: 1
+      shorthand:
+        opacity: 99s
+        border-radius: true
+    hover:
+      option:
+        duration: 420s
+      on:
+        background: red
+      non:
+        background: green
+        option:
+          ease: 'ease-out'
+    active:
+      # auto gen, as in it needs to
+      # gen color: [red, on, active, but]
+      # not on not(:active)
+      color: red
+      shorthand:
+        color: 100s
+    holyState:
+      on:
+        font-size: 10px
+      non:
+        font-size: 20px
+      option:
+        # will be key
+        key: 'link'
+

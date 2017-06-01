@@ -1,0 +1,29 @@
+ctrSetOption({
+  type: {
+    rootSize: 18px
+    letterSpacing: {
+      minSize: 1em
+      maxSize: 3em
+      minWidth: 300px
+      maxWidth: 900px
+    }
+  }
+})
+
+
+.test
+  ctr({
+    width: 200px
+    letter-spacing: responsive
+    'comp-span': {
+      letter-spacing: responsive
+    }
+  })
+
+ctr('.test', {
+  width: 200px
+  letter-spacing: responsive
+  'comp-span': {
+    letter-spacing: responsive
+  }
+})

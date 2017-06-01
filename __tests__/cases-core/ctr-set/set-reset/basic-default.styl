@@ -1,0 +1,44 @@
+//set vars
+ctrSetVariable({
+  size: 400px
+  color: red
+})
+
+ctrSetOption({
+  hover: {
+    duration: 10s
+  }
+})
+
+ctr('.test-1', {
+  size: '$size$'
+  color: '$color$'
+  hover: {
+    background: green
+  }
+})
+
+//reset
+ctrSetReset({
+  //resets, but then sets them back to new values
+  variable: {
+    size: 200px
+    color: blue
+  }
+  option: {
+    hover: {
+      duration: 20s
+    }
+  }
+})
+
+ctr('.test-2', {
+  size: '$size$'
+  color: '$color$'
+  hover: {
+    background: green
+  }
+})
+
+
+

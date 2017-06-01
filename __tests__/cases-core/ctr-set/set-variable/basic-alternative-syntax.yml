@@ -1,0 +1,13 @@
+# alternative syntax for ctrSetVar
+ctr:::setVar:
+  height: 50px
+  top: 100
+  color: red
+
+# should pick up above vars
+.test:
+  width: 200px
+  height: '$height$'
+  color: '$color$'
+  top: '$top$'
+

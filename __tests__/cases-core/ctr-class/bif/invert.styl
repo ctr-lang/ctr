@@ -1,0 +1,17 @@
+ctrSetClass('$evalInvert', {
+  $$: {
+    base: #d62828
+    bg: "invert($base$)"
+  }
+  background: "$bg$"
+  color: invert(#d62828)
+})
+
+.test
+  ctr({
+    extend: $evalInvert
+  })
+
+ctr('.test', {
+  extend: $evalInvert
+})

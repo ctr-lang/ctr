@@ -1,0 +1,1 @@
+__Description__: If there is a `shorthand` specified for a property but there is also an `transition: false` key/value pair it should still generate `transition` properties for the defined `shorthand`

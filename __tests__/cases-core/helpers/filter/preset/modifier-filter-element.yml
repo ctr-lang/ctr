@@ -1,0 +1,44 @@
+# File generated from ---> modifier-filter-element.styl
+
+
+.test:::0:
+  width: 600px
+  filter:
+    preset: '1977'
+    #  remove
+    brightness: false
+    #  modify
+    contrast: 0.888
+    #  new
+    grayscale: 50%
+    #  element modify
+    before:
+      width: 25%
+    after:
+      width: 25%
+    #  targer compoent
+    component:
+      option:
+        key: 'svg'
+
+
+.test:::1:
+  width: 600px
+  filter:
+    preset: '1977'
+    #  remove
+    brightness: false
+    #  modify
+    contrast: 0.888
+    #  new
+    grayscale: 50%
+    #  element modify
+    before:
+      width: 25%
+    after:
+      width: 25%
+    #  targer compoent
+    component:
+      option:
+        key: 'svg'
+

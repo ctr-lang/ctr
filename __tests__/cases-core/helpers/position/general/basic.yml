@@ -1,0 +1,98 @@
+# File generated from ---> basic.styl
+
+
+.test:::0:
+  width: 200px
+  # position: [[type], [1], [1], [1], [1]]
+  position: [absolute, 10px]
+
+
+.test:::1:
+  width: 200px
+  # position: [[type], [1], [2], [1], [2]]
+  position: [absolute, 10px, 20px]
+
+
+.test:::2:
+  width: 200px
+  # position: [[type], [1], [2], [3], [2]]
+  position: [absolute, 10px, 20px, 30px]
+
+
+.test:::3:
+  width: 200px
+  # position: [[type], [1], [2], [3], [4]]
+  position: [absolute, 10px, 20px, 30px, 40px]
+
+
+.test:::4:
+  width: 200px
+  # position: [[type], [1], [1], [1], [1]]
+  position: [absolute, 10px]
+
+
+.test:::5:
+  width: 200px
+  # position: [[type], [1], [2], [1], [2]]
+  position: [absolute, 10px, 20px]
+
+
+.test:::6:
+  width: 200px
+  # position: [[type], [1], [2], [3], [2]]
+  position: [absolute, 10px, 20px, 30px]
+
+
+.test:::7:
+  width: 200px
+  # position: [[type], [1], [2], [3], [4]]
+  position: [absolute, 10px, 20px, 30px, 40px]
+
+
+.test:::8:
+  width: 200px
+  # position: [[type], [1], [1], [1], [1]]
+  position: [fixed, 10px]
+
+
+.test:::9:
+  width: 200px
+  # position: [[type], [1], [2], [1], [2]]
+  position: [fixed, 10px, 20px]
+
+
+.test:::10:
+  width: 200px
+  # position: [[type], [1], [2], [3], [2]]
+  position: [fixed, 10px, 20px, 30px]
+
+
+.test:::11:
+  width: 200px
+  # position: [[type], [1], [2], [3], [4]]
+  position: [fixed, 10px, 20px, 30px, 40px]
+
+
+.test:::12:
+  width: 200px
+  # position: [[type], [1], [1], [1], [1]]
+  position: [fixed, 10px]
+
+
+.test:::13:
+  width: 200px
+  # position: [[type], [1], [2], [1], [2]]
+  position: [fixed, 10px, 20px]
+
+
+.test:::14:
+  width: 200px
+  # position: [[type], [1], [2], [3], [2]]
+  position: [fixed, 10px, 20px, 30px]
+
+
+.test:::15:
+  width: 200px
+  # position: [[type], [1], [2], [3], [4]]
+  position: [fixed, 10px, 20px, 30px, 40px]
+

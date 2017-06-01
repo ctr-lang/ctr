@@ -1,0 +1,31 @@
+// File generated from ---> once.less-yml.styl
+
+ctr('.test-1', {
+  // SYNTAX_YAML
+  width: 200px
+  hover-on:
+    height: 400px
+})
+
+ctrSetOption({
+  // SYNTAX_YAML
+  hover:
+    duration: 10s
+  set:::option:
+    once: true
+})
+
+ctr('.test-2', {
+  // SYNTAX_YAML
+  width: 200px
+  hover-on:
+    height: 400px
+})
+
+// should === .test-1
+ctr('.test-3', {
+  // SYNTAX_YAML
+  width: 200px
+  hover-on:
+    height: 400px
+})

@@ -1,0 +1,24 @@
+.test
+  ctr({
+    $$: {
+      spread: 10px
+      len: 1.5em
+      eval: {
+        nLen: 'kalc($len$ * -1)'
+      }
+    }
+    width: 200px
+    box-shadow: '$eval.nLen$ $eval.nLen$ 0 $spread$ green, $eval.nLen$ $len$ 0 $spread$ blue'
+  })
+
+ctr('.test', {
+  $$: {
+    spread: 10px
+    len: 1.5em
+    eval: {
+      nLen: 'kalc($len$ * -1)'
+    }
+  }
+  width: 200px
+  box-shadow: '$eval.nLen$ $eval.nLen$ 0 $spread$ green, $eval.nLen$ $len$ 0 $spread$ blue'
+})

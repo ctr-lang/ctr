@@ -1,0 +1,58 @@
+# File generated from ---> top-center.styl
+
+
+.test:::0:
+  grid:
+    align:
+      location: 'top-center'
+
+
+.test:::1:
+  grid:
+    align:
+      location: 'top-center'
+
+
+.test:::2:
+  grid:
+    align:
+      location: 'top-center'
+      flex: false
+
+
+.test:::3:
+  grid:
+    align:
+      location: 'top-center'
+      flex: false
+
+
+.test:::4:
+  grid:
+    align: 'top-center'
+
+
+.test:::5:
+  grid:
+    align: ['top-center', ]
+
+
+.test:::6:
+  grid:
+    align: ['top-center', false]
+
+
+.test:::7:
+  grid:
+    align: ['top-center', false]
+
+
+.test:::8:
+  grid:
+    align: 'tc'
+
+
+.test:::9:
+  grid:
+    align: 'tc'
+

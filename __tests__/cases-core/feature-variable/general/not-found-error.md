@@ -1,0 +1,1 @@
+__Description__: Should throw error and return `$var-not-found$` if local var not found

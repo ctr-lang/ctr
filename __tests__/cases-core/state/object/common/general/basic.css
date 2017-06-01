@@ -1,0 +1,168 @@
+.test {
+  width: 200px;
+}
+.test:hover {
+  opacity: 1;
+  background: #f00;
+  transition-delay: 22s, 22s;
+  transition-duration: 420s, 420s;
+  transition-property: background, opacity;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test:not(:hover) {
+  opacity: 0.5;
+  background: #008000;
+  transition-delay: 22s, 22s;
+  transition-duration: 420s, 420s;
+  transition-property: background, opacity;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test:active {
+  opacity: 1;
+  color: #f00;
+  transition-delay: 22s, 22s;
+  transition-duration: 100s, 2s;
+  transition-property: color, opacity;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test:not(:active) {
+  opacity: 0.5;
+  transition-delay: 22s, 22s;
+  transition-duration: 100s, 2s;
+  transition-property: color, opacity;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test:link {
+  opacity: 1;
+  font-size: 10px;
+}
+.test:not(:link) {
+  opacity: 0.5;
+  font-size: 20px;
+}
+.test {
+  width: 200px;
+}
+.test:hover {
+  opacity: 1;
+  background: #f00;
+  transition-delay: 22s, 22s;
+  transition-duration: 420s, 420s;
+  transition-property: background, opacity;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test:not(:hover) {
+  opacity: 0.5;
+  background: #008000;
+  transition-delay: 22s, 22s;
+  transition-duration: 420s, 420s;
+  transition-property: background, opacity;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test:active {
+  opacity: 1;
+  color: #f00;
+  transition-delay: 22s, 22s;
+  transition-duration: 100s, 2s;
+  transition-property: color, opacity;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test:not(:active) {
+  opacity: 0.5;
+  transition-delay: 22s, 22s;
+  transition-duration: 100s, 2s;
+  transition-property: color, opacity;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test:link {
+  opacity: 1;
+  font-size: 10px;
+}
+.test:not(:link) {
+  opacity: 0.5;
+  font-size: 20px;
+}
+.test {
+  width: 200px;
+}
+.test:hover {
+  opacity: 1;
+  background: #f00;
+  transition-delay: 22s, 22s;
+  transition-duration: 420s, 420s;
+  transition-property: background, opacity;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test:not(:hover) {
+  opacity: 0.5;
+  background: #008000;
+  transition-delay: 22s, 22s;
+  transition-duration: 420s, 420s;
+  transition-property: background, opacity;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test:active {
+  opacity: 1;
+  color: #f00;
+  transition-delay: 22s, 22s;
+  transition-duration: 100s, 2s;
+  transition-property: color, opacity;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test:not(:active) {
+  opacity: 0.5;
+  transition-delay: 22s, 22s;
+  transition-duration: 100s, 2s;
+  transition-property: color, opacity;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test:link {
+  opacity: 1;
+  font-size: 10px;
+}
+.test:not(:link) {
+  opacity: 0.5;
+  font-size: 20px;
+}
+.test {
+  width: 200px;
+}
+.test:hover {
+  opacity: 1;
+  background: #f00;
+  transition-delay: 22s, 22s;
+  transition-duration: 420s, 420s;
+  transition-property: background, opacity;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test:not(:hover) {
+  opacity: 0.5;
+  background: #008000;
+  transition-delay: 22s, 22s;
+  transition-duration: 420s, 420s;
+  transition-property: background, opacity;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test:active {
+  opacity: 1;
+  color: #f00;
+  transition-delay: 22s, 22s;
+  transition-duration: 100s, 2s;
+  transition-property: color, opacity;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test:not(:active) {
+  opacity: 0.5;
+  transition-delay: 22s, 22s;
+  transition-duration: 100s, 2s;
+  transition-property: color, opacity;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test:link {
+  opacity: 1;
+  font-size: 10px;
+}
+.test:not(:link) {
+  opacity: 0.5;
+  font-size: 20px;
+}

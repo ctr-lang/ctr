@@ -1,0 +1,23 @@
+// File generated from ---> basic.styl 
+
+ctr('.test', {
+  // SYNTAX_YAML
+  $$:
+    obj:
+      background: green
+      font-size: 10px
+  width: 200px
+  merge: '$obj$'
+})
+
+
+ctr('.test', {
+  $$: {
+    obj: {
+      background: green
+      font-size: 10px
+    }
+  }
+  width: 200px
+  merge: '$obj$'
+})

@@ -1,0 +1,39 @@
+// File generated from ---> custom-gutter-flexbox.styl 
+
+//!important!, there's a code conflict
+//in the lost library as to what the gutter
+//and fraction actually define
+
+ctr('.test', {
+  // SYNTAX_YAML
+  grid:
+    masonry-column:
+      gutter: 60px
+      //default === true
+      // flex: true
+  
+})
+
+ctr('.test', {
+  grid: {
+    masonry-column: {
+      gutter: 60px
+      //default === true
+      // flex: true
+    }
+  }
+})
+
+ctr('.test', {
+  // SYNTAX_YAML
+  grid:
+    masonry-column: [default, 60px, true]
+  
+})
+
+
+ctr('.test', {
+  grid: {
+    masonry-column: default 60px true
+  }
+})

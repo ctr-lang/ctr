@@ -1,0 +1,66 @@
+.test {
+  width: 200px;
+}
+.test:hover {
+  animation-delay: 0s, 0s;
+  animation-duration: 0.5s, 0.5s;
+  animation-iteration-count: 1, 1;
+  animation-fill-mode: none, none;
+  animation-name: beerOne, beerTwo;
+  animation-direction: normal, normal;
+  animation-play-state: running, running;
+  animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test:not(:hover) {
+  animation-delay: 0s, 2s;
+  animation-duration: 1s, 0.5s;
+  animation-iteration-count: 1, 1;
+  animation-fill-mode: none, none;
+  animation-name: beerOne, beerTwo;
+  animation-direction: normal, normal;
+  animation-play-state: running, running;
+  animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+}
+@keyframes beerOne {
+  50% {
+    color: #f00;
+  }
+}
+@keyframes beerTwo {
+  50% {
+    background: #f00;
+  }
+}
+.test {
+  width: 200px;
+}
+.test:hover {
+  animation-delay: 0s, 0s;
+  animation-duration: 0.5s, 0.5s;
+  animation-iteration-count: 1, 1;
+  animation-fill-mode: none, none;
+  animation-name: beerOne, beerTwo;
+  animation-direction: normal, normal;
+  animation-play-state: running, running;
+  animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test:not(:hover) {
+  animation-delay: 0s, 2s;
+  animation-duration: 1s, 0.5s;
+  animation-iteration-count: 1, 1;
+  animation-fill-mode: none, none;
+  animation-name: beerOne, beerTwo;
+  animation-direction: normal, normal;
+  animation-play-state: running, running;
+  animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+}
+@keyframes beerOne {
+  50% {
+    color: #f00;
+  }
+}
+@keyframes beerTwo {
+  50% {
+    background: #f00;
+  }
+}

@@ -1,0 +1,22 @@
+.test
+  ctr({
+    $$: {
+      base: 200
+      units: 'px'
+      // no need to use eval to ref above vars in yaml
+      width: '$base$$units$'
+    }
+    width: '$width$'
+  })
+
+
+ctr('.test', {
+  $$: {
+    base: 200
+    units: 'px'
+    // no need to use eval to ref above vars in yaml
+    width: '$base$$units$'
+  }
+  width: '$width$'
+})
+

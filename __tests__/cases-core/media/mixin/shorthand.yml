@@ -1,0 +1,44 @@
+# File generated from ---> shorthand.styl
+
+
+.test:::0:
+  width: 200px
+  media:
+    width: 100px
+    query: 'xs'
+
+
+.test:::1:
+  width: 200px
+  media:
+    width: 100px
+    query: 'xs'
+
+
+.test:::2:
+  width: 200px
+  media:
+    width: 100px
+    query: 'md'
+
+
+.test:::3:
+  width: 200px
+  media:
+    width: 100px
+    query: 'md'
+
+
+.test:::4:
+  width: 200px
+  media:
+    width: 100px
+    query: 'hd'
+
+
+.test:::5:
+  width: 200px
+  media:
+    width: 100px
+    query: 'hd'
+

@@ -1,0 +1,1 @@
+__Description__: If `attachTo` key is not found throw error, telling user so. Also list the avalible `attachTo` keys so the user knows whats up, dog.

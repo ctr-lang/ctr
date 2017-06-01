@@ -1,0 +1,50 @@
+# File generated from ---> option-properties.styl
+
+
+.test:::0:
+  width: 200px
+  anim:
+    option:
+      name: 'test'
+      # animation-delay
+      delay: 100s
+      # animation-fill-mode
+      mode: forwards
+      # animation-play-state
+      state: paused
+      # animation-duration
+      duration: 200s
+      # animation-direction
+      direction: normal
+      # animation-timing-function
+      ease: ease-out
+      # animation-iteration-count
+      count: 420
+    tl:
+      '50':
+        width: 400px
+
+
+.test:::1:
+  width: 200px
+  anim:
+    option:
+      name: 'test'
+      # animation-delay
+      delay: 100s
+      # animation-fill-mode
+      mode: forwards
+      # animation-play-state
+      state: paused
+      # animation-duration
+      duration: 200s
+      # animation-direction
+      direction: normal
+      # animation-timing-function
+      ease: ease-out
+      # animation-iteration-count
+      count: 420
+    tl:
+      '50':
+        width: 400px
+

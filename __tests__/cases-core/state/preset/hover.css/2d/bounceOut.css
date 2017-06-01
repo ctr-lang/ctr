@@ -1,0 +1,58 @@
+.test {
+  width: 200px;
+  height: 200px;
+  background: #008080;
+}
+.test:hover {
+  transition-delay: 0s;
+  display: inline-block;
+  transform: scale(0.8);
+  vertical-align: middle;
+  transition-duration: 0.5s;
+  backface-visibility: hidden;
+  transition-property: transform;
+  -moz-osx-font-smoothing: grayscale;
+  box-shadow: 0 0 1px rgba(0,0,0,0);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+.test:not(:hover) {
+  transition-delay: 0s;
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  transition-duration: 0.5s;
+  backface-visibility: hidden;
+  transition-property: transform;
+  -moz-osx-font-smoothing: grayscale;
+  box-shadow: 0 0 1px rgba(0,0,0,0);
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test {
+  width: 200px;
+  height: 200px;
+  background: #008080;
+}
+.test:hover {
+  transition-delay: 0s;
+  display: inline-block;
+  transform: scale(0.8);
+  vertical-align: middle;
+  transition-duration: 0.5s;
+  backface-visibility: hidden;
+  transition-property: transform;
+  -moz-osx-font-smoothing: grayscale;
+  box-shadow: 0 0 1px rgba(0,0,0,0);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+.test:not(:hover) {
+  transition-delay: 0s;
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  transition-duration: 0.5s;
+  backface-visibility: hidden;
+  transition-property: transform;
+  -moz-osx-font-smoothing: grayscale;
+  box-shadow: 0 0 1px rgba(0,0,0,0);
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}

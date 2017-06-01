@@ -1,0 +1,60 @@
+ctrSetOption({
+  global: {
+    animationShorthand: true
+  }
+})
+
+.test
+  ctr({
+    size: 100px
+    background: gray
+    animations: {
+      one: {
+        tl: {
+          '25': {
+            background: red
+          }
+          '75': {
+            background: blue
+          }
+        }
+      }
+      two: {
+        tl: {
+          '25': {
+            color: red
+          }
+          '75': {
+            color: blue
+          }
+        }
+      }
+    }
+  })
+
+ctr('.test', {
+  size: 100px
+  background: gray
+  animations: {
+    one: {
+      tl: {
+        '25': {
+          background: red
+        }
+        '75': {
+          background: blue
+        }
+      }
+    }
+    two: {
+      tl: {
+        '25': {
+          color: red
+        }
+        '75': {
+          color: blue
+        }
+      }
+    }
+  }
+})

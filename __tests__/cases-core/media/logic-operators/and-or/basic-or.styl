@@ -1,0 +1,53 @@
+.test
+  ctr({
+    background: teal
+    media: {
+      background: red
+      query: {
+        orCond: {
+          min-height: 200px
+          max-height: 300px
+        }
+      }
+    }
+  })
+
+.test
+  ctr({
+    background: teal
+    media: {
+      background: red
+      query: {
+        orCondition: {
+          min-height: 200px
+          max-height: 300px
+        }
+      }
+    }
+  })
+
+ctr('.test', {
+  background: teal
+  media: {
+    background: red
+    query: {
+      orCond: {
+        min-height: 200px
+        max-height: 300px
+      }
+    }
+  }
+})
+
+ctr('.test', {
+  background: teal
+  media: {
+    background: red
+    query: {
+      orCondition: {
+        min-height: 200px
+        max-height: 300px
+      }
+    }
+  }
+})

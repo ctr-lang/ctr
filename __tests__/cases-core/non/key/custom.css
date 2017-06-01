@@ -1,0 +1,24 @@
+.test {
+  width: 200px;
+}
+.test:not(p) {
+  font-size: 10px;
+}
+.test {
+  width: 200px;
+}
+.test:not(p) {
+  font-size: 10px;
+}
+.test {
+  width: 200px;
+}
+.test:not(p) {
+  font-size: 10px;
+}
+.test {
+  width: 200px;
+}
+.test:not(p) {
+  font-size: 10px;
+}

@@ -1,0 +1,1 @@
+__Description__: If `commentFile` is a string by the global option, use it as the comment file loc

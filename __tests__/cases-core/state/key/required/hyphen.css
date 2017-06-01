@@ -1,0 +1,18 @@
+.test {
+  width: 200px;
+}
+.test:required {
+  height: 300px;
+}
+.test:not(:required) {
+  height: 200px;
+}
+.test {
+  width: 200px;
+}
+.test:required {
+  height: 300px;
+}
+.test:not(:required) {
+  height: 200px;
+}

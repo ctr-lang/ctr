@@ -1,0 +1,80 @@
+.test {
+  animation-delay: 0s, 100s;
+  animation-name: tlOne, tlTwo;
+  animation-duration: 1s, 0.5s;
+  animation-fill-mode: none, none;
+  animation-iteration-count: 10, 1;
+  animation-direction: normal, normal;
+  animation-play-state: running, running;
+  animation-timing-function: ease-in, ease-out;
+}
+@keyframes tlOne {
+  50% {
+    background: #800080;
+  }
+}
+@keyframes tlTwo {
+  50% {
+    color: #ff0;
+  }
+}
+.test {
+  animation-delay: 0s, 100s;
+  animation-name: tlOne, tlTwo;
+  animation-duration: 1s, 0.5s;
+  animation-fill-mode: none, none;
+  animation-iteration-count: 10, 1;
+  animation-direction: normal, normal;
+  animation-play-state: running, running;
+  animation-timing-function: ease-in, ease-out;
+}
+@keyframes tlOne {
+  50% {
+    background: #800080;
+  }
+}
+@keyframes tlTwo {
+  50% {
+    color: #ff0;
+  }
+}
+.test {
+  animation-delay: 0s, 100s;
+  animation-name: tlOne, tlTwo;
+  animation-duration: 1s, 0.5s;
+  animation-fill-mode: none, none;
+  animation-iteration-count: 10, 1;
+  animation-direction: normal, normal;
+  animation-play-state: running, running;
+  animation-timing-function: ease-in, ease-out;
+}
+@keyframes tlOne {
+  50% {
+    background: #800080;
+  }
+}
+@keyframes tlTwo {
+  50% {
+    color: #ff0;
+  }
+}
+.test {
+  animation-delay: 0s, 100s;
+  animation-name: tlOne, tlTwo;
+  animation-duration: 1s, 0.5s;
+  animation-fill-mode: none, none;
+  animation-iteration-count: 10, 1;
+  animation-direction: normal, normal;
+  animation-play-state: running, running;
+  animation-timing-function: ease-in, ease-out;
+}
+@keyframes tlOne {
+  50% {
+    background: #800080;
+  }
+}
+@keyframes tlTwo {
+  50% {
+    color: #ff0;
+  }
+}

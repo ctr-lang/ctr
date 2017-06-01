@@ -1,0 +1,1 @@
+__Description__: If there is a `global: true` key/value pair within the option object rather than the typical behavior of create `<selector>:not(:<state>)` it will move the `non` transition properties onto the compoent level where its specified and it should work with `attachTo` aswell

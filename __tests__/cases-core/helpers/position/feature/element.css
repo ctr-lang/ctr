@@ -1,0 +1,24 @@
+.test {
+  width: 200px;
+}
+.test::before {
+  top: 1111px;
+  left: 2222px;
+  right: 2222px;
+  bottom: 1111px;
+  content: "test";
+  font-size: 1111px;
+  position: absolute;
+}
+.test {
+  width: 200px;
+}
+.test::before {
+  top: 1111px;
+  left: 2222px;
+  right: 2222px;
+  bottom: 1111px;
+  content: "test";
+  font-size: 1111px;
+  position: absolute;
+}

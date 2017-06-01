@@ -1,0 +1,43 @@
+.test
+  ctr({
+    width: 200px
+    component: {
+      'div': {
+        attribute: {
+          key: '[data-role="test"]'
+          color: red
+
+          animation: {
+            name: 'test'
+            tl: {
+              '50': {
+                font-size: 10px
+              }
+            }
+          }
+        }
+      }
+    }
+  })
+
+
+ctr('.test', {
+  width: 200px
+  component: {
+    'div': {
+      attribute: {
+        key: '[data-role="test"]'
+        color: red
+
+        animation: {
+          name: 'test'
+          tl: {
+            '50': {
+              font-size: 10px
+            }
+          }
+        }
+      }
+    }
+  }
+})

@@ -1,0 +1,38 @@
+// File generated from ---> custom-fraction.styl 
+
+//!important!, there's a code conflict
+//in the lost library as to what the gutter
+//and fraction actually define
+ctr('.test', {
+  // SYNTAX_YAML
+  grid:
+    masonry-column:
+      fraction: '1/3'
+      flex: false
+  
+})
+
+
+ctr('.test', {
+  grid: {
+    masonry-column: {
+      fraction: '1/3'
+      flex: false
+    }
+  }
+})
+
+
+ctr('.test', {
+  // SYNTAX_YAML
+  grid:
+    masonry-column: ['1/3', default, false]
+  
+})
+
+
+ctr('.test', {
+  grid: {
+    masonry-column: '1/3' default false
+  }
+})

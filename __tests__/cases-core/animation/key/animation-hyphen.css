@@ -1,0 +1,52 @@
+.test {
+  width: 400px;
+  animation-delay: 0s, 0s, 20s, 0s;
+  animation-iteration-count: 1, 1, 1, 1;
+  animation-name: test, kool, noTl, yolo;
+  animation-duration: 0.5s, 10s, 0.5s, 0.5s;
+  animation-fill-mode: none, none, none, none;
+  animation-direction: normal, normal, normal, normal;
+  animation-play-state: running, running, running, running;
+  animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+}
+@keyframes test {
+  50% {
+    background: #008080;
+  }
+}
+@keyframes kool {
+  50% {
+    color: #f00;
+  }
+}
+@keyframes yolo {
+  50% {
+    width: 500px;
+  }
+}
+.test {
+  width: 400px;
+  animation-delay: 0s, 0s, 20s, 0s;
+  animation-iteration-count: 1, 1, 1, 1;
+  animation-name: test, kool, noTl, yolo;
+  animation-duration: 0.5s, 10s, 0.5s, 0.5s;
+  animation-fill-mode: none, none, none, none;
+  animation-direction: normal, normal, normal, normal;
+  animation-play-state: running, running, running, running;
+  animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+}
+@keyframes test {
+  50% {
+    background: #008080;
+  }
+}
+@keyframes kool {
+  50% {
+    color: #f00;
+  }
+}
+@keyframes yolo {
+  50% {
+    width: 500px;
+  }
+}

@@ -1,0 +1,16 @@
+# File generated from ---> basic.styl
+
+
+.test:::0:
+  $$:
+    fz: 10px
+  width: 200px
+  font-size: '$fz$'
+
+
+.test:::1:
+  $$:
+    fz: 10px
+  width: 200px
+  font-size: '$fz$'
+

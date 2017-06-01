@@ -1,0 +1,22 @@
+.test {
+  width: 200px;
+}
+.test > .aClass {
+  font-size: 10px;
+}
+@media (min-width: 800px) and (max-width: 1050px) {
+  .test > .aClass {
+    font-size: 20px;
+  }
+}
+.test {
+  width: 200px;
+}
+.test > .aClass {
+  font-size: 10px;
+}
+@media (min-width: 800px) and (max-width: 1050px) {
+  .test > .aClass {
+    font-size: 20px;
+  }
+}

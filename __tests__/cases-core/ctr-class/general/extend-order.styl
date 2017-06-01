@@ -1,0 +1,30 @@
+ctrSetClass('$one', {
+  width: 100px
+})
+
+ctrSetClass('$two', {
+  width: 200px
+})
+
+.test
+  ctr({
+    //width: 100px
+    extend: '$one' '$two'
+  })
+
+.test
+  ctr({
+    //width: 200px
+    extend: '$two' '$one'
+  })
+
+
+ctr('.test', {
+  //width: 100px
+  extend: '$one' '$two'
+})
+
+ctr('.test', {
+  //width: 200px
+  extend: '$two' '$one'
+})

@@ -1,0 +1,16 @@
+ctr:::setReset:
+  # specify what we what reset
+  option: true
+  variable: true
+
+# Set new var + option
+ctr:::setVar:
+  color: '#00f'
+ctr:::setOption:
+  hover:
+    duration: 2s
+
+.test:
+  width: 200px
+  hover-on:
+    color: '$color$'

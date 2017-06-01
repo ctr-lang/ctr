@@ -1,0 +1,87 @@
+// File generated from ---> build-block.styl 
+
+ctrSetClass('$boxBuild', {
+  // SYNTAX_YAML
+  border-radius: 20px
+  width: 400px
+  height: 400px
+  border-color: '#ff0'
+  border-width: 4px
+})
+ctrSetClass('$boxBuild', {
+  border-radius: 20px
+  width: 400px
+  height: 400px
+  border-color: #ff0
+  border-width: 4px
+})
+
+ctrSetClass('$buttonBuild', {
+  // SYNTAX_YAML
+  hover:
+    static:
+      color: white
+    on:
+      width: 200px
+      height: 200px
+      background: green
+    non:
+      width: 150px
+      height: 150px
+      background: red
+  
+})
+ctrSetClass('$buttonBuild', {
+  hover: {
+    static: {
+      color: white
+    }
+    on: {
+      width: 200px
+      height: 200px
+      background: green
+    }
+    non: {
+      width: 150px
+      height: 150px
+      background: red
+    }
+  }
+})
+
+ctrSetClass('$font', {
+  // SYNTAX_YAML
+  font-family: ["'Ubuntu', Georgia, Serif"]
+})
+ctrSetClass('$font', {
+  font-family: "'Ubuntu', Georgia, Serif"
+})
+
+ctrSetClass('$boldFont', {
+  // SYNTAX_YAML
+  font-weight: bold
+  extend: '$font'
+})
+ctrSetClass('$boldFont', {
+  font-weight: bold
+  extend: '$font'
+})
+
+ctr('.test', {
+  // SYNTAX_YAML
+  extend: ['$boxBuild', '$boldFont']
+  comp:
+    span:
+      extend: '$buttonBuild'
+  
+})
+
+
+ctr('.test', {
+  extend: '$boxBuild' '$boldFont'
+  comp: {
+    span: {
+      extend: '$buttonBuild'
+    }
+  }
+})

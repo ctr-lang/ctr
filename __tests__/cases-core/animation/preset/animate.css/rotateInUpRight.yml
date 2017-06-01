@@ -1,0 +1,14 @@
+# File generated from ---> rotateInUpRight.styl
+
+
+.test:::0:
+  width: 400px
+  anim:
+    preset: 'rotateInUpRight'
+
+
+.test:::1:
+  width: 400px
+  anim:
+    preset: 'rotateInUpRight'
+

@@ -1,0 +1,73 @@
+# File generated from ---> option.styl
+
+
+.test:::0:
+  anim:
+    option:
+      multiple: true
+      duration: 10s
+      delay: 1s
+      state: paused
+    timeline:
+      tlOne:
+        "50%":
+          background: purple
+      koolBrah:
+        # name will be tlTwo
+        name: tlTwo
+        "50%":
+          color: yellow
+
+
+.test:::1:
+  anim:
+    option:
+      multiple: true
+      duration: 10s
+      delay: 1s
+      state: paused
+    timeline:
+      tlOne:
+        "50%":
+          background: purple
+      koolBrah:
+        # name will be tlTwo
+        name: tlTwo
+        "50%":
+          color: yellow
+
+
+.test:::2:
+  anim:
+    multiple: true
+    option:
+      duration: 10s
+      delay: 1s
+      state: paused
+    timeline:
+      tlOne:
+        "50%":
+          background: purple
+      koolBrah:
+        # name will be tlTwo
+        name: tlTwo
+        "50%":
+          color: yellow
+
+
+.test:::3:
+  anim:
+    multiple: true
+    option:
+      duration: 10s
+      delay: 1s
+      state: paused
+    timeline:
+      tlOne:
+        "50%":
+          background: purple
+      koolBrah:
+        name: tlTwo
+        "50%":
+          color: yellow
+

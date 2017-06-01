@@ -1,0 +1,61 @@
+ctrSetOption({
+  // SYNTAX_YAML
+  global:
+    animationShorthand: true
+})
+ctrSetOption({
+  global: {
+    animationShorthand: true
+  }
+})
+
+
+
+.test
+  ctr({
+    size: 100px
+    background: gray
+    anim: {
+      name: 'test'
+      delay: 100s
+      duration: 200s
+      direction: normal
+      state: paused
+      mode: forwards
+      count: 420
+      ease: ease-out
+      tl: {
+        '25': {
+          background: red
+        }
+        '75': {
+          background: blue
+        }
+      }
+    }
+  })
+
+
+
+ctr('.test', {
+  size: 100px
+  background: gray
+  anim: {
+    name: 'test'
+    delay: 100s
+    duration: 200s
+    direction: normal
+    state: paused
+    mode: forwards
+    count: 420
+    ease: ease-out
+    tl: {
+      '25': {
+        background: red
+      }
+      '75': {
+        background: blue
+      }
+    }
+  }
+})

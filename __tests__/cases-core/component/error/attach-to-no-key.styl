@@ -1,0 +1,67 @@
+.test
+  ctr({
+    //suppress error in test
+    option: {
+      global: {
+        errorSuppress: true
+      }
+    }
+    width: 200px
+    comp: {
+      span: {
+        background: green
+        media: {
+          'md': {
+            background: yellow
+          }
+        }
+        comp: {
+          '.kool': {
+            width: 200px
+            hover: {
+              background: green
+              //will not find attachTo key,
+              //throw error
+              option: {
+                attachTo: 'wootWoot'
+              }
+            }
+          }
+        }
+      }
+    }
+  })
+  
+
+ctr('.test', {
+  //suppress error in test
+  option: {
+    global: {
+      errorSuppress: true
+    }
+  }
+  width: 200px
+  comp: {
+    span: {
+      background: green
+      media: {
+        'md': {
+          background: yellow
+        }
+      }
+      comp: {
+        '.kool': {
+          width: 200px
+          hover: {
+            background: green
+            //will not find attachTo key,
+            //throw error
+            option: {
+              attachTo: 'wootWoot'
+            }
+          }
+        }
+      }
+    }
+  }
+})

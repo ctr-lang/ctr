@@ -1,0 +1,22 @@
+.test {
+  width: 200px;
+}
+.test > div[data-role="test"] {
+  width: 300px;
+}
+@media (min-width: 400px) and (max-width: 600px) {
+  .test > div[data-role="test"] {
+    width: 200px;
+  }
+}
+.test {
+  width: 200px;
+}
+.test > div[data-role="test"] {
+  width: 300px;
+}
+@media (min-width: 400px) and (max-width: 600px) {
+  .test > div[data-role="test"] {
+    width: 200px;
+  }
+}

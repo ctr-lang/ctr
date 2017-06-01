@@ -1,0 +1,58 @@
+.test
+  ctr({
+    width: 200px
+    anim: {
+      option: {
+        name: 'test'
+        //animation-delay
+        delay: 100s
+        //animation-fill-mode
+        mode: forwards
+        //animation-play-state
+        state: paused
+        //animation-duration
+        duration: 200s
+        //animation-direction
+        direction: normal
+        //animation-timing-function
+        ease: ease-out
+        //animation-iteration-count
+        count: 420
+      }
+      tl: {
+        '50': {
+          width: 400px
+        }
+      }
+    }
+  })
+
+
+
+ctr('.test', {
+  width: 200px
+  anim: {
+    option: {
+      name: 'test'
+      //animation-delay
+      delay: 100s
+      //animation-fill-mode
+      mode: forwards
+      //animation-play-state
+      state: paused
+      //animation-duration
+      duration: 200s
+      //animation-direction
+      direction: normal
+      //animation-timing-function
+      ease: ease-out
+      //animation-iteration-count
+      count: 420
+    }
+    tl: {
+      '50': {
+        width: 400px
+      }
+    }
+  }
+})

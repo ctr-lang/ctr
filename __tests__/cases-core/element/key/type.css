@@ -1,0 +1,24 @@
+.test {
+  width: 200px;
+}
+.test > li:first-of-type {
+  font-size: 10px;
+}
+.test > li:last-of-type {
+  font-size: 10px;
+}
+.test > li:nth-last-of-type(2) {
+  font-size: 10px;
+}
+.test {
+  width: 200px;
+}
+.test > li:first-of-type {
+  font-size: 10px;
+}
+.test > li:last-of-type {
+  font-size: 10px;
+}
+.test > li:nth-last-of-type(2) {
+  font-size: 10px;
+}

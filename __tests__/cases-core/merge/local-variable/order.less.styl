@@ -1,0 +1,52 @@
+ctr('.test', {
+  // SYNTAX_YAML
+  $$:
+    one:
+      'hover-on':
+        option:
+          duration: '1s'
+          ease: 'ease-in'
+        width: '200px'
+    two:
+      'hover-on':
+        height: '200px'
+        //should not be merge in since one trumps
+        width: '9999px'
+        option:
+          duration: '99999s'
+          ease: 'nope'
+          //will merge in since not present in one
+          delay: '1s'
+  width: 200px
+  merge: ['$one$', '$two$']
+})
+
+
+ctr('.test', {
+  $$: {
+    one: {
+      'hover-on': {
+        option: {
+          duration: '1s'
+          ease: 'ease-in'
+        }
+        width: '200px'
+      }
+    }
+    two: {
+      'hover-on': {
+        height: '200px'
+        //should not be merge in since one trumps
+        width: '9999px'
+        option: {
+          duration: '99999s'
+          ease: 'nope'
+          //will merge in since not present in one
+          delay: '1s'
+        }
+      }
+    }
+  }
+  width: 200px
+  merge: '$one$' '$two$'
+})

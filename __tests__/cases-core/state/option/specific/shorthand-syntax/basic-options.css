@@ -1,0 +1,28 @@
+.test {
+  width: 100px;
+  height: 100px;
+}
+.test:hover {
+  background: #f00;
+  transform: scale(2);
+  transition: transform 10s ease-out 2s, background 10s ease-out 2s;
+}
+.test:not(:hover) {
+  background: #00f;
+  transform: scale(1);
+  transition: transform 10s ease-out 2s, background 10s ease-out 2s;
+}
+.test {
+  width: 100px;
+  height: 100px;
+}
+.test:hover {
+  background: #f00;
+  transform: scale(2);
+  transition: transform 10s ease-out 2s, background 10s ease-out 2s;
+}
+.test:not(:hover) {
+  background: #00f;
+  transform: scale(1);
+  transition: transform 10s ease-out 2s, background 10s ease-out 2s;
+}

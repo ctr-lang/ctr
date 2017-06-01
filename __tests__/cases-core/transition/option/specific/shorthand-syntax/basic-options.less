@@ -1,0 +1,39 @@
+// File generated from ---> basic-options.styl 
+
+ctrSetOption({
+  // SYNTAX_YAML
+  global:
+    transitionShorthand: true
+  
+})
+ctrSetOption({
+  global: {
+    transitionShorthand: true
+  }
+})
+
+ctr('.test', {
+  // SYNTAX_YAML
+  size: 100px
+  transition:
+    option:
+      duration: 10s
+      ease: ease-out
+      delay: 2s
+    transform: scale(2)
+    background: red
+  
+})
+
+ctr('.test', {
+  size: 100px
+  transition: {
+    option: {
+      duration: 10s
+      ease: ease-out
+      delay: 2s
+    }
+    transform: scale(2)
+    background: red
+  }
+})

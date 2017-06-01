@@ -1,0 +1,49 @@
+// File generated from ---> true-value.styl 
+
+ctr('.test', {
+  // SYNTAX_YAML
+  width: 200px
+  nons:
+    common:
+      option:
+        //target
+        target: ['.class', 'aList']
+      height: 100px
+      color: red
+      'comp-span':
+        font-size: 1em
+        opacity: 0.5
+    '.class': true
+    'not-#id': true
+    aList:
+      option:
+        key: 'li'
+      font-size: 20px
+  
+})
+
+ctr('.test', {
+  width: 200px
+  nons: {
+    common: {
+      option: {
+        //target
+        target: '.class' 'aList'
+      }
+      height: 100px
+      color: red
+      'comp-span': {
+        font-size: 1em
+        opacity: 0.5
+      }
+    }
+    '.class': true
+    'not-#id': true
+    aList: {
+      option: {
+        key: 'li'
+      }
+      font-size: 20px
+    }
+  }
+})

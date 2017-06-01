@@ -1,0 +1,40 @@
+.test {
+  animation-delay: 0s, 0s, 0s;
+  animation-duration: 1s, 1s, 1s;
+  animation-iteration-count: 10, 1, 1;
+  animation-fill-mode: none, none, none;
+  animation-direction: normal, normal, normal;
+  animation-name: tlOne, childTlOne, childTlTwo;
+  animation-play-state: running, paused, paused;
+  animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1), ease-in, ease-in;
+}
+@keyframes childTlOne {
+  50% {
+    background: #008000;
+  }
+}
+@keyframes childTlTwo {
+  50% {
+    color: #ff0;
+  }
+}
+.test {
+  animation-delay: 0s, 0s, 0s;
+  animation-duration: 1s, 1s, 1s;
+  animation-iteration-count: 10, 1, 1;
+  animation-fill-mode: none, none, none;
+  animation-direction: normal, normal, normal;
+  animation-name: tlOne, childTlOne, childTlTwo;
+  animation-play-state: running, paused, paused;
+  animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1), ease-in, ease-in;
+}
+@keyframes childTlOne {
+  50% {
+    background: #008000;
+  }
+}
+@keyframes childTlTwo {
+  50% {
+    color: #ff0;
+  }
+}

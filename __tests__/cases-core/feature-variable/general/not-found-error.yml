@@ -1,0 +1,70 @@
+# File generated from ---> not-found-error.styl
+
+
+.test:::0:
+  $$:
+    size: 12px
+    font-size: '$ize$'
+  width: 200px
+  font-size: '$font-size$'
+
+
+.test:::1:
+  $$:
+    size: 12px
+    font-size: '$ize$'
+  width: 200px
+  font-size: '$font-size$'
+
+
+.test:::2:
+  $$:
+    size: 12
+    type: 'px'
+    font-size: '$ize$$type$'
+  width: 200px
+  font-size: '$font-size$'
+
+
+.test:::3:
+  $$:
+    size: 12
+    type: 'px'
+    font-size: '$ize$$type$'
+  width: 200px
+  font-size: '$font-size$'
+
+
+.test:::4:
+  $$:
+    size: 12px
+    font-size: '$[ize]$'
+  width: 200px
+  font-size: '$[font-size]$'
+
+
+.test:::5:
+  $$:
+    size: 12px
+    font-size: '$[ize]$'
+  width: 200px
+  font-size: '$[font-size]$'
+
+
+.test:::6:
+  $$:
+    size: 12
+    type: 'px'
+    font-size: '$[ize]$$[type]$'
+  width: 200px
+  font-size: '$[font-size]$'
+
+
+.test:::7:
+  $$:
+    size: 12
+    type: 'px'
+    font-size: '$[ize]$$[type]$'
+  width: 200px
+  font-size: '$[font-size]$'
+

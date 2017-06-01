@@ -1,0 +1,80 @@
+.test
+  ctr({
+    width: 200px
+    comp: {
+      '.aClass': {
+        height: 200px
+        comp: {
+          'span': {
+            hover: {
+              font-size: 20px
+              option: {
+                attachTo: '.aClass'
+              }
+            }
+          }
+        }
+      }
+    }
+  })
+
+
+ctr('.test', {
+  width: 200px
+  comp: {
+    '.aClass': {
+      height: 200px
+      comp: {
+        'span': {
+          hover: {
+            font-size: 20px
+            option: {
+              attachTo: '.aClass'
+            }
+          }
+        }
+      }
+    }
+  }
+})
+
+//without prefix
+.test
+  ctr({
+    width: 200px
+    comp: {
+      '.aClass': {
+        height: 200px
+        comp: {
+          'span': {
+            hover: {
+              font-size: 20px
+              option: {
+                attachTo: 'aClass'
+              }
+            }
+          }
+        }
+      }
+    }
+  })
+
+
+ctr('.test', {
+  width: 200px
+  comp: {
+    '.aClass': {
+      height: 200px
+      comp: {
+        'span': {
+          hover: {
+            font-size: 20px
+            option: {
+              attachTo: 'aClass'
+            }
+          }
+        }
+      }
+    }
+  }
+})

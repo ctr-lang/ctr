@@ -1,0 +1,22 @@
+$base = {
+  width: 200px
+  'hover-on': {
+    height: 400px
+  }
+}
+
+ctr('.test-1', $base)
+
+ctrSetOption({
+  hover: {
+    duration: 10s
+  }
+}, {once: true})
+
+ctr('.test-2', $base)
+
+// should === .test-1
+ctr('.test-3', $base)
+
+
+

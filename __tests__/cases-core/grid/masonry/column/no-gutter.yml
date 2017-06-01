@@ -1,0 +1,40 @@
+# File generated from ---> no-gutter.styl
+
+
+.test:::0:
+  grid:
+    masonry-column:
+      gutter: 0
+      flex: false
+
+
+.test:::1:
+  grid:
+    masonry-column:
+      gutter: 0
+      flex: false
+
+
+.test:::2:
+  grid:
+    masonry-column: [default, 0, false]
+
+
+.test:::3:
+  grid:
+    masonry-column: [default, 0, false]
+
+
+.test:::4:
+  grid:
+    masonry-column:
+      gutter: false
+      flex: false
+
+
+.test:::5:
+  grid:
+    masonry-column:
+      gutter: false
+      flex: false
+

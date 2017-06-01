@@ -1,0 +1,83 @@
+.test
+  ctr({
+    option: {
+      //don't process style
+      global: {
+        processStyle: false
+      }
+    }
+    width: 400px
+    before: {
+      color: red
+    }
+  })
+
+ctr('.test', {
+  option: {
+    //don't process style
+    global: {
+      processStyle: false
+    }
+  }
+  width: 400px
+  before: {
+    color: red
+  }
+})
+
+
+//should gen media and anim still
+.test
+  ctr({
+    option: {
+      //don't process style
+      global: {
+        processStyle: false
+      }
+    }
+    width: 400px
+    before: {
+      color: red
+    }
+    media: {
+      'lg': {
+        background: red
+      }
+    }
+    anim: {
+      name: 'tester'
+      tl: {
+        '50': {
+          background: green
+        }
+      }
+    }
+  })
+
+
+
+ctr('.test', {
+  option: {
+    //don't process style
+    global: {
+      processStyle: false
+    }
+  }
+  width: 400px
+  before: {
+    color: red
+  }
+  media: {
+    'lg': {
+      background: red
+    }
+  }
+  anim: {
+    name: 'tester'
+    tl: {
+      '50': {
+        background: green
+      }
+    }
+  }
+})

@@ -1,0 +1,12 @@
+.test {
+  width: 200px;
+}
+.test::before {
+  content: "test";
+}
+.test {
+  width: 200px;
+}
+.test::before {
+  content: "test";
+}

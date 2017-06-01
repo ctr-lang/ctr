@@ -1,0 +1,20 @@
+# File generated from ---> multiple.styl
+
+
+.test:::0:
+  width: 200px
+  hover:
+    non:
+      height: 400px
+      font-size: 10px
+      background: green
+
+
+.test:::1:
+  width: 200px
+  hover:
+    non:
+      height: 400px
+      font-size: 10px
+      background: green
+

@@ -1,0 +1,47 @@
+// File generated from ---> reset.less-yml.styl 
+
+//$base -> no optiosn
+ctr('.test-1', {
+  // SYNTAX_YAML
+  size: 200px
+  hover:
+    on:
+      width: 400px
+})
+
+ctrSetOption({
+  // SYNTAX_YAML
+  hover:
+    duration: 10s
+    delay: 10s
+})
+
+ctrSetOption({
+  // SYNTAX_YAML
+  hover:
+    ease: 'ease-out'
+})
+
+//with options
+ctr('.test-2', {
+  // SYNTAX_YAML
+  size: 200px
+  hover:
+    on:
+      width: 400px
+})
+
+//resets the option
+ctrSetOption({
+  // SYNTAX_YAML
+  reset: true
+})
+
+//should === .test-1
+ctr('.test-3', {
+  // SYNTAX_YAML
+  size: 200px
+  hover:
+    on:
+      width: 400px
+})

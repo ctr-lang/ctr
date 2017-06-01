@@ -1,0 +1,14 @@
+# File generated from ---> fadeOutLeft.styl
+
+
+.test:::0:
+  width: 400px
+  anim:
+    preset: 'fadeOutLeft'
+
+
+.test:::1:
+  width: 400px
+  anim:
+    preset: 'fadeOutLeft'
+

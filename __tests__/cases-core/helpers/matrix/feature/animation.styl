@@ -1,0 +1,31 @@
+.test
+  ctr({
+    width: 200px
+    anim: {
+      name: 'test'
+      tl: {
+        '50': {
+          color: red
+          matrix: {
+            translate: 100 200
+          }
+        }
+      }
+    }
+  })
+
+
+ctr('.test', {
+  width: 200px
+  anim: {
+    name: 'test'
+    tl: {
+      '50': {
+        color: red
+        matrix: {
+          translate: 100 200
+        }
+      }
+    }
+  }
+})

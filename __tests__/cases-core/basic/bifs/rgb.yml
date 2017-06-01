@@ -1,0 +1,10 @@
+# File generated from ---> rgb.styl
+
+
+.test:::0:
+  color: rgb(255,204,0)
+
+
+.test:::1:
+  color: rgb(255,204,0)
+

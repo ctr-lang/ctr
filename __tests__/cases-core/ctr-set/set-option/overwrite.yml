@@ -1,0 +1,53 @@
+# $base -> no optiosn
+.test-1:
+  size: 200px
+  hover:
+    on:
+      width: 400px
+
+ctr:::setOption:1:
+  hover:
+    duration: 10s
+    delay: 10s
+    ease: ease-out
+
+
+# with options
+.test-2:
+  size: 200px
+  hover:
+    on:
+      width: 400px
+
+# should fail beucase opts are already defined
+ctr:::setOption:2:
+  hover:
+    duration: 422s
+    delay: 100s
+    ease: ease-in
+
+# should === .test-2
+.test-3:
+  size: 200px
+  hover:
+    on:
+      width: 400px
+
+# this time pass overwrite
+ctr:::setOption:3:
+  hover:
+    duration: 422s
+    delay: 100s
+    ease: ease-in
+  ctr:::option:
+    overwrite: true
+
+# should now have new options
+.test-4:
+  size: 200px
+  hover:
+    on:
+      width: 400px
+
+
+

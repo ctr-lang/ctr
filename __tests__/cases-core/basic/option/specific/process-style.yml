@@ -1,0 +1,58 @@
+# File generated from ---> process-style.styl
+
+
+.test:::0:
+  option:
+    # don't process style
+    global:
+      processStyle: false
+  width: 400px
+  before:
+    color: red
+
+
+.test:::1:
+  option:
+    # don't process style
+    global:
+      processStyle: false
+  width: 400px
+  before:
+    color: red
+
+
+.test:::2:
+  option:
+    # don't process style
+    global:
+      processStyle: false
+  width: 400px
+  before:
+    color: red
+  media:
+    'lg':
+      background: red
+  anim:
+    name: 'tester'
+    tl:
+      '50':
+        background: green
+
+
+.test:::3:
+  option:
+    # don't process style
+    global:
+      processStyle: false
+  width: 400px
+  before:
+    color: red
+  media:
+    'lg':
+      background: red
+  anim:
+    name: 'tester'
+    tl:
+      '50':
+        background: green
+

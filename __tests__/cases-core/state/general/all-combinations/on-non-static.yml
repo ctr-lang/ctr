@@ -1,0 +1,30 @@
+# File generated from ---> on-non-static.styl
+
+
+.test:::0:
+  width: 200px
+  hover:
+    static:
+      border-width: 10px
+      border-radius: 5px
+    on:
+      height: 200px
+      background: black
+    non:
+      height: 100px
+      background: red
+
+
+.test:::1:
+  width: 200px
+  hover:
+    static:
+      border-width: 10px
+      border-radius: 5px
+    on:
+      height: 200px
+      background: black
+    non:
+      height: 100px
+      background: red
+

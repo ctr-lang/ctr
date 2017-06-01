@@ -1,0 +1,108 @@
+.test {
+  width: auto;
+}
+.test:last-child {
+  clear: none;
+  float: none;
+  width: auto;
+  margin-right: 0;
+}
+.test:nth-child(n) {
+  clear: none;
+  float: none;
+  width: auto;
+  margin-right: 0;
+}
+.test:nth-child(1n+1) {
+  clear: none;
+  float: none;
+  width: auto;
+  margin-right: 0;
+}
+.test:nth-child(1n) {
+  clear: none;
+  float: none;
+  width: auto;
+  margin-right: 0;
+}
+.test {
+  width: auto;
+}
+.test:last-child {
+  clear: none;
+  float: none;
+  width: auto;
+  margin-right: 0;
+}
+.test:nth-child(n) {
+  clear: none;
+  float: none;
+  width: auto;
+  margin-right: 0;
+}
+.test:nth-child(1n+1) {
+  clear: none;
+  float: none;
+  width: auto;
+  margin-right: 0;
+}
+.test:nth-child(1n) {
+  clear: none;
+  float: none;
+  width: auto;
+  margin-right: 0;
+}
+.test {
+  width: auto;
+}
+.test:last-child {
+  clear: none;
+  float: none;
+  width: auto;
+  margin-right: 0;
+}
+.test:nth-child(n) {
+  clear: none;
+  float: none;
+  width: auto;
+  margin-right: 0;
+}
+.test:nth-child(1n+1) {
+  clear: none;
+  float: none;
+  width: auto;
+  margin-right: 0;
+}
+.test:nth-child(1n) {
+  clear: none;
+  float: none;
+  width: auto;
+  margin-right: 0;
+}
+.test {
+  width: auto;
+}
+.test:last-child {
+  clear: none;
+  float: none;
+  width: auto;
+  margin-right: 0;
+}
+.test:nth-child(n) {
+  clear: none;
+  float: none;
+  width: auto;
+  margin-right: 0;
+}
+.test:nth-child(1n+1) {
+  clear: none;
+  float: none;
+  width: auto;
+  margin-right: 0;
+}
+.test:nth-child(1n) {
+  clear: none;
+  float: none;
+  width: auto;
+  margin-right: 0;
+}

@@ -1,0 +1,29 @@
+.test
+  ctr({
+    width: 200px
+    media: {
+      width: 100px
+      query: {
+        above: 'sm'
+        orCond: {
+          min-height: 200px
+          max-height: 300px
+        }
+      }
+    }
+  })
+
+
+ctr('.test', {
+  width: 200px
+  media: {
+    width: 100px
+    query: {
+      above: 'sm'
+      orCondition: {
+        min-height: 200px
+        max-height: 300px
+      }
+    }
+  }
+})

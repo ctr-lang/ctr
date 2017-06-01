@@ -1,0 +1,36 @@
+//!important!, there's a code conflict
+//in the lost library as to what the gutter
+//and fraction actually define
+
+.test
+  ctr({
+    grid: {
+      masonry-column: {
+        gutter: 60px
+        flex: false
+      }
+    }
+  })
+
+ctr('.test', {
+  grid: {
+    masonry-column: {
+      gutter: 60px
+      flex: false
+    }
+  }
+})
+
+.test
+  ctr({
+    grid: {
+      masonry-column: default 60px false
+    }
+  })
+
+
+ctr('.test', {
+  grid: {
+    masonry-column: default 60px false
+  }
+})

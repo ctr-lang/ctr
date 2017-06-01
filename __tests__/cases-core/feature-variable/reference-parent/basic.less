@@ -1,0 +1,20 @@
+// File generated from ---> basic.styl 
+
+ctr('.test', {
+  // SYNTAX_YAML
+  $$:
+    base: 200
+    units: 'px'
+    width: '$base$$units$'
+  width: '$width$'
+})
+
+
+ctr('.test', {
+  $$: {
+    base: 200
+    units: 'px'
+    width: '$base$$units$'
+  }
+  width: '$width$'
+})

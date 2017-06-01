@@ -1,0 +1,57 @@
+.test
+  ctr({
+    width: 200px
+    media: {
+      width: 100px
+      query: {
+        max-width: 300px
+        type: {
+          media: 'screen'
+          condition: 'not'
+        }
+      }
+    }
+  })
+
+ctr('.test', {
+  width: 200px
+  media: {
+    width: 100px
+    query: {
+      max-width: 300px
+      type: {
+        media: 'screen'
+        condition: 'not'
+      }
+    }
+  }
+})
+
+.test
+  ctr({
+    width: 200px
+    media: {
+      width: 100px
+      query: {
+        max-width: 300px
+        type: {
+          media: 'screen'
+          condition: 'only'
+        }
+      }
+    }
+  })
+
+ctr('.test', {
+  width: 200px
+  media: {
+    width: 100px
+    query: {
+      max-width: 300px
+      type: {
+        media: 'screen'
+        condition: 'only'
+      }
+    }
+  }
+})

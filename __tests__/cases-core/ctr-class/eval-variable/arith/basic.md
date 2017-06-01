@@ -1,0 +1,1 @@
+__Description__: Users should be able to alter `arith` `extend` instances

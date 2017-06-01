@@ -1,0 +1,1 @@
+__Description__: This is a current limitation, and you cannot use `responsive-text` within animation

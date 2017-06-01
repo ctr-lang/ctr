@@ -1,0 +1,67 @@
+.test
+  ctr({
+    width: 200px
+    elements: {
+      // merged into each element
+      common: {
+        font-size: 1em
+        border-radius: 50%
+        hover-on: {
+          opacity: 0.5
+          font-size: 2em
+        }
+      }
+      before: {
+        content: 'before'
+      }
+      first-child: {
+        option: {
+          //pick
+          pick: 'font-size' 'hover-on.opacity'
+        }
+        color: red
+      }
+      random: {
+        option: {
+          // will be key
+          key: 'nth-child(2)'
+          pick: 'font-size'
+        }
+        color: black
+      }
+    }
+  })
+
+
+ctr('.test', {
+  width: 200px
+  elements: {
+    // merged into each element
+    common: {
+      font-size: 1em
+      border-radius: 50%
+      hover-on: {
+        opacity: 0.5
+        font-size: 2em
+      }
+    }
+    before: {
+      content: 'before'
+    }
+    first-child: {
+      option: {
+        //pick
+        pick: 'font-size' 'hover-on.opacity'
+      }
+      color: red
+    }
+    random: {
+      option: {
+        // will be key
+        key: 'nth-child(2)'
+        pick: 'font-size'
+      }
+      color: black
+    }
+  }
+})

@@ -1,0 +1,20 @@
+# File generated from ---> hover.styl
+
+
+.test:::0:
+  width: 200px
+  state-hover:
+    on:
+      height: 300px
+    non:
+      height: 200px
+
+
+.test:::1:
+  width: 200px
+  state-hover:
+    on:
+      height: 300px
+    non:
+      height: 200px
+

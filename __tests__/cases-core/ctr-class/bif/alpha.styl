@@ -1,0 +1,18 @@
+ctrSetClass('$evalAlpha', {
+  $$: {
+    base: red
+    bg: "alpha($base$, 0.2)"
+  }
+  background: "$bg$"
+  color: alpha(red, 0.2)
+})
+
+.test
+  ctr({
+    extend: $evalAlpha
+  })
+
+ctr('.test', {
+  extend: $evalAlpha
+})
+

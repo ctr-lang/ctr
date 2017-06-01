@@ -1,0 +1,35 @@
+// File generated from ---> content-within.styl 
+
+ctr('.test', {
+  // SYNTAX_YAML
+  width: 200px
+  after:
+    content: 'kool'
+    media:
+      'md':
+        //should also be quoted
+        content: 'magic'
+      'lg':
+        //should also be quoted
+        content: 'witchcraft'
+  
+})
+
+
+
+ctr('.test', {
+  width: 200px
+  after: {
+    content: 'kool'
+    media: {
+      'md': {
+        //should also be quoted
+        content: 'magic'
+      }
+      'lg': {
+        //should also be quoted
+        content: 'witchcraft'
+      }
+    }
+  }
+})

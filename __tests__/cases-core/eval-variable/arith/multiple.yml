@@ -1,0 +1,36 @@
+# File generated from ---> multiple.styl
+
+
+.test:::0:
+  $$:
+    base: 10
+    mult: 2
+    eval:
+      #  10 * 2 = 20
+      # need to append px
+      width: 'arith($base$ * $mult$)px'
+      height: 'kalc(100% - $eval.width$)'
+      border-radius: 'arith($eval.width$ * 3)%'
+      border-width: 'arith($eval.width$ / $eval.border-radius$ + 10)px'
+  width: '$eval.width$'
+  height: '$eval.height$'
+  border-radius: '$eval.border-radius$'
+  border-width: '$eval.border-width$'
+
+
+.test:::1:
+  $$:
+    base: 10
+    mult: 2
+    eval:
+      #  10 * 2 = 20
+      # need to append px
+      width: 'arith($base$ * $mult$)px'
+      height: 'kalc(100% - $eval.width$)'
+      border-radius: 'arith($eval.width$ * 3)%'
+      border-width: 'arith($eval.width$ / $eval.border-radius$ + 10)px'
+  width: '$eval.width$'
+  height: '$eval.height$'
+  border-radius: '$eval.border-radius$'
+  border-width: '$eval.border-width$'
+

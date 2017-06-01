@@ -1,0 +1,18 @@
+# File generated from ---> content-false.styl
+
+
+.test:::0:
+  width: 200px
+  element:
+    key: 'after'
+    content: false
+    font-size: 10px
+
+
+.test:::1:
+  width: 200px
+  element:
+    key: 'before'
+    content: false
+    font-size: 10px
+

@@ -1,0 +1,27 @@
+// File generated from ---> lighten.styl 
+
+ctrSetClass('$evalLighten', {
+  // SYNTAX_YAML
+  $$:
+    base: red
+    bg: "lighten($base$, 20%)"
+  background: "$bg$"
+  color: lighten(red, 20%)
+})
+ctrSetClass('$evalLighten', {
+  $$: {
+    base: red
+    bg: "lighten($base$, 20%)"
+  }
+  background: "$bg$"
+  color: lighten(red, 20%)
+})
+
+ctr('.test', {
+  // SYNTAX_YAML
+  extend: $evalLighten
+})
+
+ctr('.test', {
+  extend: $evalLighten
+})

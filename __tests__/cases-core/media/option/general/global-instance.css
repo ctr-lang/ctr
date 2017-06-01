@@ -1,0 +1,16 @@
+.test {
+  width: 200px;
+}
+@media (max-width: 200px) {
+  .test {
+    width: 100px;
+  }
+}
+.test {
+  width: 200px;
+}
+@media (max-width: 200px) {
+  .test {
+    width: 100px;
+  }
+}

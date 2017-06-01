@@ -1,0 +1,32 @@
+.test {
+  width: 200px;
+}
+.test::after {
+  font-size: 10px;
+  content: "test";
+}
+.test:first-child {
+  font-size: 10px;
+}
+.test:nth-child(1) {
+  font-size: 10px;
+}
+.test:last-of-type {
+  font-size: 10px;
+}
+.test {
+  width: 200px;
+}
+.test::after {
+  font-size: 10px;
+  content: "test";
+}
+.test:first-child {
+  font-size: 10px;
+}
+.test:nth-child(1) {
+  font-size: 10px;
+}
+.test:last-of-type {
+  font-size: 10px;
+}

@@ -1,0 +1,90 @@
+.test {
+  width: 200px;
+}
+.test:hover {
+  transition-delay: 0s, 0s;
+  transition-duration: 0.5s, 0.5s;
+  transition-property: font-size, line-height;
+  font-size: calc(10px + 40 * ((100vw - 400px) / 1400));
+  line-height: calc(1rem + 1 * ((100vw - 25rem) / 87.5));
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test:not(:hover) {
+  transition-delay: 0s, 0s;
+  transition-duration: 0.5s, 0.5s;
+  transition-property: font-size, letter-spacing;
+  font-size: calc(222px + 198 * ((100vw - 400px) / 1400));
+  letter-spacing: calc(3px + 7 * ((100vw - 400px) / 1400));
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+}
+@media only screen and (max-width: 400px) {
+  .test:hover {
+    font-size: 10px;
+    line-height: 1rem;
+    letter-spacing: 3px;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  .test:hover {
+    font-size: 50px;
+    line-height: 2rem;
+    letter-spacing: 10px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .test:not(:hover) {
+    font-size: 222px;
+    letter-spacing: 3px;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  .test:not(:hover) {
+    font-size: 420px;
+    letter-spacing: 10px;
+  }
+}
+.test {
+  width: 200px;
+}
+.test:hover {
+  transition-delay: 0s, 0s;
+  transition-duration: 0.5s, 0.5s;
+  transition-property: font-size, line-height;
+  font-size: calc(10px + 40 * ((100vw - 400px) / 1400));
+  line-height: calc(1rem + 1 * ((100vw - 25rem) / 87.5));
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test:not(:hover) {
+  transition-delay: 0s, 0s;
+  transition-duration: 0.5s, 0.5s;
+  transition-property: font-size, letter-spacing;
+  font-size: calc(222px + 198 * ((100vw - 400px) / 1400));
+  letter-spacing: calc(3px + 7 * ((100vw - 400px) / 1400));
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+}
+@media only screen and (max-width: 400px) {
+  .test:hover {
+    font-size: 10px;
+    line-height: 1rem;
+    letter-spacing: 3px;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  .test:hover {
+    font-size: 50px;
+    line-height: 2rem;
+    letter-spacing: 10px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .test:not(:hover) {
+    font-size: 222px;
+    letter-spacing: 3px;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  .test:not(:hover) {
+    font-size: 420px;
+    letter-spacing: 10px;
+  }
+}

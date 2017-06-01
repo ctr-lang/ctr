@@ -1,0 +1,10 @@
+.test {
+  width: 200px;
+}
+.test:hover {
+  color: #00f;
+  transition-delay: 0s;
+  transition-duration: 2s;
+  transition-property: color;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}

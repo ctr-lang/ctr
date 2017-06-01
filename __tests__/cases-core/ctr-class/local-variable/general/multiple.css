@@ -1,0 +1,20 @@
+.test {
+  width: 200px;
+  height: 200px;
+  font-size: 10px;
+  border: 200px solid #f00;
+}
+.test > p {
+  font-size: 10px;
+  background: #000;
+}
+.test {
+  width: 200px;
+  height: 200px;
+  font-size: 10px;
+  border: 200px solid #f00;
+}
+.test > p {
+  font-size: 10px;
+  background: #000;
+}

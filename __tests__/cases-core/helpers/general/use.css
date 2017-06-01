@@ -1,0 +1,138 @@
+.test {
+  width: 200px;
+}
+.test {
+  width: 200px;
+}
+.test {
+  width: 200px;
+  animation-delay: 0s;
+  animation-name: test;
+  animation-duration: 0.5s;
+  animation-fill-mode: none;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-play-state: running;
+  animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+@keyframes test {
+  50% {
+    color: #f00;
+  }
+}
+.test {
+  width: 200px;
+}
+.test {
+  width: 200px;
+}
+.test {
+  width: 200px;
+}
+.test:hover {
+  background: #f00;
+  transition-delay: 0s;
+  transition-duration: 0.5s;
+  transition-property: background;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test {
+  width: 200px;
+}
+.test:hover {
+  background: #f00;
+  transition-delay: 0s;
+  transition-duration: 0.5s;
+  transition-property: background;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test {
+  width: 200px;
+  animation-delay: 0s;
+  animation-name: test;
+  animation-duration: 0.5s;
+  animation-fill-mode: none;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-play-state: running;
+  animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+@media (min-width: 1050px) {
+  .test {
+    width: 400px;
+  }
+}
+@keyframes test {
+  25% {
+    color: #f00;
+  }
+}
+.test {
+  width: 200px;
+}
+.test {
+  width: 200px;
+}
+.test {
+  width: 200px;
+  animation-delay: 0s;
+  animation-name: test;
+  animation-duration: 0.5s;
+  animation-fill-mode: none;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-play-state: running;
+  animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+@keyframes test {
+  50% {
+    color: #f00;
+  }
+}
+.test {
+  width: 200px;
+}
+.test {
+  width: 200px;
+}
+.test {
+  width: 200px;
+}
+.test:hover {
+  background: #f00;
+  transition-delay: 0s;
+  transition-duration: 0.5s;
+  transition-property: background;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test {
+  width: 200px;
+}
+.test:hover {
+  background: #f00;
+  transition-delay: 0s;
+  transition-duration: 0.5s;
+  transition-property: background;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test {
+  width: 200px;
+  animation-delay: 0s;
+  animation-name: test;
+  animation-duration: 0.5s;
+  animation-fill-mode: none;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-play-state: running;
+  animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+@media (min-width: 1050px) {
+  .test {
+    width: 400px;
+  }
+}
+@keyframes test {
+  25% {
+    color: #f00;
+  }
+}

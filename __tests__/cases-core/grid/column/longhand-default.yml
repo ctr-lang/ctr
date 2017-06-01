@@ -1,0 +1,20 @@
+# File generated from ---> longhand-default.styl
+
+
+.test:::0:
+  grid:
+    column:
+      fraction: '2/6'
+      cycle: default
+      gutter: default
+      flex: default
+
+
+.test:::1:
+  grid:
+    column:
+      fraction: '2/6'
+      cycle: default
+      gutter: default
+      flex: default
+

@@ -1,0 +1,22 @@
+.test {
+  width: 200px;
+}
+.test:hover {
+  width: 200px;
+  height: 200px;
+  transition-delay: 1s, 1s;
+  transition-duration: 1s, 1s;
+  transition-property: height, width;
+  transition-timing-function: ease-in, ease-in;
+}
+.test {
+  width: 200px;
+}
+.test:hover {
+  width: 200px;
+  height: 200px;
+  transition-delay: 1s, 1s;
+  transition-duration: 1s, 1s;
+  transition-property: height, width;
+  transition-timing-function: ease-in, ease-in;
+}

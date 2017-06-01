@@ -1,0 +1,35 @@
+// File generated from ---> math.styl 
+
+ctr('.test', {
+  // SYNTAX_YAML
+  $$:
+    base: 10
+    mult: 2
+    eval:
+      // 10 * 3.14 = 31.41....
+      //Spacing is impotant! `Math.PI )` not `Math.PI)`
+      //need to append px
+      width: 'arith( $base$ * Math.PI )px'
+      // 10 * 0.9
+      height: 'arith( $base$ * Math.sin(2) )px'
+  width: '$eval.width$'
+  height: '$eval.height$'
+})
+
+
+ctr('.test', {
+    $$: {
+    base: 10
+    mult: 2
+    eval: {
+      // 10 * 3.14 = 31.41....
+      //Spacing is impotant! `Math.PI )` not `Math.PI)`
+      //need to append px
+      width: 'arith( $base$ * Math.PI )px'
+      // 10 * 0.9
+      height: 'arith( $base$ * Math.sin(2) )px'
+    }
+  }
+  width: '$eval.width$'
+  height: '$eval.height$'
+})

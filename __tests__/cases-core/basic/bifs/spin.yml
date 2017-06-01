@@ -1,0 +1,12 @@
+# File generated from ---> spin.styl
+
+
+.test:::0:
+  width: 200px
+  color: 'spin(#ff0000, 90deg)'
+
+
+.test:::1:
+  width: 200px
+  color: 'spin(#ff0000, 90deg)'
+

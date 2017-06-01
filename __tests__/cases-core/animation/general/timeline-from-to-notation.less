@@ -1,0 +1,90 @@
+// File generated from ---> timeline-from-to-notation.styl 
+
+ctr('.test', {
+  // SYNTAX_YAML
+  anim:
+    name: 'test'
+    timeline:
+      from:
+        font-size: 1rem
+      to:
+        font-size: 1.2rem
+  
+})
+
+
+ctr('.test', {
+  anim: {
+    name: 'test'
+    timeline: {
+      from: {
+        font-size: 1rem
+      }
+      to: {
+        font-size: 1.2rem
+      }
+    }
+  }
+})
+
+//string
+ctr('.test', {
+  // SYNTAX_YAML
+  anim:
+    name: 'test'
+    timeline:
+      'from':
+        font-size: 1rem
+      'to':
+        font-size: 1.2rem
+  
+})
+
+ctr('.test', {
+  anim: {
+    name: 'test'
+    timeline: {
+      'from': {
+        font-size: 1rem
+      }
+      'to': {
+        font-size: 1.2rem
+      }
+    }
+  }
+})
+
+
+
+//percent included within
+ctr('.test', {
+  // SYNTAX_YAML
+  anim:
+    name: 'test'
+    timeline:
+      'from':
+        font-size: 1rem
+      '50':
+        font-size: 1.1rem
+      'to':
+        font-size: 1.2rem
+  
+})
+
+
+ctr('.test', {
+  anim: {
+    name: 'test'
+    timeline: {
+      'from': {
+        font-size: 1rem
+      }
+      '50': {
+        font-size: 1.1rem
+      }
+      'to': {
+        font-size: 1.2rem
+      }
+    }
+  }
+})

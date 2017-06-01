@@ -1,0 +1,50 @@
+.inherit
+  ctr({
+    width: 200px
+  })
+#inherit
+  ctr({
+    width: 200px
+  })
+input
+  ctr({
+    width: 200px
+  })
+input:first-child
+  ctr({
+    width: 200px
+  })
+:first-of-type
+  ctr({
+    width: 200px
+  })
+.add + #me
+  ctr({
+    width: 200px
+  })
+div ~ p:nth-child(2) > .cool
+  ctr({
+    width: 200px
+  })
+
+ctr('.inherit', {
+  width: 200px
+})
+ctr('#inherit', {
+  width: 200px
+})
+ctr('input', {
+  width: 200px
+})
+ctr('input:first-child', {
+  width: 200px
+})
+ctr(':first-of-type', {
+  width: 200px
+})
+ctr('.add + #me', {
+  width: 200px
+})
+ctr('div ~ p:nth-child(2) > .cool', {
+  width: 200px
+})

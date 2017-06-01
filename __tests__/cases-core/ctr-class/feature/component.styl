@@ -1,0 +1,17 @@
+ctrSetClass('$myCompClass', {
+  width: 200px
+  comp: {
+    'span': {
+      font-size: 10px
+    }
+  }
+})
+
+.test
+  ctr({
+    extend: '$myCompClass'
+  })
+
+ctr('.test', {
+  extend: '$myCompClass'
+})

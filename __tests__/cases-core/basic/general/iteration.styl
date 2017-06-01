@@ -1,0 +1,30 @@
+for num in (1..5)
+  .test
+    ctr({
+      $$: {
+        num: num
+        font: 'sin($num$)px'
+        child: 'nth-child($num$)'
+      }
+      customElement: {
+        key: '$child$'
+        width: 200px
+        font-size: '$font$'
+      }
+    })
+
+
+
+for num in (1..5)
+  ctr('.test', {
+    $$: {
+      num: num
+      font: 'sin($num$)px'
+      child: 'nth-child($num$)'
+    }
+    customElement: {
+      key: '$child$'
+      width: 200px
+      font-size: '$font$'
+    }
+  })

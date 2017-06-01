@@ -1,0 +1,84 @@
+# File generated from ---> center.styl
+
+
+.test:::0:
+  width: 200px
+  grid:
+    center: true
+
+
+.test:::1:
+  width: 200px
+  grid:
+    center: true
+
+
+.test:::2:
+  width: 200px
+  grid:
+    center: [true, 30px]
+
+
+.test:::3:
+  width: 200px
+  grid:
+    center: [true, 30px]
+
+
+.test:::4:
+  width: 200px
+  grid:
+    center: [1000px, 30px]
+
+
+.test:::5:
+  width: 200px
+  grid:
+    center: [1000px, 30px]
+
+
+.test:::6:
+  width: 200px
+  grid:
+    center:
+      max: true
+      pad: 30px
+
+
+.test:::7:
+  width: 200px
+  grid:
+    center:
+      max: true
+      pad: 30px
+
+
+.test:::8:
+  width: 200px
+  grid:
+    center: [1050px, 30px, false]
+
+
+.test:::9:
+  width: 200px
+  grid:
+    center: [1050px, 30px, false]
+
+
+.test:::10:
+  width: 200px
+  grid:
+    center:
+      max: 1050px
+      pad: 30px
+      flex: false
+
+
+.test:::11:
+  width: 200px
+  grid:
+    center:
+      max: 1050px
+      pad: 30px
+      flex: false
+

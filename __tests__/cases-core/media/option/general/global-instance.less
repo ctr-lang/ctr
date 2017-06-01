@@ -1,0 +1,36 @@
+// File generated from ---> global-instance.styl 
+
+ctrSetOption({
+  // SYNTAX_YAML
+  media:
+    //default === 600px
+    sm: 200px
+  
+})
+ctrSetOption({
+  media: {
+    //default === 600px
+    sm: 200px
+  }
+})
+
+ctr('.test', {
+  // SYNTAX_YAML
+  width: 200px
+  media:
+    width: 100px
+    query:
+      max-width: 'sm'
+  
+})
+
+
+ctr('.test', {
+  width: 200px
+  media: {
+    width: 100px
+    query: {
+      max-width: 'sm'
+    }
+  }
+})

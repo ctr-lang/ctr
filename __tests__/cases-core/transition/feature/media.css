@@ -1,0 +1,62 @@
+.test {
+  width: 200px;
+  height: 200px;
+  transition-delay: 0s;
+  transition-duration: 0.5s;
+  transition-property: height;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+@media (min-width: 600px) and (max-width: 800px) {
+  .test {
+    height: 300px;
+  }
+}
+.test {
+  width: 200px;
+  height: 200px;
+  transition-delay: 0s;
+  transition-duration: 0.5s;
+  transition-property: height;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+@media (min-width: 600px) and (max-width: 800px) {
+  .test {
+    height: 300px;
+  }
+}
+.test {
+  width: 200px;
+  height: 200px;
+  transition-delay: 0s;
+  transition-duration: 0.5s;
+  transition-property: height;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+@media (min-width: 600px) and (max-width: 800px) {
+  .test {
+    color: #f00;
+    height: 300px;
+    transition-delay: 0s, 0s;
+    transition-duration: 0.5s, 0.5s;
+    transition-property: height, color;
+    transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+  }
+}
+.test {
+  width: 200px;
+  height: 200px;
+  transition-delay: 0s;
+  transition-duration: 0.5s;
+  transition-property: height;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+@media (min-width: 600px) and (max-width: 800px) {
+  .test {
+    color: #f00;
+    height: 300px;
+    transition-delay: 0s, 0s;
+    transition-duration: 0.5s, 0.5s;
+    transition-property: height, color;
+    transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1), cubic-bezier(0.42, 0, 0.58, 1);
+  }
+}

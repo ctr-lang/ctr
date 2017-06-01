@@ -1,0 +1,31 @@
+# File generated from ---> basic.yml.styl
+
+
+ctr:::setOption:
+  global:
+    animationShorthand: true
+
+
+.test:::0:
+  size: 100px
+  background: gray
+  anim:
+    name: 'test'
+    tl:
+      '25':
+        background: red
+      '75':
+        background: blue
+
+
+.test:::1:
+  size: 100px
+  background: gray
+  anim:
+    name: 'test'
+    tl:
+      '25':
+        background: red
+      '75':
+        background: blue
+

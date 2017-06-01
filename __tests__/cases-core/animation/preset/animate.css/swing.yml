@@ -1,0 +1,14 @@
+# File generated from ---> swing.styl
+
+
+.test:::0:
+  width: 400px
+  anim:
+    preset: 'swing'
+
+
+.test:::1:
+  width: 400px
+  anim:
+    preset: 'swing'
+

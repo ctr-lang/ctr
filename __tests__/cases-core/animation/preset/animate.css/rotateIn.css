@@ -1,0 +1,46 @@
+.test {
+  width: 400px;
+  animation-delay: 0s;
+  animation-duration: 1s;
+  animation-name: rotateIn;
+  animation-fill-mode: both;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-play-state: running;
+  animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+@keyframes rotateIn {
+  from {
+    opacity: 0;
+    transform-origin: center;
+    transform: rotate3d(0, 0, 1, -200deg);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+    transform-origin: center;
+  }
+}
+.test {
+  width: 400px;
+  animation-delay: 0s;
+  animation-duration: 1s;
+  animation-name: rotateIn;
+  animation-fill-mode: both;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-play-state: running;
+  animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+@keyframes rotateIn {
+  from {
+    opacity: 0;
+    transform-origin: center;
+    transform: rotate3d(0, 0, 1, -200deg);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+    transform-origin: center;
+  }
+}

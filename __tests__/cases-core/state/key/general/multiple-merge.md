@@ -1,0 +1,1 @@
+__Description__: If there are multiple `state` objects specified on the same scoped level then identical `states` should be merged together.

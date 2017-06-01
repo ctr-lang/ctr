@@ -1,0 +1,1 @@
+__Description__: Should be able to overwrite class when `classLock` is on if the `overwrite` option is passed

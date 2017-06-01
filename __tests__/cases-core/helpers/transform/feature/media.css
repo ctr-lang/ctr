@@ -1,0 +1,18 @@
+.test {
+  width: 200px;
+}
+@media (min-width: 800px) and (max-width: 1050px) {
+  .test {
+    font-size: 20px;
+    transform: translateX(10px) translateY(20px) scaleX(90deg);
+  }
+}
+.test {
+  width: 200px;
+}
+@media (min-width: 800px) and (max-width: 1050px) {
+  .test {
+    font-size: 20px;
+    transform: translateX(10px) translateY(20px) scaleX(90deg);
+  }
+}

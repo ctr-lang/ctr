@@ -1,0 +1,31 @@
+.test
+  ctr({
+    $$: {
+      base: 10
+      mult: 2
+      eval: {
+        // 10 * 2 = 20
+        //need to append px
+        width: 'arith($base$ * $mult$)px'
+        height: 'kalc(100% - $eval.width$)'
+      }
+    }
+    width: '$eval.width$'
+    height: '$eval.height$'
+  })
+
+
+ctr('.test', {
+  $$: {
+    base: 10
+    mult: 2
+    eval: {
+      // 10 * 2 = 20
+      //need to append px
+      width: 'arith($base$ * $mult$)px'
+      height: 'kalc(100% - $eval.width$)'
+    }
+  }
+  width: '$eval.width$'
+  height: '$eval.height$'
+})

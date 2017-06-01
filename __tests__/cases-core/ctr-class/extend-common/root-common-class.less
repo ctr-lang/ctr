@@ -1,0 +1,50 @@
+// File generated from ---> root-common-class.styl 
+
+ctrSetClass('height', {
+  // SYNTAX_YAML
+  $$:
+    p-size: 200px
+    f-size: 1em
+  height: '$p-size$'
+  font-size: '$f-size$'
+})
+ctrSetClass('height', {
+  $$: {
+    p-size: 200px
+    f-size: 1em
+  }
+  height: '$p-size$'
+  font-size: '$f-size$'
+})
+
+ctrSetClass('width', {
+  // SYNTAX_YAML
+  $$:
+    p-size: 200px
+    f-size: 1em
+  width: '$p-size$'
+  line-height: '$f-size$'
+})
+ctrSetClass('width', {
+  $$: {
+    p-size: 200px
+    f-size: 1em
+  }
+  width: '$p-size$'
+  line-height: '$f-size$'
+})
+
+
+ctr('.test', {
+  extend: {
+    //height needs to be specified outside the common class otherwise
+    //it will not be picked up and 420 will not be applied to height
+    //width class should not have 420
+    class: 'width' 'height'
+    $$: {
+      //height class should have 420
+      p-size: 420px
+      class: 'height'
+    }
+  }
+})

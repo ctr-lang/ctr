@@ -1,0 +1,36 @@
+# File generated from ---> basic-with-props.styl
+
+
+.test:::0:
+  width: 200px
+  hover:
+    on:
+      height: 400px
+      before:
+        content: 'on test'
+        color: red
+        font-size: 20px
+    non:
+      height: 200px
+      before:
+        content: 'non test'
+        color: blue
+        font-size: 10px
+
+
+.test:::1:
+  width: 200px
+  hover:
+    on:
+      height: 400px
+      before:
+        content: 'on test'
+        color: red
+        font-size: 20px
+    non:
+      height: 200px
+      before:
+        content: 'non test'
+        color: blue
+        font-size: 10px
+

@@ -1,0 +1,1 @@
+__Description__: The key/value pair of `clearfix: true` should apply the clearfix hack to the scoped level in which its declared

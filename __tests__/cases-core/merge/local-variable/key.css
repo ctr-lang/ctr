@@ -1,0 +1,48 @@
+.test {
+  width: 200px;
+}
+.test::after {
+  width: 200px;
+}
+.test:first-child {
+  width: 200px;
+}
+.test {
+  width: 200px;
+}
+.test::after {
+  width: 200px;
+}
+.test:first-child {
+  width: 200px;
+}
+.test {
+  width: 200px;
+}
+.test::after {
+  width: 200px;
+}
+.test::before {
+  width: 200px;
+}
+.test:first-child {
+  width: 200px;
+}
+.test:last-child {
+  width: 200px;
+}
+.test {
+  width: 200px;
+}
+.test::after {
+  width: 200px;
+}
+.test::before {
+  width: 200px;
+}
+.test:first-child {
+  width: 200px;
+}
+.test:last-child {
+  width: 200px;
+}

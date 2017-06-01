@@ -1,0 +1,18 @@
+//dot notation
+.test
+  ctr({
+    $$: {
+      fz: 10px
+    }
+    width: 200px
+    font-size: '$fz$'
+  })
+
+ctr('.test', {
+  $$: {
+    fz: 10px
+  }
+  width: 200px
+  font-size: '$fz$'
+})
+

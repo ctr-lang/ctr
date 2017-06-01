@@ -1,0 +1,1 @@
+__Description__: Common options should be merged into `class` classes

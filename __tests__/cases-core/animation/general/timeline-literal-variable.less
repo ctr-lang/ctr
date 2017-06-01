@@ -1,0 +1,45 @@
+// File generated from ---> timeline-literal-variable.less.styl 
+
+//set less vars to use in our ctr instance
+@timelineName: 'litVar';
+@timelineDur: 3s;
+
+// NOTE: There you can't use Object Less variables
+// need to set in both stylus and yaml since seperate instances
+ctrSetVariable({
+  // SYNTAX_YAML
+  timelineVar:
+    50:
+      font-size: 10px
+})
+
+ctr('.test', {
+  // SYNTAX_YAML
+  anim:
+    option:
+      name: @timelineName
+      duration: @timelineDur
+    timeline: '$timelineVar$'
+  
+})
+
+
+// NOTE: There you can't use Object Less variables
+// need to set in both stylus and yaml since seperate instances
+ctrSetVariable({
+  timelineVar:{
+    '50': {
+      font-size: 10px
+    }
+  }
+})
+
+ctr('.test', {
+  anim: {
+    option: {
+      name: @timelineName
+      duration: @timelineDur
+    }
+    timeline: '$timelineVar$'
+  }
+})

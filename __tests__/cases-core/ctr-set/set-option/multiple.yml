@@ -1,0 +1,39 @@
+
+.test-1:
+  size: 200px
+  hover:
+    on:
+      width: 400px
+
+ctr:::setOption:1:
+  hover:
+    duration: 10s
+
+.test-2:
+  size: 200px
+  hover:
+    on:
+      width: 400px
+
+ctr:::setOption:2:
+  hover:
+    delay: 20s
+
+.test-3:
+  size: 200px
+  hover:
+    on:
+      width: 400px
+
+ctr:::setOption:3:
+  hover:
+    ease: ease-out
+
+# should at this point have all the optiosn
+.test-4:
+  size: 200px
+  hover:
+    on:
+      width: 400px
+
+

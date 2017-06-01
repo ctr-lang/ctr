@@ -1,0 +1,44 @@
+# File generated from ---> after-first.styl
+
+
+.test:::0:
+  width: 200px
+  elm:
+    key: 'after-first(5)'
+    height: 400px
+
+
+.test:::1:
+  width: 200px
+  elm:
+    key: 'after-first(5)'
+    height: 400px
+
+
+.test:::2:
+  width: 200px
+  elm:
+    key: fm-after-first(5)
+    height: 400px
+
+
+.test:::3:
+  width: 200px
+  elm:
+    key: fm-after-first(5)
+    height: 400px
+
+
+.test:::4:
+  width: 200px
+  elm:
+    key: afterFirst(5)
+    height: 400px
+
+
+.test:::5:
+  width: 200px
+  elm:
+    key: afterFirst(5)
+    height: 400px
+

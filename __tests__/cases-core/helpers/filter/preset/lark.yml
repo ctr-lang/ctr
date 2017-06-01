@@ -1,0 +1,12 @@
+# File generated from ---> lark.styl
+
+
+.test:::0:
+  width: 600px
+  filter: 'lark'
+
+
+.test:::1:
+  width: 600px
+  filter: 'lark'
+

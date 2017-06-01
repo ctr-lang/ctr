@@ -1,0 +1,20 @@
+# File generated from ---> basic.styl
+
+
+.test:::0:
+  width: 200px
+  media:
+    'md':
+      width: 150px
+      hover:
+        background: green
+
+
+.test:::1:
+  width: 200px
+  media:
+    'md':
+      width: 150px
+      hover:
+        background: green
+

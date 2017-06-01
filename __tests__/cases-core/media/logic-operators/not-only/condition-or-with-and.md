@@ -1,0 +1,1 @@
+__Description__: Should be able to use `type` condition in combination with a `orCondition` and a `andCondition`

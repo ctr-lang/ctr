@@ -1,0 +1,20 @@
+ctrSetClass('$myStateClass', {
+  width: 200px
+  hover: {
+    on: {
+      font-size: 20px
+    }
+    non: {
+      font-size: 10px
+    }
+  }
+})
+
+.test
+  ctr({
+    extend: '$myStateClass'
+  })
+
+ctr('.test', {
+  extend: '$myStateClass'
+})

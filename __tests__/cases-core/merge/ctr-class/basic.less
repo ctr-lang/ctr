@@ -1,0 +1,105 @@
+// File generated from ---> basic.styl 
+
+ctrSetClass('$Button', {
+  // SYNTAX_YAML
+  //default options
+  option:
+    transitionDefault:
+      ease: 'soul-man'
+    hover:
+      duration: 0.25s
+    active:
+      duration: 1s
+  //variables
+  $$:
+    SizeFactor: '0.6'
+    AlphaFactor: '0.5'
+    color1: teal
+    color2: yellow
+    color3: purple
+    color4: red
+    width: '200px'
+    eval:
+      height: 'kalc($width$ * $SizeFactor$)'
+      _color1: 'alpha($color1$, $AlphaFactor$)'
+      _color2: 'alpha($color2$, $AlphaFactor$)'
+      _color3: 'alpha($color3$, $AlphaFactor$)'
+      _color4: 'alpha($color4$, $AlphaFactor$)'
+  width: '$width$'
+  height: '$eval.height$'
+  color: '$color1$'
+  hover:
+    on:
+      background: '$eval._color1$'
+    non:
+      background: '$eval._color2$'
+  active:
+    on:
+      background: '$eval._color1$'
+    non:
+      background: '$eval._color2$'
+  
+})
+ctrSetClass('$Button', {
+  //default options
+  option: {
+    transitionDefault: {
+      ease: 'soul-man'
+    }
+    hover: {
+      duration: 0.25s
+    }
+    active: {
+      duration: 1s
+    }
+  }
+  //variables
+  $$: {
+    SizeFactor: '0.6'
+    AlphaFactor: '0.5'
+    color1: teal
+    color2: yellow
+    color3: purple
+    color4: red
+    width: '200px'
+    eval: {
+      height: 'kalc($width$ * $SizeFactor$)'
+      _color1: 'alpha($color1$, $AlphaFactor$)'
+      _color2: 'alpha($color2$, $AlphaFactor$)'
+      _color3: 'alpha($color3$, $AlphaFactor$)'
+      _color4: 'alpha($color4$, $AlphaFactor$)'
+    }
+  }
+  width: '$width$'
+  height: '$eval.height$'
+  color: '$color1$'
+  hover: {
+    on: {
+      background: '$eval._color1$'
+    }
+    non: {
+      background: '$eval._color2$'
+    }
+  }
+  active: {
+    on: {
+      background: '$eval._color1$'
+    }
+    non: {
+      background: '$eval._color2$'
+    }
+  }
+})
+
+
+ctr('.buttonAlpha', {
+  extend: '$Button'
+})
+
+ctr('.buttonSolid', {
+  extend: {
+    '$Button': {
+      AlphaFactor: 1
+    }
+  }
+})

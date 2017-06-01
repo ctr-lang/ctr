@@ -1,0 +1,20 @@
+# File generated from ---> common.styl
+
+
+.test:::0:
+  width: 200px
+  hover:
+    common:
+      background: green
+      option:
+        appendTo: '.appendTo'
+
+
+.test:::1:
+  width: 200px
+  hover:
+    common:
+      background: green
+      option:
+        appendTo: '.appendTo'
+

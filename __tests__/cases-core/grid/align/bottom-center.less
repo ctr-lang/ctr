@@ -1,0 +1,85 @@
+// File generated from ---> bottom-center.styl 
+
+//alias: 'bottom', 'bottom-center', 'bc'
+
+//flex
+ctr('.test', {
+  // SYNTAX_YAML
+  grid:
+    align:
+      location: 'bottom-center'
+  
+})
+
+ctr('.test', {
+  grid: {
+    align: {
+      location: 'bottom-center'
+    } 
+  }
+})
+
+//non-flex
+ctr('.test', {
+  // SYNTAX_YAML
+  grid:
+    align:
+      location: 'bottom-center'
+      flex: false
+  
+})
+
+
+ctr('.test', {
+  grid: {
+    align: {
+      location: 'bottom-center'
+      flex: false
+    }
+  }
+})
+
+//flex
+ctr('.test', {
+  // SYNTAX_YAML
+  grid:
+    align: 'bottom-center'
+  
+})
+
+ctr('.test', {
+  grid: {
+    align: 'bottom-center' 
+  }
+})
+
+//non-flex
+ctr('.test', {
+  // SYNTAX_YAML
+  grid:
+    align: ['bottom-center', false]
+  
+})
+
+
+ctr('.test', {
+  grid: {
+    align: 'bottom-center' false
+  }
+})
+
+
+//alias
+ctr('.test', {
+  // SYNTAX_YAML
+  grid:
+    align: 'bc'
+  
+})
+
+
+ctr('.test', {
+  grid: {
+    align: 'bc'
+  }
+})

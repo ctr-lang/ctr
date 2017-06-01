@@ -1,0 +1,38 @@
+# File generated from ---> option-object.styl
+
+
+.test:::0:
+  hover:
+    on:
+      width: 300px
+      height: 120px
+      option:
+        duration: 4s
+    non:
+      width: 200px
+      height: 420px
+      shorthand:
+        height: [2s, 0.5s]
+    # priority last
+    option:
+      duration: 10s
+      delay: 3s
+
+
+.test:::1:
+  hover:
+    on:
+      width: 300px
+      height: 120px
+      option:
+        duration: 4s
+    non:
+      width: 200px
+      height: 420px
+      shorthand:
+        height: [2s, 0.5s]
+    # priority last
+    option:
+      duration: 10s
+      delay: 3s
+

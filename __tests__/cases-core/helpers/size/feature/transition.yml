@@ -1,0 +1,14 @@
+# File generated from ---> transition.styl
+
+
+.test:::0:
+  background: black
+  transition:
+    size: 400px
+
+
+.test:::1:
+  background: black
+  transition:
+    size: 400px
+

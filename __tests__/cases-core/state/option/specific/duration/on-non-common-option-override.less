@@ -1,0 +1,38 @@
+// File generated from ---> on-non-common-option-override.styl 
+
+ctr('.test', {
+  // SYNTAX_YAML
+  width: 200px
+  hover:
+    common:
+      duration: 10s
+    on:
+      font-size: 20px
+      //override
+      option:
+        duration: 1s
+    non:
+      font-size: 10px
+  
+})
+
+
+
+ctr('.test', {
+  width: 200px
+  hover: {
+    common: {
+      duration: 10s
+    }
+    on: {
+      font-size: 20px
+      //override
+      option: {
+        duration: 1s
+      }
+    }
+    non: {
+      font-size: 10px
+    }
+  }
+})

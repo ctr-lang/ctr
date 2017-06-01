@@ -1,0 +1,30 @@
+.test {
+  width: 200px;
+}
+.test > span {
+  font-size: 10px;
+}
+.test > #beerMe {
+  width: 300px;
+}
+.test > .please {
+  width: 400px;
+}
+.test > li {
+  font-size: 20px;
+}
+.test {
+  width: 200px;
+}
+.test > span {
+  font-size: 10px;
+}
+.test > #beerMe {
+  width: 300px;
+}
+.test > .please {
+  width: 400px;
+}
+.test > li {
+  font-size: 20px;
+}

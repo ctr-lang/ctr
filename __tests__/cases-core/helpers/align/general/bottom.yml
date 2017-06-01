@@ -1,0 +1,32 @@
+# File generated from ---> bottom.styl
+
+
+.test:::0:
+  width: 200px
+  align: 'bottom'
+
+
+.test:::1:
+  width: 200px
+  alignSelf: 'bottom'
+
+
+.test:::2:
+  width: 200px
+  align: 'bottom-center'
+
+
+.test:::3:
+  width: 200px
+  alignSelf: 'bottom-center'
+
+
+.test:::4:
+  width: 200px
+  align: 'bc'
+
+
+.test:::5:
+  width: 200px
+  alignSelf: 'bc'
+

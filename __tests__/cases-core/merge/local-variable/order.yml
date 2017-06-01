@@ -1,0 +1,46 @@
+# File generated from ---> order.yml.styl
+
+
+.test:::0:
+  $$:
+    one:
+      'hover-on':
+        width: '200px'
+        option:
+          duration: '1s'
+          ease: 'ease-in'
+    two:
+      'hover-on':
+        height: '200px'
+        # should not be merge in since one trumps
+        width: '9999px'
+        option:
+          duration: '99999s'
+          ease: 'nope'
+          # will merge in since not present in one
+          delay: '1s'
+  width: 200px
+  merge: [$one$, $two$]
+
+
+.test:::1:
+  $$:
+    one:
+      'hover-on':
+        width: '200px'
+        option:
+          duration: '1s'
+          ease: 'ease-in'
+    two:
+      'hover-on':
+        height: '200px'
+        # should not be merge in since one trumps
+        width: '9999px'
+        option:
+          duration: '99999s'
+          ease: 'nope'
+          # will merge in since not present in one
+          delay: '1s'
+  width: 200px
+  merge: [$one$, $two$]
+

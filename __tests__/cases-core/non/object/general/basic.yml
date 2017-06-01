@@ -1,0 +1,82 @@
+# File generated from ---> basic.styl
+
+
+.test:::0:
+  width: 200px
+  nons:
+    notOne:
+      key: 'p'
+      font-size: 10px
+    notTwo:
+      font-size: 20px
+      option:
+        key: 'li'
+    span:
+      font-size: 30px
+    '.class':
+      width: 300px
+    'not-#id':
+      font-size: 30px
+    'non-.kool':
+      font-size: 40px
+
+
+.test:::1:
+  width: 200px
+  nons:
+    notOne:
+      key: 'p'
+      font-size: 10px
+    notTwo:
+      font-size: 20px
+      option:
+        key: 'li'
+    span:
+      font-size: 30px
+    '.class':
+      width: 300px
+    'not-#id':
+      font-size: 30px
+    'non-.kool':
+      font-size: 40px
+
+
+.test:::2:
+  width: 200px
+  nots:
+    notOne:
+      key: 'p'
+      font-size: 10px
+    notTwo:
+      font-size: 20px
+      option:
+        key: 'li'
+    span:
+      font-size: 30px
+    '.class':
+      width: 300px
+    'not-#id':
+      font-size: 30px
+    'non-.kool':
+      font-size: 40px
+
+
+.test:::3:
+  width: 200px
+  nots:
+    notOne:
+      key: 'p'
+      font-size: 10px
+    notTwo:
+      font-size: 20px
+      option:
+        key: 'li'
+    span:
+      font-size: 30px
+    '.class':
+      width: 300px
+    'not-#id':
+      font-size: 30px
+    'non-.kool':
+      font-size: 40px
+

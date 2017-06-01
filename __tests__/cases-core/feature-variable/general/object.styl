@@ -1,0 +1,44 @@
+.test
+  ctr({
+    $$: {
+      state: {
+        on: {
+          font-size: 20px
+        }
+        non: {
+          font-size: 10px
+        }
+      }
+    }
+    width: 200px
+    hover: '$state$'
+    comp: {
+      '.kool': {
+        width: 100px
+        height: 100px
+        focus: '$state$'
+      }
+    }
+  })
+
+ctr('.test', {
+  $$: {
+    state: {
+      on: {
+        font-size: 20px
+      }
+      non: {
+        font-size: 10px
+      }
+    }
+  }
+  width: 200px
+  hover: '$state$'
+  comp: {
+    '.kool': {
+      width: 100px
+      height: 100px
+      focus: '$state$'
+    }
+  }
+})

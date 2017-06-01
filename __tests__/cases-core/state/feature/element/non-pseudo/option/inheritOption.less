@@ -1,0 +1,75 @@
+// File generated from ---> inheritOption.styl 
+
+ctr('.test', {
+  // SYNTAX_YAML
+  width: 200px
+  hover:
+    on:
+      height: 400px
+      option:
+        duration: 2s
+        ease: 'easeInSine'
+        delay: 4s
+      first-child:
+        font-size: 20px
+        color: red
+        option:
+          //reset to defaults
+          inheritOption: false
+    non:
+      height: 200px
+      option:
+        duration: 1s
+        ease: 'easeOutSine'
+        delay: 2s
+      first-child:
+        font-size: 10px
+        color: blue
+        option:
+          //reset to defaults
+          inheritOption: false
+  
+})
+
+
+
+
+ctr('.test', {
+  width: 200px
+  hover: {
+    on: {
+      height: 400px
+      option: {
+        duration: 2s
+        ease: 'easeInSine'
+        delay: 4s
+      }
+
+      first-child: {
+        font-size: 20px
+        color: red
+        option: {
+          //reset to defaults
+          inheritOption: false
+        }
+      }
+    }
+    non: {
+      height: 200px
+      option: {
+        duration: 1s
+        ease: 'easeOutSine'
+        delay: 2s
+      }
+
+      first-child: {
+        font-size: 10px
+        color: blue
+        option: {
+          //reset to defaults
+          inheritOption: false
+        }
+      }
+    }
+  }
+})

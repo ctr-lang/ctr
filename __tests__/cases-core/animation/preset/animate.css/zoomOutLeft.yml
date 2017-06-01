@@ -1,0 +1,14 @@
+# File generated from ---> zoomOutLeft.styl
+
+
+.test:::0:
+  width: 400px
+  anim:
+    preset: 'zoomOutLeft'
+
+
+.test:::1:
+  width: 400px
+  anim:
+    preset: 'zoomOutLeft'
+

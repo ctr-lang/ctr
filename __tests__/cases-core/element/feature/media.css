@@ -1,0 +1,24 @@
+.test {
+  width: 200px;
+}
+.test::before {
+  font-size: 10px;
+  content: "test";
+}
+@media (min-width: 800px) and (max-width: 1050px) {
+  .test::before {
+    font-size: 20px;
+  }
+}
+.test {
+  width: 200px;
+}
+.test::before {
+  font-size: 10px;
+  content: "test";
+}
+@media (min-width: 800px) and (max-width: 1050px) {
+  .test::before {
+    font-size: 20px;
+  }
+}

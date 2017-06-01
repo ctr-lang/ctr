@@ -1,0 +1,44 @@
+# File generated from ---> basic.styl
+
+
+.test:::0:
+  width: 200px
+  states:
+    hover:
+      on:
+        background: red
+      non:
+        background: green
+    active:
+      # auto gen
+      color: red
+    random:
+      on:
+        font-size: 10px
+      non:
+        font-size: 20px
+      option:
+        # will be key
+        key: 'link'
+
+
+.test:::1:
+  width: 200px
+  states:
+    hover:
+      on:
+        background: red
+      non:
+        background: green
+    active:
+      # auto gen
+      color: red
+    random:
+      on:
+        font-size: 10px
+      non:
+        font-size: 20px
+      option:
+        # will be key
+        key: 'link'
+

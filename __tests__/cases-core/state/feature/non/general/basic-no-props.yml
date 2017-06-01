@@ -1,0 +1,28 @@
+# File generated from ---> basic-no-props.styl
+
+
+.test:::0:
+  width: 200px
+  hover:
+    on:
+      non:
+        key: ':first-child'
+        height: 400px
+    non:
+      non:
+        key: ':first-child'
+        height: 200px
+
+
+.test:::1:
+  width: 200px
+  hover:
+    on:
+      non:
+        key: ':first-child'
+        height: 400px
+    non:
+      non:
+        key: ':first-child'
+        height: 200px
+

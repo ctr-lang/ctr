@@ -1,0 +1,34 @@
+// File generated from ---> scoped.styl 
+
+ctr('.test', {
+  // SYNTAX_YAML
+  $$:
+    width: 800px
+    span:
+      size: 200px
+  width: '$width$'
+  height: 100%
+  comp:
+    'span':
+      height: '$span.size$'
+      width: '$span.size$'
+  
+})
+
+
+ctr('.test', {
+  $$: {
+    width: 800px
+    span: {
+      size: 200px
+    }
+  }
+  width: '$width$'
+  height: 100%
+  comp: {
+    'span': {
+      height: '$span.size$'
+      width: '$span.size$'
+    }
+  }
+})

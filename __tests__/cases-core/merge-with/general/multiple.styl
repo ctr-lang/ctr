@@ -1,0 +1,54 @@
+.test
+  ctr({
+    $$: {
+      'hover-on': {
+        width: 200px
+      }
+      'hover-non': {
+        width: 100px
+      }
+    }
+    //multiple merge
+    background: black
+    mergeWith: '$hover-non$' '$hover-on$'
+    //will be merged into
+    'hover-on': {
+      option: {
+        duration: 2s
+      }
+      height: 200px
+    }
+    'hover-non': {
+      option: {
+        duration: 1s
+      }
+      height: 100px
+    }
+  })
+
+ctr('.test', {
+  $$: {
+    'hover-on': {
+      width: 200px
+    }
+    'hover-non': {
+      width: 100px
+    }
+  }
+  //multiple merge
+  background: black
+  mergeWith: '$hover-non$' '$hover-on$'
+  //will be merged into
+  'hover-on': {
+    option: {
+      duration: 2s
+    }
+    height: 200px
+  }
+  'hover-non': {
+    option: {
+      duration: 1s
+    }
+    height: 100px
+  }
+})

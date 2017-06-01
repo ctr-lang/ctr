@@ -1,0 +1,66 @@
+.buttonAlpha {
+  width: 200px;
+  color: #008080;
+  height: calc(200px * 0.6);
+}
+.buttonAlpha:hover {
+  transition-delay: 0s;
+  transition-duration: 0.25s;
+  background: rgba(0,128,128,0.5);
+  transition-property: background;
+  transition-timing-function: soul-man;
+}
+.buttonAlpha:not(:hover) {
+  transition-delay: 0s;
+  transition-duration: 0.25s;
+  background: rgba(255,255,0,0.5);
+  transition-property: background;
+  transition-timing-function: soul-man;
+}
+.buttonAlpha:active {
+  transition-delay: 0s;
+  transition-duration: 1s;
+  background: rgba(0,128,128,0.5);
+  transition-property: background;
+  transition-timing-function: soul-man;
+}
+.buttonAlpha:not(:active) {
+  transition-delay: 0s;
+  transition-duration: 1s;
+  background: rgba(255,255,0,0.5);
+  transition-property: background;
+  transition-timing-function: soul-man;
+}
+.buttonSolid {
+  width: 200px;
+  color: #008080;
+  height: calc(200px * 0.6);
+}
+.buttonSolid:hover {
+  transition-delay: 0s;
+  transition-duration: 0.25s;
+  background: #008080;
+  transition-property: background;
+  transition-timing-function: soul-man;
+}
+.buttonSolid:not(:hover) {
+  transition-delay: 0s;
+  background: #ff0;
+  transition-duration: 0.25s;
+  transition-property: background;
+  transition-timing-function: soul-man;
+}
+.buttonSolid:active {
+  transition-delay: 0s;
+  transition-duration: 1s;
+  background: #008080;
+  transition-property: background;
+  transition-timing-function: soul-man;
+}
+.buttonSolid:not(:active) {
+  transition-delay: 0s;
+  transition-duration: 1s;
+  background: #ff0;
+  transition-property: background;
+  transition-timing-function: soul-man;
+}

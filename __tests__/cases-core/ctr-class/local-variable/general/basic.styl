@@ -1,0 +1,17 @@
+ctrSetClass('$localFont', {
+  $$: {
+    font: 10px
+  }
+  font-size: '_$font$_'
+})
+
+.test
+  ctr({
+    extend: '$localFont'
+  })
+
+ctr('.test', {
+  extend: '$localFont'
+})
+
+

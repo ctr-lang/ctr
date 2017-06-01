@@ -1,0 +1,68 @@
+//flex
+.test
+  ctr({
+    grid: {
+      row: {
+        fraction: '2/5'
+      }
+    }
+  })
+
+ctr('.test', {
+  grid: {
+    row: {
+      fraction: '2/5'
+    }
+  }
+})
+
+//non-flex
+.test
+  ctr({
+    grid: {
+      row: {
+        fraction: '2/5'
+        flex: false
+      }
+    }
+  })
+
+ctr('.test', {
+  grid: {
+    row: {
+      fraction: '2/5'
+      flex: false
+    }
+  }
+})
+
+
+//flex
+.test
+  ctr({
+    grid: {
+      row: '2/5'
+    }
+  })
+
+ctr('.test', {
+  grid: {
+    row: '2/5'
+  }
+})
+
+//non-flex
+.test
+  ctr({
+    grid: {
+      // fraction gutter flex
+      row: '2/5' default false
+    }
+  })
+
+ctr('.test', {
+  grid: {
+    // fraction gutter flex
+    row: '2/5' default false
+  }
+})

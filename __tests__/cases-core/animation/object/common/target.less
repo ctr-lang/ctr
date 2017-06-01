@@ -1,0 +1,86 @@
+// File generated from ---> target.styl 
+
+ctr('.test', {
+  // SYNTAX_YAML
+  width: 200px
+  animations:
+    common:
+      option:
+        //target list
+        target: ['two', 'three']
+        duration: 2s
+        state: 'paused'
+      timeline:
+        '44':
+          opacity: 1
+        '66':
+          opacity: 0
+    one:
+      option:
+        name: 'tlOne'
+      timeline:
+        '50':
+          background: green
+    two:
+      option:
+        duration: 4s
+      timeline:
+        '50':
+          color: green
+    three:
+      name: 'brah'
+      timeline:
+        '60':
+          color: green
+  
+})
+
+ctr('.test', {
+  width: 200px
+  animations: {
+    common: {
+      option: {
+        //target list
+        target: 'two' 'three'
+        duration: 2s
+        state: 'paused'
+      }
+      timeline: {
+        '44': {
+          opacity: 1
+        }
+        '66': {
+          opacity: 0
+        }
+      }
+    }
+    one: {
+      option: {
+        name: 'tlOne'
+      }
+      timeline: {
+        '50': {
+          background: green
+        }
+      }
+    }
+    two: {
+      option: {
+        duration: 4s
+      }
+      timeline: {
+        '50': {
+          color: green
+        }
+      }
+    }
+    three: {
+      name: 'brah'
+      timeline: {
+        '60': {
+          color: green
+        }
+      }
+    }
+  }
+})

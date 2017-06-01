@@ -1,0 +1,14 @@
+# File generated from ---> slideInDown.styl
+
+
+.test:::0:
+  width: 400px
+  anim:
+    preset: 'slideInDown'
+
+
+.test:::1:
+  width: 400px
+  anim:
+    preset: 'slideInDown'
+

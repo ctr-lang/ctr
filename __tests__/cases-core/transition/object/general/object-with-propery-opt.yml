@@ -1,0 +1,48 @@
+# File generated from ---> object-with-propery-opt.styl
+
+
+.test:::0:
+  width: 300px
+  trans:
+    one:
+      border-width: 4px
+    two:
+      font-size: 1.2rem
+      color: red
+    three:
+      height: 200px
+      option:
+        duration: 1.3s
+    prop:
+      border-color: green
+      option:
+        # I guess I was testing this prop option?
+        # it works I know that much.
+        property: [left, right]
+        duration: [1.2s, 1.8s]
+    global:
+      option:
+        duration: 1s
+
+
+.test:::1:
+  width: 300px
+  trans:
+    one:
+      border-width: 4px
+    two:
+      font-size: 1.2rem
+      color: red
+    three:
+      height: 200px
+      option:
+        duration: 1.3s
+    prop:
+      border-color: green
+      option:
+        property: [left, right]
+        duration: [1.2s, 1.8s]
+    global:
+      option:
+        duration: 1s
+

@@ -1,0 +1,33 @@
+.test-1 {
+  width: 200px;
+  height: 200px;
+}
+.test-1:hover {
+  width: 400px;
+  transition-delay: 22s;
+  transition-duration: 11s;
+  transition-property: width;
+  transition-timing-function: ease-out;
+}
+.test-2 {
+  width: 200px;
+  height: 200px;
+}
+.test-2:hover {
+  width: 400px;
+  transition-delay: 22s;
+  transition-duration: 22s;
+  transition-property: width;
+  transition-timing-function: ease-out;
+}
+.test-3 {
+  width: 200px;
+  height: 200px;
+}
+.test-3:hover {
+  width: 400px;
+  transition-delay: 22s;
+  transition-duration: 11s;
+  transition-property: width;
+  transition-timing-function: ease-out;
+}

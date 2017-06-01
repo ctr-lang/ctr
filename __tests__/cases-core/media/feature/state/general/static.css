@@ -1,0 +1,36 @@
+.test {
+  width: 200px;
+}
+@media (min-width: 600px) and (max-width: 800px) {
+  .test {
+    width: 150px;
+  }
+}
+@media (min-width: 600px) and (max-width: 800px) {
+  .test:hover {
+    background: #008000;
+  }
+}
+@media (min-width: 600px) and (max-width: 800px) {
+  .test:not(:hover) {
+    background: #008000;
+  }
+}
+.test {
+  width: 200px;
+}
+@media (min-width: 600px) and (max-width: 800px) {
+  .test {
+    width: 150px;
+  }
+}
+@media (min-width: 600px) and (max-width: 800px) {
+  .test:hover {
+    background: #008000;
+  }
+}
+@media (min-width: 600px) and (max-width: 800px) {
+  .test:not(:hover) {
+    background: #008000;
+  }
+}

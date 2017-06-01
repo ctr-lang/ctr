@@ -1,0 +1,26 @@
+# File generated from ---> timeline-literal-variable.yml.styl
+
+
+$$:
+  timelineName: 'litVar'
+  timelineDur: 3s
+  timelineVar:
+    '50':
+      font-size: 10px
+
+
+.test:::0:
+  anim:
+    option:
+      name: $timelineName$
+      duration: $timelineDur$
+    timeline: $timelineVar$
+
+
+.test:::1:
+  anim:
+    option:
+      name: $timelineName$
+      duration: $timelineDur$
+    timeline: $timelineVar$
+

@@ -1,0 +1,93 @@
+.test-1 {
+  color: #f00;
+  width: 200px;
+  height: 200px;
+}
+.test-2 {
+  color: #f00;
+  width: 300px;
+  height: 300px;
+}
+.test-2 > .kool {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #008000;
+  position: absolute;
+}
+.test-3 {
+  width: 400px;
+  height: 400px;
+}
+.test-3:hover {
+  background: #f00;
+  transition-delay: 0s;
+  transition-duration: 0.5s;
+  transition-property: background;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+.TEST-1 {
+  color: #f00;
+  width: 200px;
+  height: 200px;
+  font-size: 12px;
+}
+.TEST-2 {
+  color: #f00;
+  width: 300px;
+  height: 300px;
+  font-size: 12px;
+}
+.TEST-2 > .kool {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #008000;
+  position: absolute;
+}
+.TEST-3 {
+  width: 400px;
+  height: 400px;
+  font-size: 12px;
+}
+.TEST-3:hover {
+  background: #f00;
+  transition-delay: 0s;
+  transition-duration: 0.5s;
+  transition-property: background;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+.test-1 {
+  color: #f00;
+  width: 200px;
+  height: 200px;
+  font-size: 12px;
+}
+.test-2 {
+  color: #f00;
+  width: 300px;
+  height: 300px;
+  font-size: 12px;
+}
+.test-2 > .kool {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #008000;
+  position: absolute;
+}
+.test-3 {
+  width: 400px;
+  height: 400px;
+  font-size: 12px;
+}
+.test-3:hover {
+  background: #f00;
+  transition-delay: 0s;
+  transition-duration: 0.5s;
+  transition-property: background;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}

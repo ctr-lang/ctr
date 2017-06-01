@@ -1,0 +1,1 @@
+__Description__: Should be able to set global options via `option` ket in dot.ctrrc

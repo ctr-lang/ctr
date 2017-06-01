@@ -1,0 +1,33 @@
+//flex
+.test
+  ctr({
+    grid: {
+      move: {
+        fraction: '1/2'
+        gutter: 60px
+      }
+    }
+  })
+
+ctr('.test', {
+  grid: {
+    move: {
+      fraction: '1/2'
+      gutter: 60px
+    }
+  }
+})
+
+
+.test
+  ctr({
+    grid: {
+      move: '1/2' default 60px
+    }
+  })
+
+ctr('.test', {
+  grid: {
+    move: '1/2' default 60px
+  }
+})

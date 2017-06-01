@@ -1,0 +1,14 @@
+# File generated from ---> fadeInDown.styl
+
+
+.test:::0:
+  width: 400px
+  anim:
+    preset: 'fadeInDown'
+
+
+.test:::1:
+  width: 400px
+  anim:
+    preset: 'fadeInDown'
+

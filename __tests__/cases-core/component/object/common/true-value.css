@@ -1,0 +1,40 @@
+.test {
+  width: 200px;
+}
+.test > .one {
+  background: #f00;
+  font-size: 100px;
+}
+.test > .two {
+  height: 200px;
+  background: #f00;
+  font-size: 200px;
+}
+.test > .one > span {
+  opacity: 1;
+  color: #f00;
+}
+.test > .two > span {
+  opacity: 1;
+  color: #f00;
+}
+.test {
+  width: 200px;
+}
+.test > .one {
+  background: #f00;
+  font-size: 100px;
+}
+.test > .two {
+  height: 200px;
+  background: #f00;
+  font-size: 200px;
+}
+.test > .one > span {
+  opacity: 1;
+  color: #f00;
+}
+.test > .two > span {
+  opacity: 1;
+  color: #f00;
+}

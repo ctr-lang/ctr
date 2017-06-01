@@ -1,0 +1,64 @@
+# File generated from ---> inheritOption.styl
+
+
+.test:::0:
+  width: 200px
+  hover:
+    on:
+      height: 400px
+      option:
+        duration: 2s
+        ease: 'easeInSine'
+        delay: 4s
+      comp:
+        '.aClass':
+          font-size: 20px
+          color: red
+          option:
+            # reset to defaults
+            inheritOption: false
+    non:
+      height: 200px
+      option:
+        duration: 1s
+        ease: 'easeOutSine'
+        delay: 2s
+      comp:
+        '.aClass':
+          font-size: 10px
+          color: blue
+          option:
+            # reset to defaults
+            inheritOption: false
+
+
+.test:::1:
+  width: 200px
+  hover:
+    on:
+      height: 400px
+      option:
+        duration: 2s
+        ease: 'easeInSine'
+        delay: 4s
+      comp:
+        '.aClass':
+          font-size: 20px
+          color: red
+          option:
+            # reset to defaults
+            inheritOption: false
+    non:
+      height: 200px
+      option:
+        duration: 1s
+        ease: 'easeOutSine'
+        delay: 2s
+      comp:
+        '.aClass':
+          font-size: 10px
+          color: blue
+          option:
+            # reset to defaults
+            inheritOption: false
+

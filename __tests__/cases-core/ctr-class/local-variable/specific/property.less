@@ -1,0 +1,41 @@
+// File generated from ---> property.styl 
+
+ctrSetClass('$local', {
+  // SYNTAX_YAML
+  $$:
+    size: 10px
+    prop: 'font-size'
+  '_$prop$_': '_$size$_'
+})
+ctrSetClass('$local', {
+  $$: {
+    size: 10px
+    prop: 'font-size'
+  }
+  '_$prop$_': '_$size$_'
+})
+
+ctr('.test', {
+  // SYNTAX_YAML
+  extend: '$local'
+})
+
+ctr('.test', {
+  extend: '$local'
+})
+
+ctr('.test', {
+  // SYNTAX_YAML
+  extend:
+    $local:
+      prop: 'width'
+  
+})
+
+ctr('.test', {
+  extend: {
+    $local: {
+      prop: 'width'
+    }
+  }
+})

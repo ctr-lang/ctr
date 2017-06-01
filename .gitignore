@@ -1,0 +1,64 @@
+# Project
+dist/ctr.js
+dist/ctr-js.js
+dist/ctr.js.map
+docs/*
+.bumpedrc
+.iron-node.js
+.nvmrc
+.tern-project
+
+
+# TestBin
+testBin/*
+__tests__/cases/COMPILED
+
+# Global
+*~
+.tern-port
+# KDE directory preferences
+.directory
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+# cache files for sublime text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+# workspace files are user-specific
+*.sublime-workspace
+# project files should be checked into the repository, unless a significant
+# proportion of contributors will probably not be using SublimeText
+# *.sublime-project
+# sftp configuration file
+sftp-config.json
+# Logs
+logs
+*.log
+npm-debug.log*
+# Packages
+node_modules/
+bower_components/
+# Misc
+.DS_Store
+.public
+.publish
+.directory
+.temp
+public
+private
+_private
+.private
+Desktop.ini
+app/assets/stylesheets/generated
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+pids
+logs
+results
+tmp
