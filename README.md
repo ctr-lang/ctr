@@ -17,7 +17,7 @@ There are many words you can read in the [documentation](https://docs.ctr-lang.c
 
 ## Status
 
-As I've outlined over at [ctr-lang.com](https://ctr-lang.com) and in the [documentation](https://docs.ctr-lang.com), the code base is extended way past its means. That being said, the hope is that I'll be able to secure funding to embark on a rewrite from the ground up. At the same time, things are pretty damn solid, or at least things have been damn solid in my exclusive use of `ctr` over the past year or so. So it goes without saying I believe and hope it will be nothing but smooth sailing for you as well.
+As I've outlined over at [ctr-lang.com](https://ctr-lang.com) and in the [documentation](https://docs.ctr-lang.com), the code base is extended way past its means. That being said, the hope is that I'll be able to secure funding to embark on a rewrite from the ground up. At the same time, things are pretty solid, so it goes without saying I believe and hope it will be nothing but smooth sailing for you as well.
 
 
 ## Bugs & Contributions
