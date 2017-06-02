@@ -52,20 +52,6 @@ For the time being, all `ctr` assets reside under this repository, that is the, 
 + `__tests__` -> Allz the test, and it has it's own `README.md`
 
 
-## `ctr`, Stylus, and the Future
-
-Stylus is painfully slow, and it’s an unfortunate bottleneck. With the rewrite, `ctr` will no longer be dependent on Stylus for the syntactical structure which will make it faster, but it won’t solve the Stylus bottleneck. Back in 2015, there was [talk about](https://github.com/stylus/stylus/wiki/1.0.0) a 1.0.0 Stylus release, but after haggling with the Stylus code base, in my opinion, it’s past repair.
-
-So the question arises whether or not the `ctr` paradigm warrants a new Stylus-YAML-like pre-processor environment. Because Stylus is not built for `ctr`, it just works with `ctr`. Accordingly, I believe `ctr` does warrant a new environment, but as to the direction, I’m a bit conflicted. Rather than sharing my thoughts I’m looking for your thoughts. I will say the focus should be on building an environment to better leverage `ctr` and that I believe there’s two distinct directions, Stylus-like or YAML-like.
-
-The hope is `ctr` generates enough revenue to streamline the process of building a new pre-processor or augmented CSS environment. Ideally, the target investment is in the $10,000 - $30,000 range to a single individual or small group of no more than three. Moreover, for the most part, I’ll just throw money at you and be hands-off, although I’m open to all ideas at this point.
-
-If this is something that sounds enticing, you have the skill set, have the time, and are up to the challenge then you’re my ze. I’m going to go out on a limb and visualize that `ctr` gets off to a hella successful first two weeks, and by week four/five, I’ll be reviewing applications, thoughts, and ideas so that by week six/seven you can start building the next pre-processor. If `ctr` gets off to a lackluster start and doesn’t surpass the funding goal, well then, meh, I have to start reviewing my personal employment options and not yours. (Fingers crossed it’s not the latter)
-
-Rather than creating an application, I’m leaving this open to you. Shoot me your thoughts/ideas at `TheNextPreprocessor@ctr-lang.com`, create a video, start a public conversation on the forums, or whatever. It’s up to you - do you. Keep in mind, this whole "kickstart" "funding" idea could blow up in my face and if that's the case well, that sucks, for me and you.
-
-
-
 ---
 
 Best, te
