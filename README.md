@@ -13,16 +13,44 @@
 
 ## Description
 
-There are many words you can read in the [documentation](https://docs.ctr-lang.com/) that detail what, why, and how so I'll spare the keystrokes. In short, `ctr` is a new kind of CSS framework that leverages an Objects oriendated structure to make CSS'ing righteous.
+There are many words you can read in the [documentation](https://docs.ctr-lang.com/) that detail what, why, and how, but I’ll give a brief overview. `ctr` is a CSS framework built with JavaScript to provide object oriented functionality to allow for a rich hierarchy of inherited CSS components to better facilitate a CSS architecture similar to [OOCSS](https://github.com/stubbornella/oocss/wiki). Albeit `ctr` and OOCSS differ vastly in application and you construct your CSS in `ctr` using true objects which allows for `ctr` to be constructed in [YAML](http://yaml.org/), JavaScript, and [Less](http://lesscss.org/). Although `ctr` shares the same goal of OOCSS - encouraging code reuse as well as maintainable CSS styles.
+
+The object oriented architecture of `ctr` also allows for a rich hierarchy of inherited CSS components so that it’s not required to list each class in your HTML every single time. A functionality that is encompassed through the [class](https://docs.ctr-lang.com/class/general/) feature of `ctr`. An idea presented by [Philip Walton](philipwalton.com/about/) and his article [The Future of OOCSS: A Proposal](https://philipwalton.com/articles/the-future-of-oocss-a-proposal/). However, to accomplish this, there has to be a supporting framework, and that is what `ctr` and all its various features provide.
+
+My favorite feature of `ctr` is its ability to abstract away the tedium and pain-points from creating complex CSS logic for pseudo-classes such as `hover`, `focus`, and `active`. All you need to do is list the CSS properties and values in the [state](https://docs.ctr-lang.com/state/general/) object, and `ctr` automatically configures the proper pseudo-class and the corresponding negation CSS pseudo-class (`:not()`). It also configures the `transition-property`, `transition-duration`, `transition-delay`, and `transition-timing-function` for all CSS properties. Furthermore, `ctr` provides similar abstractions for [animation](https://docs.ctr-lang.com/animation/general/), [elements](https://docs.ctr-lang.com/element/general/) such as `before` and `after`, as well as [media queries](https://docs.ctr-lang.com/media/general/), and much much more.
+
+Finally, `ctr` comes pre-packed with some of the best CSS libraries such as:
++ Animate.css for animation presets
+    * [Library website](https://daneden.github.io/animate.css/)
+    * [Documentation](https://docs.ctr-lang.com/animation/animate.css/)
++ LostGrid for a grid framework
+    * [Library website](http://lostgrid.org/)
+    * [Documentation](https://docs.ctr-lang.com/grid/general/)
++ Responsive text for creating responsive type - `font-size`, `line-height`, and `letter-spacing`
+    * [Library website](https://github.com/seaneking/postcss-responsive-type)
+    * [Documentation](https://docs.ctr-lang.com/helpers/responsive-text/)
++ Rupture for easy media queries
+    * [Library website](http://jescalan.github.io/rupture/)
+    * [Documentation](https://docs.ctr-lang.com/media/mixin/)
++ Hover.css for state presets
+    * [Library website](http://ianlunn.github.io/Hover/)
+    * [Documentation](https://docs.ctr-lang.com/state/hover.css/)
++ CSSgram for image preset filters
+    * [Library website](https://una.im/CSSgram/)
+    * [Documentation](https://docs.ctr-lang.com/helpers/filter/)
++ Family.scss - :nth-child helpers
+    * [Library website](http://lukyvj.github.io/family.scss/)
+    * [Documentation](https://docs.ctr-lang.com/element/nth-key/)
+
 
 ## Status
 
-As I've outlined over at [ctr-lang.com](https://ctr-lang.com) and in the [documentation](https://docs.ctr-lang.com), the code base is extended way past its means. That being said, the hope is that I'll be able to secure funding to embark on a rewrite from the ground up. At the same time, things are pretty solid, so it goes without saying I believe and hope it will be nothing but smooth sailing for you as well.
+As I've outlined over at [ctr-lang.com](https://ctr-lang.com) and in the [documentation](https://docs.ctr-lang.com), the code base is extended way past its means. <s>That being said, the hope is that I'll be able to secure funding to embark on a rewrite from the ground up.</s> At the same time, things are pretty solid, so it goes without saying I believe and hope it will be nothing but smooth sailing for you as well.
 
 
 ## Bugs & Contributions
 
-I'm on the fence as to how I want to handle bug and contributions, but I'll lay down my current thoughts. Assuming I'm able to secure funding I'll be embarking on a rewrite, and if that's the case, outside of major bugs, there's no reason for both of us to spend time chasing them. The same can be said about contributions since I'll be throwing away this whole code base more or less. Nonetheless, need be I'll gladly spend the time fixing bugs if they warrant the time. So if you think it warrants my time and yours by all accounts, please pull an issue.
+I'm on the fence as to how I want to handle bug and contributions, but I'll lay down my current thoughts. I initially had hoped to raise funding for a rewrite but that obviously was wishful thinking, although, not all is lost because the code base is workable up to a point. I'll gladly spend the time fixing bugs if they warrant the time. However, if it's a complex edge case I doubt I will spend the time. So if you think it warrants my time and yours by all accounts, please pull an issue.
 
 
 ## Structure
