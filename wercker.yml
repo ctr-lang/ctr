@@ -23,16 +23,9 @@ build:
         echo "node version $(node -v) running"
         yarn install
     - script:
-      name: test lts 6.X.X
-      code: |
-        # Install latest 6.x.x lts versions
-        n 6.10.3
-        echo "node version $(node -v) running"
-        yarn test
-    - script:
-      name: test 8.0.0
+      name: test 8.5.0
       code: |
         # Install latest
-        n 8.0.0
+        n 8.5.0
         echo "node version $(node -v) running"
         yarn test
