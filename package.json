@@ -40,7 +40,6 @@
     "dev": "npm run default & npm run debug",
     "git-dirty": "git-dirty",
     "link": "npm link ctr",
-    "postinstall": "npm run link",
     "prepublish": "npm run link && npm run test",
     "release:major": "npm run test && bumped release major",
     "release:minor": "npm run test && bumped release minor",
